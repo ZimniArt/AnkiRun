@@ -1,11 +1,20 @@
-# Compiled files
+# Compiled output
 /target/
+debug/
+release/
 
-# Cargo local config
-**/Cargo.lock
-# (But keep Cargo.lock for binary apps—see note below)
+# Executables and debug info
+*.exe
+*.pdb
 
-# Rust analysis tools
-/.rustc_info.json
+# Rust analysis / compiler info
+*.json
+rustc_info.json
+flycheck0/
+
+# Cargo lock (library projects)
+/Cargo.lock
+
+# IDE/editor configs
 .vscode/
 .idea/
