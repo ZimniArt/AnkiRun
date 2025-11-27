@@ -1,16 +1,33 @@
-fn main(){
+fn main() {
+    let config: Config  = Config{
+        input_language: "en".to_string(),
+        output_language: "jp".to_string(),
+        start_percent: 0.0,
+        end_percent: 20.0,
+        input_file_path:"text.txt".to_string(),
+    };
+    
+   
+    println!("{} {} {} {} {}",
+    config.input_language,
+    config.output_language,
+    config.start_percent, 
+    config.end_percent,
+    config.input_file_path);
+    // 1. read config
+    // 2. load file
+    // 3. analyze vocabulary
+    // 4. translate vocabulary
+    // 5. rebuild text with progression
+    // 6. export
 
-    //imputs 
-        //input language
-        //output language
-        //progression rate start%
-        //progression rate end%
-        //file 
-        
-    //sort txt by popularity
-    //exlcude all non word : a,the, of , or, as,hmm, .<>?!!%$^&!@%()
-    //translate list to dictionary of popularity words english word : Japanese ) 
-    //translate text based on lenght of text and required progress, with create dictionary     
-    //export txt
-
+    
+}
+ 
+struct Config{
+    input_language: String,
+    output_language: String,
+    input_file_path: String,
+    start_percent: f32,
+    end_percent: f32,
 }

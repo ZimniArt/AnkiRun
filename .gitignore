@@ -1,0 +1,11 @@
+# Compiled files
+/target/
+
+# Cargo local config
+**/Cargo.lock
+# (But keep Cargo.lock for binary apps—see note below)
+
+# Rust analysis tools
+/.rustc_info.json
+.vscode/
+.idea/
