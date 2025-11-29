@@ -3,6 +3,7 @@
 debug/
 release/
 
+
 # Executables and debug info
 *.exe
 *.pdb
