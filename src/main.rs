@@ -1,4 +1,5 @@
 use std::{collections::HashMap, fs, str::SplitWhitespace};
+use rtranslate::translate;
 
 fn main() {
    
@@ -25,16 +26,20 @@ fn main() {
     _sorted.sort_by(|a, b| b.1.cmp(&a.1));
 
     //create output file. sorted list
-    let mut output_text: String = String::new(); 
+    let mut _output_text: String = String::new(); 
    
     for (_word, _count) in _sorted{
-        output_text.push_str(&format!("{_word}: {_count}\n"));
+        _output_text.push_str(&format!("{_word}: {_count}\n"));
     }
-
+    //translate text
+    _output_text = match translate(&_output_text, "en","ja")  {
+        Ok(translated) => translated,
+        Err(_err) =>_output_text,
+    };
  
     //export file
     let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
-    fs::write(output_path, output_text).expect("couldnt output file...");    
+    fs::write(output_path, _output_text).expect("couldnt output file...");    
 }
 
 //imputs 
