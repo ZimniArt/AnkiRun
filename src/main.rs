@@ -11,11 +11,11 @@ fn main() {
         Err(_) => String::from("no file path provided"),
     };
 
-    println!("{output_text}");
+    
     //export file
-    //let output_path : String = String::from(".../newFile.txt");
+    let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
 
-    //fs::write(output_path, output_text);    
+    fs::write(output_path, output_text).expect("couldnt output file...");    
 }
 
 //imputs 
