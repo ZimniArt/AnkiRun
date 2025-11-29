@@ -34,14 +34,20 @@ fn main() {
 
     //replacing words in original text
     let dictionary : HashMap<String, String> = _sorted_dictionary.into_iter().collect();
+    let re = Regex::new(r"\b\w+\b").unwrap();
+    let mut _output_text: String = String::new(); 
+    _output_text = re.replace_all(&input_text, |caps: &regex::Captures| {
+        let word = &caps[0];
+        dictionary.get(word).cloned().unwrap_or_else(|| word.to_string())
+    }).to_string();
+    
 
 
    //packing text for export
-    let mut _output_text: String = String::new(); 
    
-    for (_word, translation) in _sorted_dictionary{
-        _output_text.push_str(&format!("{_word}: {translation}\n"));
-    }
+    // for (_word, translation) in _sorted_dictionary{
+    //     _output_text.push_str(&format!("{_word}: {translation}\n"));
+    // }
     
     
     //export file 
