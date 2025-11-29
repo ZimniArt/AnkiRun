@@ -7,13 +7,20 @@ fn main() {
     let input_text = fs::read_to_string(input_path).expect("no input text"); 
 
     let mut _working_text: String = String::from(&input_text);
+    let exlude_words = vec!["the", "a"];
+
 
     //sorting text file
     let _words: SplitWhitespace<'_>= _working_text.split_whitespace();
     let mut _counts: HashMap<String, i32> = HashMap::new();
+
     for word in _words {
+        if exlude_words.contains(&word) {
+            continue;  // skip these words
+        }
         *_counts.entry(word.to_string()).or_insert(0) += 1;
     }
+
     let mut _sorted: Vec<(String, i32)> = _counts.into_iter().collect();
     _sorted.sort_by(|a, b| b.1.cmp(&a.1));
 
@@ -24,10 +31,7 @@ fn main() {
         output_text.push_str(&format!("{_word}: {_count}\n"));
     }
 
-    //let output_text: String =  input_text; 
-
-
-    
+ 
     //export file
     let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
     fs::write(output_path, output_text).expect("couldnt output file...");    
