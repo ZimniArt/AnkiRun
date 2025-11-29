@@ -7,6 +7,8 @@ fn main() {
     let input_path = String::from("D:/2_projects/9_rust/Input_text.txt");
     let input_text = fs::read_to_string(input_path).expect("no input text"); 
 
+    let output_percentage: f64 = 0.30;
+
     let mut _working_text: String = String::from(&input_text);
     let exlude_words = vec!["the", "a"];
 
@@ -23,7 +25,13 @@ fn main() {
     }
 
     let mut _sorted: Vec<(String, i32)> = _counts.into_iter().collect();
+
     _sorted.sort_by(|a, b| b.1.cmp(&a.1));
+
+    let mut _sorted_count: Vec<(String, i32)> = _sorted.clone();
+    //cutsout every word other set percent
+    let _cutout_amount =(_sorted_count.len() as f64 *output_percentage).ceil() as usize;
+    _sorted.into_iter().take(_cutout_amount).collect::<Vec<(String, i32)>>();
 
     // translating sorted list
     let mut _sorted_dictionary: Vec<(String,String)> = _sorted.iter().map(|(word, _count)|{
