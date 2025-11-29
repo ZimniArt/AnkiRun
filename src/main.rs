@@ -1,20 +1,35 @@
-use std::fs;
+use std::{collections::HashMap, fs, str::SplitWhitespace};
 
 fn main() {
    
     // import file
     let input_path = String::from("D:/2_projects/9_rust/Input_text.txt");
-    let input_text = fs::read_to_string(input_path); 
-    //copy to new String
-    let output_text: String = match input_text {
-        Ok(text) => text,
-        Err(_) => String::from("no file path provided"),
-    };
+    let input_text = fs::read_to_string(input_path).expect("no input text"); 
+
+    let mut _working_text: String = String::from(&input_text);
+
+    //sorting text file
+    let _words: SplitWhitespace<'_>= _working_text.split_whitespace();
+    let mut _counts: HashMap<String, i32> = HashMap::new();
+    for word in _words {
+        *_counts.entry(word.to_string()).or_insert(0) += 1;
+    }
+    let mut _sorted: Vec<(String, i32)> = _counts.into_iter().collect();
+    _sorted.sort_by(|a, b| b.1.cmp(&a.1));
+
+    //create output file. sorted list
+    let mut output_text: String = String::new(); 
+   
+    for (_word, _count) in _sorted{
+        output_text.push_str(&format!("{_word}: {_count}\n"));
+    }
+
+    //let output_text: String =  input_text; 
+
 
     
     //export file
     let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
-
     fs::write(output_path, output_text).expect("couldnt output file...");    
 }
 
