@@ -25,17 +25,27 @@ fn main() {
     let mut _sorted: Vec<(String, i32)> = _counts.into_iter().collect();
     _sorted.sort_by(|a, b| b.1.cmp(&a.1));
 
+    // let mut _sorted_dictionary: Vec<(String,String)> = _sorted.iter().map(|(word, _count)|{
+    // (word.clone(), word.clone())
+    // } ).collect();
+    let mut _sorted_dictionary: Vec<(String,String)> = _sorted.iter().map(|(word, _count)|{
+    (word.clone(), match translate(&word, "en","ja")  {
+        Ok(translated) => translated,
+        Err(_err) =>word.clone(),})
+    } ).collect();
+    println!("{:?}",_sorted_dictionary);
     //create output file. sorted list
     let mut _output_text: String = String::new(); 
    
-    for (_word, _count) in _sorted{
-        _output_text.push_str(&format!("{_word}: {_count}\n"));
+    for (_word, translation) in _sorted_dictionary{
+        _output_text.push_str(&format!("{_word}: {translation}\n"));
     }
     //translate text
-    _output_text = match translate(&_output_text, "en","ja")  {
-        Ok(translated) => translated,
-        Err(_err) =>_output_text,
-    };
+    
+    // _output_text = match translate(&_output_text, "en","ja")  {
+    //     Ok(translated) => translated,
+    //     Err(_err) =>_output_text,
+    // };
  
     //export file
     let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
