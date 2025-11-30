@@ -1,15 +1,16 @@
 use std::{collections::HashMap, fs, str::SplitWhitespace};
 use rtranslate::translate;
 use regex::Regex;
+
 fn main() {
     
     // import file
     let input_path = String::from("D:/2_projects/9_rust/Input_text.txt");
     let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
     let input_text = fs::read_to_string(input_path).expect("no input text"); 
-    let _output_percentage: f64 = 0.05;
-    let _input_lang = "en";
-    let _output_lang = "ja";
+    let _output_percentage: f64 = 0.15;
+    let _input_lang = "ru";
+    let _output_lang = "en";
     let _ignore_word_list = vec!["the", "a"];
 
 
@@ -17,8 +18,9 @@ fn main() {
     let _prepared_text: SplitWhitespace<'_>= _working_text.split_whitespace(); 
     let mut _frequency_hashmap: HashMap<String, i32> = create_frequency_hashmap(_prepared_text, _ignore_word_list);
     let mut _sorted: Vec<(String, i32)> = _hashmap_to_sorted_list(_frequency_hashmap); 
+    dbg!(_sorted.len());
     _sorted = shorten_dictionary(_sorted, _output_percentage);
-    
+    dbg!(_sorted.len());
     let mut _sorted_dictionary: Vec<(String,String)> = translate_words(_sorted, _input_lang, _output_lang);
     let dictionary : HashMap<String, String> = _sorted_dictionary.into_iter().collect(); 
     let mut _output_text: String = translate_using_custom_dictionary(&input_text, dictionary); 
@@ -53,14 +55,31 @@ fn shorten_dictionary(dictionary: Vec<(String, i32)>, remaining_percent: f64) ->
     _new_dictionary
 }
 fn translate_words(word_list: Vec<(String, i32)>, input_lang: &str, output_lang: &str) -> Vec<(String,String)>{
-    let _translated_list = word_list.iter().map(|(word, _count)|{
-        (word.clone(), match translate(&word, input_lang,output_lang)  {
-            Ok(translated) => translated,
-            Err(_err) =>word.clone(),})
-        } ).collect();
+
+    let _word_count: usize = word_list.len();
+    let mut _itteration: i32 = 0;
+
+    let _translated_list = word_list
+        .iter()
+        .enumerate()
+        .map(|(i,(word, _count))|{
+            let translated= match translate(&word, input_lang,output_lang)  {
+                Ok(translated) =>  translated,
+                Err(_err) =>word.clone(),
+            };
+            // print!("\r Translation progress: {} /{}", i+1, _word_count);
+            // std::io::Write::flush(&mut std::io::stdout()).unwrap();
+            progress_count("Translation progress", i+1, _word_count);
+            (word.clone(),translated)
+        })
+        .collect();
         _translated_list
     }
-    
+    fn progress_count(name: &str,current_progress: usize, total: usize){
+       print!("\r {}: {} /{}",name, current_progress, total);
+            std::io::Write::flush(&mut std::io::stdout()).unwrap(); 
+    }
+
     fn translate_using_custom_dictionary (text: &String, dictionary: HashMap<String, String>)->String{
         let re = Regex::new(r"\b\w+\b").unwrap();
         let mut _new_text: String = String::new(); 
