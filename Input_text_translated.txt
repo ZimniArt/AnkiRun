@@ -1,5 +1,5 @@
 Chapter 2
-Лопата Рыцарь / Глаголы
+Лопата Рыцарь / Verbs
 DOI: 10.1201/9781003346586-2
 
 Лопата Рыцарь is a большой игра.
@@ -15,12 +15,12 @@ own dissections, даже если некоторый aspects may be the same.
 Фигура 2.1 Лопата Рыцарь screenshot.
 
 Лопата Рыцарь: Gameplay Dissection
-Глаголы
+Verbs
 To понимать a игра, the best place to начинать is the глаголы. What действия может
 the игрок take?
 Games are другой от другой forms of entertainment нравиться books and
 movies. The biggest difference is что in игры, the игрок gets to do вещи.
-The игрок может change что happens in the experience through их choices
+The игрок может change что happens in the experience через их choices
 and другой действия. Когда ты’re reading Hamlet (Shakespeare 1604), это’s
 always идущий to end the same способ, and Hamlet’s always идущий to drag his
 feet to получать там. Когда ты’re playing a игра of Go with a friend, ты
@@ -29,7 +29,7 @@ combination of agency and uncertainty is что makes игры fun. Games
 are interactive.
 So, когда ты’re trying to понимать a игра, начинать with questions о
 interactivity. What does the игрок do? What действия может the игрок take?
-There’s более to понимать чем только что, but это’s a good place to начинать.
+There’s более to понимать чем только что, but это’s a хороший place to начинать.
 В Лопата Рыцарь, the игрок может move around and hit вещи with a
 shovel. Movement is a combination of running and jumping. The основной
 геймплей is Run, Jump, and Attack. The игрок может полный 90% of the
@@ -44,15 +44,15 @@ One theme throughout этот book is что игра dissections depend on тв
 
 Attack is enough. Stop там, move on. That’s a completely valid approach
 and ты может pat yourself on the back.
-Но sometimes ты нуждаться to знать более. Если ты’re идущий to начинать work on
+Но sometimes ты need to знать более. Если ты’re идущий to начинать work on
 the a 2d platformer team, or ты’re идущий to делать a игра inspired к
-Лопата Рыцарь, or ты’re writing a dissertation on это, ты нуждаться to понимать
-игрок действия at a deeper level.
+Лопата Рыцарь, or ты’re writing a dissertation on это, ты need to понимать
+игрок действия at a deeper уровень.
 И sometimes the глаголы may нет be как obvious. Если ты’re нет sure что
-counts как a основной action, ты may нуждаться to spend a little более время analyzing
+counts как a основной action, ты may need to spend a little более время analyzing
 before ты может say что with authority.
 Когда ты’re doing a deep analysis of a новый игра, это’s useful to начинать
-with every verb ты может think of. Go through the controller diagram. Think
+with every verb ты может think of. Go через the controller diagram. Think
 о что ты do когда ты play the игра, especially the choices что ты
 deliberate over. Ask твой friends “What do ты do in этот игра?” Read the
 wiki если там is один. Write это все down как a starting point.
@@ -110,7 +110,7 @@ Learn (uncover the systems of the игра and как они work)
 Predict (use что ты’ve learned to come вверх with a theory о что
 will happen next)
 Watch (cut scenes)
-Travel (move on the map view что is used to select level)
+Travel (move on the map view что is used to select уровень)
 Showdown (a separate play mode что я’m ignoring for этот dissection)
 Challenge Mode (another separate play mode)
 New Game (UI action to начинать a игра)
@@ -121,9 +121,9 @@ You может видеть как этот list может получать pre
 To начинать, let’s analyze эти words. Which глаголы relate to each другой?
 Which do ты think of together когда ты’re playing?
 
-Pre-Глаголы
+Pre-Verbs
 Если ты’re dissecting an idea for a новый игра ты’re thinking о, ты won’t have a controller
-diagram to получать ты started. Instead, ты нуждаться to identify the глаголы based on the information ты
+diagram to получать ты started. Instead, ты need to identify the глаголы based on the information ты
 do have.
 Когда ты’re describing the idea to люди, что действия do ты talk о?
 Когда ты play the игра in твой head, что is это что ты’re doing?
@@ -132,10 +132,10 @@ Picture the игра on a controller. What would the buttons do?
 or другой вещи. Но если ты find что твой игра idea doesn’t have clear глаголы, что’s a sign что
 твой idea isn’t really полный yet.
 Understanding the основной loop is a key part of early ideation. You может’t pitch a игра если ты
-может’t describe что the игрок is идущий to actually do in что игра. Если этот happens, ты нуждаться to
-spend некоторый более время thinking этот through before moving on.
+может’t describe что the игрок is идущий to actually do in что игра. Если этот happens, ты need to
+spend некоторый более время thinking этот через before moving on.
 
-Direct Action Глаголы
+Direct Action Verbs
 Since мы’re trying to понимать interactivity, мы хотеть to focus on глаголы
 что are о the игрок directly doing что-нибудь. Look for глаголы где the
 игрок does что-нибудь что sends input to the computer – этот может be
@@ -163,8 +163,8 @@ Air Control (moving right/left пока in the air)
 The важный thing here is to recognize что the игрок controls an avatar in
 a 2D space к changing the avatar’s position (and orientation) in the world.
 There are a lot of другой movement controls with slight nuanced
-differences. The diversity of specific movement controls is a good sign что
-navigating through the world is важный in этот игра.
+differences. The diversity of specific movement controls is a хороший sign что
+navigating через the world is важный in этот игра.
 Each of эти is важный to понимать если ты’re really trying to dig
 deep on как Лопата Рыцарь works. Doubly так for другой игры with более
 complex controls to navigate более complex 3D scenes. Но for right now,
@@ -204,8 +204,8 @@ course of the игра with various другой effects, ranging от healing t
 Use Relic (use an inventory item at the cost of Magic, with о a
 dozen другой ones что может be acquired)
 
-Indirect Action Глаголы
-Action Глаголы что describe что the игрок может do are the большинство важный
+Indirect Action Verbs
+Action Verbs что describe что the игрок может do are the большинство важный
 for understanding the основной of a игра, but там are a variety of другой глаголы
 что happen during a игра что are важный to понимать.
 Die (lose health or fall in a pit)
@@ -242,14 +242,14 @@ The большинство common type of object interaction is talking with NPC
 Technically ты could call combat an indirect action because это только
 makes sense если там’s an enemy nearby and там isn’t always an enemy
 nearby. Этот is a clever point, but given the frequency of enemies in the
-level design, я think это’s fair to call “Attack” a основной геймплей action. Если
+уровень design, я think это’s fair to call “Attack” a основной геймплей action. Если
 someone re-made Лопата Рыцарь with significantly fewer enemies and более
 depth to the NPC interactions, это would be an interesting способ to делать an
 entirely другой игра in a другой genre without changing the основной
 engine or code or игрок действия of Лопата Рыцарь. Но это wouldn’t be Лопата
 Рыцарь. More on content and как это changes the игра in a later chapter.
 
-Abstract Глаголы
+Abstract Verbs
 Dodge (move or jump to avoid an enemy or другой hazards)
 Explore (find что-нибудь новый)
 
@@ -272,9 +272,9 @@ There are a number of potential глаголы мы identified что aren’t �
 to understanding the основной игра loop, but я’d put их in a другой
 category чем direct игрок действия, and мы’ll cover их in a later chapter.
 
-Interface Глаголы
+Interface Verbs
 Watch (cut scenes)
-Travel (move on the map view что is used to select level)
+Travel (move on the map view что is used to select уровень)
 Showdown (a separate play mode что я’m mostly ignoring for этот
 dissection)
 Challenge Mode (another separate play mode)
@@ -288,24 +288,24 @@ to distinguish когда the игрок is controlling an avatar (Лопата 
 the игра world versus когда the игрок is selecting words in a menu. The
 UI is что-нибудь outside the illusion of the игра, which is necessary but нет
 part of the fun. Если ты’re working on designing the UI, definitely think эти
-through and consider все the options. Но for этот игра, они are нет основной
+через and consider все the options. Но for этот игра, они are нет основной
 геймплей.
 
 Deeper Dives: Frame к Frame
 For fast-paced игры, один technique я find очень useful is to record a short video of the основной
-геймплей, затем step through the video frame к frame. Watch closely, and ты’ll видеть lots of little
+геймплей, затем step через the video frame к frame. Watch closely, and ты’ll видеть lots of little
 вещи что the developer does to делать вещи work. Visual effects что communicate важный
 information to the игрок, little tricks of physics to делать вещи flow better, and complex camera
-behaviors так the игрок’s attention is on the right вещи. These are большой когда ты нуждаться to знать
+behaviors так the игрок’s attention is on the right вещи. These are большой когда ты need to знать
 everything о a игра. Но большинство of этот chapter is for когда ты’re только starting to понимать
 a игра.
 
 Games как Input/Output
 To help понимать why эти другой types of глаголы are другой, let’s talk
 о как игры work. As with большинство вещи, игры может be understood in a
-lot of ways. Этот is один of those ways.
+lot of ways. Этот is один of те ways.
 Когда a игрок plays a video игра, они are participating in an exchange
-with a computer. The игрок provides inputs through a device of некоторый sort –
+with a computer. The игрок provides inputs через a device of некоторый sort –
 a игра controller, a keyboard, a touch screen – and the computer processes
 что inputs and затем provides an output for the игрок – pixels on a screen.
 The computer uses a set of rules and logic and code to determine как the
@@ -320,7 +320,7 @@ The left side of этот image represents the игрок. What они виде�
 think, что они do. The right side of этот image represents the computer.
 All the electrical impulses tickle the microchips based on the code of the
 игра.
-Let’s step through a simple single-игра action based on этот model. The
+Let’s step через a simple single-игра action based on этот model. The
 игрок is enjoying a pleasant время in Лопата Рыцарь (Фигура 2.4). They
 notice некоторый gems above and to the left, так они decide to jump to gather
 их.
@@ -346,7 +346,7 @@ being used. The важный thing is что the игрок presses a button on 
 or игра controller что indicates что the игрок wants the character (Лопата
 Рыцарь) to jump.
 Этот information затем flows в the computer (Фигура 2.7). A series of
-electrical impulses flow от the controller through a wire в the
+electrical impulses flow от the controller через a wire в the
 computer, где chips translate the signals в the code.
 
 Фигура 2.7 Electrons flow.
@@ -372,7 +372,7 @@ button again won’t do anything.
 Фигура 2.8 Character enters jump state.
 Этот last point is важный. The state changes in the code только matter если
 the игрок может понимать их. Most video игры может только communicate
-их internal changes through a screen. Any change to the internal state and
+их internal changes через a screen. Any change to the internal state and
 logic of the игра needs to be expressed in pixels так the игрок может process
 это (Фигура 2.9). Setting вверх the right pixels is a combination of игра art to
 reflect changes in the игра world and UI/UX design to reflect changes in
@@ -391,7 +391,7 @@ years.
 Фигура 2.10 Player notices change.
 И затем the cycle begins anew. Once the игрок processes этот новый
 information, они хотеть новый вещи (Фигура 2.11). For example, что frog
-might be a problem, так the игрок may нуждаться to change их direction or
+might be a problem, так the игрок may need to change их direction or
 enter an attack state to avoid taking damage (Фигура 2.12). The full игра
 experience is a long sequence of очень quick input/output cycles что add вверх
 to create что-нибудь greater чем each part.
@@ -427,8 +427,8 @@ without a related button что desire is идущий to go unfulfilled.
 The действия the игрок может take shape everything о the игра. So,
 начинать там если ты хотеть to понимать the игра.
 
-Understanding Глаголы
-Глаголы are только the first step.
+Understanding Verbs
+Verbs are только the first step.
 Если Лопата Рыцарь is о Moving and Attacking, так is Halo (2001). So is
 Super Mario Bros (1985). So is God of War (2005). Но эти are все очень
 другой игры.
@@ -438,14 +438,14 @@ The second step in a игра dissection is to понимать the nature of th
 этот case глаголы) может be как complex and interesting как the вещи themselves.
 So, let’s начинать with our two основной глаголы.
 
-Overlapping Глаголы with Different Rules
-So, мы’ve broken Лопата Рыцарь в the Core Глаголы of “Move” and
+Overlapping Verbs with Different Rules
+So, мы’ve broken Лопата Рыцарь в the Core Verbs of “Move” and
 “Attack” but хотеть to понимать более о их.
 Going back to our definition of игры in the first chapter может help. We’ve
 already covered Interactivity – the choices and skills что делать вверх the Big
-Глаголы. Next on the list is Rules.
-So, our Глаголы are что the игрок может do. The Rules are как the игра
-responds to those prompts от the игрок (Фигура 2.14). “Когда the игрок
+Verbs. Next on the list is Rules.
+So, our Verbs are что the игрок может do. The Rules are как the игра
+responds to те prompts от the игрок (Фигура 2.14). “Когда the игрок
 does X, the игра does Y”
 
 Фигура 2.14 Outputs.
@@ -454,7 +454,7 @@ collect $200”. A основной verb in Monopoly (1935) is move, так “p
 что-нибудь что может happen naturally как a result of the игрок’s action.
 The same sort of thing happens in a video игра нравиться Лопата Рыцарь.
 Когда ты touch an enemy, ты lose health. Когда ты walk over a health
-pack, там are fewer health packs in the level and ты have более health.
+pack, там are fewer health packs in the уровень and ты have более health.
 The игрок does что-нибудь, and the игра responds.
 Moving in Лопата Рыцарь is о position, and position interacts with a
 lot of игра rules.
@@ -467,7 +467,7 @@ items.
 Where ты are determines что ты может видеть – the игра только shows
 ты один screen at a время, based on игрок position.
 
-Where ты are triggers progression through levels, including triggering
+Where ты are triggers progression через levels, including triggering
 cut scenes что advance the story.
 Этот is similar in a 3D first-person shooter but with некоторый важный
 differences:
@@ -479,27 +479,27 @@ Where ты are determines когда ты pick вверх ammo, weapons,
 powerups, or другой items.
 Where ты are and где ты’re pointing determines что ты может
 видеть, using a first-person perspective.
-Where ты are triggers progression through levels, including triggering
+Where ты are triggers progression через levels, including triggering
 cut scenes что advance the story.
 So, один способ ты может differentiate similar глаголы is к looking at the rules
-and consequences of those глаголы. Когда там are mechanic differences,
-those are indicators что the глаголы may sound the same but are functionally
+and consequences of те глаголы. Когда там are mechanic differences,
+те are indicators что the глаголы may sound the same but are functionally
 очень другой.
 
-Overlapping Глаголы with Different Goals
+Overlapping Verbs with Different Goals
 Looking at как глаголы interact with rules is helpful. The processes идущий on
 in the computer может change как the глаголы work. Но the processes идущий on
 in the игрок’s head are даже более важный.
 Why does the игрок use глаголы?
-Глаголы are used to achieve цели.
+Verbs are used to achieve цели.
 
-Глаголы только mean что-нибудь in the context of the игрок’s цели.
+Verbs только mean что-нибудь in the context of the игрок’s цели.
 What are the игрок’s цели in Лопата Рыцарь? Let’s do a quick brainstorm
 нравиться мы did for глаголы.
 Rescue Shield Рыцарь.
 Help the characters ты meet.
 Defeat enemies.
-Reach the end of the level.
+Reach the end of the уровень.
 Trigger the next cut scene.
 Unlock новый areas.
 Get to the end of the игра.
@@ -510,18 +510,18 @@ but когда мы’re still assembling a основной loop, это’s н
 thing to понимать. Story motivates игроки to полный the игра, это
 doesn’t motivate the игроки’ действия от moment to moment. At least for
 a игра нравиться этот – некоторый игры нравиться Baldur’s Gate (1998) or Life Is Strange
-(2015) делать story a key part of every level of геймплей. Но a игра нравиться
+(2015) делать story a key part of every уровень of геймплей. Но a игра нравиться
 Лопата Рыцарь does нет weave the story в every moment of геймплей
 нравиться этот.
 The цели что are woven в every moment of геймплей are the ones
-нравиться “Defeat enemies” or “Reach the end of the level” что guide игрок
+нравиться “Defeat enemies” or “Reach the end of the уровень” что guide игрок
 действия in every moment. Этот is что the игрок is trying to do during
 геймплей, and этот is why the игрок engages with the глаголы of the игра.
 The игрок attacks to defeat enemies and moves to reach the end of the
-level.
+уровень.
 
 The next немного цели (“Trigger the next cut scene”, “Unlock новый areas”,
-and “Get to the end of the игра”) are только “Beat the level” phrased slightly
+and “Get to the end of the игра”) are только “Beat the уровень” phrased slightly
 differently. Когда ты’re considering цели or глаголы, keep an eye out for
 overlapping terms нравиться этот.
 The final objective “Don’t die” isn’t really a цель per se but is более of a
@@ -530,16 +530,16 @@ never stops ты от progressing, but это может definitely slow ты do
 
 Verb to the Goal
 So как does the игрок turn “Move” and “Attack” в completed levels?
-They move through the level to find a route что gets to the next area пока
+They move через the уровень to find a route что gets to the next area пока
 avoiding or attacking any threats. Most areas have a little challenge or
 puzzle to advance. Some areas require jumping over pits. Some require
 jumping off objects to получать вверх high. Each area has a другой combination of
 challenges что makes это interesting and другой. More on что later.
 
-Big Глаголы
+Big Verbs
 OK, так мы’ve defined the big глаголы in Лопата Рыцарь как Move and Attack.
 That feels right. Когда я play the игра, я spend большинство of my время doing
-those вещи. И thinking о those two вещи and как to do их
+те вещи. И thinking о те two вещи and как to do их
 better.
 Если ты хотеть to понимать a игра, понимать the вещи the игрок
 spends большинство of их время doing. Sometimes там are другой features что are
@@ -553,7 +553,7 @@ lot of время perfecting их jumping and running. В an open world игра
 игры что succeed are the ones что этот travel fun and engaging.
 
 Verb как Genre
-As мы’ll видеть in future chapters, глаголы are a good способ to differentiate and organize игры. All
+As мы’ll видеть in future chapters, глаголы are a хороший способ to differentiate and organize игры. All
 first-person shooters начинать with move and attack. Platformers нравиться Mario focus heavily on move,
 with varying amounts of attack depending on the platformer.
 Но a игра нравиться SimCity doesn’t have move как a verb at все – the primary verb там is build.
@@ -572,25 +572,25 @@ The last part of этот analysis pulls некоторый ideas от future ch
 нравиться showing a version of the same diagram for each игра, так forgive me
 for the spoilers. Этот diagram represents each игра как a formula. The
 игрок has глаголы они может use to reach цели but are blocked к challenges.
-Фигура 2.15 shows the simplest level of detail, breaking each step в a
+Фигура 2.15 shows the simplest уровень of detail, breaking each step в a
 single element. Фигура 2.16 is a bit более useful in что это breaks each of
 эти categories в multiple entries, showing the другой действия and
 challenges of the игра:
 
-Фигура 2.15 Лопата Рыцарь flow diagram showing Глаголы,
+Фигура 2.15 Лопата Рыцарь flow diagram showing Verbs,
 Challenges, and Goals.
 
 Фигура 2.16 Лопата Рыцарь flow diagram with более boxes.
-Each level is a package of эти другой pieces, как shown in Фигура 2.17.
+Each уровень is a package of эти другой pieces, как shown in Фигура 2.17.
 В Лопата Рыцарь, большинство of the variation comes от changing out the
 challenges, but другой игры может handle этот differently.
 
-Фигура 2.17 Лопата Рыцарь flow как a level.
+Фигура 2.17 Лопата Рыцарь flow как a уровень.
 Multiple levels может be added together to represent the full flow of the
 игра, как игроки work on larger цели and larger challenges. See Фигура
 2.18.
 
-Фигура 2.18 Лопата Рыцарь flow от level to level.
+Фигура 2.18 Лопата Рыцарь flow от уровень to уровень.
 We’ll dig в эти ideas in более detail in later chapters, but before мы
 leave Лопата Рыцарь, let’s talk о другой вещи что influence геймплей.
 
@@ -600,14 +600,14 @@ leave Лопата Рыцарь, let’s talk о другой вещи что in
 понимать everything о это. How do the non-геймплей aspects of the
 игра tie в the геймплей? Where did the геймплей ideas come от?
 What led to the геймплей decisions ты видеть in the игра? The игра itself
-makes much более sense если ты понимать the context что led to those
+makes much более sense если ты понимать the context что led to те
 decisions.
 To be clear, я did нет work on (большинство of) the игры я talk о in этот
 book. я do нет знать как decisions were made к the teams что did. We’re
 talking о эти вещи как an outsider, piecing вещи together от что
 мы может видеть in the игра and generally available knowledge. я’m sure там
-are interesting stories там, and я encourage those who were present to
-write их down так я может read those books. я love to знать authorial intent,
+are interesting stories там, and я encourage те who were present to
+write их down так я может read те books. я love to знать authorial intent,
 but unless что’s ты, the rest of us are left with the work itself. И там’s
 plenty to видеть там.
 
@@ -617,7 +617,7 @@ Gameplay is influenced к the look and feel of the игра.
 to emulate the feel and visuals and sounds and полный experience of a
 classic platformer. В этот sense, the style fits очень clearly with the
 геймплей. People who are familiar with the references will expect the
-геймплей and style to both align with их perception of those earlier
+геймплей and style to both align with их perception of те earlier
 игры. И люди who don’t знать the classics will still понимать что
 both геймплей and style evoke an earlier age, так don’t expect integrated AI
 and vast open worlds and high-fidelity graphics.
@@ -661,10 +661,10 @@ Every игра is inspired к the ideas and execution of игры (and друг�
 вещи) что came before.
 There’s an важный distinction to be made here. All игры are inspired.
 All игры borrow and “steal”. Но когда ты draw inspiration от
-что-нибудь, ты нуждаться to be careful to нет draw too heavily. Если твой игра is
+что-нибудь, ты need to be careful to нет draw too heavily. Если твой игра is
 только a copy of someone else’s idea, что’s actual stealing, нет the tongue-incheek способ я sometimes use the term. Если твой игра gets все its features and
 ideas от another игра and doesn’t add or change их in a способ to делать
-что-нибудь новый, затем ты нуждаться to rethink and начинать over to add твой own
+что-нибудь новый, затем ты need to rethink and начинать over to add твой own
 twist on the thing.
 You может видеть этот in Лопата Рыцарь. Лопата Рыцарь is a wonderful and
 unique игра. Но almost every aspect of Лопата Рыцарь comes от
@@ -679,7 +679,7 @@ shovel, including popular игры нравиться Metroid (1986) and Castlev
 (1986).
 
 Once the seeds of the genre had been planted там are много большой
-игры что took those ideas and adapted их for PC gaming,
+игры что took те ideas and adapted их for PC gaming,
 including Lode Runner (1983), Commander Keen (1990), and Cave
 Story (2004).
 Braid (2008) and Spelunky (2008) popularized the idea of using 2D
@@ -688,7 +688,7 @@ interesting indie игра ideas.
 As a игра designer, это’s важный to знать the history of нет только the игры
 but также the features. Jumping от platform to platform in Лопата Рыцарь is
 interesting but is informed к много другой игры before, and feeds в
-много другой игры after. Dissecting each of those игры, at least in terms of
+много другой игры after. Dissecting each of те игры, at least in terms of
 что specific feature, helps ты видеть как to use что feature in твой own
 игры. Johnnemann Nordhagen took этот idea даже further and built a игра
 что collects все the другой ways что a specific mechanic has been
@@ -729,16 +729,16 @@ apply to educational игры or другой игры for change, which have en
 separate monetization цели and pathways. Each игра’s monetization needs
 to be analyzed separately but with an understanding of как это fits в the
 standard monetization schemes of its время.
-Лопата Рыцарь makes большинство of its money through downloads on PC игра
+Лопата Рыцарь makes большинство of its money через downloads on PC игра
 services нравиться Steam. Этот is currently the dominant sales platform on PC,
 and the growth of independent routes to sell and market игры without
 interacting with big publishers and retailers is a big part of why indie игры
 нравиться Лопата Рыцарь exist and succeed. A successful Steam игра может support
 
-a small indie team with a good idea, but console игры generally have to be
+a small indie team with a хороший idea, but console игры generally have to be
 bigger.
 Лопата Рыцарь started out on Kickstarter, raising money for the initial
-development through crowdfunding. Kickstarter and similar platforms are a
+development через crowdfunding. Kickstarter and similar platforms are a
 popular способ for smaller indie игры to generate некоторый initial funds and
 market an early idea. The initial money helps, but the initial fan base is как
 or более важный to making a small игра with a small (or zero) marketing
@@ -749,7 +749,7 @@ content (DLC) packs, which have later been released как separate игры.
 другой playstyles.
 Selling как a single purchase drives Лопата Рыцарь to focus on providing a
 полный package. Deeper progression and varied content делать the single
-purchase feel worth это, generating good word-of-mouth to keep the игра
+purchase feel worth это, generating хороший word-of-mouth to keep the игра
 selling.
 
 Narrative
@@ -767,7 +767,7 @@ Shield Рыцарь. A classic rescue mission, which is a большой спо�
 During геймплей, the игра doesn’t делать reference to Shield Рыцарь or
 anything else о the characters. Bosses получать a quick intro to establish их
 character, during which the игрок has no input. The игра stops to tell the
-story. Then after a big level, там is a short dream sequence что reminds
+story. Then after a big уровень, там is a short dream sequence что reminds
 the игрок of этот long-term цель and provides некоторый interactive rewards как
 well. Some of the NPCs provide additional narration and backstory, but это’s
 все contained in a немного sentences так это never gets too involved or deep.
@@ -777,7 +777,7 @@ the игрок puts the игра down for too long, они feel a little guilty.
 Shield Рыцарь. The story is fun and interesting, and the игра is stronger
 because of это.
 Some игры use story in deeper and более complicated ways. И я love
-those игры, too. Но я’ve made некоторый of их так я знать как complicated
+те игры, too. Но я’ve made некоторый of их так я знать как complicated
 and difficult это может be to interweave story and геймплей in ways что
 actually matter. More on что later.
 
@@ -786,7 +786,7 @@ Story is один source of emotions, but игры может evoke много e
 For action игры, the большинство common emotion is frustration, which might
 sound нравиться a problem, but это really isn’t. Talking о игры for the last
 немного decades, я’ve noticed что там are много flavors of frustration. Some
-are good, and некоторый are bad. The main difference is как and где the
+are хороший, and некоторый are bad. The main difference is как and где the
 игрок has agency in the frustration.
 Outside Frustration: Если the игрок has no agency, затем это’s outside
 frustration. It может be annoying, but это’s less personal так thus less
@@ -811,12 +811,12 @@ Confused Frustration: Если the игрок has agency что actually matters
 более casual audiences. It’s очень frustrating to press buttons and нет
 понимать why они matter. И что understanding is entirely the
 responsibility of the игра designer. Remember, the игрок только knows
-что comes through что tiny funnel of information они видеть on the
+что comes через что tiny funnel of information они видеть on the
 pixels on the screen. Если они aren’t able to construct a full mental model
 of the logic идущий on inside the computer, to expect, они’re идущий to
 have некоторый negative frustration. В много cases, the hard part of being a
-игра designer isn’t coming вверх with good ideas; это’s getting the игрок
-to понимать those good ideas.
+игра designer isn’t coming вверх with хороший ideas; это’s getting the игрок
+to понимать те хороший ideas.
 Difficult Frustration: Agency что matters and makes sense is нет
 enough. The challenges также have to be fair. Banging твой head against
 
@@ -833,7 +833,7 @@ called геймплей. Если the игрок understands why они failed, 
 frustration от the failure is much less. В the best cases, frustration is
 a fuel что drives the игрок to come back and try again. Games are
 built on iteration, both как a development practice and как a игрок
-strategy. A good игра will create positive feelings of frustration что
+strategy. A хороший игра will create positive feelings of frustration что
 guide the игрок to an emotional response along the lines of “я может do
 better”. Which is a большой lesson to learn for life, даже outside of the
 magic circle.
@@ -883,7 +883,7 @@ studio got bought к Zynga and didn’t stay around for long after что, but �
 знать этот genre better чем я знать большинство genres.
 
 Конфеты Раздавить Сага – Gameplay Dissection
-Глаголы
+Verbs
 To понимать Конфеты Раздавить Сага, let’s начинать где мы always do: глаголы.
 What может the игрок do in Конфеты Раздавить Сага?
 В этот case, это’s a simple answer: swap. The игрок может touch a candy in
@@ -891,7 +891,7 @@ the grid and затем slide это to an adjacent candy. Когда the игр
 the two candies swap positions. That is the entirety of the игрок’s active
 contribution to the основной loop (Фигура 3.2). There are некоторый interesting less
 active вещи the игрок does пока swapping, such как “Scan” and “Predict”,
-but эти aren’t the simple button действия, так мы’ll save discussion of those
+but эти aren’t the simple button действия, так мы’ll save discussion of те
 for later in этот chapter.
 
 Фигура 3.2 Inputs.
@@ -899,7 +899,7 @@ for later in этот chapter.
 The основной loop continues от там, though (Фигура 3.3). After the игрок
 makes a swap, the игра rules check to видеть если either candy creates a line of
 three or более. Если это doesn’t, the swap is canceled. Если это does, the игра
-removes those candies, possibly with an extra effect если the line is four or
+removes те candies, possibly with an extra effect если the line is four or
 более candies. Then the remaining candies fall to fill the empty space, which
 может possibly create новый matches and cause a chain reaction как each match
 creates новый matches.
@@ -919,7 +919,7 @@ Swapping and the reactions to что swap is the heart of Конфеты Раз�
 1. Players может use powerups such как the lollipop to remove specific
 candies or otherwise affect the grid outside of swap действия. Outside of
 the tutorials что teach эти interactions, они are never required to
-полный a level, but они are always там for the игрок to use. Но
+полный a уровень, but они are always там for the игрок to use. Но
 они are a limited resource что может только be acquired как an occasional
 reward or for money.
 2. Late in the игра, там are новый board elements что include an
@@ -930,7 +930,7 @@ sometimes have некоторый basic decision-making in the event itself.
 So outside of эти caveats, the verb of Конфеты Раздавить Сага is “swap”.
 
 Goals
-The геймплей цель of Конфеты Раздавить Сага varies based on the level. All
+The геймплей цель of Конфеты Раздавить Сага varies based on the уровень. All
 цели revolve around clearing вещи off the board, but the nuances of
 exactly что ты’re trying to do может change:
 1. Clear a certain number of candies.
@@ -958,10 +958,10 @@ concepts of the match-3 genre existed before Конфеты Раздавить �
 Specifically, the concepts of the genre were solidified in Bejeweled (2001)
 and Bejeweled Blitz (2009). Many of the основной ideas were present in earlier
 игры нравиться Shariki (1994). The основной геймплей is очень directly based on
-previous игры нравиться Bejeweled. Но those previous игры used только a
-single level – там were no obstacles and только один board. Конфеты Раздавить
+previous игры нравиться Bejeweled. Но те previous игры used только a
+single уровень – там were no obstacles and только один board. Конфеты Раздавить
 Сага innovated к adding a variety of levels with другой obstacles and a
-другой grid layout for each level. Этот gave the existing fun основной
+другой grid layout for each уровень. Этот gave the existing fun основной
 геймплей более variety and long-term appeal. Bejeweled was successful, but
 Конфеты Раздавить Сага took что success to vast новый heights к adding varied
 challenges and a stronger sense of progression.
@@ -970,7 +970,7 @@ big innovations of Конфеты Раздавить Сага was the Сага M
 the игрок was given a variety of levels with другой obstacles, это’s также
 важный что эти levels were set вверх как a line – a path to a destination.
 
-Once the игрок completes a level, они move on to the next один, heading
+Once the игрок completes a уровень, они move on to the next один, heading
 toward the end. The Сага Map organizes этот progression in a simple line,
 showing the игрок the next levels они’ll be playing. Этот came out когда
 social gaming was king, так the line также shows ты где твой friends are,
@@ -979,8 +979,8 @@ the игрок is always doing что-нибудь новый, and has a sense o
 что makes их хотеть to come back tomorrow and try again. Progression is
 a большой driver for игроки, in any form.
 The basic flow of the игра is simple – the игрок swaps to clear the
-level, with various obstacles in the способ. Но the obstacles and цели change
-in each level, как shown in Фигура 3.4, making the simple flow work for a
+уровень, with various obstacles in the способ. Но the obstacles and цели change
+in each уровень, как shown in Фигура 3.4, making the simple flow work for a
 long время.
 
 Фигура 3.4 Конфеты Раздавить Сага flow: Simple diagram showing
@@ -994,7 +994,7 @@ Technology
 advanced technologies to work. Этот is один of the fun daily realities of the
 world мы live in. The rules of the игра and the interactions the игрок
 experiences are built on easy-to-понимать combinations of simple shapes.
-Этот is good игра design and keeps the игрок engaged. Но the rest of the
+Этот is хороший игра design and keeps the игрок engaged. Но the rest of the
 experience is built on touch screens and constant online communication and
 vast behind-the-scenes databases что are способ более powerful чем the
 technology что brought humans to the moon.
@@ -1003,7 +1003,7 @@ One thing что is важный to think о как a игра designer is ка�
 technology comes along все the время, and некоторый of это is a большой fit for новый
 types of игры. Sometimes там is a direct linkage between a новый
 technology and a новый style of игра, such как GPS-enabling Pokémon Go
-(2016). Sometimes the changes are более subtle and нуждаться время and thought
+(2016). Sometimes the changes are более subtle and need время and thought
 to понимать. It’s нет obvious (except in retrospect) что improvements in
 computer miniaturization and wireless communication would lead to
 everyone having a powerful connected computer in их pocket at все times.
@@ -1027,16 +1027,16 @@ Clearly, этот works for Конфеты Раздавить Сага. The иг
 successful, and там’s no reason to think что the bright cartoony style
 holds это back. Various clones and imitators have tried to re-theme match-3
 геймплей in darker, более adult styles and failed. Childish works for adults.
-On один level, этот could be pure nostalgia. Adults хотеть a moment to relax
+On один уровень, этот could be pure nostalgia. Adults хотеть a moment to relax
 and escape от их everyday world, так что-нибудь что evokes pleasant
 childhood memories could be только the thing. The reason childish works
 might be because adults хотеть to feel нравиться children.
-On another level, childish might work because childish is good design.
+On another уровень, childish might work because childish is хороший design.
 Kids are нет the только ones who нравиться bold, bright colors. Iconic shapes are
 easy to distinguish and help делать геймплей easy to понимать. Direct
-clear communication is good for everyone, including adults who are trying
+clear communication is хороший for everyone, including adults who are trying
 to только relax. The design principles что work for children также work for
-adults. It’s нет childish design, это’s только good design.
+adults. It’s нет childish design, это’s только хороший design.
 Этот is нет to say что Конфеты Раздавить Сага is constructed in a childish способ.
 There is a lot of attention to detail and polish in Конфеты Раздавить Сага. Когда я
 started working on match-3 игры, один of the first вещи я did was spend a
@@ -1054,16 +1054,16 @@ Be really careful with motion. Humans знать как falling looks and expect
 accelerate and decelerate in certain ways. Falling at a constant speed is easier to code but
 looks weird.
 You может cover вверх lots of вещи with explosions. Don’t bother with expensive
-transformations если an explosion will feel только как good or better.
+transformations если an explosion will feel только как хороший or better.
 Squash and stretch. Этот is an animation term for changing the shape of an object to
 emphasize an impact. It really works.
 Anticipation. Building вверх to a reward is как важный как paying off the reward. Adding a
 немного frames of buildup makes almost everything better.
 Sequencing. Know the order of events and keep что holy. It’ll help игроки понимать
 что’s happening and это’ll keep твой игра logic and code understandable.
-Compression. Когда ты have lots of вещи что нуждаться to happen at once, ты может break
+Compression. Когда ты have lots of вещи что need to happen at once, ты может break
 the Sequencing rule and have вещи overlap a bit. Но do это in a logical and constrained
-способ. Think through что the игрок needs to focus on, and do некоторый hand-waving in другой
+способ. Think через что the игрок needs to focus on, and do некоторый hand-waving in другой
 places.
 
 Emotion and Narrative
@@ -1075,16 +1075,16 @@ problem to solve, and затем a немного levels later congratulates т�
 Сага is нет a игра где the majority of игроки are advancing to find out
 что happens next.
 
-Конфеты Раздавить Сага does hit emotional notes through the геймплей.
+Конфеты Раздавить Сага does hit emotional notes через the геймплей.
 Конфеты Раздавить Сага is a игра of constant rewards. Whenever ты do
 anything in the игра, что-нибудь explodes and the игра tells ты как большой
 ты are. Этот is maybe нет the большинство emotionally deep reward system, and я
 wouldn’t trust the игра’s praise to evaluate my self-worth, but sometimes
 это’s только nice to hear praise. Constant rewards может be emotionally soothing.
 A working mom who is having a hard day and только wants to catch их
-breath and relax doesn’t нуждаться a игра что constantly tells их они’ve died
-and нуждаться to начинать everything over. Конфеты Раздавить Сага does have fail states,
-and это does apply a little bit of emotional pressure in those moments (mostly
+breath and relax doesn’t need a игра что constantly tells их они’ve died
+and need to начинать everything over. Конфеты Раздавить Сага does have fail states,
+and это does apply a little bit of emotional pressure in те moments (mostly
 to encourage the игрок to spend money), but что’s the exception, нет the
 rule. Most of the время, playing Конфеты Раздавить Сага is soaking in a warm bed
 of reward and praise. Some игры are here to give люди что они хотеть.
@@ -1092,7 +1092,7 @@ of reward and praise. Some игры are here to give люди что они хо
 Money
 How does Конфеты Раздавить Сага делать money?
 The другой big innovation Конфеты Раздавить Сага added to the match-3 genre,
-другой чем the level variety demonstrated in the “Сага” part of the title, is
+другой чем the уровень variety demonstrated in the “Сага” part of the title, is
 the monetization model. Конфеты Раздавить Сага is free to download and to play.
 All ten thousand plus levels are free to access. Но the игра constantly asks
 ты to spend money on другой вещи. Powerups. Unlimited lives. Extra
@@ -1111,12 +1111,12 @@ or promising вещи to игроки что will never materialize.
 Но большинство free-to-play игры, such как Конфеты Раздавить Сага, are нет что
 bad. Every monetization model – arcade cabinets, CDs in boxes,
 hypercasual ad-driven игры – is trying to use human psychology to получать
-люди to buy вещи. At некоторый level, все marketing is manipulation. Но что
+люди to buy вещи. At некоторый уровень, все marketing is manipulation. Но что
 doesn’t mean это has to be an entirely bad thing. Good marketing is
 manipulating люди to notice вещи что они хотеть and will enjoy. И я
 believe что большинство free-to-play игры are actually providing a valuable
-service to люди. People нуждаться entertainment and игры are generally a
-good deal in the entertainment world. Free-to-play allows большинство люди to
+service to люди. People need entertainment and игры are generally a
+хороший deal in the entertainment world. Free-to-play allows большинство люди to
 получать их entertainment for free, with некоторый advertisements как the cost. И
 the люди who хотеть to spend более and может afford это fund the rest of the
 игроки.
@@ -1191,7 +1191,7 @@ generally release lots of новый игры first on их web browser and ви
 to другой platforms. At the время, Facebook was considered the first step and
 
 mobile was a новый and experimental platform. So, Конфеты Раздавить Сага first
-appeared как Конфеты Раздавить, a web игра without the level variety что made
+appeared как Конфеты Раздавить, a web игра without the уровень variety что made
 Конфеты Раздавить Сага так successful. The Сага idea first appeared in Bubble
 Witch Сага and proved successful. Когда King brought их score attack
 match-3 Конфеты Раздавить over to Facebook, они added similar Сага elements.
@@ -1200,7 +1200,7 @@ brought over to mobile как well.
 By the время Конфеты Раздавить Сага came to mobile (2012), the battle over
 pricing was mostly done. The free-to-play models что had been pioneered
 in Facebook were dominating on mobile. So, Конфеты Раздавить Сага launched
-for free, with strong social elements. Many of those social elements have
+for free, with strong social elements. Many of те social elements have
 faded to the background over the years как the industry has continued to
 evolve and updates have changed Конфеты Раздавить Сага. Competing for high
 scores against твой friends, or for progress along the Сага, used to be
@@ -1208,7 +1208,7 @@ prominently displayed but now is более of an afterthought.
 So, Конфеты Раздавить Сага came в the market at the right время with an
 innovative take on both the геймплей of match-3 and the free-to-play
 monetization model. The игра was a hit от day один. King already knew
-что это had a good chance, based on its success on другой platforms, but
+что это had a хороший chance, based on its success on другой platforms, but
 nothing is certain in этот industry. В этот case, это worked. Конфеты Раздавить Сага
 was так successful это spawned multiple sequels, a line of merchandizing, and
 даже a short-lived network television игра show. И это became my wife’s
@@ -1226,18 +1226,18 @@ calling out compliments. The игрок didn’t plan что out. The игрок
 знать exactly что was идущий to happen. Но нравиться много вещи in life, taking
 что first step leads to все sorts of unknown вещи.
 Конфеты Раздавить Сага is the type of игра что doesn’t really challenge the
-игрок. Sure, некоторый levels are nearly impossible, but those levels generally
+игрок. Sure, некоторый levels are nearly impossible, but те levels generally
 require luck to полный along with skill. Mostly Конфеты Раздавить Сага is a
 warm bath of compliments and pleasant explosions. И я believe эти
-types of игры делать the world a better place. People нуждаться comfort. People
-нуждаться более praise in их lives. Если a игра может help люди be happy and получать
-through их lives, я support что. Since the dawn of время, humans have
-sought escapism. That нуждаться is deep in the human psyche. Games are the
+types of игры делать the world a better place. People need comfort. People
+need более praise in их lives. Если a игра может help люди be happy and получать
+через их lives, я support что. Since the dawn of время, humans have
+sought escapism. That need is deep in the human psyche. Games are the
 latest delivery method. я’m нет идущий to fight against the human psyche. Let
 люди enjoy simple fun.
 
 Goals
-Глаголы tend to work together. В Лопата Рыцарь, я может move, and я может attack.
+Verbs tend to work together. В Лопата Рыцарь, я может move, and я может attack.
 я’m generally более successful in the игра когда я combine эти глаголы. я
 don’t move, pause, wait, затем attack. я attack пока я’m moving. я look
 around пока я’m moving. я don’t stop and pause; я’m constantly
@@ -1251,7 +1251,7 @@ shot, я’m также considering как to best avoid the line of fire of ano
 combined (Фигура 3.5). Но цели are даже более likely to be layered rather
 чем combined.
 
-Фигура 3.5 Two Глаголы merging в a bigger verb.
+Фигура 3.5 Two Verbs merging в a bigger verb.
 Look at Конфеты Раздавить Сага. Если ты chose a random second of a игрок’s
 session in Конфеты Раздавить Сага, the verb is likely to be “swap”. Maybe “look”
 если ты accept что как a valid verb. Но the игрок’s цели are идущий to hit
@@ -1260,33 +1260,33 @@ session in Конфеты Раздавить Сага, the verb is likely to be 
 2. Having этот match lead to a chain reaction or create a power gem
 3. Having этот match lead to a better board state когда это’s done
 4. Removing lots of gems
-5. Making progress toward the цель of этот level
+5. Making progress toward the цель of этот уровень
 6. Scoring points
-7. Beating этот level
-8. Beating этот level with three stars
+7. Beating этот уровень
+8. Beating этот уровень with three stars
 9. Completing an event or challenge цель
 
-10. Getting to the end of the level progression
+10. Getting to the end of the уровень progression
 11. Getting a better score чем my friends
 12. Relaxing
 13. Helping the cute little puppet creature to полный its цель
 14. Clearing the chocolate
 15. Removing the blockers
-16. A очень large number of level-specific цель types что я could list but
+16. A очень large number of уровень-specific цель types что я could list but
 затем этот chapter would become boring and repetitive and как a игра
 designer я try to avoid boring вещи
 Этот is normal. В игры как well как life, a single action rarely has a single
 цель. Goals come in herds. Some with subtle nuanced distinctions, and
-некоторый coming от completely другой directions. я хотеть to beat the level.
-я хотеть to beat the level with three stars. я хотеть to beat the level with a
+некоторый coming от completely другой directions. я хотеть to beat the уровень.
+я хотеть to beat the уровень with three stars. я хотеть to beat the уровень with a
 higher score чем my brother. These are expressions of the same base цель
 but with другой nuances. From a игра design standpoint, эти может be
-merged в a larger цель: success in the level (Фигура 3.6).
+merged в a larger цель: success in the уровень (Фигура 3.6).
 
 Фигура 3.6 Two цели merging в a bigger цель.
 
 The bigger differences between цели are often based on scale. я хотеть этот
-action to clear lots of gems. я хотеть to beat the whole level. я хотеть to получать to
+action to clear lots of gems. я хотеть to beat the whole уровень. я хотеть to получать to
 the end of the игра progression. я хотеть the action я’m performing now to
 делать me successful now, soon, and in the future. Этот sort of layering of
 цели is очень важный to игра design. Game designers нравиться to talk о
@@ -1304,9 +1304,9 @@ a игрок with “nothing left to do” is a problem – они’re likely t
 игрок motivated at все times.
 
 В Конфеты Раздавить Сага, a игрок may say что их цель is to beat этот
-level. Но to do что, они нуждаться to find and делать matches. Once они
+уровень. Но to do что, они need to find and делать matches. Once они
 полный the small цель and делать что match, они are (hopefully) closer to
-их big цель of completing the level. Но now они have to начинать another
+их big цель of completing the уровень. Но now они have to начинать another
 loop of activity to find another match and полный что small цель again.
 Only after a немного dozen small цели is the large цель reached.
 И once the large цель is reached, the игрок is taken back to the Сага
@@ -1318,7 +1318,7 @@ seems нравиться a single unified thing but когда ты break в э�
 smaller versions inside (Фигура 3.8).
 
 Фигура 3.8 Many цели inside another цель.
-Этот is good psychology. Humans нравиться to group вещи and draw lines
+Этот is хороший psychology. Humans нравиться to group вещи and draw lines
 around их. Part of the fun of цели is getting to define a task and затем
 check это off твой to-do list. Completing a цель is fun.
 
@@ -1333,7 +1333,7 @@ check box and получать что hit of serotonin, там are still бол�
 do. Not только the next один, but один что’s halfway finished. Or даже better,
 один что’s только о to be finished. Если ты’re at 4% progress toward a цель,
 там’s no pressure to stay in the игра and полный это. Но если ты’re at
-96%, затем ты might как well play один более level to finish это off. И затем
+96%, затем ты might как well play один более уровень to finish это off. И затем
 когда ты do, там will be another цель at 97% waiting for ты.
 Этот is present in много игры:
 Civilization and другой 4x strategy игры are well-known for promoting
@@ -1341,7 +1341,7 @@ Civilization and другой 4x strategy игры are well-known for promoting
 цели что overlap in complex ways, ensuring там is always один более
 thing to do.
 Boss levels are another способ to promote игроки’ desire to check off
-boxes. The boss is the hardest part of the level, but это always shows вверх
+boxes. The boss is the hardest part of the уровень, but это always shows вверх
 когда ты’re already past 90% полный. The temptation to check off
 что box is part of why boss levels are так motivating.
 Role-playing игры (RPGs) offer multiple forms of progression –
@@ -1357,20 +1357,20 @@ engagement blew их все away. Конфеты Раздавить Сага suc
 because of the Сага цель structure. The Сага structure takes a fun основной
 геймплей loop что had been mastered in previous match-3 игры (Фигура
 3.9) and adds another layer of цели on top of это. You still хотеть to делать
-good matches and получать a good score, but now там are two новый layers.
+хороший matches and получать a хороший score, but now там are two новый layers.
 
 Фигура 3.9 Goals merge: Make match, Create combos, Gain
 points.
 В the время-battle-based style of игры нравиться Bejeweled, там’s no способ to
-“beat” a level. You может получать a good score, but ты может never check off a box
-что says the level is done.
-The Сага map gives a clearer sense of progress on an individual level.
-You может “beat” что level, даже если там’s always room to go back and
+“beat” a уровень. You может получать a хороший score, but ты может never check off a box
+что says the уровень is done.
+The Сага map gives a clearer sense of progress on an individual уровень.
+You может “beat” что уровень, даже если там’s always room to go back and
 improve твой score (Фигура 3.10).
 
-Фигура 3.10 Same, but with a bigger circle around это: Beat level.
-И once ты beat a level, ты’re taken back to что map and shown the
-true цель – long-term progression. В Bejeweled, the end of a level may or
+Фигура 3.10 Same, but with a bigger circle around это: Beat уровень.
+И once ты beat a уровень, ты’re taken back to что map and shown the
+true цель – long-term progression. В Bejeweled, the end of a уровень may or
 may нет check a personal цель box depending on твой final score. В Конфеты
 Раздавить Сага, ты’re usually checking at least один box and maybe более
 (Фигура 3.11). И ты’re reminded of все the remaining boxes ты может
@@ -1383,7 +1383,7 @@ long-term retention in a большой способ.
 Other Goals
 Looking at the list of цели, некоторый are groups of related tasks (various ways
 to evaluate a move), некоторый are garlic cloves of related progression (move,
-level, игра), but некоторый don’t fit either of эти categories. Things нравиться
+уровень, игра), but некоторый don’t fit either of эти categories. Things нравиться
 “relax” or “help the puppet” suggest что там is a lot of room for другой
 types of цели.
 Helping the puppet is an example of a narrative цель. The игрок is
@@ -1414,7 +1414,7 @@ generate a to-do list and mentally check off items как они’re completed,
 ты’re acting как твой own игра designer to structure and motivate daily
 life. Players do этот during игры, too. В Конфеты Раздавить, игроки might strive
 to clear a certain area or create a certain combo даже если the игра doesn’t
-ask их to. Этот is good.
+ask их to. Этот is хороший.
 As a игра designer, ты может’t force игроки to делать их own цели. Но
 ты может create an environment где цели are easy to делать and track and
 enjoy. The более freedom the игра gives the игрок to try divergent действия,
@@ -1433,9 +1433,9 @@ shows the игрок что их действия have consequences.
 Player-generated цели are также an важный driver for геймплей цели.
 During early playtests, keep an eye out for вещи игроки try to do. Ask
 игроки что их цель is. Если игроки хотеть to do что-нибудь, the игра should
-recognize and reward это. В некоторый cases, take those personal цели and делать
+recognize and reward это. В некоторый cases, take те personal цели and делать
 
-их в геймплей цели. Но если что’s нет appropriate, take those personal
+их в геймплей цели. Но если что’s нет appropriate, take те personal
 цели and acknowledge что они matter. Keep track of их in the design to
 делать sure они remain fun как the игра changes and iterates. Если possible,
 track их and give the игрок a small thumbs вверх in-игра когда они
@@ -1453,7 +1453,7 @@ builds of Конфеты Раздавить Сага, некоторый of эт
 важный enough to bake back в the main игра progression cycle. They
 started как special events что только appeared occasionally but now are только
 что-нибудь что happens naturally during play.
-There are a lot of good psychological hooks built в limited-время
+There are a lot of хороший psychological hooks built в limited-время
 events.
 Players love getting более вещи “for free”.
 They encourage coming back soon, так ты может полный the цель
@@ -1468,10 +1468,10 @@ qualities of этот event.
 and the Сага Map provides a большой long-term цель. Но the long-term of the
 Сага Map может be pretty far off, especially now что там are thousands and
 thousands of levels. The motivation to reach the end of the map now takes
-multiple years to полный. So, там’s a нуждаться for более checkboxes between
-the “полный a level” box and the “beat the игра” box.
-Events provide a цель что is bigger чем a single level but is still realistic
-to actually полный. A игрок may never reach level 20,000, but они может
+multiple years to полный. So, там’s a need for более checkboxes between
+the “полный a уровень” box and the “beat the игра” box.
+Events provide a цель что is bigger чем a single уровень but is still realistic
+to actually полный. A игрок may never reach уровень 20,000, but они может
 earn the free powerup к collecting a немного более levels to win the race. It
 doesn’t даже matter если они хотеть a free powerup – это will still motivate их
 to push forward только to check the box. Humans are weird что способ.
@@ -1481,18 +1481,18 @@ implemented. A really talented игра designer would be able to look at
 Конфеты Раздавить Сага at launch and identify the цель layers. A really really
 talented игра designer would be able to do что, and затем notice что the
 цель layers are fairly far apart. Even with только 80 levels, the motivation to
-полный a level and the motivation to полный the игра have a big gap.
+полный a уровень and the motivation to полный the игра have a big gap.
 И это takes a really really really talented игра designer to do все что, and
 затем design the right solution to fix что problem пока также fixing a немного
 другой problems along the способ. я never worked at King, так я don’t знать who
 came вверх with the idea to add the events. Но они deserve a raise.
 (я’d be willing to guess это wasn’t a single person sitting down doing этот
 analysis and идущий “Aha!”. It was almost certainly a joint effort к много
-люди who fed each другой small good ideas and затем tested and iterated on
-those ideas to find the best ones. Someone along the способ probably noticed
+люди who fed each другой small хороший ideas and затем tested and iterated on
+те ideas to find the best ones. Someone along the способ probably noticed
 the цель structures and might have advocated strongly for certain ideas
 
-based on это, but in игры good вещи rarely happen because of один
-moment. Games are made к teams, and good игры are made к
+based on это, but in игры хороший вещи rarely happen because of один
+moment. Games are made к teams, and хороший игры are made к
 iteration.)
 

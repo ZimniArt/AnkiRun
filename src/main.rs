@@ -1,12 +1,13 @@
-use std::usize;
+use std::fs::File;
+use std::{process, usize};
 use std::{collections::HashMap, fs, os::windows::io as win_io, str::SplitWhitespace};
 use rtranslate::translate;
 use regex::Regex;
+use rfd;
 
 use std::io::{self, Write};
 use std::fmt::{Display, write};
-// use lindera::tokenizer::Tokenizer;
-// use lindera_ipadic::builder::IpadicBuilder;
+use std::path::Path;
 
 enum Language{
     English,
@@ -69,9 +70,34 @@ fn input_options <T: Display> (prompt: &str, options: &[T]) ->usize{
 
 fn main() {
     
+    //let input_path = String::new();
+    //let _file = rfd::FileDialog::new().add_filter("Text files",&["txt"]).pick_file();
+//
+     let input_path : String = loop {
+       if let Some(path) = rfd::FileDialog::new()
+       .add_filter("Text files", &["txt"])
+       .pick_file()
+       {
+        break path.to_string_lossy().into_owned();
+       }
+       println!("no valid file selected, exiting programm");
+       process::exit(0);
+    };
+   
     // import file
-    let input_path = String::from("D:/2_projects/9_rust/Input_text.txt");
-    let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
+    let output_path : String = {
+        let path = Path::new(&input_path);
+        let stem = path.file_stem().unwrap().to_string_lossy();
+        let ext = path.extension().unwrap_or_default().to_string_lossy();
+        let file_name= format!("{}_translated.{} ", stem, ext);
+        path.parent()
+        .unwrap_or_else(|| Path::new("."))
+        .join(file_name)
+        .to_string_lossy()
+        .into_owned() 
+    };
+
+
     let input_text = fs::read_to_string(input_path).expect("no input text"); 
     
     let _languages = vec![Language::English, Language::Russian, Language::Japanese];
