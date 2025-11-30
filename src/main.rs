@@ -137,6 +137,9 @@ fn main() {
     
     let _languages = vec![
         Language::AutoNotRecommended,
+        Language::English,           
+        Language::Russian,           
+        Language::Japanese,     
         Language::Spanish,           
         Language::French,            
         Language::German,            
@@ -154,16 +157,13 @@ fn main() {
         Language::Vietnamese,        
         Language::Indonesian,        
         Language::Greek,             
-        Language::English,           
-        Language::Russian,           
-        Language::Japanese,     
     ];
     
     let _input_index = input_options("Whats the language of the file?", &_languages);
     let _input_lang = _languages[_input_index].as_str();
     let _input_index = input_options("What language translate to?", &_languages);
     let _output_lang = _languages[_input_index].as_str();
-    let _output_percentage: f64 = input("What percent of words need to be translated? 1..100 :") as f64 *0.01 ;
+    
     
     let _ignore_word_list = vec![
         //English
@@ -192,9 +192,11 @@ fn main() {
     let _prepared_text: SplitWhitespace<'_>= _working_text.split_whitespace(); 
     let mut _frequency_hashmap: HashMap<String, i32> = create_frequency_hashmap(_prepared_text, _ignore_word_list);
     let mut _sorted: Vec<(String, i32)> = _hashmap_to_sorted_list(_frequency_hashmap); 
-    dbg!(_sorted.len());
+    println!("amount of unique words is {}",_sorted.len());
+    let _output_percentage:usize  = input("How many popular words to translate?  ") as usize ;
     _sorted = shorten_dictionary(_sorted, _output_percentage);
     dbg!(_sorted.len());
+    
     let mut _sorted_dictionary: Vec<(String,String)> = translate_words(_sorted, _input_lang, _output_lang);
     let dictionary : HashMap<String, String> = _sorted_dictionary.into_iter().collect(); 
     let mut _output_text: String = translate_using_custom_dictionary(&input_text, dictionary); 
@@ -220,15 +222,17 @@ fn _hashmap_to_sorted_list(hashmap: HashMap<String,i32>) -> Vec<(String, i32)>{
     _new_hashmap.sort_by(|a, b| b.1.cmp(&a.1));
     _new_hashmap
 }
-fn shorten_dictionary(dictionary: Vec<(String, i32)>, remaining_percent: f64) ->Vec<(String,i32)>{
+fn shorten_dictionary(dictionary: Vec<(String, i32)>, remaining_percent:usize ) ->Vec<(String,i32)>{
    
    //exludes all unique words
-    let mut _new_dictionary: Vec<(String, i32)> = dictionary
-        .into_iter()
-        .filter(|(_, count)| *count >1)
-        .collect();
-
-    let _dict_lenght: usize = (_new_dictionary.len()as f64 * remaining_percent).ceil() as usize;
+    // let mut _new_dictionary: Vec<(String, i32)> = dictionary
+    //     .into_iter()
+    //     .filter(|(_, count)| *count >1)
+    //     .collect();
+     let mut _new_dictionary: Vec<(String, i32)> = dictionary;
+    let _dict_lenght: usize = remaining_percent as usize;
+    //work by percent
+    //let _dict_lenght: usize = (_new_dictionary.len()as f64 * remaining_percent).ceil() as usize;
     _new_dictionary.truncate(_dict_lenght);
     //percent logic
     _new_dictionary
