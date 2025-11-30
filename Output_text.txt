@@ -1,1 +1,26 @@
-Из-за санкций, введенных V отношении России, многие крупные компании прекратили работу on территории нашей страны And закрыли свои производства. Especially сильно это отразилось on индустрии моды. Однако помимо монобрендовых бутиков, существуют And мультибрендовые площадки, которые продолжают работать с покупателями V штатном режиме. 
+strategies は ない the only type の dynamics. Any combination の ルール それ
+リード に a new result counts.
+When a ゲーム は described as “elegant”, それ usually means それ それ takes
+a relatively small set の ルール そして builds a lot の 面白い dynamics
+around those ルール. の ルール の Go は (basically) “On あなたの turn, place
+a stone の あなたの color の上 a 19x19 grid. If a group の stones は
+surrounded, それ は removed. Whoever has the most stones wins”. But
+this foundation リード に a lot の other dynamics.
+You できる build enemy AI 外 の とても simple ルール それ result で a
+behavior それ 感じる complex. For example, if you want a group の AIcontrolled characters に move as a group, you できる get とても compelling
+flocking behavior 外 の a few simple pointers それ each entity
+interprets の上 its own. Flocking は a dynamic.
+の 戦闘 で ハロー has a certain feel. It’s fast-paced but と an
+面白い back そして forth based の上 weapon types そして distances. These
+は ない written で the ルール or the code but は a consequence の the
+code. の “feel” の the ゲーム は another important type の dynamic.
+Talking about dynamics は a way に understand how 違う ルール fit
+together に 作る something bigger. It’s a way に read between the lines そして
+see the underlying systems それ は built 外 の the individual ルール.
+Dynamics は important なぜなら the dynamic は often the target それ the
+ゲーム designer は trying に hit. Game designers don’t 努力する に 作る a ゲーム
+と 0.7 seconds between sniper rifle shots (see the 2010 GDC talk by
+Jaime Griesemer “Design で Detail: Changing the Time Between Shots for
+the Sniper Rifle from 0.5 に 0.7 seconds for ハロー 3”), they 努力する に 作る
+戦闘 feel fast-paced と an 面白い back そして forth, 戦闘 それ 感じる
+違う every time なぜなら の 違う abilities それ combine に create new

@@ -2,6 +2,23 @@ use std::{collections::HashMap, fs, str::SplitWhitespace};
 use rtranslate::translate;
 use regex::Regex;
 
+enum Language{
+    English,
+    Russian,
+    Japanese,
+}
+
+impl Language{
+    fn code(&self) -> &str {
+        match self {
+            Language::English => "en",
+            Language::Russian => "ru",
+            Language::Japanese => "ja",
+            
+        }
+    }
+} 
+
 fn main() {
     
     // import file
@@ -9,8 +26,8 @@ fn main() {
     let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
     let input_text = fs::read_to_string(input_path).expect("no input text"); 
     let _output_percentage: f64 = 0.15;
-    let _input_lang = "ru";
-    let _output_lang = "en";
+    let _input_lang = Language::English.code();
+    let _output_lang = Language::Japanese.code();
     let _ignore_word_list = vec!["the", "a"];
 
 
@@ -67,8 +84,6 @@ fn translate_words(word_list: Vec<(String, i32)>, input_lang: &str, output_lang:
                 Ok(translated) =>  translated,
                 Err(_err) =>word.clone(),
             };
-            // print!("\r Translation progress: {} /{}", i+1, _word_count);
-            // std::io::Write::flush(&mut std::io::stdout()).unwrap();
             progress_count("Translation progress", i+1, _word_count);
             (word.clone(),translated)
         })

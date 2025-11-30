@@ -1,1 +1,26 @@
-Из-за санкций, введенных в отношении России, многие крупные компании прекратили работу на территории нашей страны и закрыли свои производства. Особенно сильно это отразилось на индустрии моды. Однако помимо монобрендовых бутиков, существуют и мультибрендовые площадки, которые продолжают работать с покупателями в штатном режиме. 
+strategies are not the only type of dynamics. Any combination of rules that
+leads to a new result counts.
+When a game is described as “elegant”, that usually means that it takes
+a relatively small set of rules and builds a lot of interesting dynamics
+around those rules. The rules of Go are (basically) “On your turn, place
+a stone of your color on a 19x19 grid. If a group of stones is
+surrounded, it is removed. Whoever has the most stones wins”. But
+this foundation leads to a lot of other dynamics.
+You can build enemy AI out of very simple rules that result in a
+behavior that feels complex. For example, if you want a group of AIcontrolled characters to move as a group, you can get very compelling
+flocking behavior out of a few simple pointers that each entity
+interprets on its own. Flocking is a dynamic.
+The combat in Halo has a certain feel. It’s fast-paced but with an
+interesting back and forth based on weapon types and distances. These
+are not written in the rules or the code but are a consequence of the
+code. The “feel” of the game is another important type of dynamic.
+Talking about dynamics is a way to understand how different rules fit
+together to make something bigger. It’s a way to read between the lines and
+see the underlying systems that are built out of the individual rules.
+Dynamics are important because the dynamic is often the target that the
+game designer is trying to hit. Game designers don’t strive to make a game
+with 0.7 seconds between sniper rifle shots (see the 2010 GDC talk by
+Jaime Griesemer “Design in Detail: Changing the Time Between Shots for
+the Sniper Rifle from 0.5 to 0.7 seconds for Halo 3”), they strive to make
+combat feel fast-paced with an interesting back and forth, combat that feels
+different every time because of different abilities that combine to create new
