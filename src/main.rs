@@ -63,7 +63,6 @@ fn _hashmap_to_sorted_list(hashmap: HashMap<String,i32>) -> Vec<(String, i32)>{
     _new_hashmap.sort_by(|a, b| b.1.cmp(&a.1));
     _new_hashmap
 }
-
 fn shorten_dictionary(dictionary: Vec<(String, i32)>, remaining_percent: f64) ->Vec<(String,i32)>{
     let mut _new_dictionary = dictionary;
     let _dict_lenght: usize = (_new_dictionary.len()as f64 * remaining_percent).ceil() as usize;
@@ -90,17 +89,16 @@ fn translate_words(word_list: Vec<(String, i32)>, input_lang: &str, output_lang:
         .collect();
         _translated_list
     }
-    fn progress_count(name: &str,current_progress: usize, total: usize){
-       print!("\r {}: {} /{}",name, current_progress, total);
-            std::io::Write::flush(&mut std::io::stdout()).unwrap(); 
-    }
-
-    fn translate_using_custom_dictionary (text: &String, dictionary: HashMap<String, String>)->String{
-        let re = Regex::new(r"\b\w+\b").unwrap();
-        let mut _new_text: String = String::new(); 
-        _new_text =  re.replace_all(&text, |caps: &regex::Captures| {
-            let word = &caps[0];
-            dictionary.get(word).cloned().unwrap_or_else(|| word.to_string())
-        }).to_string();
-        _new_text
-    }
+fn progress_count(name: &str,current_progress: usize, total: usize){
+    print!("\r {}: {} /{}",name, current_progress, total);
+        std::io::Write::flush(&mut std::io::stdout()).unwrap(); 
+}
+fn translate_using_custom_dictionary (text: &String, dictionary: HashMap<String, String>)->String{
+    let re = Regex::new(r"\b\w+\b").unwrap();
+    let mut _new_text: String = String::new(); 
+    _new_text =  re.replace_all(&text, |caps: &regex::Captures| {
+        let word = &caps[0];
+        dictionary.get(word).cloned().unwrap_or_else(|| word.to_string())
+    }).to_string();
+    _new_text
+}
