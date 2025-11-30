@@ -1,62 +1,62 @@
 Chapter 2
-シャベル 騎士 / Verbs
+Shovel Knight / Verbs
 DOI: 10.1201/9781003346586-2
 
-シャベル 騎士 is a great ゲーム.
-シャベル 騎士 came out in 2014 いつ indie ゲーム were ただ becoming a
-thing. シャベル 騎士 is a great example of the retro movement, どこ
-ゲーム are created to honor the classic ゲーム of old. シャベル 騎士 evokes
-the feel of old-school 2D platforms のように Super Mario Bros or Castlevania
+Shovel Knight is a great игра.
+Shovel Knight came out in 2014 when indie игры were just becoming a
+thing. Shovel Knight is a great example of the retro movement, where
+игры are created to honor the classic игры of old. Shovel Knight evokes
+the feel of old-school 2D platforms like Super Mario Bros or Castlevania
 but also adds its own unique twists.
-これ dissection is specific to シャベル 騎士: シャベル of Hope, the original
-ゲーム in the series (形 2.1). Sequels and spinoffs usually require 彼らの
-own dissections, even もし いくつかの aspects may be the same.
+This dissection is specific to Shovel Knight: Shovel of Hope, the original
+игра in the series (Figure 2.1). Sequels and spinoffs usually require their
+own dissections, even if some aspects may be the same.
 
-形 2.1 シャベル 騎士 screenshot.
+Figure 2.1 Shovel Knight screenshot.
 
-シャベル 騎士: Gameplay Dissection
+Shovel Knight: Gameplay Dissection
 Verbs
-To 理解する a ゲーム, the best place to start is the 動詞. What アクション できる
-the プレーヤー take?
-Games are 違う から 他の forms of entertainment のように books and
-movies. の biggest difference is それ in ゲーム, the プレーヤー gets to do もの.
-の プレーヤー できる change 何 happens in the experience through 彼らの choices
-and 他の アクション. いつ あなた’re reading Hamlet (Shakespeare 1604), それ’s
-always 行く to end the same way, and Hamlet’s always 行く to drag his
-feet to 得る そこには. いつ あなた’re playing a ゲーム of Go with a friend, あなた
-don’t know who’s 行く to win or どうやって 彼らは’re 行く to do それ. That
-combination of agency and uncertainty is 何 makes ゲーム fun. Games
+To understand a игра, the best place to start is the verbs. What actions может
+the игрок take?
+Games are different from other forms of entertainment like books and
+movies. The biggest difference is что in игры, the игрок gets to do things.
+The игрок может change what happens in the experience through their choices
+and other actions. When ты’re reading Hamlet (Shakespeare 1604), это’s
+always going to end the same way, and Hamlet’s always going to drag his
+feet to get there. When ты’re playing a игра of Go with a friend, ты
+don’t know who’s going to win or how они’re going to do это. That
+combination of agency and uncertainty is what makes игры fun. Games
 are interactive.
-So, いつ あなた’re trying to 理解する a ゲーム, start with questions について
-interactivity. What does the プレーヤー do? What アクション できる the プレーヤー take?
-There’s もっと to 理解する than ただ それ, but それ’s a good place to start.
-で シャベル 騎士, the プレーヤー できる move around and hit もの with a
-shovel. Movement is a combination of running and jumping. の コア
-ゲームプレイ is Run, Jump, and Attack. の プレーヤー できる complete 90% of the
-ゲーム による ただ doing これら three もの. These are the コア アクション of これ
-ゲーム.
-しかし どうやって do we know それ? Let’s dig a little deeper.
+So, when ты’re trying to understand a игра, start with questions about
+interactivity. What does the игрок do? What actions может the игрок take?
+There’s more to understand than just что, but это’s a good place to start.
+In Shovel Knight, the игрок может move around and hit things with a
+shovel. Movement is a combination of running and jumping. The core
+gameplay is Run, Jump, and Attack. The игрок может complete 90% of the
+игра by just doing these three things. These are the core actions of этот
+игра.
+But how do we know что? Let’s dig a little deeper.
 
 Advanced Verb-ing
-One theme throughout これ book is それ ゲーム dissections depend on あなたの
-目標 として a dissector. もし あなた’re ただ trying to 得る a rough understanding of
-シャベル 騎士, understanding それ the プレーヤー’s アクション are Run, Jump, and
+One theme throughout этот book is что игра dissections depend on your
+goals как a dissector. If ты’re just trying to get a rough understanding of
+Shovel Knight, understanding что the игрок’s actions are Run, Jump, and
 
-Attack is enough. Stop そこには, move on. That’s a completely valid approach
-and あなた できる pat yourself on the back.
-しかし sometimes あなた need to know もっと. もし あなた’re 行く to start work on
-the a 2d platformer team, or あなた’re 行く to 作る a ゲーム inspired による
-シャベル 騎士, or あなた’re writing a dissertation on それ, あなた need to 理解する
-プレーヤー アクション at a deeper level.
-そして sometimes the 動詞 may ない be として obvious. もし あなた’re ない sure 何
-counts として a コア action, あなた may need to spend a little もっと time analyzing
-before あなた できる say それ with authority.
-いつ あなた’re doing a deep analysis of a 新しい ゲーム, それ’s useful to start
-with every verb あなた できる think of. Go through the controller diagram. Think
-について 何 あなた do いつ あなた play the ゲーム, especially the choices それ あなた
-deliberate over. Ask あなたの friends “What do あなた do in これ ゲーム?” Read the
-wiki もし そこには is 1つ. Write それ 全て down として a starting point.
-Let’s do それ for シャベル 騎士:
+Attack is enough. Stop there, move on. That’s a completely valid approach
+and ты может pat yourself on the back.
+But sometimes ты need to know more. If ты’re going to start work on
+the a 2d platformer team, or ты’re going to make a игра inspired by
+Shovel Knight, or ты’re writing a dissertation on это, ты need to understand
+игрок actions at a deeper level.
+And sometimes the verbs may not be как obvious. If ты’re not sure what
+counts как a core action, ты may need to spend a little more time analyzing
+before ты может say что with authority.
+When ты’re doing a deep analysis of a new игра, это’s useful to start
+with every verb ты может think of. Go through the controller diagram. Think
+about what ты do when ты play the игра, especially the choices что ты
+deliberate over. Ask your friends “What do ты do in этот игра?” Read the
+wiki if there is one. Write это all down как a starting point.
+Let’s do что for Shovel Knight:
 Run
 Run Right (right on the controller while on the ground)
 Run Left (left on the controller while on the ground)
@@ -64,95 +64,95 @@ Attack (press the attack button, officially called “Dig Slash”)
 Jump (jump button while on the ground)
 Jump Right (jump button while moving right)
 Jump Left (jump button while moving left)
-Fall (何 happens after あなた jump or are in the air for another reason)
+Fall (what happens after ты jump or are in the air for another reason)
 Air Control (moving right/left while in the air)
-Drop Attack (a combination of falling and attacking triggered による
-pressing down while in the air, officially called “シャベル Drop”)
-Dodge (move or jump to avoid an enemy or 他の hazard)
+Drop Attack (a combination of falling and attacking triggered by
+pressing down while in the air, officially called “Shovel Drop”)
+Dodge (move or jump to avoid an enemy or other hazard)
 
 Fight (move and attack against an enemy, with a combination of
-違う アクション mixed together)
-Boss Fight (fight, but with もっと complicated もの 行く on)
-Wait (don’t do anything, sometimes 重要 to 得る timing right)
-Dig (attack a pile of dirt to 得る もの out of それ)
-Break (attack an object のように a chest or wall to destroy それ)
-Loot (technically pulling もの out of a chest is a 違う action than
+different actions mixed together)
+Boss Fight (fight, but with more complicated things going on)
+Wait (don’t do anything, sometimes important to get timing right)
+Dig (attack a pile of dirt to get things out of это)
+Break (attack an object like a chest or wall to destroy это)
+Loot (technically pulling things out of a chest is a different action than
 breaking the chest open)
-Juggle (hit something それ is falling, which sends それ 上 again)
+Juggle (hit something что is falling, which sends это up again)
 Die (lose health or fall in a pit)
-Talk (press 上 while near a Non-Player Character (NPC) to initiate
+Talk (press up while near a Non-Player Character (NPC) to initiate
 dialog)
 Buy (choose a text option to spend money or otherwise acquire a
 thing)
-Fish (use an inventory item to try to 得る stuff)
-Use Relic (use an inventory item at the cost of Magic, with について a
-dozen 違う ones それ できる be acquired)
+Fish (use an inventory item to try to get stuff)
+Use Relic (use an inventory item at the cost of Magic, with about a
+dozen different ones что может be acquired)
 Drink (use an inventory item to gain a bonus)
 Play Music (select music via a conversation with an NPC)
-Charge Slash (a modified attack earned later in the ゲーム)
-Uncover (sometimes いつ あなた destroy something, そこには is another
-object or enemy behind それ それ enters the scene)
-Mini-Game (そこには are places どこ あなた できる play little sub-ゲーム with
-違う 目標)
-Explore (look around and move around to find something 新しい)
-Find (basically the same として Explore, but possibly referring to a specific
-thing あなた were looking for)
+Charge Slash (a modified attack earned later in the игра)
+Uncover (sometimes when ты destroy something, there is another
+object or enemy behind это что enters the scene)
+Mini-Game (there are places where ты может play little sub-игры with
+different goals)
+Explore (look around and move around to find something new)
+Find (basically the same как Explore, but possibly referring to a specific
+thing ты were looking for)
 
-Gather (pick 上 coins or 他の もの, which happens naturally いつ
-the character touches 彼ら)
-Collect (usually used to mean the same thing として Gather but できる also
-refer to Feats or 他の もっと abstract もの)
-Plan (connect a series of アクション in あなたの mind and think について using
-彼ら together, possibly with specific timing)
+Gather (pick up coins or other things, which happens naturally when
+the character touches them)
+Collect (usually used to mean the same thing как Gather but может also
+refer to Feats or other more abstract things)
+Plan (connect a series of actions in your mind and think about using
+them together, possibly with specific timing)
 Position (place yourself in the right place)
-Observe (watch どうやって the objects in the world work)
-Learn (uncover the systems of the ゲーム and どうやって 彼らは work)
-Predict (use 何 あなた’ve learned to come 上 with a theory について 何
+Observe (watch how the objects in the world work)
+Learn (uncover the systems of the игра and how они work)
+Predict (use what ты’ve learned to come up with a theory about what
 will happen next)
 Watch (cut scenes)
-Travel (move on the map view それ is used to select level)
-Showdown (a separate play mode それ 私’m ignoring for これ dissection)
+Travel (move on the map view что is used to select level)
+Showdown (a separate play mode что я’m ignoring for этот dissection)
 Challenge Mode (another separate play mode)
-New Game (UI action to start a ゲーム)
-Enter Name (UI action to label a ゲーム save)
+New Game (UI action to start a игра)
+Enter Name (UI action to label a игра save)
 Body Swap (change avatar appearance)
-You できる see どうやって これ list できる 得る pretty long. Let’s talk について どうやって to turn
-これ big list の中へ a smaller list それ is もっと useful.
-To start, let’s analyze これら words. Which 動詞 relate to each 他の?
-Which do あなた think of together いつ あなた’re playing?
+You может see how этот list может get pretty long. Let’s talk about how to turn
+этот big list into a smaller list что is more useful.
+To start, let’s analyze these words. Which verbs relate to each other?
+Which do ты think of together when ты’re playing?
 
 Pre-Verbs
-もし あなた’re dissecting an idea for a 新しい ゲーム あなた’re thinking について, あなた won’t have a controller
-diagram to 得る あなた started. Instead, あなた need to identify the 動詞 based on the information あなた
+If ты’re dissecting an idea for a new игра ты’re thinking about, ты won’t have a controller
+diagram to get ты started. Instead, ты need to identify the verbs based on the information ты
 do have.
-いつ あなた’re describing the idea to people, 何 アクション do あなた talk について?
-いつ あなた play the ゲーム in あなたの head, 何 is それ それ あなた’re doing?
-Picture the ゲーム on a controller. What would the buttons do?
-これ might be hard. の inspiration for a ゲーム idea できる start with a story or a cool 新しい feature
-or 他の もの. しかし もし あなた find それ あなたの ゲーム idea doesn’t have clear 動詞, それ’s a sign それ
-あなたの idea isn’t really complete yet.
-Understanding the コア loop is a key part of early ideation. You できる’t pitch a ゲーム もし あなた
-できる’t describe 何 the プレーヤー is 行く to actually do in それ ゲーム. もし これ happens, あなた need to
-spend いくつかの もっと time thinking これ through before moving on.
+When ты’re describing the idea to people, what actions do ты talk about?
+When ты play the игра in your head, what is это что ты’re doing?
+Picture the игра on a controller. What would the buttons do?
+This might be hard. The inspiration for a игра idea может start with a story or a cool new feature
+or other things. But if ты find что your игра idea doesn’t have clear verbs, что’s a sign что
+your idea isn’t really complete yet.
+Understanding the core loop is a key part of early ideation. You может’t pitch a игра if ты
+может’t describe what the игрок is going to actually do in что игра. If этот happens, ты need to
+spend some more time thinking этот through before moving on.
 
 Direct Action Verbs
-Since we’re trying to 理解する interactivity, we 欲しい to focus on 動詞
-それ are について the プレーヤー directly doing something. Look for 動詞 どこ the
-プレーヤー does something それ sends input to the computer – これ できる be
+Since we’re trying to understand interactivity, we want to focus on verbs
+что are about the игрок directly doing something. Look for verbs where the
+игрок does something что sends input to the computer – этот может be
 pressing a button, pushing on a stick, touching a touchpad, or anything else.
-いつ the プレーヤー does これ, the ゲーム responds. の ゲーム rules recognize
-the プレーヤー’s action として something 重要, and something in the ゲーム’s
-model of the world changes (形 2.2). These are key to interactivity.
+When the игрок does этот, the игра responds. The игра rules recognize
+the игрок’s action как something important, and something in the игра’s
+model of the world changes (Figure 2.2). These are key to interactivity.
 
-形 2.2 Flow chart showing どうやって the プレーヤー does something,
-foreshadowing bigger flow charts coming 上 soon.
-Once we identify もの the プレーヤー できる do, we できる look for 動詞 それ 全て
-relate to the same type of action. Any プレーヤー アクション それ result in the same
-response から the ゲーム できる be grouped together. That’s 何 we’re looking
+Figure 2.2 Flow chart showing how the игрок does something,
+foreshadowing bigger flow charts coming up soon.
+Once we identify things the игрок может do, we может look for verbs что all
+relate to the same type of action. Any игрок actions что result in the same
+response from the игра может be grouped together. That’s what we’re looking
 for.
-Looking over the big list, we できる group a bunch of movement-related
-動詞 together. All of これら are used による the プレーヤー to change the position of
-彼らの avatar character.
+Looking over the big list, we может group a bunch of movement-related
+verbs together. All of these are used by the игрок to change the position of
+their avatar character.
 Run
 Run Right (right on the controller while on the ground)
 Run Left (left on the controller while on the ground)
@@ -160,1339 +160,1339 @@ Jump (jump button while on the ground)
 Jump Right (jump button while moving right)
 Jump Left (jump button while moving left)
 Air Control (moving right/left while in the air)
-の 重要 thing here is to recognize それ the プレーヤー controls an avatar in
-a 2D space による changing the avatar’s position (and orientation) in the world.
-There are a lot of 違う movement controls with slight nuanced
-differences. の diversity of specific movement controls is a good sign それ
-navigating through the world is 重要 in これ ゲーム.
-Each of これら is 重要 to 理解する もし あなた’re really trying to dig
-deep on どうやって シャベル 騎士 works. Doubly それで for 他の ゲーム with もっと
-complex controls to navigate もっと complex 3D scenes. しかし for right now,
-we できる group 彼ら 全て together として “Move”. We’ll talk について もっと ways to
-differentiate これら types of overlapping 動詞 later.
+The important thing here is to recognize что the игрок controls an avatar in
+a 2D space by changing the avatar’s position (and orientation) in the world.
+There are a lot of different movement controls with slight nuanced
+differences. The diversity of specific movement controls is a good sign что
+navigating through the world is important in этот игра.
+Each of these is important to understand if ты’re really trying to dig
+deep on how Shovel Knight works. Doubly so for other игры with more
+complex controls to navigate more complex 3D scenes. But for right now,
+we может group them all together как “Move”. We’ll talk about more ways to
+differentiate these types of overlapping verbs later.
 
 Deeper Dives: Research
-いつ 私 start working on a ゲーム それ fits の中へ an existing genre or has a clear relationship with
-another ゲーム, それ’s 重要 to start による doing a deep analysis of それ related ゲーム.
-Play the ゲーム thoroughly yourself and reflect on the experience.
-Play related ゲーム.
-Watch 他の people play the ゲーム. Social media できる be great for これ.
-もし それ happens to be a ゲーム with an active fandom, read 上 on 何 彼らは think. Try to build
-the knowledge それ a fan would have. There will always be fans with deeper knowledge
-than あなた – いくつかの fans are great with details – and それ’s OK.
+When я start working on a игра что fits into an existing genre or has a clear relationship with
+another игра, это’s important to start by doing a deep analysis of что related игра.
+Play the игра thoroughly yourself and reflect on the experience.
+Play related игры.
+Watch other people play the игра. Social media может be great for этот.
+If это happens to be a игра with an active fandom, read up on what они think. Try to build
+the knowledge что a fan would have. There will always be fans with deeper knowledge
+than ты – some fans are great with details – and что’s OK.
 
-の next set of 動詞 is combat related:
+The next set of verbs is combat related:
 Attack (press the attack button, officially called “Dig Slash”)
-Drop Attack (a combination of falling and attacking triggered による
-pressing down while in the air, officially called “シャベル Drop”)
-Charge Slash (a modified attack earned later in the ゲーム)
-Dodge (move or jump to avoid an enemy or 他の hazard)
+Drop Attack (a combination of falling and attacking triggered by
+pressing down while in the air, officially called “Shovel Drop”)
+Charge Slash (a modified attack earned later in the игра)
+Dodge (move or jump to avoid an enemy or other hazard)
 Fight (move and attack against an enemy, with a combination of
-違う アクション mixed together)
-Boss Fight (fight, but with もっと complicated もの 行く on)
-There are lots of ways to inflict damage on enemies. の プレーヤー provides an
-input and それから the ゲーム rules decide もし an enemy takes damage and どうやって
-much. 私 think we できる comfortably group これら 動詞 together and talk について
-“Attack” として 1つ of the big concepts in シャベル 騎士.
-の final set of direct プレーヤー アクション are 全て object-related. の プレーヤー has
-an inventory of special アクション 彼らは できる take (による pressing 上 and attack).
-There are について a dozen 違う Relics the プレーヤー できる acquire over the
-course of the ゲーム with various 違う effects, ranging から healing to
+different actions mixed together)
+Boss Fight (fight, but with more complicated things going on)
+There are lots of ways to inflict damage on enemies. The игрок provides an
+input and then the игра rules decide if an enemy takes damage and how
+much. я think we может comfortably group these verbs together and talk about
+“Attack” как one of the big concepts in Shovel Knight.
+The final set of direct игрок actions are all object-related. The игрок has
+an inventory of special actions они может take (by pressing up and attack).
+There are about a dozen different Relics the игрок может acquire over the
+course of the игра with various different effects, ranging from healing to
 
-attacks to earning money. Most of これら deplete the プレーヤー’s Magic stat
-いつ used.
-Use Relic (use an inventory item at the cost of Magic, with について a
-dozen 違う ones それ できる be acquired)
+attacks to earning money. Most of these deplete the игрок’s Magic stat
+when used.
+Use Relic (use an inventory item at the cost of Magic, with about a
+dozen different ones что может be acquired)
 
 Indirect Action Verbs
-Action Verbs それ describe 何 the プレーヤー できる do are the ほとんど 重要
-for understanding the コア of a ゲーム, but そこには are a variety of 他の 動詞
-それ happen during a ゲーム それ are 重要 to 理解する.
+Action Verbs что describe what the игрок может do are the most important
+for understanding the core of a игра, but there are a variety of other verbs
+что happen during a игра что are important to understand.
 Die (lose health or fall in a pit)
-Gather (pick 上 coins or 他の もの, which happens naturally いつ
-the character touches 彼ら)
-Collect (usually used to mean the same thing として Gather, but できる also
-refer to Feats or 他の もっと abstract もの)
-Uncover (sometimes いつ あなた destroy something, そこには is another
-object or enemy behind それ それ enters the scene)
-There are 動詞 それ happen in the ゲーム but are ない directly triggered による the
-プレーヤー. These are もっと of a consequence of a プレーヤー action than the action
-itself. の プレーヤー never presses “Collect” in シャベル 騎士 – 彼らは ただ walk
-over to an object and もし それ’s the right type of object, のように a gem, それ ただ gets
-collected. の プレーヤー might do それ intentionally, but the “do” the プレーヤー
-does is ただ movement.
-There are also object アクション the プレーヤー できる take based on the items in the
-world around 彼ら. These use the existing controls but change the results
-based on the objects in the world いつ the プレーヤー performs 彼らの action.
-These are 重要 to 理解する but are less コア than the アクション.
+Gather (pick up coins or other things, which happens naturally when
+the character touches them)
+Collect (usually used to mean the same thing как Gather, but может also
+refer to Feats or other more abstract things)
+Uncover (sometimes when ты destroy something, there is another
+object or enemy behind это что enters the scene)
+There are verbs что happen in the игра but are not directly triggered by the
+игрок. These are more of a consequence of a игрок action than the action
+itself. The игрок never presses “Collect” in Shovel Knight – они just walk
+over to an object and if это’s the right type of object, like a gem, это just gets
+collected. The игрок might do что intentionally, but the “do” the игрок
+does is just movement.
+There are also object actions the игрок может take based on the items in the
+world around them. These use the existing controls but change the results
+based on the objects in the world when the игрок performs their action.
+These are important to understand but are less core than the actions.
 
-Talk (press 上 while near an NPC to initiate dialog)
-Fall (何 happens after あなた jump or are in the air for another reason)
-Dig (attack a pile of dirt to 得る もの out of それ)
-Break (attack an object のように a chest or wall to destroy それ)
-Juggle (hit something それ あなた’ve previously hit to keep それ in the air)
+Talk (press up while near an NPC to initiate dialog)
+Fall (what happens after ты jump or are in the air for another reason)
+Dig (attack a pile of dirt to get things out of это)
+Break (attack an object like a chest or wall to destroy это)
+Juggle (hit something что ты’ve previously hit to keep это in the air)
 Buy (choose a text option to spend money or otherwise acquire a
 thing)
 Play Music (select music via a conversation with an NPC)
-Loot (technically pulling もの out of a chest is a 違う action than
+Loot (technically pulling things out of a chest is a different action than
 breaking the chest open)
-の ほとんど common type of object interaction is talking with NPCs. 私 know
-それ’s a bit rude to call NPCs objects, but から the perspective of the code
-そこには’s ない much difference.
-Technically あなた could call combat an indirect action because それ only
-makes sense もし そこには’s an enemy nearby and そこには isn’t always an enemy
-nearby. これ is a clever point, but given the frequency of enemies in the
-level design, 私 think それ’s fair to call “Attack” a コア ゲームプレイ action. もし
-someone re-made シャベル 騎士 with significantly fewer enemies and もっと
-depth to the NPC interactions, それ would be an interesting way to 作る an
-entirely 違う ゲーム in a 違う genre without changing the コア
-engine or code or プレーヤー アクション of シャベル 騎士. しかし それ wouldn’t be シャベル
-騎士. More on content and どうやって それ changes the ゲーム in a later chapter.
+The most common type of object interaction is talking with NPCs. я know
+это’s a bit rude to call NPCs objects, but from the perspective of the code
+there’s not much difference.
+Technically ты could call combat an indirect action because это only
+makes sense if there’s an enemy nearby and there isn’t always an enemy
+nearby. This is a clever point, but given the frequency of enemies in the
+level design, я think это’s fair to call “Attack” a core gameplay action. If
+someone re-made Shovel Knight with significantly fewer enemies and more
+depth to the NPC interactions, это would be an interesting way to make an
+entirely different игра in a different genre without changing the core
+engine or code or игрок actions of Shovel Knight. But это wouldn’t be Shovel
+Knight. More on content and how это changes the игра in a later chapter.
 
 Abstract Verbs
-Dodge (move or jump to avoid an enemy or 他の hazards)
-Explore (find something 新しい)
+Dodge (move or jump to avoid an enemy or other hazards)
+Explore (find something new)
 
-Find (basically the same として Explore, but possibly referring to a specific
-thing あなた were looking for)
-Plan (connect a series of アクション in あなたの mind and think について using
-彼ら together, possibly with specific timing)
+Find (basically the same как Explore, but possibly referring to a specific
+thing ты were looking for)
+Plan (connect a series of actions in your mind and think about using
+them together, possibly with specific timing)
 Position (place yourself in the right place)
-Observe (watch どうやって the objects in the world work)
-Learn (uncover the systems of the ゲーム and どうやって 彼らは work)
-Predict (use 何 あなた’ve learned to come 上 with a theory について 何
+Observe (watch how the objects in the world work)
+Learn (uncover the systems of the игра and how они work)
+Predict (use what ты’ve learned to come up with a theory about what
 will happen next)
-Mini-Game (そこには are places どこ あなた できる play little sub-ゲーム with
-違う 目標)
-There are a number of potential 動詞 we identified それ aren’t もの the
-プレーヤー できる do. These are もの the プレーヤー thinks について いつ doing 他の
-もの – これら are why the プレーヤー does もの, ない 何 the プレーヤー does. So,
-これら are 重要 to consider, but 私 would categorize これら として 目標, ない
-アクション. These are incredibly 重要 to 理解する and are fundamental
-to understanding the コア ゲーム loop, but 私’d put 彼ら in a 違う
-category than direct プレーヤー アクション, and we’ll cover 彼ら in a later chapter.
+Mini-Game (there are places where ты может play little sub-игры with
+different goals)
+There are a number of potential verbs we identified что aren’t things the
+игрок может do. These are things the игрок thinks about when doing other
+things – these are why the игрок does things, not what the игрок does. So,
+these are important to consider, but я would categorize these как goals, not
+actions. These are incredibly important to understand and are fundamental
+to understanding the core игра loop, but я’d put them in a different
+category than direct игрок actions, and we’ll cover them in a later chapter.
 
 Interface Verbs
 Watch (cut scenes)
-Travel (move on the map view それ is used to select level)
-Showdown (a separate play mode それ 私’m mostly ignoring for これ
+Travel (move on the map view что is used to select level)
+Showdown (a separate play mode что я’m mostly ignoring for этот
 dissection)
 Challenge Mode (another separate play mode)
-New Game (UI action to start a ゲーム)
-Enter Name (UI action to label a ゲーム save)
+New Game (UI action to start a игра)
+Enter Name (UI action to label a игра save)
 
 Body Swap (change avatar appearance)
-There are a number of アクション それ the プレーヤー takes entirely in the UI (User
-Interface), outside of コア ゲームプレイ. で a ゲーム のように シャベル 騎士, それ’s easy
-to distinguish いつ the プレーヤー is controlling an avatar (シャベル 騎士) in
-the ゲーム world versus いつ the プレーヤー is selecting words in a menu. の
-UI is something outside the illusion of the ゲーム, which is necessary but ない
-part of the fun. もし あなた’re working on designing the UI, definitely think これら
-through and consider 全て the options. しかし for これ ゲーム, 彼らは are ない コア
-ゲームプレイ.
+There are a number of actions что the игрок takes entirely in the UI (User
+Interface), outside of core gameplay. In a игра like Shovel Knight, это’s easy
+to distinguish when the игрок is controlling an avatar (Shovel Knight) in
+the игра world versus when the игрок is selecting words in a menu. The
+UI is something outside the illusion of the игра, which is necessary but not
+part of the fun. If ты’re working on designing the UI, definitely think these
+through and consider all the options. But for этот игра, они are not core
+gameplay.
 
-Deeper Dives: Frame による Frame
-For fast-paced ゲーム, 1つ technique 私 find very useful is to record a short video of the コア
-ゲームプレイ, それから step through the video frame による frame. Watch closely, and あなた’ll see lots of little
-もの それ the developer does to 作る もの work. Visual effects それ communicate 重要
-information to the プレーヤー, little tricks of physics to 作る もの flow better, and complex camera
-behaviors それで the プレーヤー’s attention is on the right もの. These are great いつ あなた need to know
-everything について a ゲーム. しかし ほとんど of これ chapter is for いつ あなた’re ただ starting to 理解する
-a ゲーム.
+Deeper Dives: Frame by Frame
+For fast-paced игры, one technique я find very useful is to record a short video of the core
+gameplay, then step through the video frame by frame. Watch closely, and ты’ll see lots of little
+things что the developer does to make things work. Visual effects что communicate important
+information to the игрок, little tricks of physics to make things flow better, and complex camera
+behaviors so the игрок’s attention is on the right things. These are great when ты need to know
+everything about a игра. But most of этот chapter is for when ты’re just starting to understand
+a игра.
 
-Games として Input/Output
-To help 理解する why これら 違う types of 動詞 are 違う, let’s talk
-について どうやって ゲーム work. As with ほとんど もの, ゲーム できる be understood in a
-lot of ways. これ is 1つ of those ways.
-いつ a プレーヤー plays a video ゲーム, 彼らは are participating in an exchange
-with a computer. の プレーヤー provides inputs through a device of いくつかの sort –
-a ゲーム controller, a keyboard, a touch screen – and the computer processes
-それ inputs and それから provides an output for the プレーヤー – pixels on a screen.
-の computer uses a set of rules and logic and code to determine どうやって the
-プレーヤー’s input changes the pixels. の rules and logic and code are 何 the
+Games как Input/Output
+To help understand why these different types of verbs are different, let’s talk
+about how игры work. As with most things, игры может be understood in a
+lot of ways. This is one of those ways.
+When a игрок plays a video игра, они are participating in an exchange
+with a computer. The игрок provides inputs through a device of some sort –
+a игра controller, a keyboard, a touch screen – and the computer processes
+что inputs and then provides an output for the игрок – pixels on a screen.
+The computer uses a set of rules and logic and code to determine how the
+игрок’s input changes the pixels. The rules and logic and code are what the
 
-ゲーム designer controls. That is 何 we call the ゲーム. しかし everything else
-is 重要 to 理解する として それ creates the full experience.
-これ できる be represented in a diagram のように 形 2.3.
+игра designer controls. That is what we call the игра. But everything else
+is important to understand как это creates the full experience.
+This может be represented in a diagram like Figure 2.3.
 
-形 2.3 Input Output.
-の left side of これ image represents the プレーヤー. What 彼らは see, 何 彼らは
-think, 何 彼らは do. の right side of これ image represents the computer.
+Figure 2.3 Input Output.
+The left side of этот image represents the игрок. What они see, what они
+think, what они do. The right side of этот image represents the computer.
 All the electrical impulses tickle the microchips based on the code of the
-ゲーム.
-Let’s step through a simple single-ゲーム action based on これ model. の
-プレーヤー is enjoying a pleasant time in シャベル 騎士 (形 2.4). They
-notice いくつかの gems above and to the left, それで 彼らは decide to jump to gather
-彼ら.
+игра.
+Let’s step through a simple single-игра action based on этот model. The
+игрок is enjoying a pleasant time in Shovel Knight (Figure 2.4). They
+notice some gems above and to the left, so они decide to jump to gather
+them.
 
-形 2.4 シャベル 騎士 ゲーム screen showing the moment
-before the プレーヤー makes a decision.
-We start による noting それ the プレーヤー has made a decision (形 2.5). これ
-is どうやって もの start in ゲーム – もの happen in the プレーヤー’s brain. の root
-of 全て ゲームプレイ is imagination.
+Figure 2.4 Shovel Knight игра screen showing the moment
+before the игрок makes a decision.
+We start by noting что the игрок has made a decision (Figure 2.5). This
+is how things start in игры – things happen in the игрок’s brain. The root
+of all gameplay is imagination.
 
-形 2.5 私 欲しい to jump.
+Figure 2.5 я want to jump.
 
-で order for the ゲーム to do anything, これ thought needs to 得る から the
-プレーヤー’s brain to the computer (形 2.6). There are 全て sorts of useful
-input devices designed to 作る これ happen. の nature of the input device
-has a large impact on the プレーヤー’s experience, and 新しい types of input
-devices のように the iPhone’s touch screen or the Wii’s motion controller できる
-lead to huge changes in the video ゲーム industry.
+In order for the игра to do anything, этот thought needs to get from the
+игрок’s brain to the computer (Figure 2.6). There are all sorts of useful
+input devices designed to make этот happen. The nature of the input device
+has a large impact on the игрок’s experience, and new types of input
+devices like the iPhone’s touch screen or the Wii’s motion controller может
+lead to huge changes in the video игра industry.
 
-形 2.6 Press the button.
-For our current discussion, それ doesn’t really matter 何 input device is
-being used. の 重要 thing is それ the プレーヤー presses a button on the PC
-or ゲーム controller それ indicates それ the プレーヤー wants the character (シャベル
-騎士) to jump.
-これ information それから flows の中へ the computer (形 2.7). A series of
-electrical impulses flow から the controller through a wire の中へ the
-computer, どこ chips translate the signals の中へ the code.
+Figure 2.6 Press the button.
+For our current discussion, это doesn’t really matter what input device is
+being used. The important thing is что the игрок presses a button on the PC
+or игра controller что indicates что the игрок wants the character (Shovel
+Knight) to jump.
+This information then flows into the computer (Figure 2.7). A series of
+electrical impulses flow from the controller through a wire into the
+computer, where chips translate the signals into the code.
 
-形 2.7 Electrons flow.
-の code それから processes the 新しい information (形 2.8). の code
-knows それ これ sequence of electrical impulses means それ これ button was
-pressed. そして これ button means jumping. そして jumping means many もの:
-の position of the avatar character changes, moving 彼ら upward.
-Most ゲーム have a physics engine それ controls positions and motion,
-それで これ is done による adding a force in a direction to the character and
+Figure 2.7 Electrons flow.
+The code then processes the new information (Figure 2.8). The code
+knows что этот sequence of electrical impulses means что этот button was
+pressed. And этот button means jumping. And jumping means many things:
+The position of the avatar character changes, moving them upward.
+Most игры have a physics engine что controls positions and motion,
+so этот is done by adding a force in a direction to the character and
 letting the physics logic compute the exact change in position.
 Because of the physics engine, gravity starts operating on the
-character, changing 彼らの motion over time.
-の character’s animation changes から a standing animation to a
+character, changing their motion over time.
+The character’s animation changes from a standing animation to a
 jumping animation.
-これ changes the character’s state – the character is now in the air.
-Now 違う inputs and outputs are possible. もし the プレーヤー presses
-down now, the character will go の中へ a downward attack state, として
-defined による the ゲーム rules written の中へ the code. Pressing the jump
+This changes the character’s state – the character is now in the air.
+Now different inputs and outputs are possible. If the игрок presses
+down now, the character will go into a downward attack state, как
+defined by the игра rules written into the code. Pressing the jump
 button again won’t do anything.
 
-そして 全て of これ needs to be reflected in the pixels on the screen.
+And all of этот needs to be reflected in the pixels on the screen.
 
-形 2.8 Character enters jump state.
-これ last point is 重要. の state changes in the code only matter もし
-the プレーヤー できる 理解する 彼ら. Most video ゲーム できる only communicate
-彼らの internal changes through a screen. Any change to the internal state and
-logic of the ゲーム needs to be expressed in pixels それで the プレーヤー できる process
-それ (形 2.9). Setting 上 the right pixels is a combination of ゲーム art to
-reflect changes in the ゲーム world and UI/UX design to reflect changes in
-the data presented による the ゲーム. Both are 重要 and ideally both work
+Figure 2.8 Character enters jump state.
+This last point is important. The state changes in the code only matter if
+the игрок может understand them. Most video игры может only communicate
+their internal changes through a screen. Any change to the internal state and
+logic of the игра needs to be expressed in pixels so the игрок может process
+это (Figure 2.9). Setting up the right pixels is a combination of игра art to
+reflect changes in the игра world and UI/UX design to reflect changes in
+the data presented by the игра. Both are important and ideally both work
 together to produce the best result.
 
-形 2.9 Pixels change.
-の プレーヤー has 彼らの own complex system of input devices それ 彼らは use
-to process incoming information – eyes, ears, noses, etc. Good ゲーム will
-reinforce 彼らの messages using として many senses として possible (形 2.10).
-Starting with visual, often using audio, and occasionally adding いくつかの
-vibration それで the プレーヤー できる feel 何 is happening. Smell and taste don’t
-come 上 として often, but 私’m sure smell-o-vision will be everywhere in a few
+Figure 2.9 Pixels change.
+The игрок has their own complex system of input devices что они use
+to process incoming information – eyes, ears, noses, etc. Good игры will
+reinforce their messages using как many senses как possible (Figure 2.10).
+Starting with visual, often using audio, and occasionally adding some
+vibration so the игрок может feel what is happening. Smell and taste don’t
+come up как often, but я’m sure smell-o-vision will be everywhere in a few
 years.
 
-形 2.10 Player notices change.
-そして それから the cycle begins anew. Once the プレーヤー processes これ 新しい
-information, 彼らは 欲しい 新しい もの (形 2.11). For example, それ frog
-might be a problem, それで the プレーヤー may need to change 彼らの direction or
-enter an attack state to avoid taking damage (形 2.12). の full ゲーム
-experience is a long sequence of very quick input/output cycles それ add 上
+Figure 2.10 Player notices change.
+And then the cycle begins anew. Once the игрок processes этот new
+information, они want new things (Figure 2.11). For example, что frog
+might be a problem, so the игрок may need to change their direction or
+enter an attack state to avoid taking damage (Figure 2.12). The full игра
+experience is a long sequence of very quick input/output cycles что add up
 to create something greater than each part.
 
-形 2.11 Player wants 新しい thing.
+Figure 2.11 Player wants new thing.
 
-形 2.12 Screenshot of シャベル 騎士, showing a jump has
+Figure 2.12 Screenshot of Shovel Knight, showing a jump has
 begun.
 
 Verbed Input/Output
-これ Input/Output flow gives us a way to 理解する the differences in
-違う types of 動詞. Each verb operates on a specific step of the
-diagram として seen in 形 2.13.
+This Input/Output flow gives us a way to understand the differences in
+different types of verbs. Each verb operates on a specific step of the
+diagram как seen in Figure 2.13.
 
-形 2.13 Input 動詞 and output 目標.
-の Direct Action 動詞 are controller inputs delivered による the プレーヤー.
-の Indirect Action 動詞 are もの それ happen in the computer based
-on the プレーヤー アクション.
-の Abstract 動詞 are 行く on in the プレーヤー’s head, helping 彼ら
-plan out 彼らの next action but ない happening として a direct result of a
+Figure 2.13 Input verbs and output goals.
+The Direct Action verbs are controller inputs delivered by the игрок.
+The Indirect Action verbs are things что happen in the computer based
+on the игрок actions.
+The Abstract verbs are going on in the игрок’s head, helping them
+plan out their next action but not happening как a direct result of a
 controller input.
-Interface 動詞 affect もの the プレーヤー sees in the Game Display それ
-are ない part of the ゲーム world.
-これ helps explain why the Direct Action 動詞 are the ほとんど 重要 for
-an initial understanding of the ゲーム. They are the simplest and ほとんど clear
-アクション それ shape the range of options for everything else. They are どこ
-the プレーヤー それ exists in the real world interacts with the ゲーム. の ゲーム
-rules only decide to break もの after the プレーヤー uses the attack action. そして
-the プレーヤー’s desires are similarly shaped による the range of inputs the ゲーム
-allows. の プレーヤー may 欲しい to build a bridge or 得る a drink at the bar but
-without a related button それ desire is 行く to go unfulfilled.
+Interface verbs affect things the игрок sees in the Game Display что
+are not part of the игра world.
+This helps explain why the Direct Action verbs are the most important for
+an initial understanding of the игра. They are the simplest and most clear
+actions что shape the range of options for everything else. They are where
+the игрок что exists in the real world interacts with the игра. The игра
+rules only decide to break things after the игрок uses the attack action. And
+the игрок’s desires are similarly shaped by the range of inputs the игра
+allows. The игрок may want to build a bridge or get a drink at the bar but
+without a related button что desire is going to go unfulfilled.
 
-の アクション the プレーヤー できる take shape everything について the ゲーム. So,
-start そこには もし あなた 欲しい to 理解する the ゲーム.
+The actions the игрок может take shape everything about the игра. So,
+start there if ты want to understand the игра.
 
 Understanding Verbs
-Verbs are ただ the first step.
-もし シャベル 騎士 is について Moving and Attacking, それで is Halo (2001). So is
-Super Mario Bros (1985). So is God of War (2005). しかし これら are 全て very
-違う ゲーム.
-の second step in a ゲーム dissection is to 理解する the nature of the
-動詞 and どうやって 彼らは fit together. We’ll talk もっと について systems later, but the
-コア ideas of systems thinking is それ the relationships between もの (in
-これ case 動詞) できる be として complex and interesting として the もの themselves.
-So, let’s start with our two コア 動詞.
+Verbs are just the first step.
+If Shovel Knight is about Moving and Attacking, so is Halo (2001). So is
+Super Mario Bros (1985). So is God of War (2005). But these are all very
+different игры.
+The second step in a игра dissection is to understand the nature of the
+verbs and how они fit together. We’ll talk more about systems later, but the
+core ideas of systems thinking is что the relationships between things (in
+этот case verbs) может be как complex and interesting как the things themselves.
+So, let’s start with our two core verbs.
 
 Overlapping Verbs with Different Rules
-So, we’ve broken シャベル 騎士 の中へ the Core Verbs of “Move” and
-“Attack” but 欲しい to 理解する もっと について 彼ら.
-Going back to our definition of ゲーム in the first chapter できる help. We’ve
-already covered Interactivity – the choices and skills それ 作る 上 the Big
+So, we’ve broken Shovel Knight into the Core Verbs of “Move” and
+“Attack” but want to understand more about them.
+Going back to our definition of игры in the first chapter может help. We’ve
+already covered Interactivity – the choices and skills что make up the Big
 Verbs. Next on the list is Rules.
-So, our Verbs are 何 the プレーヤー できる do. の Rules are どうやって the ゲーム
-responds to those prompts から the プレーヤー (形 2.14). “いつ the プレーヤー
-does X, the ゲーム does Y”
+So, our Verbs are what the игрок может do. The Rules are how the игра
+responds to those prompts from the игрок (Figure 2.14). “When the игрок
+does X, the игра does Y”
 
-形 2.14 Outputs.
-で a board ゲーム, これら are written out explicitly. “いつ あなた pass GO,
-collect $200”. A コア verb in Monopoly (1935) is move, それで “pass GO” is
-something それ できる happen naturally として a result of the プレーヤー’s action.
-の same sort of thing happens in a video ゲーム のように シャベル 騎士.
-いつ あなた touch an enemy, あなた lose health. いつ あなた walk over a health
-pack, そこには are fewer health packs in the level and あなた have もっと health.
-の プレーヤー does something, and the ゲーム responds.
-Moving in シャベル 騎士 is について position, and position interacts with a
-lot of ゲーム rules.
-Where あなた are relative to an enemy determines whether or ない あなた 得る
-hit による an enemy attack.
-Where あなた are and どこ あなた’re pointing determines もし あなたの attack
-hits the enemy いつ あなた trigger an attack.
-Where あなた are determines いつ あなた pick 上 gems, powerups, or 他の
+Figure 2.14 Outputs.
+In a board игра, these are written out explicitly. “When ты pass GO,
+collect $200”. A core verb in Monopoly (1935) is move, so “pass GO” is
+something что может happen naturally как a result of the игрок’s action.
+The same sort of thing happens in a video игра like Shovel Knight.
+When ты touch an enemy, ты lose health. When ты walk over a health
+pack, there are fewer health packs in the level and ты have more health.
+The игрок does something, and the игра responds.
+Moving in Shovel Knight is about position, and position interacts with a
+lot of игра rules.
+Where ты are relative to an enemy determines whether or not ты get
+hit by an enemy attack.
+Where ты are and where ты’re pointing determines if your attack
+hits the enemy when ты trigger an attack.
+Where ты are determines when ты pick up gems, powerups, or other
 items.
-Where あなた are determines 何 あなた できる see – the ゲーム only shows
-あなた 1つ screen at a time, based on プレーヤー position.
+Where ты are determines what ты может see – the игра only shows
+ты one screen at a time, based on игрок position.
 
-Where あなた are triggers progression through levels, including triggering
-cut scenes それ advance the story.
-これ is similar in a 3D first-person shooter but with いくつかの 重要
+Where ты are triggers progression through levels, including triggering
+cut scenes что advance the story.
+This is similar in a 3D first-person shooter but with some important
 differences:
-Where あなた are determines whether or ない あなた 得る hit による an enemy
+Where ты are determines whether or not ты get hit by an enemy
 attack.
-Where あなた are and どこ あなた’re pointing determines もし あなたの attack
+Where ты are and where ты’re pointing determines if your attack
 hits the enemy.
-Where あなた are determines いつ あなた pick 上 ammo, weapons,
-powerups, or 他の items.
-Where あなた are and どこ あなた’re pointing determines 何 あなた できる
+Where ты are determines when ты pick up ammo, weapons,
+powerups, or other items.
+Where ты are and where ты’re pointing determines what ты может
 see, using a first-person perspective.
-Where あなた are triggers progression through levels, including triggering
-cut scenes それ advance the story.
-So, 1つ way あなた できる differentiate similar 動詞 is による looking at the rules
-and consequences of those 動詞. いつ そこには are mechanic differences,
-those are indicators それ the 動詞 may sound the same but are functionally
-very 違う.
+Where ты are triggers progression through levels, including triggering
+cut scenes что advance the story.
+So, one way ты может differentiate similar verbs is by looking at the rules
+and consequences of those verbs. When there are mechanic differences,
+those are indicators что the verbs may sound the same but are functionally
+very different.
 
 Overlapping Verbs with Different Goals
-Looking at どうやって 動詞 interact with rules is helpful. の processes 行く on
-in the computer できる change どうやって the 動詞 work. しかし the processes 行く on
-in the プレーヤー’s head are even もっと 重要.
-Why does the プレーヤー use 動詞?
-Verbs are used to achieve 目標.
+Looking at how verbs interact with rules is helpful. The processes going on
+in the computer может change how the verbs work. But the processes going on
+in the игрок’s head are even more important.
+Why does the игрок use verbs?
+Verbs are used to achieve goals.
 
-Verbs only mean something in the context of the プレーヤー’s 目標.
-What are the プレーヤー’s 目標 in シャベル 騎士? Let’s do a quick brainstorm
-のように we did for 動詞.
-Rescue Shield 騎士.
-Help the characters あなた meet.
+Verbs only mean something in the context of the игрок’s goals.
+What are the игрок’s goals in Shovel Knight? Let’s do a quick brainstorm
+like we did for verbs.
+Rescue Shield Knight.
+Help the characters ты meet.
 Defeat enemies.
 Reach the end of the level.
 Trigger the next cut scene.
-Unlock 新しい areas.
-Get to the end of the ゲーム.
+Unlock new areas.
+Get to the end of the игра.
 Don’t die.
-Some of これら (“Rescue Shield 騎士” and “Help the characters あなた
-meet”) are story, ない ゲームプレイ. Story is an 重要 part of ほとんど ゲーム,
-but いつ we’re still assembling a コア loop, それ’s ない the ほとんど 重要
-thing to 理解する. Story motivates 選手 to complete the ゲーム, それ
-doesn’t motivate the 選手’ アクション から moment to moment. At least for
-a ゲーム のように これ – いくつかの ゲーム のように Baldur’s Gate (1998) or Life Is Strange
-(2015) 作る story a key part of every level of ゲームプレイ. しかし a ゲーム のように
-シャベル 騎士 does ない weave the story の中へ every moment of ゲームプレイ
-のように これ.
-の 目標 それ are woven の中へ every moment of ゲームプレイ are the ones
-のように “Defeat enemies” or “Reach the end of the level” それ guide プレーヤー
-アクション in every moment. これ is 何 the プレーヤー is trying to do during
-ゲームプレイ, and これ is why the プレーヤー engages with the 動詞 of the ゲーム.
-の プレーヤー attacks to defeat enemies and moves to reach the end of the
+Some of these (“Rescue Shield Knight” and “Help the characters ты
+meet”) are story, not gameplay. Story is an important part of most игры,
+but when we’re still assembling a core loop, это’s not the most important
+thing to understand. Story motivates players to complete the игра, это
+doesn’t motivate the players’ actions from moment to moment. At least for
+a игра like этот – some игры like Baldur’s Gate (1998) or Life Is Strange
+(2015) make story a key part of every level of gameplay. But a игра like
+Shovel Knight does not weave the story into every moment of gameplay
+like этот.
+The goals что are woven into every moment of gameplay are the ones
+like “Defeat enemies” or “Reach the end of the level” что guide игрок
+actions in every moment. This is what the игрок is trying to do during
+gameplay, and этот is why the игрок engages with the verbs of the игра.
+The игрок attacks to defeat enemies and moves to reach the end of the
 level.
 
-の next few 目標 (“Trigger the next cut scene”, “Unlock 新しい areas”,
-and “Get to the end of the ゲーム”) are ただ “Beat the level” phrased slightly
-differently. いつ あなた’re considering 目標 or 動詞, keep an eye out for
-overlapping terms のように これ.
-の final objective “Don’t die” isn’t really a ゴール per se but is もっと of a
-fail case. もし the プレーヤー dies, 彼らは have to reset a little ways back. Death
-never stops あなた から progressing, but それ できる definitely slow あなた down.
+The next few goals (“Trigger the next cut scene”, “Unlock new areas”,
+and “Get to the end of the игра”) are just “Beat the level” phrased slightly
+differently. When ты’re considering goals or verbs, keep an eye out for
+overlapping terms like этот.
+The final objective “Don’t die” isn’t really a goal per se but is more of a
+fail case. If the игрок dies, они have to reset a little ways back. Death
+never stops ты from progressing, but это может definitely slow ты down.
 
 Verb to the Goal
-So どうやって does the プレーヤー turn “Move” and “Attack” の中へ completed levels?
-They move through the level to find a route それ gets to the next area while
+So how does the игрок turn “Move” and “Attack” into completed levels?
+They move through the level to find a route что gets to the next area while
 avoiding or attacking any threats. Most areas have a little challenge or
 puzzle to advance. Some areas require jumping over pits. Some require
-jumping off objects to 得る 上 high. Each area has a 違う combination of
-challenges それ makes それ interesting and 違う. More on それ later.
+jumping off objects to get up high. Each area has a different combination of
+challenges что makes это interesting and different. More on что later.
 
 Big Verbs
-OK, それで we’ve defined the big 動詞 in シャベル 騎士 として Move and Attack.
-That feels right. いつ 私 play the ゲーム, 私 spend ほとんど of my time doing
-those もの. そして thinking について those two もの and どうやって to do 彼ら
+OK, so we’ve defined the big verbs in Shovel Knight как Move and Attack.
+That feels right. When я play the игра, я spend most of my time doing
+those things. And thinking about those two things and how to do them
 better.
-もし あなた 欲しい to 理解する a ゲーム, 理解する the もの the プレーヤー
-spends ほとんど of 彼らの time doing. Sometimes そこには are 他の features それ are
+If ты want to understand a игра, understand the things the игрок
+spends most of their time doing. Sometimes there are other features что are
 splashy and interesting and become the focus of the marketing and
-discussion around the ゲーム. しかし a ゲーム designer needs to think について the
-thing the プレーヤー is actually investing 彼らの time on.
+discussion around the игра. But a игра designer needs to think about the
+thing the игрок is actually investing their time on.
 
-You できる see これ in lots of 違う types of ゲーム. Platformers spend a
-lot of time perfecting 彼らの jumping and running. で an open world ゲーム,
-あなた spend ほとんど of あなたの time moving から place to place. の open world
-ゲーム それ succeed are the ones それ これ travel fun and engaging.
+You может see этот in lots of different types of игры. Platformers spend a
+lot of time perfecting their jumping and running. In an open world игра,
+ты spend most of your time moving from place to place. The open world
+игры что succeed are the ones что этот travel fun and engaging.
 
-Verb として Genre
-As we’ll see in future chapters, 動詞 are a good way to differentiate and organize ゲーム. All
-first-person shooters start with move and attack. Platformers のように Mario focus heavily on move,
+Verb как Genre
+As we’ll see in future chapters, verbs are a good way to differentiate and organize игры. All
+first-person shooters start with move and attack. Platformers like Mario focus heavily on move,
 with varying amounts of attack depending on the platformer.
-しかし a ゲーム のように SimCity doesn’t have move として a verb at 全て – the primary verb そこには is build.
-これ makes sense – 私 think ほとんど people would agree それ platformers have もっと overlap with
+But a игра like SimCity doesn’t have move как a verb at all – the primary verb there is build.
+This makes sense – я think most people would agree что platformers have more overlap with
 shooters than with builders.
-これ できる be useful to know. もし あなた’re looking for inspiration on あなたの city builder, それ might ない
-be best to start による playing いくつかの Halo. Maybe find a puzzle ゲーム のように Triple Town それ shares
-“Build” として a verb to see どうやって それ’s done differently そこには.
+This может be useful to know. If ты’re looking for inspiration on your city builder, это might not
+be best to start by playing some Halo. Maybe find a puzzle игра like Triple Town что shares
+“Build” как a verb to see how это’s done differently there.
 
 More to Come
-We’re 行く to stop our シャベル 騎士 ゲームプレイ analysis here. 私 know
-we’ve barely scratched the surface of シャベル 騎士 and platformers in
-general. しかし we’re building foundations here. It’ll 得る crazier in later
+We’re going to stop our Shovel Knight gameplay analysis here. я know
+we’ve barely scratched the surface of Shovel Knight and platformers in
+general. But we’re building foundations here. It’ll get crazier in later
 chapters.
-の last part of これ analysis pulls いくつかの ideas から future chapters, but 私
-のように showing a version of the same diagram for each ゲーム, それで forgive me
-for the spoilers. これ diagram represents each ゲーム として a formula. の
-プレーヤー has 動詞 彼らは できる use to reach 目標 but are blocked による challenges.
-形 2.15 shows the simplest level of detail, breaking each step の中へ a
-single element. 形 2.16 is a bit もっと useful in それ それ breaks each of
-これら categories の中へ multiple entries, showing the 違う アクション and
-challenges of the ゲーム:
+The last part of этот analysis pulls some ideas from future chapters, but я
+like showing a version of the same diagram for each игра, so forgive me
+for the spoilers. This diagram represents each игра как a formula. The
+игрок has verbs они может use to reach goals but are blocked by challenges.
+Figure 2.15 shows the simplest level of detail, breaking each step into a
+single element. Figure 2.16 is a bit more useful in что это breaks each of
+these categories into multiple entries, showing the different actions and
+challenges of the игра:
 
-形 2.15 シャベル 騎士 flow diagram showing Verbs,
+Figure 2.15 Shovel Knight flow diagram showing Verbs,
 Challenges, and Goals.
 
-形 2.16 シャベル 騎士 flow diagram with もっと boxes.
-Each level is a package of これら 違う pieces, として shown in 形 2.17.
-で シャベル 騎士, ほとんど of the variation comes から changing out the
-challenges, but 他の ゲーム できる handle これ differently.
+Figure 2.16 Shovel Knight flow diagram with more boxes.
+Each level is a package of these different pieces, как shown in Figure 2.17.
+In Shovel Knight, most of the variation comes from changing out the
+challenges, but other игры может handle этот differently.
 
-形 2.17 シャベル 騎士 flow として a level.
-Multiple levels できる be added together to represent the full flow of the
-ゲーム, として 選手 work on larger 目標 and larger challenges. See 形
+Figure 2.17 Shovel Knight flow как a level.
+Multiple levels может be added together to represent the full flow of the
+игра, как players work on larger goals and larger challenges. See Figure
 2.18.
 
-形 2.18 シャベル 騎士 flow から level to level.
-We’ll dig の中へ これら ideas in もっと detail in later chapters, but before we
-leave シャベル 騎士, let’s talk について 他の もの それ influence ゲームプレイ.
+Figure 2.18 Shovel Knight flow from level to level.
+We’ll dig into these ideas in more detail in later chapters, but before we
+leave Shovel Knight, let’s talk about other things что influence gameplay.
 
-シャベル 騎士: Non-Gameplay Dissection
-いつ dissecting, それ’s ない ただ について ゲームプレイ. Even for a ゲーム designer.
-もし あなた 欲しい to 理解する the ゲームプレイ of a ゲーム, あなた have to
-理解する everything について それ. How do the non-ゲームプレイ aspects of the
-ゲーム tie の中へ the ゲームプレイ? Where did the ゲームプレイ ideas come から?
-What led to the ゲームプレイ decisions あなた see in the ゲーム? の ゲーム itself
-makes much もっと sense もし あなた 理解する the context それ led to those
+Shovel Knight: Non-Gameplay Dissection
+When dissecting, это’s not just about gameplay. Even for a игра designer.
+If ты want to understand the gameplay of a игра, ты have to
+understand everything about это. How do the non-gameplay aspects of the
+игра tie into the gameplay? Where did the gameplay ideas come from?
+What led to the gameplay decisions ты see in the игра? The игра itself
+makes much more sense if ты understand the context что led to those
 decisions.
-To be clear, 私 did ない work on (ほとんど of) the ゲーム 私 talk について in これ
-book. 私 do ない know どうやって decisions were made による the teams それ did. We’re
-talking について これら もの として an outsider, piecing もの together から 何
-we できる see in the ゲーム and generally available knowledge. 私’m sure そこには
-are interesting stories そこには, and 私 encourage those who were present to
-write 彼ら down それで 私 できる read those books. 私 love to know authorial intent,
-but unless それ’s あなた, the rest of us are left with the work itself. そして そこには’s
-plenty to see そこには.
+To be clear, я did not work on (most of) the игры я talk about in этот
+book. я do not know how decisions were made by the teams что did. We’re
+talking about these things как an outsider, piecing things together from what
+we может see in the игра and generally available knowledge. я’m sure there
+are interesting stories there, and я encourage those who were present to
+write them down so я может read those books. я love to know authorial intent,
+but unless что’s ты, the rest of us are left with the work itself. And there’s
+plenty to see there.
 
 Senses
-Gameplay is influenced による the look and feel of the ゲーム.
-シャベル 騎士 has a very clear and distinct style. It’s a retro ゲーム trying
+Gameplay is influenced by the look and feel of the игра.
+Shovel Knight has a very clear and distinct style. It’s a retro игра trying
 to emulate the feel and visuals and sounds and complete experience of a
-classic platformer. で これ sense, the style fits very clearly with the
-ゲームプレイ. People who are familiar with the references will expect the
-ゲームプレイ and style to both align with 彼らの perception of those earlier
-ゲーム. そして people who don’t know the classics will still 理解する それ
-both ゲームプレイ and style evoke an earlier age, それで don’t expect integrated AI
+classic platformer. In этот sense, the style fits very clearly with the
+gameplay. People who are familiar with the references will expect the
+gameplay and style to both align with their perception of those earlier
+игры. And people who don’t know the classics will still understand что
+both gameplay and style evoke an earlier age, so don’t expect integrated AI
 and vast open worlds and high-fidelity graphics.
 
-の simplicity of the ゲーム also makes それ easy to see どこ ゲームプレイ and
+The simplicity of the игра also makes это easy to see where gameplay and
 graphics intersect. Remember our input/output diagram – the output part of
-the diagram is made 上 of pixels on a screen それ the computer manipulates.
-これ is the プレーヤー’s only source of information on 何 is 行く on in the
-ゲーム (well, それ plus sound and sometimes vibration). As a ゲーム designer,
-これら pixels are 全て あなた have to 得る あなたの ideas across to the プレーヤー. A プレーヤー
-who might ない really be paying attention and who ほとんど likely hasn’t played
-every previous ゲーム それ あなた (the ゲーム designer) did. これ is a difficult
+the diagram is made up of pixels on a screen что the computer manipulates.
+This is the игрок’s only source of information on what is going on in the
+игра (well, что plus sound and sometimes vibration). As a игра designer,
+these pixels are all ты have to get your ideas across to the игрок. A игрок
+who might not really be paying attention and who most likely hasn’t played
+every previous игра что ты (the игра designer) did. This is a difficult
 and momentous responsibility for a few measly pixels.
-Every ゲーム has to create a visual vocabulary of 何 matters to the
-プレーヤー and to ゲームプレイ – using the same size, shape, color, or whatever
-consistently helps the プレーヤー learn 何 to do and それから quickly process 新しい
-scenes. シャベル 騎士 does a great job of quickly establishing 何 the
-プレーヤー needs to know and sticks with それ throughout the ゲーム:
-の ground あなた walk on is flat – usually rectangles – and high contrast
+Every игра has to create a visual vocabulary of what matters to the
+игрок and to gameplay – using the same size, shape, color, or whatever
+consistently helps the игрок learn what to do and then quickly process new
+scenes. Shovel Knight does a great job of quickly establishing what the
+игрок needs to know and sticks with что throughout the игра:
+The ground ты walk on is flat – usually rectangles – and high contrast
 against the rest of the background.
-Objects あなた できる interact with are also high contrast and often include
-movement. の ゲーム intentionally doesn’t create separate
-vocabularies for enemies and rewards, として それ wants to play with それ in
-the ゲームプレイ. Sometimes bouncing on an enemy’s head is the only
+Objects ты может interact with are also high contrast and often include
+movement. The игра intentionally doesn’t create separate
+vocabularies for enemies and rewards, как это wants to play with что in
+the gameplay. Sometimes bouncing on an enemy’s head is the only
 way to reach a reward. Sometimes a reward is in a dangerous place
-making それ もっと of a problem than a pure benefit.
-Combat アクション and results are always clearly punctuated. Enemies
-don’t ただ disappear – 彼らは vanish in a little cloud of smoke. もし the
-プレーヤー missed the frame どこ 彼らは died, the ゲーム is still
+making это more of a problem than a pure benefit.
+Combat actions and results are always clearly punctuated. Enemies
+don’t just disappear – они vanish in a little cloud of smoke. If the
+игрок missed the frame where они died, the игра is still
 communicating for a few frames after.
-シャベル 騎士’s shovel provides a nice strong indicator of どこ the
-character is facing. これ is especially handy for communicating the
+Shovel Knight’s shovel provides a nice strong indicator of where the
+character is facing. This is especially handy for communicating the
 
-difference between “falling” and “falling with intent to kill”. の
-downward shovel attack is 重要 and might ない be noticed without
-the big bright object それ moves around the character.
+difference between “falling” and “falling with intent to kill”. The
+downward shovel attack is important and might not be noticed without
+the big bright object что moves around the character.
 
 History and Influences
-私’m a big fan of stealing ideas から 他の ゲーム. No ゲーム is an island.
-Every ゲーム is inspired による the ideas and execution of ゲーム (and 他の
-もの) それ came before.
-There’s an 重要 distinction to be made here. All ゲーム are inspired.
-All ゲーム borrow and “steal”. しかし いつ あなた draw inspiration から
-something, あなた need to be careful to ない draw too heavily. もし あなたの ゲーム is
-ただ a copy of someone else’s idea, それ’s actual stealing, ない the tongue-incheek way 私 sometimes use the term. もし あなたの ゲーム gets 全て its features and
-ideas から another ゲーム and doesn’t add or change 彼ら in a way to 作る
-something 新しい, それから あなた need to rethink and start over to add あなたの own
+я’m a big fan of stealing ideas from other игры. No игра is an island.
+Every игра is inspired by the ideas and execution of игры (and other
+things) что came before.
+There’s an important distinction to be made here. All игры are inspired.
+All игры borrow and “steal”. But when ты draw inspiration from
+something, ты need to be careful to not draw too heavily. If your игра is
+just a copy of someone else’s idea, что’s actual stealing, not the tongue-incheek way я sometimes use the term. If your игра gets all its features and
+ideas from another игра and doesn’t add or change them in a way to make
+something new, then ты need to rethink and start over to add your own
 twist on the thing.
-You できる see これ in シャベル 騎士. シャベル 騎士 is a wonderful and
-unique ゲーム. しかし almost every aspect of シャベル 騎士 comes から
+You может see этот in Shovel Knight. Shovel Knight is a wonderful and
+unique игра. But almost every aspect of Shovel Knight comes from
 somewhere else.
 Super Mario Bros (1985) is generally credited with popularizing the
 2D side-scrolling platformer genre.
-しかし many of the ideas から Super Mario Bros were first developed in
-the Mario Bros (1983) arcade ゲーム, and borrowed から earlier ゲーム
-のように Space Panic (1980).
-Many 2D side-scrollers after Mario added attacks のように シャベル 騎士’s
-shovel, including popular ゲーム のように Metroid (1986) and Castlevania
+But many of the ideas from Super Mario Bros were first developed in
+the Mario Bros (1983) arcade игра, and borrowed from earlier игры
+like Space Panic (1980).
+Many 2D side-scrollers after Mario added attacks like Shovel Knight’s
+shovel, including popular игры like Metroid (1986) and Castlevania
 (1986).
 
-Once the seeds of the genre had been planted そこには are many great
-ゲーム それ took those ideas and adapted 彼ら for PC gaming,
+Once the seeds of the genre had been planted there are many great
+игры что took those ideas and adapted them for PC gaming,
 including Lode Runner (1983), Commander Keen (1990), and Cave
 Story (2004).
 Braid (2008) and Spelunky (2008) popularized the idea of using 2D
-platformers として a simple and nostalgic base to experiment with
-interesting indie ゲーム ideas.
-As a ゲーム designer, それ’s 重要 to know the history of ない ただ the ゲーム
-but also the features. Jumping から platform to platform in シャベル 騎士 is
-interesting but is informed による many 他の ゲーム before, and feeds の中へ
-many 他の ゲーム after. Dissecting each of those ゲーム, at least in terms of
-それ specific feature, helps あなた see どうやって to use それ feature in あなたの own
-ゲーム. Johnnemann Nordhagen took これ idea even further and built a ゲーム
-それ collects 全て the 違う ways それ a specific mechanic has been
+platformers как a simple and nostalgic base to experiment with
+interesting indie игра ideas.
+As a игра designer, это’s important to know the history of not just the игры
+but also the features. Jumping from platform to platform in Shovel Knight is
+interesting but is informed by many other игры before, and feeds into
+many other игры after. Dissecting each of those игры, at least in terms of
+что specific feature, helps ты see how to use что feature in your own
+игры. Johnnemann Nordhagen took этот idea even further and built a игра
+что collects all the different ways что a specific mechanic has been
 executed over the years. Museum of Mechanics: Lockpicking (Dim Bulb
-Games, 2022) is an interesting way to see どうやって ゲーム borrow and share and
+Games, 2022) is an interesting way to see how игры borrow and share and
 innovate on specific ideas.
 
 Monetization
-How a ゲーム makes money has a huge effect on the design of the ゲーム.
-There are a few major trends in monetization それ had huge impacts on
-the types of ゲーム we associate with each era:
-1. Arcade ゲーム. Monetization is quarter-based. (Technically
-monetization for the developer is による selling arcade cabinets, but the
-cabinet buyers were very interested in quarter throughput, それで the
-developers developed to それ metric.) の ゴール was to 得る the プレーヤー to
-notice the ゲーム in a crowded arcade, and それから plug in として many
+How a игра makes money has a huge effect on the design of the игра.
+There are a few major trends in monetization что had huge impacts on
+the types of игры we associate with each era:
+1. Arcade игры. Monetization is quarter-based. (Technically
+monetization for the developer is by selling arcade cabinets, but the
+cabinet buyers were very interested in quarter throughput, so the
+developers developed to что metric.) The goal was to get the игрок to
+notice the игра in a crowded arcade, and then plug in как many
 
-quarters として possible in として little time として possible. これ led to ゲーム with
+quarters как possible in как little time как possible. This led to игра with
 very quick session lengths, very steep difficulty curves, and little to no
-thought について ongoing long-term play.
-2. Console ゲーム. Monetization is based on selling boxes in stores, with
-no internet to provide updates or live services after それ. At first early
-consoles tried to mimic ゲーム それ 選手 knew から the arcade, but
+thought about ongoing long-term play.
+2. Console игры. Monetization is based on selling boxes in stores, with
+no internet to provide updates or live services after что. At first early
+consoles tried to mimic игры что players knew from the arcade, but
 soon the focus became value. Games were reviewed based on hours of
 play. Look at the difference between Mario Bros and Super Mario
-Bros to see a clear example of これ change.
-3. Mobile ゲーム. Monetization is based on downloads and (after the first
-few years) in-app purchases. の ゴール is to 得る a プレーヤー in quickly and
-easily, それから keep 彼ら around for long enough それ 彼らは 得る
-comfortable spending money. の growth of big data plays a big part
-here, として ゲーム developers start to analyze 何 actually gets people to
-stick around and spend money. Game sessions are short, but 選手
+Bros to see a clear example of этот change.
+3. Mobile игры. Monetization is based on downloads and (after the first
+few years) in-app purchases. The goal is to get a игрок in quickly and
+easily, then keep them around for long enough что они get
+comfortable spending money. The growth of big data plays a big part
+here, как игра developers start to analyze what actually gets people to
+stick around and spend money. Game sessions are short, but players
 are expected to stick around for months or years.
-これ is ない an exhaustive list による any means. Early PC ゲーム resembled
-console ゲーム but with a lot of 彼らの own twists. Console has been
-changing with the growth of downloadable upgrades. Most of これ doesn’t
-apply to educational ゲーム or 他の ゲーム for change, which have entirely
-separate monetization 目標 and pathways. Each ゲーム’s monetization needs
-to be analyzed separately but with an understanding of どうやって それ fits の中へ the
+This is not an exhaustive list by any means. Early PC игры resembled
+console игры but with a lot of their own twists. Console has been
+changing with the growth of downloadable upgrades. Most of этот doesn’t
+apply to educational игры or other игры for change, which have entirely
+separate monetization goals and pathways. Each игра’s monetization needs
+to be analyzed separately but with an understanding of how это fits into the
 standard monetization schemes of its time.
-シャベル 騎士 makes ほとんど of its money through downloads on PC ゲーム
-services のように Steam. これ is currently the dominant sales platform on PC,
-and the growth of independent routes to sell and market ゲーム without
-interacting with big publishers and retailers is a big part of why indie ゲーム
-のように シャベル 騎士 exist and succeed. A successful Steam ゲーム できる support
+Shovel Knight makes most of its money through downloads on PC игра
+services like Steam. This is currently the dominant sales platform on PC,
+and the growth of independent routes to sell and market игры without
+interacting with big publishers and retailers is a big part of why indie игры
+like Shovel Knight exist and succeed. A successful Steam игра может support
 
-a small indie team with a good idea, but console ゲーム generally have to be
+a small indie team with a good idea, but console игры generally have to be
 bigger.
-シャベル 騎士 started out on Kickstarter, raising money for the initial
+Shovel Knight started out on Kickstarter, raising money for the initial
 development through crowdfunding. Kickstarter and similar platforms are a
-popular way for smaller indie ゲーム to generate いくつかの initial funds and
-market an early idea. の initial money helps, but the initial fan base is として
-or もっと 重要 to making a small ゲーム with a small (or zero) marketing
+popular way for smaller indie игры to generate some initial funds and
+market an early idea. The initial money helps, but the initial fan base is как
+or more important to making a small игра with a small (or zero) marketing
 budget a success.
-Since its release, シャベル 騎士 has shipped multiple downloadable
-content (DLC) packs, which have later been released として separate ゲーム.
-シャベル 騎士 has become a series with explorations in multiple genres and
-違う playstyles.
-Selling として a single purchase drives シャベル 騎士 to focus on providing a
-complete package. Deeper progression and varied content 作る the single
-purchase feel worth それ, generating good word-of-mouth to keep the ゲーム
+Since its release, Shovel Knight has shipped multiple downloadable
+content (DLC) packs, which have later been released как separate игры.
+Shovel Knight has become a series with explorations in multiple genres and
+different playstyles.
+Selling как a single purchase drives Shovel Knight to focus on providing a
+complete package. Deeper progression and varied content make the single
+purchase feel worth это, generating good word-of-mouth to keep the игра
 selling.
 
 Narrative
-Story and ゲームプレイ are friends. They work together to bring joy and
-happiness to 選手. Different ゲーム 作る もっと or less use of これ
-friendship. シャベル 騎士 is a great example of the ほとんど common use of
-story in ゲーム.
-で シャベル 騎士, the main use of story is to provide emotional context
-for the プレーヤー’s progression and emotional punctuation at key points. の
-ゲーム establishes early on それ シャベル 騎士 is trying to rescue 彼らの friend
-Shield 騎士. A classic rescue mission, which is a great way to 作る a
-プレーヤー 欲しい to reach the end. My friend needs help!
+Story and gameplay are friends. They work together to bring joy and
+happiness to players. Different игры make more or less use of этот
+friendship. Shovel Knight is a great example of the most common use of
+story in игры.
+In Shovel Knight, the main use of story is to provide emotional context
+for the игрок’s progression and emotional punctuation at key points. The
+игра establishes early on что Shovel Knight is trying to rescue their friend
+Shield Knight. A classic rescue mission, which is a great way to make a
+игрок want to reach the end. My friend needs help!
 
-Most of the time, これ is ただ a small piece of background motivation.
-During ゲームプレイ, the ゲーム doesn’t 作る reference to Shield 騎士 or
-anything else について the characters. Bosses 得る a quick intro to establish 彼らの
-character, during which the プレーヤー has no input. の ゲーム stops to tell the
-story. Then after a big level, そこには is a short dream sequence それ reminds
-the プレーヤー of これ long-term ゴール and provides いくつかの interactive rewards として
-well. Some of the NPCs provide additional narration and backstory, but それ’s
-全て contained in a few sentences それで それ never gets too involved or deep.
-これ is great. これ is exactly 何 ほとんど ゲーム 欲しい. Story is そこには.
-Emotions are triggered. の プレーヤー knows why 彼らは’re doing 全て これ, and もし
-the プレーヤー puts the ゲーム down for too long, 彼らは feel a little guilty. Poor
-Shield 騎士. の story is fun and interesting, and the ゲーム is stronger
-because of それ.
-Some ゲーム use story in deeper and もっと complicated ways. そして 私 love
-those ゲーム, too. しかし 私’ve made いくつかの of 彼ら それで 私 know どうやって complicated
-and difficult それ できる be to interweave story and ゲームプレイ in ways それ
-actually matter. More on それ later.
+Most of the time, этот is just a small piece of background motivation.
+During gameplay, the игра doesn’t make reference to Shield Knight or
+anything else about the characters. Bosses get a quick intro to establish their
+character, during which the игрок has no input. The игра stops to tell the
+story. Then after a big level, there is a short dream sequence что reminds
+the игрок of этот long-term goal and provides some interactive rewards как
+well. Some of the NPCs provide additional narration and backstory, but это’s
+all contained in a few sentences so это never gets too involved or deep.
+This is great. This is exactly what most игры want. Story is there.
+Emotions are triggered. The игрок knows why они’re doing all этот, and if
+the игрок puts the игра down for too long, они feel a little guilty. Poor
+Shield Knight. The story is fun and interesting, and the игра is stronger
+because of это.
+Some игры use story in deeper and more complicated ways. And я love
+those игры, too. But я’ve made some of them so я know how complicated
+and difficult это может be to interweave story and gameplay in ways что
+actually matter. More on что later.
 
 Emotions
-Story is 1つ source of emotions, but ゲーム できる evoke many emotions.
-For action ゲーム, the ほとんど common emotion is frustration, which might
-sound のように a problem, but それ really isn’t. Talking について ゲーム for the last
-few decades, 私’ve noticed それ そこには are many flavors of frustration. Some
-are good, and いくつかの are bad. の main difference is どうやって and どこ the
-プレーヤー has agency in the frustration.
-Outside Frustration: もし the プレーヤー has no agency, それから それ’s outside
-frustration. It できる be annoying, but それ’s less personal それで thus less
+Story is one source of emotions, but игры может evoke many emotions.
+For action игры, the most common emotion is frustration, which might
+sound like a problem, but это really isn’t. Talking about игры for the last
+few decades, я’ve noticed что there are many flavors of frustration. Some
+are good, and some are bad. The main difference is how and where the
+игрок has agency in the frustration.
+Outside Frustration: If the игрок has no agency, then это’s outside
+frustration. It может be annoying, but это’s less personal so thus less
 
-impactful. 私 できる 得る frustrated watching a communication problem
-unfold in an episode of a sitcom, but 私 don’t feel それ personally.
-Uncontrolled Frustration: Once the プレーヤー has control of the action,
+impactful. я может get frustrated watching a communication problem
+unfold in an episode of a sitcom, but я don’t feel это personally.
+Uncontrolled Frustration: Once the игрок has control of the action,
 the potential for emotional involvement is higher. Give me buttons to
-press and now any failure is my fault. So, the worst case here is いつ
-the プレーヤー has input but no real control. もし the プレーヤー expects to have
-control but loses due to reasons outside of 彼らの control, それ できる be
-very frustrating. の ゲーム made a promise and それから failed to deliver.
-これ is often the worst form of frustration and ゲーム designer should be
-careful to avoid situations のように これ. もし the プレーヤー needs to fail
-regardless of 彼らの アクション, 作る それ very clear それ the ゲーム knows それ’s
-ない the プレーヤー’s fault.
-Confused Frustration: もし the プレーヤー has agency それ actually matters,
-それ’s 行く to reduce the negative impact of the frustration. しかし これ is
-only true もし the プレーヤー understands 全て それ. もし the プレーヤー doesn’t
-理解する どうやって 彼らの アクション influence the outcome, 彼らは might として well
-ない have agency. これ is どこ many ゲーム fall apart, especially for
-もっと casual audiences. It’s very frustrating to press buttons and ない
-理解する why 彼らは matter. そして それ understanding is entirely the
-responsibility of the ゲーム designer. Remember, the プレーヤー only knows
-何 comes through それ tiny funnel of information 彼らは see on the
-pixels on the screen. もし 彼らは aren’t able to construct a full mental model
-of the logic 行く on inside the computer, to expect, 彼らは’re 行く to
-have いくつかの negative frustration. で many cases, the hard part of being a
-ゲーム designer isn’t coming 上 with good ideas; それ’s getting the プレーヤー
-to 理解する those good ideas.
-Difficult Frustration: Agency それ matters and makes sense is ない
-enough. の challenges also have to be fair. Banging あなたの head against
+press and now any failure is my fault. So, the worst case here is when
+the игрок has input but no real control. If the игрок expects to have
+control but loses due to reasons outside of their control, что может be
+very frustrating. The игра made a promise and then failed to deliver.
+This is often the worst form of frustration and игра designer should be
+careful to avoid situations like этот. If the игрок needs to fail
+regardless of their actions, make это very clear что the игра knows это’s
+not the игрок’s fault.
+Confused Frustration: If the игрок has agency что actually matters,
+что’s going to reduce the negative impact of the frustration. But этот is
+only true if the игрок understands all что. If the игрок doesn’t
+understand how their actions influence the outcome, они might как well
+not have agency. This is where many игры fall apart, especially for
+more casual audiences. It’s very frustrating to press buttons and not
+understand why они matter. And что understanding is entirely the
+responsibility of the игра designer. Remember, the игрок only knows
+what comes through что tiny funnel of information они see on the
+pixels on the screen. If они aren’t able to construct a full mental model
+of the logic going on inside the computer, to expect, они’re going to
+have some negative frustration. In many cases, the hard part of being a
+игра designer isn’t coming up with good ideas; это’s getting the игрок
+to understand those good ideas.
+Difficult Frustration: Agency что matters and makes sense is not
+enough. The challenges also have to be fair. Banging your head against
 
-an impossible challenge できる be a positive type of frustration (cough
-Elden Ring cough), but ない for 全て 選手. Some 選手 欲しい もっと
+an impossible challenge может be a positive type of frustration (cough
+Elden Ring cough), but not for all players. Some players want more
 manageable challenges and find extreme difficulty to be bad
-frustration. しかし the inverse is also true – a プレーヤー who enjoys mastering
+frustration. But the inverse is also true – a игрок who enjoys mastering
 a skill may consider a sequence of easy challenges to be frustrating in
-a very 違う way. Finding the right balance for the audience of あなたの
-ゲーム できる be difficult – もっと on それ later.
-Fun Frustration: Finally, in いくつかの cases, 選手 have agency,
-理解する the consequences of 彼らの アクション, and still fail. これ is
-called ゲームプレイ. もし the プレーヤー understands why 彼らは failed, the
-frustration から the failure is much less. で the best cases, frustration is
-a fuel それ drives the プレーヤー to come back and try again. Games are
-built on iteration, both として a development practice and として a プレーヤー
-strategy. A good ゲーム will create positive feelings of frustration それ
-guide the プレーヤー to an emotional response along the lines of “私 できる do
+a very different way. Finding the right balance for the audience of your
+игра может be difficult – more on что later.
+Fun Frustration: Finally, in some cases, players have agency,
+understand the consequences of their actions, and still fail. This is
+called gameplay. If the игрок understands why они failed, the
+frustration from the failure is much less. In the best cases, frustration is
+a fuel что drives the игрок to come back and try again. Games are
+built on iteration, both как a development practice and как a игрок
+strategy. A good игра will create positive feelings of frustration что
+guide the игрок to an emotional response along the lines of “я может do
 better”. Which is a great lesson to learn for life, even outside of the
 magic circle.
 
 Meaning
-私 think それ’s 重要 to 理解する 何 ゲーム mean. Since ゲーム are a
-relatively 新しい form of art, we don’t always think of 彼ら として having an
-impact on the world. しかし 彼らは do. の person who starts playing a ゲーム is
-違う から the person after the ゲーム is done. Games 作る people think
-について もの. Games change the world.
-For many ゲーム, これ is ない the primary ゴール of the ゲーム. It might be
-money. It might be providing a simple fun time. しかし meaning happens
-whether the creator intends それ or ない. 私 理解する programming better
-because 私 played Robo-Rally. Some of my love of creativity and creative
+я think это’s important to understand what игры mean. Since игры are a
+relatively new form of art, we don’t always think of them как having an
+impact on the world. But они do. The person who starts playing a игра is
+different from the person after the игра is done. Games make people think
+about things. Games change the world.
+For many игры, этот is not the primary goal of the игра. It might be
+money. It might be providing a simple fun time. But meaning happens
+whether the creator intends это or not. я understand programming better
+because я played Robo-Rally. Some of my love of creativity and creative
 
-problem-solving comes から early Infocom text adventures. Minecraft has
-made a generation of kids think differently について creation and resources and
+problem-solving comes from early Infocom text adventures. Minecraft has
+made a generation of kids think differently about creation and resources and
 exploration and problem-solving.
-私 don’t think any ゲーム has 1つ discrete meaning. Even ゲーム with a
-clear intended meaning will be interpreted differently による each プレーヤー who
-encounters それ. So, いつ 私 talk について meaning in the ゲーム in これ book, 私
-don’t intend to exclude 他の meanings. いつ we talk について これ in class,
-every semester has 違う answers and 彼らは’re 全て right.
-For me, シャベル 騎士 is について persistence. It’s ない the only ゲーム どこ
-the main character is beaten down constantly and has to constantly 得る 上,
-but それ’s a clear example of それ style of play. 私’m ない the ほとんど skilled プレーヤー,
-それで 私 tend to die a lot. しかし the only time 私 feel のように 私’m losing is いつ 私 put
-the ゲーム away and give 上 on saving poor Shield 騎士.
+я don’t think any игра has one discrete meaning. Even игры with a
+clear intended meaning will be interpreted differently by each игрок who
+encounters это. So, when я talk about meaning in the игры in этот book, я
+don’t intend to exclude other meanings. When we talk about этот in class,
+every semester has different answers and они’re all right.
+For me, Shovel Knight is about persistence. It’s not the only игра where
+the main character is beaten down constantly and has to constantly get up,
+but это’s a clear example of что style of play. я’m not the most skilled игрок,
+so я tend to die a lot. But the only time я feel like я’m losing is when я put
+the игра away and give up on saving poor Shield Knight.
 OceanofPDF.com
 
 Chapter 3
-あめ 打ち砕く 佐賀 / Goals
+Конфеты Раздавить Saga / Goals
 DOI: 10.1201/9781003346586-3
 
-あめ 打ち砕く 佐賀
-あめ 打ち砕く 佐賀 is a great ゲーム.
-あめ 打ち砕く 佐賀 (形 3.1) is a mobile ゲーム released による King (now
-part of Microsoft) in 2012. Since launch, それ has consistently been 1つ of the
-ほとんど popular ゲーム on mobile, with hundreds of thousands of monthly
+Конфеты Раздавить Saga
+Конфеты Раздавить Saga is a great игра.
+Конфеты Раздавить Saga (Figure 3.1) is a mobile игра released by King (now
+part of Microsoft) in 2012. Since launch, это has consistently been one of the
+most popular игры on mobile, with hundreds of thousands of monthly
 users Curry, D. (2024).
 
-形 3.1 あめ 打ち砕く 佐賀 screen.
-私’ve never worked on あめ 打ち砕く 佐賀, but 私 did work on a competitor.
-いつ 私 was at a studio called Zindagi, we designed a match-3 called Crazy
-Cake Swap based on a similar puzzle ゲーム called Crazy Kitchen. の
-studio got bought による Zynga and didn’t stay around for long after それ, but 私
-know これ genre better than 私 know ほとんど genres.
+Figure 3.1 Конфеты Раздавить Saga screen.
+я’ve never worked on Конфеты Раздавить Saga, but я did work on a competitor.
+When я was at a studio called Zindagi, we designed a match-3 called Crazy
+Cake Swap based on a similar puzzle игра called Crazy Kitchen. The
+studio got bought by Zynga and didn’t stay around for long after что, but я
+know этот genre better than я know most genres.
 
-あめ 打ち砕く 佐賀 – Gameplay Dissection
+Конфеты Раздавить Saga – Gameplay Dissection
 Verbs
-To 理解する あめ 打ち砕く 佐賀, let’s start どこ we always do: 動詞.
-What できる the プレーヤー do in あめ 打ち砕く 佐賀?
-で これ case, それ’s a simple answer: swap. の プレーヤー できる touch a candy in
-the grid and それから slide それ to an adjacent candy. いつ the プレーヤー does これ,
-the two candies swap positions. That is the entirety of the プレーヤー’s active
-contribution to the コア loop (形 3.2). There are いくつかの interesting less
-active もの the プレーヤー does while swapping, such として “Scan” and “Predict”,
-but これら aren’t the simple button アクション, それで we’ll save discussion of those
-for later in これ chapter.
+To understand Конфеты Раздавить Saga, let’s start where we always do: verbs.
+What может the игрок do in Конфеты Раздавить Saga?
+In этот case, это’s a simple answer: swap. The игрок может touch a candy in
+the grid and then slide это to an adjacent candy. When the игрок does этот,
+the two candies swap positions. That is the entirety of the игрок’s active
+contribution to the core loop (Figure 3.2). There are some interesting less
+active things the игрок does while swapping, such как “Scan” and “Predict”,
+but these aren’t the simple button actions, so we’ll save discussion of those
+for later in этот chapter.
 
-形 3.2 Inputs.
+Figure 3.2 Inputs.
 
-の コア loop continues から そこには, though (形 3.3). After the プレーヤー
-makes a swap, the ゲーム rules check to see もし either candy creates a line of
-three or もっと. もし それ doesn’t, the swap is canceled. もし それ does, the ゲーム
-removes those candies, possibly with an extra effect もし the line is four or
-もっと candies. Then the remaining candies fall to fill the empty space, which
-できる possibly create 新しい matches and cause a chain reaction として each match
-creates 新しい matches.
+The core loop continues from there, though (Figure 3.3). After the игрок
+makes a swap, the игра rules check to see if either candy creates a line of
+three or more. If это doesn’t, the swap is canceled. If это does, the игра
+removes those candies, possibly with an extra effect if the line is four or
+more candies. Then the remaining candies fall to fill the empty space, which
+может possibly create new matches and cause a chain reaction как each match
+creates new matches.
 
-形 3.3 Outputs.
-の プレーヤー performs a simple action, and the ゲーム rules result in
-complex outcomes. これ is 1つ of the strengths of video ゲーム – the
-processing burden of the ゲーム できる be placed on the computer’s shoulders.
-の rules of あめ 打ち砕く would be much less fun として a board ゲーム どこ
-the 選手 have to move each candy による hand and figure out the outcome of
-each 新しい position.
-Swapping and the reactions to それ swap is the heart of あめ 打ち砕く
-佐賀, and the コア loop of any match-3 ゲーム.
-そして for completeness, あめ 打ち砕く 佐賀 also has a few special case
-動詞:
+Figure 3.3 Outputs.
+The игрок performs a simple action, and the игра rules result in
+complex outcomes. This is one of the strengths of video игры – the
+processing burden of the игра может be placed on the computer’s shoulders.
+The rules of Конфеты Раздавить would be much less fun как a board игра where
+the players have to move each candy by hand and figure out the outcome of
+each new position.
+Swapping and the reactions to что swap is the heart of Конфеты Раздавить
+Saga, and the core loop of any match-3 игра.
+And for completeness, Конфеты Раздавить Saga also has a few special case
+verbs:
 
-1. Players できる use powerups such として the lollipop to remove specific
-candies or otherwise affect the grid outside of swap アクション. Outside of
-the tutorials それ teach これら interactions, 彼らは are never required to
-complete a level, but 彼らは are always そこには for the プレーヤー to use. しかし
-彼らは are a limited resource それ できる only be acquired として an occasional
+1. Players может use powerups such как the lollipop to remove specific
+candies or otherwise affect the grid outside of swap actions. Outside of
+the tutorials что teach these interactions, они are never required to
+complete a level, but они are always there for the игрок to use. But
+они are a limited resource что может only be acquired как an occasional
 reward or for money.
-2. Late in the ゲーム, そこには are 新しい board elements それ include an
-interactive choice による the プレーヤー. For example, あめ Frogs let 選手
-choose どこ to place 彼ら いつ 彼らは go off.
-3. Secondary modes のように events provide a choice of 何 to play and
-sometimes have いくつかの basic decision-making in the event itself.
-So outside of これら caveats, the verb of あめ 打ち砕く 佐賀 is “swap”.
+2. Late in the игра, there are new board elements что include an
+interactive choice by the игрок. For example, Конфеты Frogs let players
+choose where to place them when они go off.
+3. Secondary modes like events provide a choice of what to play and
+sometimes have some basic decision-making in the event itself.
+So outside of these caveats, the verb of Конфеты Раздавить Saga is “swap”.
 
 Goals
-の ゲームプレイ ゴール of あめ 打ち砕く 佐賀 varies based on the level. All
-目標 revolve around clearing もの off the board, but the nuances of
-exactly 何 あなた’re trying to do できる change:
+The gameplay goal of Конфеты Раздавить Saga varies based on the level. All
+goals revolve around clearing things off the board, but the nuances of
+exactly what ты’re trying to do может change:
 1. Clear a certain number of candies.
 2. Clear a certain number of candies of a particular type.
-3. Clear a certain number of special objects, のように cherries, による dropping
-彼ら to the bottom of the grid.
-4. Remove a certain number of non-candy obstacles, such として jellies.
+3. Clear a certain number of special objects, like cherries, by dropping
+them to the bottom of the grid.
+4. Remove a certain number of non-candy obstacles, such как jellies.
 5. Etc.
-More on これ in a moment.
+More on этот in a moment.
 
 Challenge
-の real variety in あめ 打ち砕く 佐賀 (and ほとんど match-3 ゲーム) comes
-から the randomness of the falling pieces and the variety of obstacles それ
-作る reaching the ゴール difficult. Most levels have もっと than ただ candies on
-the board – a large variety of 違う objects create additional challenges
-and opportunities for the プレーヤー. These range から simple inert objects それ
-are removed いつ matches are made near 彼ら (Frosting), to inert objects
-それ expand across the grid over time (Chocolate), to snakes それ charge の中へ
-baskets after enough matches are made next to 彼ら (あめ Cobra). These
-aren’t 全て dangerous – そこには are also advanced board elements それ できる be
-useful, such として conveyor belts, or are almost purely beneficial, such として the
-UFO それ drops special candies.
-These obstacles are key to あめ 打ち砕く 佐賀’s success. の basic
-concepts of the match-3 genre existed before あめ 打ち砕く 佐賀.
+The real variety in Конфеты Раздавить Saga (and most match-3 игры) comes
+from the randomness of the falling pieces and the variety of obstacles что
+make reaching the goal difficult. Most levels have more than just candies on
+the board – a large variety of different objects create additional challenges
+and opportunities for the игрок. These range from simple inert objects что
+are removed when matches are made near them (Frosting), to inert objects
+что expand across the grid over time (Chocolate), to snakes что charge into
+baskets after enough matches are made next to them (Конфеты Cobra). These
+aren’t all dangerous – there are also advanced board elements что может be
+useful, such как conveyor belts, or are almost purely beneficial, such как the
+UFO что drops special candies.
+These obstacles are key to Конфеты Раздавить Saga’s success. The basic
+concepts of the match-3 genre existed before Конфеты Раздавить Saga.
 Specifically, the concepts of the genre were solidified in Bejeweled (2001)
-and Bejeweled Blitz (2009). Many of the コア ideas were present in earlier
-ゲーム のように Shariki (1994). の コア ゲームプレイ is very directly based on
-previous ゲーム のように Bejeweled. しかし those previous ゲーム used only a
-single level – そこには were no obstacles and ただ 1つ board. あめ 打ち砕く
-佐賀 innovated による adding a variety of levels with 違う obstacles and a
-違う grid layout for each level. これ gave the existing fun コア
-ゲームプレイ もっと variety and long-term appeal. Bejeweled was successful, but
-あめ 打ち砕く 佐賀 took それ success to vast 新しい heights による adding varied
+and Bejeweled Blitz (2009). Many of the core ideas were present in earlier
+игры like Shariki (1994). The core gameplay is very directly based on
+previous игры like Bejeweled. But those previous игры used only a
+single level – there were no obstacles and just one board. Конфеты Раздавить
+Saga innovated by adding a variety of levels with different obstacles and a
+different grid layout for each level. This gave the existing fun core
+gameplay more variety and long-term appeal. Bejeweled was successful, but
+Конфеты Раздавить Saga took что success to vast new heights by adding varied
 challenges and a stronger sense of progression.
-の sense of progression comes から the “佐賀” in the title. One of the
-big innovations of あめ 打ち砕く 佐賀 was the 佐賀 Map. It’s ない ただ それ
-the プレーヤー was given a variety of levels with 違う obstacles, それ’s also
-重要 それ これら levels were set 上 として a line – a path to a destination.
+The sense of progression comes from the “Saga” in the title. One of the
+big innovations of Конфеты Раздавить Saga was the Saga Map. It’s not just что
+the игрок was given a variety of levels with different obstacles, это’s also
+important что these levels were set up как a line – a path to a destination.
 
-Once the プレーヤー completes a level, 彼らは move on to the next 1つ, heading
-toward the end. の 佐賀 Map organizes これ progression in a simple line,
-showing the プレーヤー the next levels 彼らは’ll be playing. これ came out いつ
-social gaming was king, それで the line also shows あなた どこ あなたの friends are,
-creating いくつかの social pressure to advance. しかし the key concept here is それ
-the プレーヤー is always doing something 新しい, and has a sense of progression
-それ makes 彼ら 欲しい to come back tomorrow and try again. Progression is
-a great driver for 選手, in any form.
-の basic flow of the ゲーム is simple – the プレーヤー swaps to clear the
-level, with various obstacles in the way. しかし the obstacles and 目標 change
-in each level, として shown in 形 3.4, making the simple flow work for a
+Once the игрок completes a level, они move on to the next one, heading
+toward the end. The Saga Map organizes этот progression in a simple line,
+showing the игрок the next levels они’ll be playing. This came out when
+social gaming was king, so the line also shows ты where your friends are,
+creating some social pressure to advance. But the key concept here is что
+the игрок is always doing something new, and has a sense of progression
+что makes them want to come back tomorrow and try again. Progression is
+a great driver for players, in any form.
+The basic flow of the игра is simple – the игрок swaps to clear the
+level, with various obstacles in the way. But the obstacles and goals change
+in each level, как shown in Figure 3.4, making the simple flow work for a
 long time.
 
-形 3.4 あめ 打ち砕く 佐賀 flow: Simple diagram showing
+Figure 3.4 Конфеты Раздавить Saga flow: Simple diagram showing
 Actions, Challenges, and Goals, with lots of variation on the
 Obstacles and Goals.
 
-あめ 打ち砕く 佐賀 – Non-Gameplay
+Конфеты Раздавить Saga – Non-Gameplay
 Dissection
 Technology
-あめ 打ち砕く is a fairly simple ゲーム それ relies on a vast network of
-advanced technologies to work. これ is 1つ of the fun daily realities of the
-world we live in. の rules of the ゲーム and the interactions the プレーヤー
-experiences are built on easy-to-理解する combinations of simple shapes.
-これ is good ゲーム design and keeps the プレーヤー engaged. しかし the rest of the
+Конфеты Раздавить is a fairly simple игра что relies on a vast network of
+advanced technologies to work. This is one of the fun daily realities of the
+world we live in. The rules of the игра and the interactions the игрок
+experiences are built on easy-to-understand combinations of simple shapes.
+This is good игра design and keeps the игрок engaged. But the rest of the
 experience is built on touch screens and constant online communication and
-vast behind-the-scenes databases それ are way もっと powerful than the
-technology それ brought humans to the moon.
-One thing それ is 重要 to think について として a ゲーム designer is どうやって
-これら vast changes in the world of technology affect あなたの ゲーム. New
-technology comes along 全て the time, and いくつかの of それ is a great fit for 新しい
-types of ゲーム. Sometimes そこには is a direct linkage between a 新しい
-technology and a 新しい style of ゲーム, such として GPS-enabling Pokémon Go
-(2016). Sometimes the changes are もっと subtle and need time and thought
-to 理解する. It’s ない obvious (except in retrospect) それ improvements in
+vast behind-the-scenes databases что are way more powerful than the
+technology что brought humans to the moon.
+One thing что is important to think about как a игра designer is how
+these vast changes in the world of technology affect your игра. New
+technology comes along all the time, and some of это is a great fit for new
+types of игры. Sometimes there is a direct linkage between a new
+technology and a new style of игра, such как GPS-enabling Pokémon Go
+(2016). Sometimes the changes are more subtle and need time and thought
+to understand. It’s not obvious (except in retrospect) что improvements in
 computer miniaturization and wireless communication would lead to
-everyone having a powerful connected computer in 彼らの pocket at 全て times.
-そして even それから, それ’s less obvious それ それ would lead to people looking for
-ゲーム それ 彼らは できる pick 上 and play at any time for very short play
-sessions. Technology doesn’t only change 何 people できる do with ゲーム,
-それ changes 何 彼らは 欲しい to do and いつ 彼らは 欲しい to do それ and for どうやって
-long. の changes to the rules of technology create changes to the dynamics
-of どうやって people interact with technology, but もっと on the word “dynamics”
+everyone having a powerful connected computer in their pocket at all times.
+And even then, это’s less obvious что это would lead to people looking for
+игры что они может pick up and play at any time for very short play
+sessions. Technology doesn’t only change what people может do with игры,
+это changes what они want to do and when они want to do это and for how
+long. The changes to the rules of technology create changes to the dynamics
+of how people interact with technology, but more on the word “dynamics”
 
-in Chapter 4. These changes できる be harder to predict but provide great value
-for あなたの ゲーム designs once あなた notice 彼ら.
+in Chapter 4. These changes может be harder to predict but provide great value
+for your игра designs once ты notice them.
 
 Senses
-あめ 打ち砕く 佐賀 looks cartoony and childish. Everything is in bold,
-bright colors. の candies are simple and iconic. の ゲーム is ない subtle in
-its communication; もし それ wants あなた to know something, それ will shout それ rather
-than whisper それ. At a glance, あなた might guess それ これ is a ゲーム for
-children. しかし the majority of 選手 are adults.
-Clearly, これ works for あめ 打ち砕く 佐賀. の ゲーム is immensely
-successful, and そこには’s no reason to think それ the bright cartoony style
-holds それ back. Various clones and imitators have tried to re-theme match-3
-ゲームプレイ in darker, もっと adult styles and failed. Childish works for adults.
-On 1つ level, これ could be pure nostalgia. Adults 欲しい a moment to relax
-and escape から 彼らの everyday world, それで something それ evokes pleasant
-childhood memories could be ただ the thing. の reason childish works
-might be because adults 欲しい to feel のように children.
+Конфеты Раздавить Saga looks cartoony and childish. Everything is in bold,
+bright colors. The candies are simple and iconic. The игра is not subtle in
+its communication; if это wants ты to know something, это will shout это rather
+than whisper это. At a glance, ты might guess что этот is a игра for
+children. But the majority of players are adults.
+Clearly, этот works for Конфеты Раздавить Saga. The игра is immensely
+successful, and there’s no reason to think что the bright cartoony style
+holds это back. Various clones and imitators have tried to re-theme match-3
+gameplay in darker, more adult styles and failed. Childish works for adults.
+On one level, этот could be pure nostalgia. Adults want a moment to relax
+and escape from their everyday world, so something что evokes pleasant
+childhood memories could be just the thing. The reason childish works
+might be because adults want to feel like children.
 On another level, childish might work because childish is good design.
-Kids are ない the only ones who のように bold, bright colors. Iconic shapes are
-easy to distinguish and help 作る ゲームプレイ easy to 理解する. Direct
+Kids are not the only ones who like bold, bright colors. Iconic shapes are
+easy to distinguish and help make gameplay easy to understand. Direct
 clear communication is good for everyone, including adults who are trying
-to ただ relax. の design principles それ work for children also work for
-adults. It’s ない childish design, それ’s ただ good design.
-これ is ない to say それ あめ 打ち砕く 佐賀 is constructed in a childish way.
-There is a lot of attention to detail and polish in あめ 打ち砕く 佐賀. いつ 私
-started working on match-3 ゲーム, 1つ of the first もの 私 did was spend a
-week analyzing いくつかの of the top ゲーム, and いくつかの of the worst ゲーム. 私
-recorded a few levels of あめ 打ち砕く 佐賀 and それから literally watched the
+to just relax. The design principles что work for children also work for
+adults. It’s not childish design, это’s just good design.
+This is not to say что Конфеты Раздавить Saga is constructed in a childish way.
+There is a lot of attention to detail and polish in Конфеты Раздавить Saga. When я
+started working on match-3 игры, one of the first things я did was spend a
+week analyzing some of the top игры, and some of the worst игры. я
+recorded a few levels of Конфеты Раздавить Saga and then literally watched the
 
-recording frame による frame to see exactly どうやって everything moved and 全て the
-little tricks of presentation. It’s a very useful exercise もし あなた’re trying to
-理解する polish and presentation. Make sure あなた do the same with いくつかの
-less successful ゲーム to really see the differences.
+recording frame by frame to see exactly how everything moved and all the
+little tricks of presentation. It’s a very useful exercise if ты’re trying to
+understand polish and presentation. Make sure ты do the same with some
+less successful игры to really see the differences.
 
 Freeze Frame
-Things 私 saw による watching every frame of あめ 打ち砕く 佐賀:
-Be really careful with motion. Humans know どうやって falling looks and expect もの to
+Things я saw by watching every frame of Конфеты Раздавить Saga:
+Be really careful with motion. Humans know how falling looks and expect things to
 accelerate and decelerate in certain ways. Falling at a constant speed is easier to code but
 looks weird.
-You できる cover 上 lots of もの with explosions. Don’t bother with expensive
-transformations もし an explosion will feel ただ として good or better.
-Squash and stretch. これ is an animation term for changing the shape of an object to
+You может cover up lots of things with explosions. Don’t bother with expensive
+transformations if an explosion will feel just как good or better.
+Squash and stretch. This is an animation term for changing the shape of an object to
 emphasize an impact. It really works.
-Anticipation. Building 上 to a reward is として 重要 として paying off the reward. Adding a
+Anticipation. Building up to a reward is как important как paying off the reward. Adding a
 few frames of buildup makes almost everything better.
-Sequencing. Know the order of events and keep それ holy. It’ll help 選手 理解する
-何’s happening and それ’ll keep あなたの ゲーム logic and code understandable.
-Compression. いつ あなた have lots of もの それ need to happen at once, あなた できる break
-the Sequencing rule and have もの overlap a bit. しかし do それ in a logical and constrained
-way. Think through 何 the プレーヤー needs to focus on, and do いくつかの hand-waving in 他の
+Sequencing. Know the order of events and keep что holy. It’ll help players understand
+what’s happening and это’ll keep your игра logic and code understandable.
+Compression. When ты have lots of things что need to happen at once, ты может break
+the Sequencing rule and have things overlap a bit. But do это in a logical and constrained
+way. Think through what the игрок needs to focus on, and do some hand-waving in other
 places.
 
 Emotion and Narrative
-あめ 打ち砕く 佐賀 is ない a deeply emotional ゲーム. There is no complex
+Конфеты Раздавить Saga is not a deeply emotional игра. There is no complex
 storyline to follow with deeply realized characters following narrative arcs
-who the プレーヤー grows to care について. There is a simple story それ presents a
-problem to solve, and それから a few levels later congratulates あなた for solving
-それ. これ is enough story to give あなた a reason to continue, but あめ 打ち砕く
-佐賀 is ない a ゲーム どこ the majority of 選手 are advancing to find out
-何 happens next.
+who the игрок grows to care about. There is a simple story что presents a
+problem to solve, and then a few levels later congratulates ты for solving
+это. This is enough story to give ты a reason to continue, but Конфеты Раздавить
+Saga is not a игра where the majority of players are advancing to find out
+what happens next.
 
-あめ 打ち砕く 佐賀 does hit emotional notes through the ゲームプレイ.
-あめ 打ち砕く 佐賀 is a ゲーム of constant rewards. Whenever あなた do
-anything in the ゲーム, something explodes and the ゲーム tells あなた どうやって great
-あなた are. これ is maybe ない the ほとんど emotionally deep reward system, and 私
-wouldn’t trust the ゲーム’s praise to evaluate my self-worth, but sometimes
-それ’s ただ nice to hear praise. Constant rewards できる be emotionally soothing.
-A working mom who is having a hard day and ただ wants to catch 彼らの
-breath and relax doesn’t need a ゲーム それ constantly tells 彼ら 彼らは’ve died
-and need to start everything over. あめ 打ち砕く 佐賀 does have fail states,
-and それ does apply a little bit of emotional pressure in those moments (mostly
-to encourage the プレーヤー to spend money), but それ’s the exception, ない the
-rule. Most of the time, playing あめ 打ち砕く 佐賀 is soaking in a warm bed
-of reward and praise. Some ゲーム are here to give people 何 彼らは 欲しい.
+Конфеты Раздавить Saga does hit emotional notes through the gameplay.
+Конфеты Раздавить Saga is a игра of constant rewards. Whenever ты do
+anything in the игра, something explodes and the игра tells ты how great
+ты are. This is maybe not the most emotionally deep reward system, and я
+wouldn’t trust the игра’s praise to evaluate my self-worth, but sometimes
+это’s just nice to hear praise. Constant rewards может be emotionally soothing.
+A working mom who is having a hard day and just wants to catch their
+breath and relax doesn’t need a игра что constantly tells them они’ve died
+and need to start everything over. Конфеты Раздавить Saga does have fail states,
+and это does apply a little bit of emotional pressure in those moments (mostly
+to encourage the игрок to spend money), but что’s the exception, not the
+rule. Most of the time, playing Конфеты Раздавить Saga is soaking in a warm bed
+of reward and praise. Some игры are here to give people what они want.
 
 Money
-How does あめ 打ち砕く 佐賀 作る money?
-の 他の big innovation あめ 打ち砕く 佐賀 added to the match-3 genre,
-他の than the level variety demonstrated in the “佐賀” part of the title, is
-the monetization model. あめ 打ち砕く 佐賀 is free to download and to play.
-All ten thousand plus levels are free to access. しかし the ゲーム constantly asks
-あなた to spend money on 他の もの. Powerups. Unlimited lives. Extra
+How does Конфеты Раздавить Saga make money?
+The other big innovation Конфеты Раздавить Saga added to the match-3 genre,
+other than the level variety demonstrated in the “Saga” part of the title, is
+the monetization model. Конфеты Раздавить Saga is free to download and to play.
+All ten thousand plus levels are free to access. But the игра constantly asks
+ты to spend money on other things. Powerups. Unlimited lives. Extra
 turns. Special modes.
-Free-to-play business models drive ほとんど of the sales in the ゲーム
-industry これら days. そして 彼らは work. Most of the 選手 in これら ゲーム pay
-nothing. A small percentage pay something. そして an even smaller
+Free-to-play business models drive most of the sales in the игры
+industry these days. And они work. Most of the players in these игры pay
+nothing. A small percentage pay something. And an even smaller
 percentage pay a lot. These are the “whales” – the large spenders who keep
 everyone else afloat.
 
-の morality of the free-to-play model is a hotly debated topic. There are
-certainly companies trying to suck every penny out of 彼らの 選手, and
-using いくつかの questionable approaches to do それ. No 1つ should be exploiting
-gambling addictions or tricking children の中へ spending 彼らの parent’s money
-or promising もの to 選手 それ will never materialize.
-しかし ほとんど free-to-play ゲーム, such として あめ 打ち砕く 佐賀, are ない それ
+The morality of the free-to-play model is a hotly debated topic. There are
+certainly companies trying to suck every penny out of their players, and
+using some questionable approaches to do что. No one should be exploiting
+gambling addictions or tricking children into spending their parent’s money
+or promising things to players что will never materialize.
+But most free-to-play игры, such как Конфеты Раздавить Saga, are not что
 bad. Every monetization model – arcade cabinets, CDs in boxes,
-hypercasual ad-driven ゲーム – is trying to use human psychology to 得る
-people to buy もの. At いくつかの level, 全て marketing is manipulation. しかし それ
-doesn’t mean それ has to be an entirely bad thing. Good marketing is
-manipulating people to notice もの それ 彼らは 欲しい and will enjoy. そして 私
-believe それ ほとんど free-to-play ゲーム are actually providing a valuable
-service to people. People need entertainment and ゲーム are generally a
-good deal in the entertainment world. Free-to-play allows ほとんど people to
-得る 彼らの entertainment for free, with いくつかの advertisements として the cost. そして
-the people who 欲しい to spend もっと and できる afford それ fund the rest of the
-選手.
-私’ve done interviews with whales. Most of 彼ら are very happy with 彼らの
+hypercasual ad-driven игры – is trying to use human psychology to get
+people to buy things. At some level, all marketing is manipulation. But что
+doesn’t mean это has to be an entirely bad thing. Good marketing is
+manipulating people to notice things что они want and will enjoy. And я
+believe что most free-to-play игры are actually providing a valuable
+service to people. People need entertainment and игры are generally a
+good deal in the entertainment world. Free-to-play allows most people to
+get their entertainment for free, with some advertisements как the cost. And
+the people who want to spend more and может afford это fund the rest of the
+players.
+я’ve done interviews with whales. Most of them are very happy with their
 purchases and would spend the money the same way again. They have
-disposable income, and これ is どうやって 彼らは choose to use それ. Rich people spend
-money on much sillier もの than mobile ゲーム. You できる find people who
+disposable income, and этот is how они choose to use это. Rich people spend
+money on much sillier things than mobile игры. You может find people who
 overspend or otherwise have a negative spending experience, but even
-among whales ほとんど of the transactions are mutually beneficial.
-あめ 打ち砕く 佐賀 is a quality ゲーム. Spending いくつかの money to 作る the
-experience better is ない unreasonable. 私’m personally a free-to-play プレーヤー
-(ほとんど of the time – 私’ll spend a little money to support ゲーム 私 particularly
-enjoy), but 私 理解する why people would spend without being coerced.
-の free-to-play model isn’t perfect, and もし 私 could wave a magic wand and
+among whales most of the transactions are mutually beneficial.
+Конфеты Раздавить Saga is a quality игра. Spending some money to make the
+experience better is not unreasonable. я’m personally a free-to-play игрок
+(most of the time – я’ll spend a little money to support игры я particularly
+enjoy), but я understand why people would spend without being coerced.
+The free-to-play model isn’t perfect, and if я could wave a magic wand and
 
-let everyone play and 作る ゲーム and 全て be rich 私 would, but 私 believe それ
-free-to-play is only problematic いつ abused.
+let everyone play and make игры and all be rich я would, but я believe что
+free-to-play is only problematic when abused.
 
 History
-Mobile ゲーム are the コア of the ゲーム industry これら days. Console ゲーム
-and PC ゲーム are still 行く strong, but in terms of dollars spent, mobile
-ゲーム are bigger than everything else combined.
-Mobile ゲーム took a while to 得る そこには, though. で the early days of the
-mobile ゲーム market, そこには was a lot of experimentation and uncertainty. No
-1つ knew 何 would succeed.
-Some companies tried releasing console-quality ゲーム (Infinity Blade
-(2010)) or literal ports of PC or console ゲーム (Return to Monkey
+Mobile игры are the core of the игры industry these days. Console игры
+and PC игры are still going strong, but in terms of dollars spent, mobile
+игры are bigger than everything else combined.
+Mobile игры took a while to get there, though. In the early days of the
+mobile игра market, there was a lot of experimentation and uncertainty. No
+one knew what would succeed.
+Some companies tried releasing console-quality игры (Infinity Blade
+(2010)) or literal ports of PC or console игры (Return to Monkey
 Island (2022, mobile 2023), Grand Theft Auto: San Andreas (2002,
 mobile 2013), XCOM: Enemy Within (2013, mobile 2014)). Neither of
-これら approaches became dominant, but そこには were a few notable
-successes, such として a little title called Minecraft (2009, mobile 2011).
+these approaches became dominant, but there were a few notable
+successes, such как a little title called Minecraft (2009, mobile 2011).
 Although even Minecraft dropped its price significantly compared to
-他の platforms.
-Some ゲーム experimented with the novelty of touch screen inputs.
-Games のように Flight Control (2009) or Where’s My Water? (2011)
-discovered 新しい styles of ゲーム それ wouldn’t work with a controller.
-These generally did well and あなた できる see 新しい innovations come out
-and succeed regularly. A lot of the modern innovation in これ area is in
-the hypercasual genre どこ innovative ideas are needed to grab
-people’s attention (and それから throw a lot of ads at 彼ら).
-これ was also the early days of the shift to digital distribution across
-the industry. Games could now be services with 新しい content flowing
-to 選手 として quickly として それ could be approved による Apple. Pocket God
+other platforms.
+Some игры experimented with the novelty of touch screen inputs.
+Games like Flight Control (2009) or Where’s My Water? (2011)
+discovered new styles of игра что wouldn’t work with a controller.
+These generally did well and ты может see new innovations come out
+and succeed regularly. A lot of the modern innovation in этот area is in
+the hypercasual genre where innovative ideas are needed to grab
+people’s attention (and then throw a lot of ads at them).
+This was also the early days of the shift to digital distribution across
+the industry. Games could now be services with new content flowing
+to players как quickly как это could be approved by Apple. Pocket God
 
-(2009) was an interesting experiment in これ space, updating として quickly
-として possible with big 新しい features changing the very nature of the ゲーム
-regularly. Games それ play のように Pocket God aren’t common これら days,
+(2009) was an interesting experiment in этот space, updating как quickly
+как possible with big new features changing the very nature of the игра
+regularly. Games что play like Pocket God aren’t common these days,
 but the model of constant meaningful updates has become very
-common and remains successful, even on 他の platforms のように Roblox
-or for 他の ゲーム のように Fortnite (2017).
-Along with 他の changes, monetization was also uncertain. At first,
-companies thought それ mobile gamers would pay something close to
-console price, or at least similar to the downloadable markets それ were
-developing on consoles and on Steam. しかし として companies experimented
-with pricing, 彼らは found それ lower prices worked. の increase in
-sales offset the drop in price, それで soon Angry Birds (2009) was the top
+common and remains successful, even on other platforms like Roblox
+or for other игры like Fortnite (2017).
+Along with other changes, monetization was also uncertain. At first,
+companies thought что mobile gamers would pay something close to
+console price, or at least similar to the downloadable markets что were
+developing on consoles and on Steam. But как companies experimented
+with pricing, они found что lower prices worked. The increase in
+sales offset the drop in price, so soon Angry Birds (2009) was the top
 of the Grossing chart at the lowest possible price – 99 cents. Then
-Apple added the option to sell もの inside the ゲーム, and in-app
-purchases were born. Immediately, ゲーム のように Smurf Village (2010)
-discovered それ free was even もっと appealing to people than 99 cents.
-の modern free-to-play model was born.
-で これ era, mobile ゲーム were also learning a lot から social ゲーム.
-Facebook was a huge platform for ゲーム for a few years, before changes to
-the advertising structure and success of mobile killed それ. Social ゲーム
-pioneered many of the free-to-play principles それ later dominated the
+Apple added the option to sell things inside the игра, and in-app
+purchases were born. Immediately, игры like Smurf Village (2010)
+discovered что free was even more appealing to people than 99 cents.
+The modern free-to-play model was born.
+In этот era, mobile игры were also learning a lot from social игры.
+Facebook was a huge platform for игры for a few years, before changes to
+the advertising structure and success of mobile killed это. Social игры
+pioneered many of the free-to-play principles что later dominated the
 mobile market.
-あめ 打ち砕く 佐賀 was originally a Facebook ゲーム. そして before それ, それ
-was originally a web ゲーム. King, the company それ makes あめ 打ち砕く
-佐賀, has used an interesting method for testing out 新しい titles. They
-generally release lots of 新しい ゲーム first on 彼らの web browser and see どうやって
-彼らは perform そこには. の best-performing titles are considered for conversion
-to 他の platforms. At the time, Facebook was considered the first step and
+Конфеты Раздавить Saga was originally a Facebook игра. And before что, это
+was originally a web игра. King, the company что makes Конфеты Раздавить
+Saga, has used an interesting method for testing out new titles. They
+generally release lots of new игры first on their web browser and see how
+они perform there. The best-performing titles are considered for conversion
+to other platforms. At the time, Facebook was considered the first step and
 
-mobile was a 新しい and experimental platform. So, あめ 打ち砕く 佐賀 first
-appeared として あめ 打ち砕く, a web ゲーム without the level variety それ made
-あめ 打ち砕く 佐賀 それで successful. の 佐賀 idea first appeared in Bubble
-Witch 佐賀 and proved successful. いつ King brought 彼らの score attack
-match-3 あめ 打ち砕く over to Facebook, 彼らは added similar 佐賀 elements.
-あめ 打ち砕く 佐賀 did great on Facebook, それで within a few months それ was
-brought over to mobile として well.
-By the time あめ 打ち砕く 佐賀 came to mobile (2012), the battle over
-pricing was mostly done. の free-to-play models それ had been pioneered
-in Facebook were dominating on mobile. So, あめ 打ち砕く 佐賀 launched
+mobile was a new and experimental platform. So, Конфеты Раздавить Saga first
+appeared как Конфеты Раздавить, a web игра without the level variety что made
+Конфеты Раздавить Saga so successful. The Saga idea first appeared in Bubble
+Witch Saga and proved successful. When King brought their score attack
+match-3 Конфеты Раздавить over to Facebook, они added similar Saga elements.
+Конфеты Раздавить Saga did great on Facebook, so within a few months это was
+brought over to mobile как well.
+By the time Конфеты Раздавить Saga came to mobile (2012), the battle over
+pricing was mostly done. The free-to-play models что had been pioneered
+in Facebook were dominating on mobile. So, Конфеты Раздавить Saga launched
 for free, with strong social elements. Many of those social elements have
-faded to the background over the years として the industry has continued to
-evolve and updates have changed あめ 打ち砕く 佐賀. Competing for high
-scores against あなたの friends, or for progress along the 佐賀, used to be
-prominently displayed but now is もっと of an afterthought.
-So, あめ 打ち砕く 佐賀 came の中へ the market at the right time with an
-innovative take on both the ゲームプレイ of match-3 and the free-to-play
-monetization model. の ゲーム was a hit から day 1つ. King already knew
-それ それ had a good chance, based on its success on 他の platforms, but
-nothing is certain in これ industry. で これ case, それ worked. あめ 打ち砕く 佐賀
-was それで successful それ spawned multiple sequels, a line of merchandizing, and
-even a short-lived network television ゲーム show. そして それ became my wife’s
-favorite video ゲーム.
+faded to the background over the years как the industry has continued to
+evolve and updates have changed Конфеты Раздавить Saga. Competing for high
+scores against your friends, or for progress along the Saga, used to be
+prominently displayed but now is more of an afterthought.
+So, Конфеты Раздавить Saga came into the market at the right time with an
+innovative take on both the gameplay of match-3 and the free-to-play
+monetization model. The игра was a hit from day one. King already knew
+что это had a good chance, based on its success on other platforms, but
+nothing is certain in этот industry. In этот case, это worked. Конфеты Раздавить Saga
+was so successful это spawned multiple sequels, a line of merchandizing, and
+even a short-lived network television игра show. And это became my wife’s
+favorite video игра.
 
 Meaning
-What is あめ 打ち砕く 佐賀 について? What does あめ 打ち砕く 佐賀 say について
-the world? How does playing あめ 打ち砕く 佐賀 change どうやって あなた see the
+What is Конфеты Раздавить Saga about? What does Конфеты Раздавить Saga say about
+the world? How does playing Конфеты Раздавить Saga change how ты see the
 world?
 
-To me, あめ 打ち砕く 佐賀 is について the joy of unintended consequences.
-の プレーヤー makes a seemingly simple innocuous action, and suddenly the
-screen is filled with colorful explosions and いくつかの guy with a deep voice is
-calling out compliments. の プレーヤー didn’t plan それ out. の プレーヤー didn’t
-know exactly 何 was 行く to happen. しかし のように many もの in life, taking
-それ first step leads to 全て sorts of unknown もの.
-あめ 打ち砕く 佐賀 is the type of ゲーム それ doesn’t really challenge the
-プレーヤー. Sure, いくつかの levels are nearly impossible, but those levels generally
-require luck to complete along with skill. Mostly あめ 打ち砕く 佐賀 is a
-warm bath of compliments and pleasant explosions. そして 私 believe これら
-types of ゲーム 作る the world a better place. People need comfort. People
-need もっと praise in 彼らの lives. もし a ゲーム できる help people be happy and 得る
-through 彼らの lives, 私 support それ. Since the dawn of time, humans have
+To me, Конфеты Раздавить Saga is about the joy of unintended consequences.
+The игрок makes a seemingly simple innocuous action, and suddenly the
+screen is filled with colorful explosions and some guy with a deep voice is
+calling out compliments. The игрок didn’t plan что out. The игрок didn’t
+know exactly what was going to happen. But like many things in life, taking
+что first step leads to all sorts of unknown things.
+Конфеты Раздавить Saga is the type of игра что doesn’t really challenge the
+игрок. Sure, some levels are nearly impossible, but those levels generally
+require luck to complete along with skill. Mostly Конфеты Раздавить Saga is a
+warm bath of compliments and pleasant explosions. And я believe these
+types of игры make the world a better place. People need comfort. People
+need more praise in their lives. If a игра может help people be happy and get
+through their lives, я support что. Since the dawn of time, humans have
 sought escapism. That need is deep in the human psyche. Games are the
-latest delivery method. 私’m ない 行く to fight against the human psyche. Let
+latest delivery method. я’m not going to fight against the human psyche. Let
 people enjoy simple fun.
 
 Goals
-Verbs tend to work together. で シャベル 騎士, 私 できる move, and 私 できる attack.
-私’m generally もっと successful in the ゲーム いつ 私 combine これら 動詞. 私
-don’t move, pause, wait, それから attack. 私 attack while 私’m moving. 私 look
-around while 私’m moving. 私 don’t stop and pause; 私’m constantly
-performing 全て the アクション at 1つ time and それ’s part of 何 makes これら
-ゲーム challenging and interesting. Not 全て 選手 できる manage the feats of
-dexterity and rapid stimulus processing required to be successful at moveshovel いつ 彼らは 全て have to be done together.
-の プレーヤー’s 目標 できる also work これ way. いつ 私’m moving to line 上 a
-shot, 私’m also considering どうやって to best avoid the line of fire of another
+Verbs tend to work together. In Shovel Knight, я может move, and я может attack.
+я’m generally more successful in the игра when я combine these verbs. я
+don’t move, pause, wait, then attack. я attack while я’m moving. я look
+around while я’m moving. я don’t stop and pause; я’m constantly
+performing all the actions at one time and что’s part of what makes these
+игры challenging and interesting. Not all players может manage the feats of
+dexterity and rapid stimulus processing required to be successful at moveshovel when они all have to be done together.
+The игрок’s goals может also work этот way. When я’m moving to line up a
+shot, я’m also considering how to best avoid the line of fire of another
 
-enemy at the same time. Goals できる be combined ただ のように アクション できる be
-combined (形 3.5). しかし 目標 are even もっと likely to be layered rather
+enemy at the same time. Goals может be combined just like actions может be
+combined (Figure 3.5). But goals are even more likely to be layered rather
 than combined.
 
-形 3.5 Two Verbs merging の中へ a bigger verb.
-Look at あめ 打ち砕く 佐賀. もし あなた chose a random second of a プレーヤー’s
-session in あめ 打ち砕く 佐賀, the verb is likely to be “swap”. Maybe “look”
-もし あなた accept それ として a valid verb. しかし the プレーヤー’s 目標 are 行く to hit
-many 違う layers of analysis:
+Figure 3.5 Two Verbs merging into a bigger verb.
+Look at Конфеты Раздавить Saga. If ты chose a random second of a игрок’s
+session in Конфеты Раздавить Saga, the verb is likely to be “swap”. Maybe “look”
+if ты accept что как a valid verb. But the игрок’s goals are going to hit
+many different layers of analysis:
 1. Making a match
-2. Having これ match lead to a chain reaction or create a power gem
-3. Having これ match lead to a better board state いつ それ’s done
+2. Having этот match lead to a chain reaction or create a power gem
+3. Having этот match lead to a better board state when это’s done
 4. Removing lots of gems
-5. Making progress toward the ゴール of これ level
+5. Making progress toward the goal of этот level
 6. Scoring points
-7. Beating これ level
-8. Beating これ level with three stars
-9. Completing an event or challenge ゴール
+7. Beating этот level
+8. Beating этот level with three stars
+9. Completing an event or challenge goal
 
 10. Getting to the end of the level progression
 11. Getting a better score than my friends
 12. Relaxing
-13. Helping the cute little puppet creature to complete its ゴール
+13. Helping the cute little puppet creature to complete its goal
 14. Clearing the chocolate
 15. Removing the blockers
-16. A very large number of level-specific ゴール types それ 私 could list but
-それから これ chapter would become boring and repetitive and として a ゲーム
-designer 私 try to avoid boring もの
-これ is normal. で ゲーム として well として life, a single action rarely has a single
-ゴール. Goals come in herds. Some with subtle nuanced distinctions, and
-いくつかの coming から completely 違う directions. 私 欲しい to beat the level.
-私 欲しい to beat the level with three stars. 私 欲しい to beat the level with a
-higher score than my brother. These are expressions of the same base ゴール
-but with 違う nuances. From a ゲーム design standpoint, これら できる be
-merged の中へ a larger ゴール: success in the level (形 3.6).
+16. A very large number of level-specific goal types что я could list but
+then этот chapter would become boring and repetitive and как a игра
+designer я try to avoid boring things
+This is normal. In игры как well как life, a single action rarely has a single
+goal. Goals come in herds. Some with subtle nuanced distinctions, and
+some coming from completely different directions. я want to beat the level.
+я want to beat the level with three stars. я want to beat the level with a
+higher score than my brother. These are expressions of the same base goal
+but with different nuances. From a игра design standpoint, these может be
+merged into a larger goal: success in the level (Figure 3.6).
 
-形 3.6 Two 目標 merging の中へ a bigger ゴール.
+Figure 3.6 Two goals merging into a bigger goal.
 
-の bigger differences between 目標 are often based on scale. 私 欲しい これ
-action to clear lots of gems. 私 欲しい to beat the whole level. 私 欲しい to 得る to
-the end of the ゲーム progression. 私 欲しい the action 私’m performing now to
-作る me successful now, soon, and in the future. これ sort of layering of
-目標 is very 重要 to ゲーム design. Game designers のように to talk について
-目標 として onions – 1つ ゴール is contained within the 他の ゴール (形 3.7).
-Progress toward 1つ smaller ゴール also progresses あなた toward a larger ゴール.
+The bigger differences between goals are often based on scale. я want этот
+action to clear lots of gems. я want to beat the whole level. я want to get to
+the end of the игра progression. я want the action я’m performing now to
+make me successful now, soon, and in the future. This sort of layering of
+goals is very important to игра design. Game designers like to talk about
+goals как onions – one goal is contained within the other goal (Figure 3.7).
+Progress toward one smaller goal also progresses ты toward a larger goal.
 
-形 3.7 One ゴール inside another ゴール.
-So, both 目標 progress based on the same プレーヤー action, but the second
-ゴール is bigger それで それ takes longer. Completing the first ゴール is a step toward
-completing the second ゴール. いつ あなた complete the first ゴール, あなた still
-have the second ゴール to keep あなた driving forward. At no point does the
-プレーヤー complete 1つ ゴール and have nothing left to do. For a ゲーム designer,
-a プレーヤー with “nothing left to do” is a problem – 彼らは’re likely to leave the
-ゲーム and go do something else. Layered 目標 fix これ による keeping the
-プレーヤー motivated at 全て times.
+Figure 3.7 One goal inside another goal.
+So, both goals progress based on the same игрок action, but the second
+goal is bigger so это takes longer. Completing the first goal is a step toward
+completing the second goal. When ты complete the first goal, ты still
+have the second goal to keep ты driving forward. At no point does the
+игрок complete one goal and have nothing left to do. For a игра designer,
+a игрок with “nothing left to do” is a problem – они’re likely to leave the
+игра and go do something else. Layered goals fix этот by keeping the
+игрок motivated at all times.
 
-で あめ 打ち砕く 佐賀, a プレーヤー may say それ 彼らの ゴール is to beat これ
-level. しかし to do それ, 彼らは need to find and 作る matches. Once 彼らは
-complete the small ゴール and 作る それ match, 彼らは are (hopefully) closer to
-彼らの big ゴール of completing the level. しかし now 彼らは have to start another
-loop of activity to find another match and complete それ small ゴール again.
-Only after a few dozen small 目標 is the large ゴール reached.
-そして once the large ゴール is reached, the プレーヤー is taken back to the 佐賀
-Map どこ 彼らは remember それ the large ゴール is ただ a small step toward the
-ultimate long-term ゴール of progressing to the next story bit or to beat a
+In Конфеты Раздавить Saga, a игрок may say что their goal is to beat этот
+level. But to do что, они need to find and make matches. Once они
+complete the small goal and make что match, они are (hopefully) closer to
+their big goal of completing the level. But now они have to start another
+loop of activity to find another match and complete что small goal again.
+Only after a few dozen small goals is the large goal reached.
+And once the large goal is reached, the игрок is taken back to the Saga
+Map where они remember что the large goal is just a small step toward the
+ultimate long-term goal of progressing to the next story bit or to beat a
 friend or to reach “the end”.
-So maybe 目標 aren’t onions. Maybe 目標 are garlic. One head of garlic
-seems のように a single unified thing but いつ あなた break の中へ それ, あなた find many
-smaller versions inside (形 3.8).
+So maybe goals aren’t onions. Maybe goals are garlic. One head of garlic
+seems like a single unified thing but when ты break into это, ты find many
+smaller versions inside (Figure 3.8).
 
-形 3.8 Many 目標 inside another ゴール.
-これ is good psychology. Humans のように to group もの and draw lines
-around 彼ら. Part of the fun of 目標 is getting to define a task and それから
-check それ off あなたの to-do list. Completing a ゴール is fun.
+Figure 3.8 Many goals inside another goal.
+This is good psychology. Humans like to group things and draw lines
+around them. Part of the fun of goals is getting to define a task and then
+check это off your to-do list. Completing a goal is fun.
 
-そして to be clear, これ isn’t a monetization trick. これ is 何 makes the
-ゲーム fun. “Engagement” is a key ゴール of free-to-play ゲーム, and それ does
-drive monetization. しかし それ’s also a sign それ 選手 are having fun. で my
-opinion, the best way to drive monetization is to 作る sure the プレーヤー is
-having fun and engagement is 1つ way to identify いつ それ’s happening.
-これ is why layers are great. もし そこには is always something もっと to do, the
-プレーヤー is never looking at an empty checklist. いつ 彼らは complete 1つ
-check box and 得る それ hit of serotonin, そこには are still もっと checkboxes to
-do. Not ただ the next 1つ, but 1つ それ’s halfway finished. Or even better,
-1つ それ’s ただ について to be finished. もし あなた’re at 4% progress toward a ゴール,
-そこには’s no pressure to stay in the ゲーム and complete それ. しかし もし あなた’re at
-96%, それから あなた might として well play 1つ もっと level to finish それ off. そして それから
-いつ あなた do, そこには will be another ゴール at 97% waiting for あなた.
-これ is present in many ゲーム:
-Civilization and 他の 4x strategy ゲーム are well-known for promoting
-“1つ もっと turn” ゲームプレイ どこ そこには are many 違う layers of
-目標 それ overlap in complex ways, ensuring そこには is always 1つ もっと
+And to be clear, этот isn’t a monetization trick. This is what makes the
+игра fun. “Engagement” is a key goal of free-to-play игры, and это does
+drive monetization. But это’s also a sign что players are having fun. In my
+opinion, the best way to drive monetization is to make sure the игрок is
+having fun and engagement is one way to identify when что’s happening.
+This is why layers are great. If there is always something more to do, the
+игрок is never looking at an empty checklist. When они complete one
+check box and get что hit of serotonin, there are still more checkboxes to
+do. Not just the next one, but one что’s halfway finished. Or even better,
+one что’s just about to be finished. If ты’re at 4% progress toward a goal,
+there’s no pressure to stay in the игра and complete это. But if ты’re at
+96%, then ты might как well play one more level to finish это off. And then
+when ты do, there will be another goal at 97% waiting for ты.
+This is present in many игры:
+Civilization and other 4x strategy игры are well-known for promoting
+“one more turn” gameplay where there are many different layers of
+goals что overlap in complex ways, ensuring there is always one more
 thing to do.
-Boss levels are another way to promote 選手’ desire to check off
-boxes. の boss is the hardest part of the level, but それ always shows 上
-いつ あなた’re already past 90% complete. の temptation to check off
-それ box is part of why boss levels are それで motivating.
-Role-playing ゲーム (RPGs) offer multiple forms of progression –
+Boss levels are another way to promote players’ desire to check off
+boxes. The boss is the hardest part of the level, but это always shows up
+when ты’re already past 90% complete. The temptation to check off
+что box is part of why boss levels are so motivating.
+Role-playing игры (RPGs) offer multiple forms of progression –
 story quests, side quests, character stats, faction relationships, skill
-points, equipment, etc. これ ensures それ whenever a プレーヤー completes
-a ゴール, そこには are もっと もの to do.
-You できる see これ in the evolution of あめ 打ち砕く 佐賀.
+points, equipment, etc. This ensures что whenever a игрок completes
+a goal, there are more things to do.
+You может see этот in the evolution of Конфеты Раздавить Saga.
 
-Match-3 ゲーム such として Bejeweled existed before あめ 打ち砕く 佐賀,
-with very similar コア ゲームプレイ loops, even down to the specific power
-gem abilities. しかし いつ あめ 打ち砕く 佐賀 came out, its sales and
-engagement blew 彼ら 全て away. あめ 打ち砕く 佐賀 succeeded in large part
-because of the 佐賀 ゴール structure. の 佐賀 structure takes a fun コア
-ゲームプレイ loop それ had been mastered in previous match-3 ゲーム (形
-3.9) and adds another layer of 目標 on top of それ. You still 欲しい to 作る
-good matches and 得る a good score, but now そこには are two 新しい layers.
+Match-3 игры such как Bejeweled existed before Конфеты Раздавить Saga,
+with very similar core gameplay loops, even down to the specific power
+gem abilities. But when Конфеты Раздавить Saga came out, its sales and
+engagement blew them all away. Конфеты Раздавить Saga succeeded in large part
+because of the Saga goal structure. The Saga structure takes a fun core
+gameplay loop что had been mastered in previous match-3 игры (Figure
+3.9) and adds another layer of goals on top of это. You still want to make
+good matches and get a good score, but now there are two new layers.
 
-形 3.9 Goals merge: Make match, Create combos, Gain
+Figure 3.9 Goals merge: Make match, Create combos, Gain
 points.
-で the time-battle-based style of ゲーム のように Bejeweled, そこには’s no way to
-“beat” a level. You できる 得る a good score, but あなた できる never check off a box
-それ says the level is done.
-の 佐賀 map gives a clearer sense of progress on an individual level.
-You できる “beat” それ level, even もし そこには’s always room to go back and
-improve あなたの score (形 3.10).
+In the time-battle-based style of игры like Bejeweled, there’s no way to
+“beat” a level. You может get a good score, but ты может never check off a box
+что says the level is done.
+The Saga map gives a clearer sense of progress on an individual level.
+You может “beat” что level, even if there’s always room to go back and
+improve your score (Figure 3.10).
 
-形 3.10 Same, but with a bigger circle around それ: Beat level.
-そして once あなた beat a level, あなた’re taken back to それ map and shown the
-true ゴール – long-term progression. で Bejeweled, the end of a level may or
-may ない check a personal ゴール box depending on あなたの final score. で あめ
-打ち砕く 佐賀, あなた’re usually checking at least 1つ box and maybe もっと
-(形 3.11). そして あなた’re reminded of 全て the remaining boxes あなた できる
-check in the future. That’s much もっと emotionally compelling and drives
+Figure 3.10 Same, but with a bigger circle around это: Beat level.
+And once ты beat a level, ты’re taken back to что map and shown the
+true goal – long-term progression. In Bejeweled, the end of a level may or
+may not check a personal goal box depending on your final score. In Конфеты
+Раздавить Saga, ты’re usually checking at least one box and maybe more
+(Figure 3.11). And ты’re reminded of all the remaining boxes ты может
+check in the future. That’s much more emotionally compelling and drives
 long-term retention in a great way.
 
-形 3.11 Same, but with a bigger circle around それ: Complete
-ゲーム.
+Figure 3.11 Same, but with a bigger circle around это: Complete
+игра.
 
 Other Goals
-Looking at the list of 目標, いくつかの are groups of related tasks (various ways
-to evaluate a move), いくつかの are garlic cloves of related progression (move,
-level, ゲーム), but いくつかの don’t fit either of これら categories. Things のように
-“relax” or “help the puppet” suggest それ そこには is a lot of room for 他の
-types of 目標.
-Helping the puppet is an example of a narrative ゴール. の プレーヤー is
-motivated による emotional 目標 created による the ゲーム’s story, especially いつ
+Looking at the list of goals, some are groups of related tasks (various ways
+to evaluate a move), some are garlic cloves of related progression (move,
+level, игра), but some don’t fit either of these categories. Things like
+“relax” or “help the puppet” suggest что there is a lot of room for other
+types of goals.
+Helping the puppet is an example of a narrative goal. The игрок is
+motivated by emotional goals created by the игра’s story, especially when
 mixed with the motivation to progress a narrative forward. These are
-powerful 目標 for humans, として storytelling and completion are deeply
-woven の中へ humanity. For many ゲーム, ただ これ ゴール motivation is enough
-to invest time and effort の中へ a full story with (expensive) cinematics. Core
-ゲームプレイ drives 選手 forward, and progression keeps 彼ら wanting
-もっと, but deep engagement requires いくつかの emotional investment.
-Other 目標 のように “relax” suggest それ the プレーヤー may have 目標 for
-playing the ゲーム それ are outside the structure of the ゲーム. の ゲーム
-doesn’t directly have a relax button, and none of the explosions それ occur
-いつ candies match are directly designed to ensure プレーヤー relaxation.
-Relaxation is the reason the プレーヤー comes to the ゲーム, ない something the
-ゲーム directly produces. いつ 全て the parts of the ゲーム are working
-correctly, これ ゴール will be the result. These sorts of 目標 are 重要 to
-look for and 理解する in あなたの ゲーム. Just because 彼らは’re ない entirely
-driven による ゲーム features doesn’t mean それ あなた として a ゲーム designer できる’t
-influence 彼ら. Understanding 何 あなたの 選手 欲しい inside and outside
-the ゲーム is critical.
+powerful goals for humans, как storytelling and completion are deeply
+woven into humanity. For many игры, just этот goal motivation is enough
+to invest time and effort into a full story with (expensive) cinematics. Core
+gameplay drives players forward, and progression keeps them wanting
+more, but deep engagement requires some emotional investment.
+Other goals like “relax” suggest что the игрок may have goals for
+playing the игра что are outside the structure of the игра. The игра
+doesn’t directly have a relax button, and none of the explosions что occur
+when candies match are directly designed to ensure игрок relaxation.
+Relaxation is the reason the игрок comes to the игра, not something the
+игра directly produces. When all the parts of the игра are working
+correctly, этот goal will be the result. These sorts of goals are important to
+look for and understand in your игры. Just because они’re not entirely
+driven by игра features doesn’t mean что ты как a игра designer может’t
+influence them. Understanding what your players want inside and outside
+the игра is critical.
 
 Player-Generated Goals
-One type of ゴール それ doesn’t show 上 in the ゴール list is プレーヤー-generated
-目標. の list focuses on 目標 それ the ゲーム creates and enforces, but
-humans love to generate and track 目標 on 彼らの own. Every time あなた
-generate a to-do list and mentally check off items として 彼らは’re completed,
-あなた’re acting として あなたの own ゲーム designer to structure and motivate daily
-life. Players do これ during ゲーム, too. で あめ 打ち砕く, 選手 might strive
-to clear a certain area or create a certain combo even もし the ゲーム doesn’t
-ask 彼ら to. これ is good.
-As a ゲーム designer, あなた できる’t force 選手 to 作る 彼らの own 目標. しかし
-あなた できる create an environment どこ 目標 are easy to 作る and track and
-enjoy. の もっと freedom the ゲーム gives the プレーヤー to try divergent アクション,
-the もっと 選手 are 行く to find 彼ら and enjoy 彼ら. Players のように
-interacting with everything in the ゲーム world, which is something ほとんど
-ゲーム designs should encourage. Finding ways to give strong feedback
-during これら アクション helps the プレーヤー know それ 彼らの アクション matter and それ
-the ゲーム recognizes 何 彼らは did. いつ 私 was working on Paperboy 64
-(1999) (my first full ゲーム design), we made sure それ almost everything
-reacted いつ being hit による a newspaper. の プレーヤー was only meant to target
-a few specific もの, but the world is much もっと fun and engaging もし
-everything reacts. そして もし a プレーヤー wants to focus on throwing papers at dogs
-to keep 彼ら away から cats, 彼らは できる do それ. They don’t earn points for それ,
-but the ゲーム still creates これら little scenarios with emotional potential and
-shows the プレーヤー それ 彼らの アクション have consequences.
-Player-generated 目標 are also an 重要 driver for ゲームプレイ 目標.
-During early playtests, keep an eye out for もの 選手 try to do. Ask
-選手 何 彼らの ゴール is. もし 選手 欲しい to do something, the ゲーム should
-recognize and reward それ. で いくつかの cases, take those personal 目標 and 作る
+One type of goal что doesn’t show up in the goal list is игрок-generated
+goals. The list focuses on goals что the игра creates and enforces, but
+humans love to generate and track goals on their own. Every time ты
+generate a to-do list and mentally check off items как они’re completed,
+ты’re acting как your own игра designer to structure and motivate daily
+life. Players do этот during игры, too. In Конфеты Раздавить, players might strive
+to clear a certain area or create a certain combo even if the игра doesn’t
+ask them to. This is good.
+As a игра designer, ты может’t force players to make their own goals. But
+ты может create an environment where goals are easy to make and track and
+enjoy. The more freedom the игра gives the игрок to try divergent actions,
+the more players are going to find them and enjoy them. Players like
+interacting with everything in the игра world, which is something most
+игра designs should encourage. Finding ways to give strong feedback
+during these actions helps the игрок know что their actions matter and что
+the игра recognizes what они did. When я was working on Paperboy 64
+(1999) (my first full игра design), we made sure что almost everything
+reacted when being hit by a newspaper. The игрок was only meant to target
+a few specific things, but the world is much more fun and engaging if
+everything reacts. And if a игрок wants to focus on throwing papers at dogs
+to keep them away from cats, они может do что. They don’t earn points for это,
+but the игра still creates these little scenarios with emotional potential and
+shows the игрок что their actions have consequences.
+Player-generated goals are also an important driver for gameplay goals.
+During early playtests, keep an eye out for things players try to do. Ask
+players what their goal is. If players want to do something, the игра should
+recognize and reward это. In some cases, take those personal goals and make
 
-彼ら の中へ ゲームプレイ 目標. しかし もし それ’s ない appropriate, take those personal
-目標 and acknowledge それ 彼らは matter. Keep track of 彼ら in the design to
-作る sure 彼らは remain fun として the ゲーム changes and iterates. もし possible,
-track 彼ら and give the プレーヤー a small thumbs 上 in-ゲーム いつ 彼らは
-complete それ ゴール, even もし それ’s unrelated to the main ゴール. Players のように a pat
-on the back, それで give 彼ら として much feedback として あなた できる to 作る それ
+them into gameplay goals. But if что’s not appropriate, take those personal
+goals and acknowledge что они matter. Keep track of them in the design to
+make sure они remain fun как the игра changes and iterates. If possible,
+track them and give the игрок a small thumbs up in-игра when они
+complete что goal, even if это’s unrelated to the main goal. Players like a pat
+on the back, so give them как much feedback как ты может to make что
 happen.
 
 Events
-Since launch, あめ 打ち砕く 佐賀 has been finding ways to push the プレーヤー’s
-ability to complete 目標 even further. One of the ほとんど successful features
-in many free-to-play ゲーム is the event. For example, in あめ 打ち砕く
-佐賀, 彼らは might have a special race どこ the プレーヤー is rewarded for
-completing a certain number of levels before 他の 選手 do. で the current
-builds of あめ 打ち砕く 佐賀, いくつかの of これら “events” have become
-重要 enough to bake back の中へ the main ゲーム progression cycle. They
-started として special events それ only appeared occasionally but now are ただ
-something それ happens naturally during play.
-There are a lot of good psychological hooks built の中へ limited-time
+Since launch, Конфеты Раздавить Saga has been finding ways to push the игрок’s
+ability to complete goals even further. One of the most successful features
+in many free-to-play игры is the event. For example, in Конфеты Раздавить
+Saga, они might have a special race where the игрок is rewarded for
+completing a certain number of levels before other players do. In the current
+builds of Конфеты Раздавить Saga, some of these “events” have become
+important enough to bake back into the main игра progression cycle. They
+started как special events что only appeared occasionally but now are just
+something что happens naturally during play.
+There are a lot of good psychological hooks built into limited-time
 events.
-Players love getting もっと もの “for free”.
-They encourage coming back soon, それで あなた できる complete the ゴール
+Players love getting more things “for free”.
+They encourage coming back soon, so ты может complete the goal
 before the event ends.
 They feel special and often emphasize the unique never-before-seen
-qualities of これ event.
-もし the 目標 are set 上 right, 彼らは scratch competitive urges in a way
-それ doesn’t automatically advantage expert 選手.
+qualities of этот event.
+If the goals are set up right, они scratch competitive urges in a way
+что doesn’t automatically advantage expert players.
 
-で あめ 打ち砕く 佐賀, events are a great way to add an intermediate layer of
-目標. あめ 打ち砕く 佐賀 does a great job of providing immediate 目標,
-and the 佐賀 Map provides a great long-term ゴール. しかし the long-term of the
-佐賀 Map できる be pretty far off, especially now それ そこには are thousands and
-thousands of levels. の motivation to reach the end of the map now takes
-multiple years to complete. So, そこには’s a need for もっと checkboxes between
-the “complete a level” box and the “beat the ゲーム” box.
-Events provide a ゴール それ is bigger than a single level but is still realistic
-to actually complete. A プレーヤー may never reach level 20,000, but 彼らは できる
-earn the free powerup による collecting a few もっと levels to win the race. It
-doesn’t even matter もし 彼らは 欲しい a free powerup – それ will still motivate 彼ら
-to push forward ただ to check the box. Humans are weird それ way.
-Being able to see これ in retrospect is a sign of a reasonably skilled
-designer. しかし the real trick is identifying これ before the feature is
-implemented. A really talented ゲーム designer would be able to look at
-あめ 打ち砕く 佐賀 at launch and identify the ゴール layers. A really really
-talented ゲーム designer would be able to do それ, and それから notice それ the
-ゴール layers are fairly far apart. Even with only 80 levels, the motivation to
-complete a level and the motivation to complete the ゲーム have a big gap.
-そして それ takes a really really really talented ゲーム designer to do 全て それ, and
-それから design the right solution to fix それ problem while also fixing a few
-他の problems along the way. 私 never worked at King, それで 私 don’t know who
-came 上 with the idea to add the events. しかし 彼らは deserve a raise.
-(私’d be willing to guess それ wasn’t a single person sitting down doing これ
-analysis and 行く “Aha!”. It was almost certainly a joint effort による many
-people who fed each 他の small good ideas and それから tested and iterated on
+In Конфеты Раздавить Saga, events are a great way to add an intermediate layer of
+goals. Конфеты Раздавить Saga does a great job of providing immediate goals,
+and the Saga Map provides a great long-term goal. But the long-term of the
+Saga Map может be pretty far off, especially now что there are thousands and
+thousands of levels. The motivation to reach the end of the map now takes
+multiple years to complete. So, there’s a need for more checkboxes between
+the “complete a level” box and the “beat the игра” box.
+Events provide a goal что is bigger than a single level but is still realistic
+to actually complete. A игрок may never reach level 20,000, but они может
+earn the free powerup by collecting a few more levels to win the race. It
+doesn’t even matter if они want a free powerup – это will still motivate them
+to push forward just to check the box. Humans are weird что way.
+Being able to see этот in retrospect is a sign of a reasonably skilled
+designer. But the real trick is identifying этот before the feature is
+implemented. A really talented игра designer would be able to look at
+Конфеты Раздавить Saga at launch and identify the goal layers. A really really
+talented игра designer would be able to do что, and then notice что the
+goal layers are fairly far apart. Even with only 80 levels, the motivation to
+complete a level and the motivation to complete the игра have a big gap.
+And это takes a really really really talented игра designer to do all что, and
+then design the right solution to fix что problem while also fixing a few
+other problems along the way. я never worked at King, so я don’t know who
+came up with the idea to add the events. But они deserve a raise.
+(я’d be willing to guess это wasn’t a single person sitting down doing этот
+analysis and going “Aha!”. It was almost certainly a joint effort by many
+people who fed each other small good ideas and then tested and iterated on
 those ideas to find the best ones. Someone along the way probably noticed
-the ゴール structures and might have advocated strongly for certain ideas
+the goal structures and might have advocated strongly for certain ideas
 
-based on それ, but in ゲーム good もの rarely happen because of 1つ
-moment. Games are made による teams, and good ゲーム are made による
+based on это, but in игры good things rarely happen because of one
+moment. Games are made by teams, and good игры are made by
 iteration.)
 

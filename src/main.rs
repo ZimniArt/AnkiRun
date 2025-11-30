@@ -1,12 +1,11 @@
-use std::fs::File;
 use std::{process, usize};
-use std::{collections::HashMap, fs, os::windows::io as win_io, str::SplitWhitespace};
+use std::{collections::HashMap, fs, str::SplitWhitespace};
 use rtranslate::translate;
 use regex::Regex;
 use rfd;
 
 use std::io::{self, Write};
-use std::fmt::{Display, write};
+use std::fmt::{Display};
 use std::path::Path;
 
 enum Language{
