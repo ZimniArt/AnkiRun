@@ -9,6 +9,24 @@ use std::fmt::{Display};
 use std::path::Path;
 
 enum Language{
+    AutoNotRecommended,
+    Spanish,
+    French,
+    German,
+    Portuguese,
+    Italian,
+    ChineseMandarin,
+    Korean,
+    Arabic,
+    Hindi,
+    Dutch,
+    Swedish,
+    Turkish,
+    Polish,
+    Ukrainian,
+    Vietnamese,
+    Indonesian,
+    Greek,
     English,
     Russian,
     Japanese,
@@ -17,9 +35,27 @@ enum Language{
 impl Language {
     pub fn  as_str(&self) -> &'static str{
         match self {
-        Language::English => "en",
-        Language::Russian => "ru",
-        Language::Japanese =>"ja",
+    Language::AutoNotRecommended=> "auto",
+    Language::Spanish           => "es",
+    Language::French            => "fr",
+    Language::German            => "de",
+    Language::Portuguese        => "pt",
+    Language::Italian           => "it",
+    Language::ChineseMandarin   => "zh",
+    Language::Korean            => "ko",
+    Language::Arabic            => "ar",
+    Language::Hindi             => "hi",
+    Language::Dutch             => "nl",
+    Language::Swedish           => "sv",
+    Language::Turkish           => "tr",
+    Language::Polish            => "pl",
+    Language::Ukrainian         => "uk",
+    Language::Vietnamese        => "vi",
+    Language::Indonesian        => "id",
+    Language::Greek             => "el",
+    Language::English           => "en",
+    Language::Russian           => "ru",
+    Language::Japanese          => "ja",
         }
     }
 }
@@ -99,7 +135,29 @@ fn main() {
 
     let input_text = fs::read_to_string(input_path).expect("no input text"); 
     
-    let _languages = vec![Language::English, Language::Russian, Language::Japanese];
+    let _languages = vec![
+        Language::AutoNotRecommended,
+        Language::Spanish,           
+        Language::French,            
+        Language::German,            
+        Language::Portuguese,        
+        Language::Italian,           
+        Language::ChineseMandarin,   
+        Language::Korean,            
+        Language::Arabic,            
+        Language::Hindi,             
+        Language::Dutch,             
+        Language::Swedish,           
+        Language::Turkish,           
+        Language::Polish,            
+        Language::Ukrainian,         
+        Language::Vietnamese,        
+        Language::Indonesian,        
+        Language::Greek,             
+        Language::English,           
+        Language::Russian,           
+        Language::Japanese,     
+    ];
     
     let _input_index = input_options("Whats the language of the file?", &_languages);
     let _input_lang = _languages[_input_index].as_str();

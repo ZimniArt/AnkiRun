@@ -1,62 +1,62 @@
 Chapter 2
-Shovel Knight / Verbs
+مجرفة Knight / Verbs
 DOI: 10.1201/9781003346586-2
 
-Shovel Knight is a great игра.
-Shovel Knight came out in 2014 when indie игры were just becoming a
-thing. Shovel Knight is a great example of the retro movement, where
-игры are created to honor the classic игры of old. Shovel Knight evokes
+مجرفة Knight is a great لعبة.
+مجرفة Knight came out in 2014 when indie ألعاب were just becoming a
+thing. مجرفة Knight is a great example of the retro movement, where
+ألعاب are created to honor the classic ألعاب of old. مجرفة Knight evokes
 the feel of old-school 2D platforms like Super Mario Bros or Castlevania
 but also adds its own unique twists.
-This dissection is specific to Shovel Knight: Shovel of Hope, the original
-игра in the series (Figure 2.1). Sequels and spinoffs usually require their
+This dissection is specific to مجرفة Knight: مجرفة of Hope, the original
+لعبة in the series (Figure 2.1). Sequels and spinoffs usually require their
 own dissections, even if some aspects may be the same.
 
-Figure 2.1 Shovel Knight screenshot.
+Figure 2.1 مجرفة Knight screenshot.
 
-Shovel Knight: Gameplay Dissection
+مجرفة Knight: Gameplay Dissection
 Verbs
-To understand a игра, the best place to start is the verbs. What actions может
-the игрок take?
+To understand a لعبة, the best place to start is the verbs. What actions يستطيع
+the لاعب take?
 Games are different from other forms of entertainment like books and
-movies. The biggest difference is что in игры, the игрок gets to do things.
-The игрок может change what happens in the experience through their choices
-and other actions. When ты’re reading Hamlet (Shakespeare 1604), это’s
+movies. ال biggest difference is الذي - التي in ألعاب, the لاعب gets to do things.
+ال لاعب يستطيع change what happens in the experience through their choices
+and other actions. When أنت’re reading Hamlet (Shakespeare 1604), هو - هي’s
 always going to end the same way, and Hamlet’s always going to drag his
-feet to get there. When ты’re playing a игра of Go with a friend, ты
-don’t know who’s going to win or how они’re going to do это. That
-combination of agency and uncertainty is what makes игры fun. Games
+feet to get there. When أنت’re playing a لعبة of Go with a friend, أنت
+don’t know who’s going to win or how they’re going to do هو - هي. That
+combination of agency and uncertainty is what makes ألعاب fun. Games
 are interactive.
-So, when ты’re trying to understand a игра, start with questions about
-interactivity. What does the игрок do? What actions может the игрок take?
-There’s more to understand than just что, but это’s a good place to start.
-In Shovel Knight, the игрок может move around and hit things with a
-shovel. Movement is a combination of running and jumping. The core
-gameplay is Run, Jump, and Attack. The игрок может complete 90% of the
-игра by just doing these three things. These are the core actions of этот
-игра.
-But how do we know что? Let’s dig a little deeper.
+So, when أنت’re trying to understand a لعبة, start with questions about
+interactivity. What does the لاعب do? What actions يستطيع the لاعب take?
+There’s more to understand than just الذي - التي, but هو - هي’s a good place to start.
+In مجرفة Knight, the لاعب يستطيع move around and hit things with a
+shovel. Movement is a combination of running and jumping. ال core
+gameplay is Run, Jump, and Attack. ال لاعب يستطيع complete 90% of the
+لعبة by just doing these three things. These are the core actions of هذا
+لعبة.
+But how do we know الذي - التي? Let’s dig a little deeper.
 
 Advanced Verb-ing
-One theme throughout этот book is что игра dissections depend on your
-goals как a dissector. If ты’re just trying to get a rough understanding of
-Shovel Knight, understanding что the игрок’s actions are Run, Jump, and
+One theme throughout هذا book is الذي - التي لعبة dissections depend on your
+goals مثل a dissector. If أنت’re just trying to get a rough understanding of
+مجرفة Knight, understanding الذي - التي the لاعب’s actions are Run, Jump, and
 
 Attack is enough. Stop there, move on. That’s a completely valid approach
-and ты может pat yourself on the back.
-But sometimes ты need to know more. If ты’re going to start work on
-the a 2d platformer team, or ты’re going to make a игра inspired by
-Shovel Knight, or ты’re writing a dissertation on это, ты need to understand
-игрок actions at a deeper level.
-And sometimes the verbs may not be как obvious. If ты’re not sure what
-counts как a core action, ты may need to spend a little more time analyzing
-before ты может say что with authority.
-When ты’re doing a deep analysis of a new игра, это’s useful to start
-with every verb ты может think of. Go through the controller diagram. Think
-about what ты do when ты play the игра, especially the choices что ты
-deliberate over. Ask your friends “What do ты do in этот игра?” Read the
-wiki if there is one. Write это all down как a starting point.
-Let’s do что for Shovel Knight:
+and أنت يستطيع pat yourself on the back.
+But sometimes أنت need to know more. If أنت’re going to start work on
+the a 2d platformer team, or أنت’re going to make a لعبة inspired by
+مجرفة Knight, or أنت’re writing a dissertation on هو - هي, أنت need to understand
+لاعب actions at a deeper level.
+And sometimes the verbs may not be مثل obvious. If أنت’re not sure what
+counts مثل a core action, أنت may need to spend a little more time analyzing
+before أنت يستطيع say الذي - التي with authority.
+When أنت’re doing a deep analysis of a new لعبة, هو - هي’s useful to start
+with every verb أنت يستطيع think of. Go through the controller diagram. Think
+about what أنت do when أنت play the لعبة, especially the choices الذي - التي أنت
+deliberate over. Ask your friends “What do أنت do in هذا لعبة?” Read the
+wiki if there is one. Write هو - هي all down مثل a starting point.
+Let’s do الذي - التي for مجرفة Knight:
 Run
 Run Right (right on the controller while on the ground)
 Run Left (left on the controller while on the ground)
@@ -64,21 +64,21 @@ Attack (press the attack button, officially called “Dig Slash”)
 Jump (jump button while on the ground)
 Jump Right (jump button while moving right)
 Jump Left (jump button while moving left)
-Fall (what happens after ты jump or are in the air for another reason)
+Fall (what happens after أنت jump or are in the air for another reason)
 Air Control (moving right/left while in the air)
 Drop Attack (a combination of falling and attacking triggered by
-pressing down while in the air, officially called “Shovel Drop”)
+pressing down while in the air, officially called “مجرفة Drop”)
 Dodge (move or jump to avoid an enemy or other hazard)
 
 Fight (move and attack against an enemy, with a combination of
 different actions mixed together)
 Boss Fight (fight, but with more complicated things going on)
 Wait (don’t do anything, sometimes important to get timing right)
-Dig (attack a pile of dirt to get things out of это)
-Break (attack an object like a chest or wall to destroy это)
+Dig (attack a pile of dirt to get things out of هو - هي)
+Break (attack an object like a chest or wall to destroy هو - هي)
 Loot (technically pulling things out of a chest is a different action than
 breaking the chest open)
-Juggle (hit something что is falling, which sends это up again)
+Juggle (hit something الذي - التي is falling, which sends هو - هي up again)
 Die (lose health or fall in a pit)
 Talk (press up while near a Non-Player Character (NPC) to initiate
 dialog)
@@ -86,72 +86,72 @@ Buy (choose a text option to spend money or otherwise acquire a
 thing)
 Fish (use an inventory item to try to get stuff)
 Use Relic (use an inventory item at the cost of Magic, with about a
-dozen different ones что может be acquired)
+dozen different ones الذي - التي يستطيع be acquired)
 Drink (use an inventory item to gain a bonus)
 Play Music (select music via a conversation with an NPC)
-Charge Slash (a modified attack earned later in the игра)
-Uncover (sometimes when ты destroy something, there is another
-object or enemy behind это что enters the scene)
-Mini-Game (there are places where ты может play little sub-игры with
+Charge Slash (a modified attack earned later in the لعبة)
+Uncover (sometimes when أنت destroy something, there is another
+object or enemy behind هو - هي الذي - التي enters the scene)
+Mini-Game (there are places where أنت يستطيع play little sub-ألعاب with
 different goals)
 Explore (look around and move around to find something new)
-Find (basically the same как Explore, but possibly referring to a specific
-thing ты were looking for)
+Find (basically the same مثل Explore, but possibly referring to a specific
+thing أنت were looking for)
 
 Gather (pick up coins or other things, which happens naturally when
 the character touches them)
-Collect (usually used to mean the same thing как Gather but может also
+Collect (usually used to mean the same thing مثل Gather but يستطيع also
 refer to Feats or other more abstract things)
 Plan (connect a series of actions in your mind and think about using
 them together, possibly with specific timing)
 Position (place yourself in the right place)
 Observe (watch how the objects in the world work)
-Learn (uncover the systems of the игра and how они work)
-Predict (use what ты’ve learned to come up with a theory about what
+Learn (uncover the systems of the لعبة and how they work)
+Predict (use what أنت’ve learned to come up with a theory about what
 will happen next)
 Watch (cut scenes)
-Travel (move on the map view что is used to select level)
-Showdown (a separate play mode что я’m ignoring for этот dissection)
+Travel (move on the map view الذي - التي is used to select level)
+Showdown (a separate play mode الذي - التي أنا’m ignoring for هذا dissection)
 Challenge Mode (another separate play mode)
-New Game (UI action to start a игра)
-Enter Name (UI action to label a игра save)
+New Game (UI action to start a لعبة)
+Enter Name (UI action to label a لعبة save)
 Body Swap (change avatar appearance)
-You может see how этот list может get pretty long. Let’s talk about how to turn
-этот big list into a smaller list что is more useful.
+You يستطيع see how هذا list يستطيع get pretty long. Let’s talk about how to turn
+هذا big list into a smaller list الذي - التي is more useful.
 To start, let’s analyze these words. Which verbs relate to each other?
-Which do ты think of together when ты’re playing?
+Which do أنت think of together when أنت’re playing?
 
 Pre-Verbs
-If ты’re dissecting an idea for a new игра ты’re thinking about, ты won’t have a controller
-diagram to get ты started. Instead, ты need to identify the verbs based on the information ты
+If أنت’re dissecting an idea for a new لعبة أنت’re thinking about, أنت won’t have a controller
+diagram to get أنت started. Instead, أنت need to identify the verbs based on the information أنت
 do have.
-When ты’re describing the idea to people, what actions do ты talk about?
-When ты play the игра in your head, what is это что ты’re doing?
-Picture the игра on a controller. What would the buttons do?
-This might be hard. The inspiration for a игра idea может start with a story or a cool new feature
-or other things. But if ты find что your игра idea doesn’t have clear verbs, что’s a sign что
+When أنت’re describing the idea to people, what actions do أنت talk about?
+When أنت play the لعبة in your head, what is هو - هي الذي - التي أنت’re doing?
+Picture the لعبة on a controller. What would the buttons do?
+This might be hard. ال inspiration for a لعبة idea يستطيع start with a story or a cool new feature
+or other things. But if أنت find الذي - التي your لعبة idea doesn’t have clear verbs, الذي - التي’s a sign الذي - التي
 your idea isn’t really complete yet.
-Understanding the core loop is a key part of early ideation. You может’t pitch a игра if ты
-может’t describe what the игрок is going to actually do in что игра. If этот happens, ты need to
-spend some more time thinking этот through before moving on.
+Understanding the core loop is a key part of early ideation. You يستطيع’t pitch a لعبة if أنت
+يستطيع’t describe what the لاعب is going to actually do in الذي - التي لعبة. If هذا happens, أنت need to
+spend some more time thinking هذا through before moving on.
 
 Direct Action Verbs
 Since we’re trying to understand interactivity, we want to focus on verbs
-что are about the игрок directly doing something. Look for verbs where the
-игрок does something что sends input to the computer – этот может be
+الذي - التي are about the لاعب directly doing something. Look for verbs where the
+لاعب does something الذي - التي sends input to the computer – هذا يستطيع be
 pressing a button, pushing on a stick, touching a touchpad, or anything else.
-When the игрок does этот, the игра responds. The игра rules recognize
-the игрок’s action как something important, and something in the игра’s
+When the لاعب does هذا, the لعبة responds. ال لعبة rules recognize
+the لاعب’s action مثل something important, and something in the لعبة’s
 model of the world changes (Figure 2.2). These are key to interactivity.
 
-Figure 2.2 Flow chart showing how the игрок does something,
+Figure 2.2 Flow chart showing how the لاعب does something,
 foreshadowing bigger flow charts coming up soon.
-Once we identify things the игрок может do, we может look for verbs что all
-relate to the same type of action. Any игрок actions что result in the same
-response from the игра может be grouped together. That’s what we’re looking
+Once we identify things the لاعب يستطيع do, we يستطيع look for verbs الذي - التي all
+relate to the same type of action. Any لاعب actions الذي - التي result in the same
+response from the لعبة يستطيع be grouped together. That’s what we’re looking
 for.
-Looking over the big list, we может group a bunch of movement-related
-verbs together. All of these are used by the игрок to change the position of
+Looking over the big list, we يستطيع group a bunch of movement-related
+verbs together. All of these are used by the لاعب to change the position of
 their avatar character.
 Run
 Run Right (right on the controller while on the ground)
@@ -160,1110 +160,1110 @@ Jump (jump button while on the ground)
 Jump Right (jump button while moving right)
 Jump Left (jump button while moving left)
 Air Control (moving right/left while in the air)
-The important thing here is to recognize что the игрок controls an avatar in
+ال important thing here is to recognize الذي - التي the لاعب controls an avatar in
 a 2D space by changing the avatar’s position (and orientation) in the world.
 There are a lot of different movement controls with slight nuanced
-differences. The diversity of specific movement controls is a good sign что
-navigating through the world is important in этот игра.
-Each of these is important to understand if ты’re really trying to dig
-deep on how Shovel Knight works. Doubly so for other игры with more
+differences. ال diversity of specific movement controls is a good sign الذي - التي
+navigating through the world is important in هذا لعبة.
+Each of these is important to understand if أنت’re really trying to dig
+deep on how مجرفة Knight works. Doubly so for other ألعاب with more
 complex controls to navigate more complex 3D scenes. But for right now,
-we может group them all together как “Move”. We’ll talk about more ways to
+we يستطيع group them all together مثل “Move”. We’ll talk about more ways to
 differentiate these types of overlapping verbs later.
 
 Deeper Dives: Research
-When я start working on a игра что fits into an existing genre or has a clear relationship with
-another игра, это’s important to start by doing a deep analysis of что related игра.
-Play the игра thoroughly yourself and reflect on the experience.
-Play related игры.
-Watch other people play the игра. Social media может be great for этот.
-If это happens to be a игра with an active fandom, read up on what они think. Try to build
-the knowledge что a fan would have. There will always be fans with deeper knowledge
-than ты – some fans are great with details – and что’s OK.
+When أنا start working on a لعبة الذي - التي fits into an existing genre or has a clear relationship with
+another لعبة, هو - هي’s important to start by doing a deep analysis of الذي - التي related لعبة.
+Play the لعبة thoroughly yourself and reflect on the experience.
+Play related ألعاب.
+Watch other people play the لعبة. Social media يستطيع be great for هذا.
+If هو - هي happens to be a لعبة with an active fandom, read up on what they think. Try to build
+the knowledge الذي - التي a fan would have. There will always be fans with deeper knowledge
+than أنت – some fans are great with details – and الذي - التي’s OK.
 
-The next set of verbs is combat related:
+ال next set of verbs is combat related:
 Attack (press the attack button, officially called “Dig Slash”)
 Drop Attack (a combination of falling and attacking triggered by
-pressing down while in the air, officially called “Shovel Drop”)
-Charge Slash (a modified attack earned later in the игра)
+pressing down while in the air, officially called “مجرفة Drop”)
+Charge Slash (a modified attack earned later in the لعبة)
 Dodge (move or jump to avoid an enemy or other hazard)
 Fight (move and attack against an enemy, with a combination of
 different actions mixed together)
 Boss Fight (fight, but with more complicated things going on)
-There are lots of ways to inflict damage on enemies. The игрок provides an
-input and then the игра rules decide if an enemy takes damage and how
-much. я think we может comfortably group these verbs together and talk about
-“Attack” как one of the big concepts in Shovel Knight.
-The final set of direct игрок actions are all object-related. The игрок has
-an inventory of special actions они может take (by pressing up and attack).
-There are about a dozen different Relics the игрок может acquire over the
-course of the игра with various different effects, ranging from healing to
+There are lots of ways to inflict damage on enemies. ال لاعب provides an
+input and then the لعبة rules decide if an enemy takes damage and how
+much. أنا think we يستطيع comfortably group these verbs together and talk about
+“Attack” مثل one of the big concepts in مجرفة Knight.
+ال final set of direct لاعب actions are all object-related. ال لاعب has
+an inventory of special actions they يستطيع take (by pressing up and attack).
+There are about a dozen different Relics the لاعب يستطيع acquire over the
+course of the لعبة with various different effects, ranging from healing to
 
-attacks to earning money. Most of these deplete the игрок’s Magic stat
+attacks to earning money. Most of these deplete the لاعب’s Magic stat
 when used.
 Use Relic (use an inventory item at the cost of Magic, with about a
-dozen different ones что может be acquired)
+dozen different ones الذي - التي يستطيع be acquired)
 
 Indirect Action Verbs
-Action Verbs что describe what the игрок может do are the most important
-for understanding the core of a игра, but there are a variety of other verbs
-что happen during a игра что are important to understand.
+Action Verbs الذي - التي describe what the لاعب يستطيع do are the most important
+for understanding the core of a لعبة, but there are a variety of other verbs
+الذي - التي happen during a لعبة الذي - التي are important to understand.
 Die (lose health or fall in a pit)
 Gather (pick up coins or other things, which happens naturally when
 the character touches them)
-Collect (usually used to mean the same thing как Gather, but может also
+Collect (usually used to mean the same thing مثل Gather, but يستطيع also
 refer to Feats or other more abstract things)
-Uncover (sometimes when ты destroy something, there is another
-object or enemy behind это что enters the scene)
-There are verbs что happen in the игра but are not directly triggered by the
-игрок. These are more of a consequence of a игрок action than the action
-itself. The игрок never presses “Collect” in Shovel Knight – они just walk
-over to an object and if это’s the right type of object, like a gem, это just gets
-collected. The игрок might do что intentionally, but the “do” the игрок
+Uncover (sometimes when أنت destroy something, there is another
+object or enemy behind هو - هي الذي - التي enters the scene)
+There are verbs الذي - التي happen in the لعبة but are not directly triggered by the
+لاعب. These are more of a consequence of a لاعب action than the action
+itself. ال لاعب never presses “Collect” in مجرفة Knight – they just walk
+over to an object and if هو - هي’s the right type of object, like a gem, هو - هي just gets
+collected. ال لاعب might do الذي - التي intentionally, but the “do” the لاعب
 does is just movement.
-There are also object actions the игрок может take based on the items in the
+There are also object actions the لاعب يستطيع take based on the items in the
 world around them. These use the existing controls but change the results
-based on the objects in the world when the игрок performs their action.
+based on the objects in the world when the لاعب performs their action.
 These are important to understand but are less core than the actions.
 
 Talk (press up while near an NPC to initiate dialog)
-Fall (what happens after ты jump or are in the air for another reason)
-Dig (attack a pile of dirt to get things out of это)
-Break (attack an object like a chest or wall to destroy это)
-Juggle (hit something что ты’ve previously hit to keep это in the air)
+Fall (what happens after أنت jump or are in the air for another reason)
+Dig (attack a pile of dirt to get things out of هو - هي)
+Break (attack an object like a chest or wall to destroy هو - هي)
+Juggle (hit something الذي - التي أنت’ve previously hit to keep هو - هي in the air)
 Buy (choose a text option to spend money or otherwise acquire a
 thing)
 Play Music (select music via a conversation with an NPC)
 Loot (technically pulling things out of a chest is a different action than
 breaking the chest open)
-The most common type of object interaction is talking with NPCs. я know
-это’s a bit rude to call NPCs objects, but from the perspective of the code
+ال most common type of object interaction is talking with NPCs. أنا know
+هو - هي’s a bit rude to call NPCs objects, but from the perspective of the code
 there’s not much difference.
-Technically ты could call combat an indirect action because это only
+Technically أنت could call combat an indirect action because هو - هي only
 makes sense if there’s an enemy nearby and there isn’t always an enemy
 nearby. This is a clever point, but given the frequency of enemies in the
-level design, я think это’s fair to call “Attack” a core gameplay action. If
-someone re-made Shovel Knight with significantly fewer enemies and more
-depth to the NPC interactions, это would be an interesting way to make an
-entirely different игра in a different genre without changing the core
-engine or code or игрок actions of Shovel Knight. But это wouldn’t be Shovel
-Knight. More on content and how это changes the игра in a later chapter.
+level design, أنا think هو - هي’s fair to call “Attack” a core gameplay action. If
+someone re-made مجرفة Knight with significantly fewer enemies and more
+depth to the NPC interactions, هو - هي would be an interesting way to make an
+entirely different لعبة in a different genre without changing the core
+engine or code or لاعب actions of مجرفة Knight. But هو - هي wouldn’t be مجرفة
+Knight. More on content and how هو - هي changes the لعبة in a later chapter.
 
 Abstract Verbs
 Dodge (move or jump to avoid an enemy or other hazards)
 Explore (find something new)
 
-Find (basically the same как Explore, but possibly referring to a specific
-thing ты were looking for)
+Find (basically the same مثل Explore, but possibly referring to a specific
+thing أنت were looking for)
 Plan (connect a series of actions in your mind and think about using
 them together, possibly with specific timing)
 Position (place yourself in the right place)
 Observe (watch how the objects in the world work)
-Learn (uncover the systems of the игра and how они work)
-Predict (use what ты’ve learned to come up with a theory about what
+Learn (uncover the systems of the لعبة and how they work)
+Predict (use what أنت’ve learned to come up with a theory about what
 will happen next)
-Mini-Game (there are places where ты может play little sub-игры with
+Mini-Game (there are places where أنت يستطيع play little sub-ألعاب with
 different goals)
-There are a number of potential verbs we identified что aren’t things the
-игрок может do. These are things the игрок thinks about when doing other
-things – these are why the игрок does things, not what the игрок does. So,
-these are important to consider, but я would categorize these как goals, not
+There are a number of potential verbs we identified الذي - التي aren’t things the
+لاعب يستطيع do. These are things the لاعب thinks about when doing other
+things – these are why the لاعب does things, not what the لاعب does. So,
+these are important to consider, but أنا would categorize these مثل goals, not
 actions. These are incredibly important to understand and are fundamental
-to understanding the core игра loop, but я’d put them in a different
-category than direct игрок actions, and we’ll cover them in a later chapter.
+to understanding the core لعبة loop, but أنا’d put them in a different
+category than direct لاعب actions, and we’ll cover them in a later chapter.
 
 Interface Verbs
 Watch (cut scenes)
-Travel (move on the map view что is used to select level)
-Showdown (a separate play mode что я’m mostly ignoring for этот
+Travel (move on the map view الذي - التي is used to select level)
+Showdown (a separate play mode الذي - التي أنا’m mostly ignoring for هذا
 dissection)
 Challenge Mode (another separate play mode)
-New Game (UI action to start a игра)
-Enter Name (UI action to label a игра save)
+New Game (UI action to start a لعبة)
+Enter Name (UI action to label a لعبة save)
 
 Body Swap (change avatar appearance)
-There are a number of actions что the игрок takes entirely in the UI (User
-Interface), outside of core gameplay. In a игра like Shovel Knight, это’s easy
-to distinguish when the игрок is controlling an avatar (Shovel Knight) in
-the игра world versus when the игрок is selecting words in a menu. The
-UI is something outside the illusion of the игра, which is necessary but not
-part of the fun. If ты’re working on designing the UI, definitely think these
-through and consider all the options. But for этот игра, они are not core
+There are a number of actions الذي - التي the لاعب takes entirely in the UI (User
+Interface), outside of core gameplay. In a لعبة like مجرفة Knight, هو - هي’s easy
+to distinguish when the لاعب is controlling an avatar (مجرفة Knight) in
+the لعبة world versus when the لاعب is selecting words in a menu. ال
+UI is something outside the illusion of the لعبة, which is necessary but not
+part of the fun. If أنت’re working on designing the UI, definitely think these
+through and consider all the options. But for هذا لعبة, they are not core
 gameplay.
 
 Deeper Dives: Frame by Frame
-For fast-paced игры, one technique я find very useful is to record a short video of the core
-gameplay, then step through the video frame by frame. Watch closely, and ты’ll see lots of little
-things что the developer does to make things work. Visual effects что communicate important
-information to the игрок, little tricks of physics to make things flow better, and complex camera
-behaviors so the игрок’s attention is on the right things. These are great when ты need to know
-everything about a игра. But most of этот chapter is for when ты’re just starting to understand
-a игра.
+For fast-paced ألعاب, one technique أنا find very useful is to record a short video of the core
+gameplay, then step through the video frame by frame. Watch closely, and أنت’ll see lots of little
+things الذي - التي the developer does to make things work. Visual effects الذي - التي communicate important
+information to the لاعب, little tricks of physics to make things flow better, and complex camera
+behaviors so the لاعب’s attention is on the right things. These are great when أنت need to know
+everything about a لعبة. But most of هذا chapter is for when أنت’re just starting to understand
+a لعبة.
 
-Games как Input/Output
+Games مثل Input/Output
 To help understand why these different types of verbs are different, let’s talk
-about how игры work. As with most things, игры может be understood in a
+about how ألعاب work. As with most things, ألعاب يستطيع be understood in a
 lot of ways. This is one of those ways.
-When a игрок plays a video игра, они are participating in an exchange
-with a computer. The игрок provides inputs through a device of some sort –
-a игра controller, a keyboard, a touch screen – and the computer processes
-что inputs and then provides an output for the игрок – pixels on a screen.
-The computer uses a set of rules and logic and code to determine how the
-игрок’s input changes the pixels. The rules and logic and code are what the
+When a لاعب plays a video لعبة, they are participating in an exchange
+with a computer. ال لاعب provides inputs through a device of some sort –
+a لعبة controller, a keyboard, a touch screen – and the computer processes
+الذي - التي inputs and then provides an output for the لاعب – pixels on a screen.
+ال computer uses a set of rules and logic and code to determine how the
+لاعب’s input changes the pixels. ال rules and logic and code are what the
 
-игра designer controls. That is what we call the игра. But everything else
-is important to understand как это creates the full experience.
-This может be represented in a diagram like Figure 2.3.
+لعبة designer controls. That is what we call the لعبة. But everything else
+is important to understand مثل هو - هي creates the full experience.
+This يستطيع be represented in a diagram like Figure 2.3.
 
 Figure 2.3 Input Output.
-The left side of этот image represents the игрок. What они see, what они
-think, what они do. The right side of этот image represents the computer.
+ال left side of هذا image represents the لاعب. What they see, what they
+think, what they do. ال right side of هذا image represents the computer.
 All the electrical impulses tickle the microchips based on the code of the
-игра.
-Let’s step through a simple single-игра action based on этот model. The
-игрок is enjoying a pleasant time in Shovel Knight (Figure 2.4). They
-notice some gems above and to the left, so они decide to jump to gather
+لعبة.
+Let’s step through a simple single-لعبة action based on هذا model. ال
+لاعب is enjoying a pleasant time in مجرفة Knight (Figure 2.4). They
+notice some gems above and to the left, so they decide to jump to gather
 them.
 
-Figure 2.4 Shovel Knight игра screen showing the moment
-before the игрок makes a decision.
-We start by noting что the игрок has made a decision (Figure 2.5). This
-is how things start in игры – things happen in the игрок’s brain. The root
+Figure 2.4 مجرفة Knight لعبة screen showing the moment
+before the لاعب makes a decision.
+We start by noting الذي - التي the لاعب has made a decision (Figure 2.5). This
+is how things start in ألعاب – things happen in the لاعب’s brain. ال root
 of all gameplay is imagination.
 
-Figure 2.5 я want to jump.
+Figure 2.5 أنا want to jump.
 
-In order for the игра to do anything, этот thought needs to get from the
-игрок’s brain to the computer (Figure 2.6). There are all sorts of useful
-input devices designed to make этот happen. The nature of the input device
-has a large impact on the игрок’s experience, and new types of input
-devices like the iPhone’s touch screen or the Wii’s motion controller может
-lead to huge changes in the video игра industry.
+In order for the لعبة to do anything, هذا thought needs to get from the
+لاعب’s brain to the computer (Figure 2.6). There are all sorts of useful
+input devices designed to make هذا happen. ال nature of the input device
+has a large impact on the لاعب’s experience, and new types of input
+devices like the iPhone’s touch screen or the Wii’s motion controller يستطيع
+lead to huge changes in the video لعبة industry.
 
 Figure 2.6 Press the button.
-For our current discussion, это doesn’t really matter what input device is
-being used. The important thing is что the игрок presses a button on the PC
-or игра controller что indicates что the игрок wants the character (Shovel
+For our current discussion, هو - هي doesn’t really matter what input device is
+being used. ال important thing is الذي - التي the لاعب presses a button on the PC
+or لعبة controller الذي - التي indicates الذي - التي the لاعب wants the character (مجرفة
 Knight) to jump.
 This information then flows into the computer (Figure 2.7). A series of
 electrical impulses flow from the controller through a wire into the
 computer, where chips translate the signals into the code.
 
 Figure 2.7 Electrons flow.
-The code then processes the new information (Figure 2.8). The code
-knows что этот sequence of electrical impulses means что этот button was
-pressed. And этот button means jumping. And jumping means many things:
-The position of the avatar character changes, moving them upward.
-Most игры have a physics engine что controls positions and motion,
-so этот is done by adding a force in a direction to the character and
+ال code then processes the new information (Figure 2.8). ال code
+knows الذي - التي هذا sequence of electrical impulses means الذي - التي هذا button was
+pressed. And هذا button means jumping. And jumping means many things:
+ال position of the avatar character changes, moving them upward.
+Most ألعاب have a physics engine الذي - التي controls positions and motion,
+so هذا is done by adding a force in a direction to the character and
 letting the physics logic compute the exact change in position.
 Because of the physics engine, gravity starts operating on the
 character, changing their motion over time.
-The character’s animation changes from a standing animation to a
+ال character’s animation changes from a standing animation to a
 jumping animation.
 This changes the character’s state – the character is now in the air.
-Now different inputs and outputs are possible. If the игрок presses
-down now, the character will go into a downward attack state, как
-defined by the игра rules written into the code. Pressing the jump
+Now different inputs and outputs are possible. If the لاعب presses
+down now, the character will go into a downward attack state, مثل
+defined by the لعبة rules written into the code. Pressing the jump
 button again won’t do anything.
 
-And all of этот needs to be reflected in the pixels on the screen.
+And all of هذا needs to be reflected in the pixels on the screen.
 
 Figure 2.8 Character enters jump state.
-This last point is important. The state changes in the code only matter if
-the игрок может understand them. Most video игры может only communicate
+This last point is important. ال state changes in the code only matter if
+the لاعب يستطيع understand them. Most video ألعاب يستطيع only communicate
 their internal changes through a screen. Any change to the internal state and
-logic of the игра needs to be expressed in pixels so the игрок может process
-это (Figure 2.9). Setting up the right pixels is a combination of игра art to
-reflect changes in the игра world and UI/UX design to reflect changes in
-the data presented by the игра. Both are important and ideally both work
+logic of the لعبة needs to be expressed in pixels so the لاعب يستطيع process
+هو - هي (Figure 2.9). Setting up the right pixels is a combination of لعبة art to
+reflect changes in the لعبة world and UI/UX design to reflect changes in
+the data presented by the لعبة. Both are important and ideally both work
 together to produce the best result.
 
 Figure 2.9 Pixels change.
-The игрок has their own complex system of input devices что они use
-to process incoming information – eyes, ears, noses, etc. Good игры will
-reinforce their messages using как many senses как possible (Figure 2.10).
+ال لاعب has their own complex system of input devices الذي - التي they use
+to process incoming information – eyes, ears, noses, etc. Good ألعاب will
+reinforce their messages using مثل many senses مثل possible (Figure 2.10).
 Starting with visual, often using audio, and occasionally adding some
-vibration so the игрок может feel what is happening. Smell and taste don’t
-come up как often, but я’m sure smell-o-vision will be everywhere in a few
+vibration so the لاعب يستطيع feel what is happening. Smell and taste don’t
+come up مثل often, but أنا’m sure smell-o-vision will be everywhere in a few
 years.
 
 Figure 2.10 Player notices change.
-And then the cycle begins anew. Once the игрок processes этот new
-information, они want new things (Figure 2.11). For example, что frog
-might be a problem, so the игрок may need to change their direction or
-enter an attack state to avoid taking damage (Figure 2.12). The full игра
-experience is a long sequence of very quick input/output cycles что add up
+And then the cycle begins anew. Once the لاعب processes هذا new
+information, they want new things (Figure 2.11). For example, الذي - التي frog
+might be a problem, so the لاعب may need to change their direction or
+enter an attack state to avoid taking damage (Figure 2.12). ال full لعبة
+experience is a long sequence of very quick input/output cycles الذي - التي add up
 to create something greater than each part.
 
 Figure 2.11 Player wants new thing.
 
-Figure 2.12 Screenshot of Shovel Knight, showing a jump has
+Figure 2.12 Screenshot of مجرفة Knight, showing a jump has
 begun.
 
 Verbed Input/Output
 This Input/Output flow gives us a way to understand the differences in
 different types of verbs. Each verb operates on a specific step of the
-diagram как seen in Figure 2.13.
+diagram مثل seen in Figure 2.13.
 
 Figure 2.13 Input verbs and output goals.
-The Direct Action verbs are controller inputs delivered by the игрок.
-The Indirect Action verbs are things что happen in the computer based
-on the игрок actions.
-The Abstract verbs are going on in the игрок’s head, helping them
-plan out their next action but not happening как a direct result of a
+ال Direct Action verbs are controller inputs delivered by the لاعب.
+ال Indirect Action verbs are things الذي - التي happen in the computer based
+on the لاعب actions.
+ال Abstract verbs are going on in the لاعب’s head, helping them
+plan out their next action but not happening مثل a direct result of a
 controller input.
-Interface verbs affect things the игрок sees in the Game Display что
-are not part of the игра world.
+Interface verbs affect things the لاعب sees in the Game Display الذي - التي
+are not part of the لعبة world.
 This helps explain why the Direct Action verbs are the most important for
-an initial understanding of the игра. They are the simplest and most clear
-actions что shape the range of options for everything else. They are where
-the игрок что exists in the real world interacts with the игра. The игра
-rules only decide to break things after the игрок uses the attack action. And
-the игрок’s desires are similarly shaped by the range of inputs the игра
-allows. The игрок may want to build a bridge or get a drink at the bar but
-without a related button что desire is going to go unfulfilled.
+an initial understanding of the لعبة. They are the simplest and most clear
+actions الذي - التي shape the range of options for everything else. They are where
+the لاعب الذي - التي exists in the real world interacts with the لعبة. ال لعبة
+rules only decide to break things after the لاعب uses the attack action. And
+the لاعب’s desires are similarly shaped by the range of inputs the لعبة
+allows. ال لاعب may want to build a bridge or get a drink at the bar but
+without a related button الذي - التي desire is going to go unfulfilled.
 
-The actions the игрок может take shape everything about the игра. So,
-start there if ты want to understand the игра.
+ال actions the لاعب يستطيع take shape everything about the لعبة. So,
+start there if أنت want to understand the لعبة.
 
 Understanding Verbs
 Verbs are just the first step.
-If Shovel Knight is about Moving and Attacking, so is Halo (2001). So is
+If مجرفة Knight is about Moving and Attacking, so is Halo (2001). So is
 Super Mario Bros (1985). So is God of War (2005). But these are all very
-different игры.
-The second step in a игра dissection is to understand the nature of the
-verbs and how они fit together. We’ll talk more about systems later, but the
-core ideas of systems thinking is что the relationships between things (in
-этот case verbs) может be как complex and interesting как the things themselves.
+different ألعاب.
+ال second step in a لعبة dissection is to understand the nature of the
+verbs and how they fit together. We’ll talk more about systems later, but the
+core ideas of systems thinking is الذي - التي the relationships between things (in
+هذا case verbs) يستطيع be مثل complex and interesting مثل the things themselves.
 So, let’s start with our two core verbs.
 
 Overlapping Verbs with Different Rules
-So, we’ve broken Shovel Knight into the Core Verbs of “Move” and
+So, we’ve broken مجرفة Knight into the Core Verbs of “Move” and
 “Attack” but want to understand more about them.
-Going back to our definition of игры in the first chapter может help. We’ve
-already covered Interactivity – the choices and skills что make up the Big
+Going back to our definition of ألعاب in the first chapter يستطيع help. We’ve
+already covered Interactivity – the choices and skills الذي - التي make up the Big
 Verbs. Next on the list is Rules.
-So, our Verbs are what the игрок может do. The Rules are how the игра
-responds to those prompts from the игрок (Figure 2.14). “When the игрок
-does X, the игра does Y”
+So, our Verbs are what the لاعب يستطيع do. ال Rules are how the لعبة
+responds to those prompts from the لاعب (Figure 2.14). “When the لاعب
+does X, the لعبة does Y”
 
 Figure 2.14 Outputs.
-In a board игра, these are written out explicitly. “When ты pass GO,
+In a board لعبة, these are written out explicitly. “When أنت pass GO,
 collect $200”. A core verb in Monopoly (1935) is move, so “pass GO” is
-something что может happen naturally как a result of the игрок’s action.
-The same sort of thing happens in a video игра like Shovel Knight.
-When ты touch an enemy, ты lose health. When ты walk over a health
-pack, there are fewer health packs in the level and ты have more health.
-The игрок does something, and the игра responds.
-Moving in Shovel Knight is about position, and position interacts with a
-lot of игра rules.
-Where ты are relative to an enemy determines whether or not ты get
+something الذي - التي يستطيع happen naturally مثل a result of the لاعب’s action.
+ال same sort of thing happens in a video لعبة like مجرفة Knight.
+When أنت touch an enemy, أنت lose health. When أنت walk over a health
+pack, there are fewer health packs in the level and أنت have more health.
+ال لاعب does something, and the لعبة responds.
+Moving in مجرفة Knight is about position, and position interacts with a
+lot of لعبة rules.
+Where أنت are relative to an enemy determines whether or not أنت get
 hit by an enemy attack.
-Where ты are and where ты’re pointing determines if your attack
-hits the enemy when ты trigger an attack.
-Where ты are determines when ты pick up gems, powerups, or other
+Where أنت are and where أنت’re pointing determines if your attack
+hits the enemy when أنت trigger an attack.
+Where أنت are determines when أنت pick up gems, powerups, or other
 items.
-Where ты are determines what ты может see – the игра only shows
-ты one screen at a time, based on игрок position.
+Where أنت are determines what أنت يستطيع see – the لعبة only shows
+أنت one screen at a time, based on لاعب position.
 
-Where ты are triggers progression through levels, including triggering
-cut scenes что advance the story.
+Where أنت are triggers progression through levels, including triggering
+cut scenes الذي - التي advance the story.
 This is similar in a 3D first-person shooter but with some important
 differences:
-Where ты are determines whether or not ты get hit by an enemy
+Where أنت are determines whether or not أنت get hit by an enemy
 attack.
-Where ты are and where ты’re pointing determines if your attack
+Where أنت are and where أنت’re pointing determines if your attack
 hits the enemy.
-Where ты are determines when ты pick up ammo, weapons,
+Where أنت are determines when أنت pick up ammo, weapons,
 powerups, or other items.
-Where ты are and where ты’re pointing determines what ты может
+Where أنت are and where أنت’re pointing determines what أنت يستطيع
 see, using a first-person perspective.
-Where ты are triggers progression through levels, including triggering
-cut scenes что advance the story.
-So, one way ты может differentiate similar verbs is by looking at the rules
+Where أنت are triggers progression through levels, including triggering
+cut scenes الذي - التي advance the story.
+So, one way أنت يستطيع differentiate similar verbs is by looking at the rules
 and consequences of those verbs. When there are mechanic differences,
-those are indicators что the verbs may sound the same but are functionally
+those are indicators الذي - التي the verbs may sound the same but are functionally
 very different.
 
 Overlapping Verbs with Different Goals
-Looking at how verbs interact with rules is helpful. The processes going on
-in the computer может change how the verbs work. But the processes going on
-in the игрок’s head are even more important.
-Why does the игрок use verbs?
+Looking at how verbs interact with rules is helpful. ال processes going on
+in the computer يستطيع change how the verbs work. But the processes going on
+in the لاعب’s head are even more important.
+Why does the لاعب use verbs?
 Verbs are used to achieve goals.
 
-Verbs only mean something in the context of the игрок’s goals.
-What are the игрок’s goals in Shovel Knight? Let’s do a quick brainstorm
+Verbs only mean something in the context of the لاعب’s goals.
+What are the لاعب’s goals in مجرفة Knight? Let’s do a quick brainstorm
 like we did for verbs.
 Rescue Shield Knight.
-Help the characters ты meet.
+Help the characters أنت meet.
 Defeat enemies.
 Reach the end of the level.
 Trigger the next cut scene.
 Unlock new areas.
-Get to the end of the игра.
+Get to the end of the لعبة.
 Don’t die.
-Some of these (“Rescue Shield Knight” and “Help the characters ты
-meet”) are story, not gameplay. Story is an important part of most игры,
-but when we’re still assembling a core loop, это’s not the most important
-thing to understand. Story motivates players to complete the игра, это
+Some of these (“Rescue Shield Knight” and “Help the characters أنت
+meet”) are story, not gameplay. Story is an important part of most ألعاب,
+but when we’re still assembling a core loop, هو - هي’s not the most important
+thing to understand. Story motivates players to complete the لعبة, هو - هي
 doesn’t motivate the players’ actions from moment to moment. At least for
-a игра like этот – some игры like Baldur’s Gate (1998) or Life Is Strange
-(2015) make story a key part of every level of gameplay. But a игра like
-Shovel Knight does not weave the story into every moment of gameplay
-like этот.
-The goals что are woven into every moment of gameplay are the ones
-like “Defeat enemies” or “Reach the end of the level” что guide игрок
-actions in every moment. This is what the игрок is trying to do during
-gameplay, and этот is why the игрок engages with the verbs of the игра.
-The игрок attacks to defeat enemies and moves to reach the end of the
+a لعبة like هذا – some ألعاب like Baldur’s Gate (1998) or Life Is Strange
+(2015) make story a key part of every level of gameplay. But a لعبة like
+مجرفة Knight does not weave the story into every moment of gameplay
+like هذا.
+ال goals الذي - التي are woven into every moment of gameplay are the ones
+like “Defeat enemies” or “Reach the end of the level” الذي - التي guide لاعب
+actions in every moment. This is what the لاعب is trying to do during
+gameplay, and هذا is why the لاعب engages with the verbs of the لعبة.
+ال لاعب attacks to defeat enemies and moves to reach the end of the
 level.
 
-The next few goals (“Trigger the next cut scene”, “Unlock new areas”,
-and “Get to the end of the игра”) are just “Beat the level” phrased slightly
-differently. When ты’re considering goals or verbs, keep an eye out for
-overlapping terms like этот.
-The final objective “Don’t die” isn’t really a goal per se but is more of a
-fail case. If the игрок dies, они have to reset a little ways back. Death
-never stops ты from progressing, but это может definitely slow ты down.
+ال next few goals (“Trigger the next cut scene”, “Unlock new areas”,
+and “Get to the end of the لعبة”) are just “Beat the level” phrased slightly
+differently. When أنت’re considering goals or verbs, keep an eye out for
+overlapping terms like هذا.
+ال final objective “Don’t die” isn’t really a goal per se but is more of a
+fail case. If the لاعب dies, they have to reset a little ways back. Death
+never stops أنت from progressing, but هو - هي يستطيع definitely slow أنت down.
 
 Verb to the Goal
-So how does the игрок turn “Move” and “Attack” into completed levels?
-They move through the level to find a route что gets to the next area while
+So how does the لاعب turn “Move” and “Attack” into completed levels?
+They move through the level to find a route الذي - التي gets to the next area while
 avoiding or attacking any threats. Most areas have a little challenge or
 puzzle to advance. Some areas require jumping over pits. Some require
 jumping off objects to get up high. Each area has a different combination of
-challenges что makes это interesting and different. More on что later.
+challenges الذي - التي makes هو - هي interesting and different. More on الذي - التي later.
 
 Big Verbs
-OK, so we’ve defined the big verbs in Shovel Knight как Move and Attack.
-That feels right. When я play the игра, я spend most of my time doing
+OK, so we’ve defined the big verbs in مجرفة Knight مثل Move and Attack.
+That feels right. When أنا play the لعبة, أنا spend most of my time doing
 those things. And thinking about those two things and how to do them
 better.
-If ты want to understand a игра, understand the things the игрок
-spends most of their time doing. Sometimes there are other features что are
+If أنت want to understand a لعبة, understand the things the لاعب
+spends most of their time doing. Sometimes there are other features الذي - التي are
 splashy and interesting and become the focus of the marketing and
-discussion around the игра. But a игра designer needs to think about the
-thing the игрок is actually investing their time on.
+discussion around the لعبة. But a لعبة designer needs to think about the
+thing the لاعب is actually investing their time on.
 
-You может see этот in lots of different types of игры. Platformers spend a
-lot of time perfecting their jumping and running. In an open world игра,
-ты spend most of your time moving from place to place. The open world
-игры что succeed are the ones что этот travel fun and engaging.
+You يستطيع see هذا in lots of different types of ألعاب. Platformers spend a
+lot of time perfecting their jumping and running. In an open world لعبة,
+أنت spend most of your time moving from place to place. ال open world
+ألعاب الذي - التي succeed are the ones الذي - التي هذا travel fun and engaging.
 
-Verb как Genre
-As we’ll see in future chapters, verbs are a good way to differentiate and organize игры. All
+Verb مثل Genre
+As we’ll see in future chapters, verbs are a good way to differentiate and organize ألعاب. All
 first-person shooters start with move and attack. Platformers like Mario focus heavily on move,
 with varying amounts of attack depending on the platformer.
-But a игра like SimCity doesn’t have move как a verb at all – the primary verb there is build.
-This makes sense – я think most people would agree что platformers have more overlap with
+But a لعبة like SimCity doesn’t have move مثل a verb at all – the primary verb there is build.
+This makes sense – أنا think most people would agree الذي - التي platformers have more overlap with
 shooters than with builders.
-This может be useful to know. If ты’re looking for inspiration on your city builder, это might not
-be best to start by playing some Halo. Maybe find a puzzle игра like Triple Town что shares
-“Build” как a verb to see how это’s done differently there.
+This يستطيع be useful to know. If أنت’re looking for inspiration on your city builder, هو - هي might not
+be best to start by playing some Halo. Maybe find a puzzle لعبة like Triple Town الذي - التي shares
+“Build” مثل a verb to see how هو - هي’s done differently there.
 
 More to Come
-We’re going to stop our Shovel Knight gameplay analysis here. я know
-we’ve barely scratched the surface of Shovel Knight and platformers in
+We’re going to stop our مجرفة Knight gameplay analysis here. أنا know
+we’ve barely scratched the surface of مجرفة Knight and platformers in
 general. But we’re building foundations here. It’ll get crazier in later
 chapters.
-The last part of этот analysis pulls some ideas from future chapters, but я
-like showing a version of the same diagram for each игра, so forgive me
-for the spoilers. This diagram represents each игра как a formula. The
-игрок has verbs они может use to reach goals but are blocked by challenges.
+ال last part of هذا analysis pulls some ideas from future chapters, but أنا
+like showing a version of the same diagram for each لعبة, so forgive me
+for the spoilers. This diagram represents each لعبة مثل a formula. ال
+لاعب has verbs they يستطيع use to reach goals but are blocked by challenges.
 Figure 2.15 shows the simplest level of detail, breaking each step into a
-single element. Figure 2.16 is a bit more useful in что это breaks each of
+single element. Figure 2.16 is a bit more useful in الذي - التي هو - هي breaks each of
 these categories into multiple entries, showing the different actions and
-challenges of the игра:
+challenges of the لعبة:
 
-Figure 2.15 Shovel Knight flow diagram showing Verbs,
+Figure 2.15 مجرفة Knight flow diagram showing Verbs,
 Challenges, and Goals.
 
-Figure 2.16 Shovel Knight flow diagram with more boxes.
-Each level is a package of these different pieces, как shown in Figure 2.17.
-In Shovel Knight, most of the variation comes from changing out the
-challenges, but other игры может handle этот differently.
+Figure 2.16 مجرفة Knight flow diagram with more boxes.
+Each level is a package of these different pieces, مثل shown in Figure 2.17.
+In مجرفة Knight, most of the variation comes from changing out the
+challenges, but other ألعاب يستطيع handle هذا differently.
 
-Figure 2.17 Shovel Knight flow как a level.
-Multiple levels может be added together to represent the full flow of the
-игра, как players work on larger goals and larger challenges. See Figure
+Figure 2.17 مجرفة Knight flow مثل a level.
+Multiple levels يستطيع be added together to represent the full flow of the
+لعبة, مثل players work on larger goals and larger challenges. See Figure
 2.18.
 
-Figure 2.18 Shovel Knight flow from level to level.
+Figure 2.18 مجرفة Knight flow from level to level.
 We’ll dig into these ideas in more detail in later chapters, but before we
-leave Shovel Knight, let’s talk about other things что influence gameplay.
+leave مجرفة Knight, let’s talk about other things الذي - التي influence gameplay.
 
-Shovel Knight: Non-Gameplay Dissection
-When dissecting, это’s not just about gameplay. Even for a игра designer.
-If ты want to understand the gameplay of a игра, ты have to
-understand everything about это. How do the non-gameplay aspects of the
-игра tie into the gameplay? Where did the gameplay ideas come from?
-What led to the gameplay decisions ты see in the игра? The игра itself
-makes much more sense if ты understand the context что led to those
+مجرفة Knight: Non-Gameplay Dissection
+When dissecting, هو - هي’s not just about gameplay. Even for a لعبة designer.
+If أنت want to understand the gameplay of a لعبة, أنت have to
+understand everything about هو - هي. How do the non-gameplay aspects of the
+لعبة tie into the gameplay? Where did the gameplay ideas come from?
+What led to the gameplay decisions أنت see in the لعبة? ال لعبة itself
+makes much more sense if أنت understand the context الذي - التي led to those
 decisions.
-To be clear, я did not work on (most of) the игры я talk about in этот
-book. я do not know how decisions were made by the teams что did. We’re
-talking about these things как an outsider, piecing things together from what
-we может see in the игра and generally available knowledge. я’m sure there
-are interesting stories there, and я encourage those who were present to
-write them down so я может read those books. я love to know authorial intent,
-but unless что’s ты, the rest of us are left with the work itself. And there’s
+To be clear, أنا did not work on (most of) the ألعاب أنا talk about in هذا
+book. أنا do not know how decisions were made by the teams الذي - التي did. We’re
+talking about these things مثل an outsider, piecing things together from what
+we يستطيع see in the لعبة and generally available knowledge. أنا’m sure there
+are interesting stories there, and أنا encourage those who were present to
+write them down so أنا يستطيع read those books. أنا love to know authorial intent,
+but unless الذي - التي’s أنت, the rest of us are left with the work itself. And there’s
 plenty to see there.
 
 Senses
-Gameplay is influenced by the look and feel of the игра.
-Shovel Knight has a very clear and distinct style. It’s a retro игра trying
+Gameplay is influenced by the look and feel of the لعبة.
+مجرفة Knight has a very clear and distinct style. It’s a retro لعبة trying
 to emulate the feel and visuals and sounds and complete experience of a
-classic platformer. In этот sense, the style fits very clearly with the
+classic platformer. In هذا sense, the style fits very clearly with the
 gameplay. People who are familiar with the references will expect the
 gameplay and style to both align with their perception of those earlier
-игры. And people who don’t know the classics will still understand что
+ألعاب. And people who don’t know the classics will still understand الذي - التي
 both gameplay and style evoke an earlier age, so don’t expect integrated AI
 and vast open worlds and high-fidelity graphics.
 
-The simplicity of the игра also makes это easy to see where gameplay and
+ال simplicity of the لعبة also makes هو - هي easy to see where gameplay and
 graphics intersect. Remember our input/output diagram – the output part of
-the diagram is made up of pixels on a screen что the computer manipulates.
-This is the игрок’s only source of information on what is going on in the
-игра (well, что plus sound and sometimes vibration). As a игра designer,
-these pixels are all ты have to get your ideas across to the игрок. A игрок
+the diagram is made up of pixels on a screen الذي - التي the computer manipulates.
+This is the لاعب’s only source of information on what is going on in the
+لعبة (well, الذي - التي plus sound and sometimes vibration). As a لعبة designer,
+these pixels are all أنت have to get your ideas across to the لاعب. A لاعب
 who might not really be paying attention and who most likely hasn’t played
-every previous игра что ты (the игра designer) did. This is a difficult
+every previous لعبة الذي - التي أنت (the لعبة designer) did. This is a difficult
 and momentous responsibility for a few measly pixels.
-Every игра has to create a visual vocabulary of what matters to the
-игрок and to gameplay – using the same size, shape, color, or whatever
-consistently helps the игрок learn what to do and then quickly process new
-scenes. Shovel Knight does a great job of quickly establishing what the
-игрок needs to know and sticks with что throughout the игра:
-The ground ты walk on is flat – usually rectangles – and high contrast
+Every لعبة has to create a visual vocabulary of what matters to the
+لاعب and to gameplay – using the same size, shape, color, or whatever
+consistently helps the لاعب learn what to do and then quickly process new
+scenes. مجرفة Knight does a great job of quickly establishing what the
+لاعب needs to know and sticks with الذي - التي throughout the لعبة:
+ال ground أنت walk on is flat – usually rectangles – and high contrast
 against the rest of the background.
-Objects ты может interact with are also high contrast and often include
-movement. The игра intentionally doesn’t create separate
-vocabularies for enemies and rewards, как это wants to play with что in
+Objects أنت يستطيع interact with are also high contrast and often include
+movement. ال لعبة intentionally doesn’t create separate
+vocabularies for enemies and rewards, مثل هو - هي wants to play with الذي - التي in
 the gameplay. Sometimes bouncing on an enemy’s head is the only
 way to reach a reward. Sometimes a reward is in a dangerous place
-making это more of a problem than a pure benefit.
+making هو - هي more of a problem than a pure benefit.
 Combat actions and results are always clearly punctuated. Enemies
-don’t just disappear – они vanish in a little cloud of smoke. If the
-игрок missed the frame where они died, the игра is still
+don’t just disappear – they vanish in a little cloud of smoke. If the
+لاعب missed the frame where they died, the لعبة is still
 communicating for a few frames after.
-Shovel Knight’s shovel provides a nice strong indicator of where the
+مجرفة Knight’s shovel provides a nice strong indicator of where the
 character is facing. This is especially handy for communicating the
 
-difference between “falling” and “falling with intent to kill”. The
+difference between “falling” and “falling with intent to kill”. ال
 downward shovel attack is important and might not be noticed without
-the big bright object что moves around the character.
+the big bright object الذي - التي moves around the character.
 
 History and Influences
-я’m a big fan of stealing ideas from other игры. No игра is an island.
-Every игра is inspired by the ideas and execution of игры (and other
-things) что came before.
-There’s an important distinction to be made here. All игры are inspired.
-All игры borrow and “steal”. But when ты draw inspiration from
-something, ты need to be careful to not draw too heavily. If your игра is
-just a copy of someone else’s idea, что’s actual stealing, not the tongue-incheek way я sometimes use the term. If your игра gets all its features and
-ideas from another игра and doesn’t add or change them in a way to make
-something new, then ты need to rethink and start over to add your own
+أنا’m a big fan of stealing ideas from other ألعاب. No لعبة is an island.
+Every لعبة is inspired by the ideas and execution of ألعاب (and other
+things) الذي - التي came before.
+There’s an important distinction to be made here. All ألعاب are inspired.
+All ألعاب borrow and “steal”. But when أنت draw inspiration from
+something, أنت need to be careful to not draw too heavily. If your لعبة is
+just a copy of someone else’s idea, الذي - التي’s actual stealing, not the tongue-incheek way أنا sometimes use the term. If your لعبة gets all its features and
+ideas from another لعبة and doesn’t add or change them in a way to make
+something new, then أنت need to rethink and start over to add your own
 twist on the thing.
-You может see этот in Shovel Knight. Shovel Knight is a wonderful and
-unique игра. But almost every aspect of Shovel Knight comes from
+You يستطيع see هذا in مجرفة Knight. مجرفة Knight is a wonderful and
+unique لعبة. But almost every aspect of مجرفة Knight comes from
 somewhere else.
 Super Mario Bros (1985) is generally credited with popularizing the
 2D side-scrolling platformer genre.
 But many of the ideas from Super Mario Bros were first developed in
-the Mario Bros (1983) arcade игра, and borrowed from earlier игры
+the Mario Bros (1983) arcade لعبة, and borrowed from earlier ألعاب
 like Space Panic (1980).
-Many 2D side-scrollers after Mario added attacks like Shovel Knight’s
-shovel, including popular игры like Metroid (1986) and Castlevania
+Many 2D side-scrollers after Mario added attacks like مجرفة Knight’s
+shovel, including popular ألعاب like Metroid (1986) and Castlevania
 (1986).
 
 Once the seeds of the genre had been planted there are many great
-игры что took those ideas and adapted them for PC gaming,
+ألعاب الذي - التي took those ideas and adapted them for PC gaming,
 including Lode Runner (1983), Commander Keen (1990), and Cave
 Story (2004).
 Braid (2008) and Spelunky (2008) popularized the idea of using 2D
-platformers как a simple and nostalgic base to experiment with
-interesting indie игра ideas.
-As a игра designer, это’s important to know the history of not just the игры
-but also the features. Jumping from platform to platform in Shovel Knight is
-interesting but is informed by many other игры before, and feeds into
-many other игры after. Dissecting each of those игры, at least in terms of
-что specific feature, helps ты see how to use что feature in your own
-игры. Johnnemann Nordhagen took этот idea even further and built a игра
-что collects all the different ways что a specific mechanic has been
+platformers مثل a simple and nostalgic base to experiment with
+interesting indie لعبة ideas.
+As a لعبة designer, هو - هي’s important to know the history of not just the ألعاب
+but also the features. Jumping from platform to platform in مجرفة Knight is
+interesting but is informed by many other ألعاب before, and feeds into
+many other ألعاب after. Dissecting each of those ألعاب, at least in terms of
+الذي - التي specific feature, helps أنت see how to use الذي - التي feature in your own
+ألعاب. Johnnemann Nordhagen took هذا idea even further and built a لعبة
+الذي - التي collects all the different ways الذي - التي a specific mechanic has been
 executed over the years. Museum of Mechanics: Lockpicking (Dim Bulb
-Games, 2022) is an interesting way to see how игры borrow and share and
+Games, 2022) is an interesting way to see how ألعاب borrow and share and
 innovate on specific ideas.
 
 Monetization
-How a игра makes money has a huge effect on the design of the игра.
-There are a few major trends in monetization что had huge impacts on
-the types of игры we associate with each era:
-1. Arcade игры. Monetization is quarter-based. (Technically
+How a لعبة makes money has a huge effect on the design of the لعبة.
+There are a few major trends in monetization الذي - التي had huge impacts on
+the types of ألعاب we associate with each era:
+1. Arcade ألعاب. Monetization is quarter-based. (Technically
 monetization for the developer is by selling arcade cabinets, but the
 cabinet buyers were very interested in quarter throughput, so the
-developers developed to что metric.) The goal was to get the игрок to
-notice the игра in a crowded arcade, and then plug in как many
+developers developed to الذي - التي metric.) ال goal was to get the لاعب to
+notice the لعبة in a crowded arcade, and then plug in مثل many
 
-quarters как possible in как little time как possible. This led to игра with
+quarters مثل possible in مثل little time مثل possible. This led to لعبة with
 very quick session lengths, very steep difficulty curves, and little to no
 thought about ongoing long-term play.
-2. Console игры. Monetization is based on selling boxes in stores, with
-no internet to provide updates or live services after что. At first early
-consoles tried to mimic игры что players knew from the arcade, but
+2. Console ألعاب. Monetization is based on selling boxes in stores, with
+no internet to provide updates or live services after الذي - التي. At first early
+consoles tried to mimic ألعاب الذي - التي players knew from the arcade, but
 soon the focus became value. Games were reviewed based on hours of
 play. Look at the difference between Mario Bros and Super Mario
-Bros to see a clear example of этот change.
-3. Mobile игры. Monetization is based on downloads and (after the first
-few years) in-app purchases. The goal is to get a игрок in quickly and
-easily, then keep them around for long enough что они get
-comfortable spending money. The growth of big data plays a big part
-here, как игра developers start to analyze what actually gets people to
+Bros to see a clear example of هذا change.
+3. Mobile ألعاب. Monetization is based on downloads and (after the first
+few years) in-app purchases. ال goal is to get a لاعب in quickly and
+easily, then keep them around for long enough الذي - التي they get
+comfortable spending money. ال growth of big data plays a big part
+here, مثل لعبة developers start to analyze what actually gets people to
 stick around and spend money. Game sessions are short, but players
 are expected to stick around for months or years.
-This is not an exhaustive list by any means. Early PC игры resembled
-console игры but with a lot of their own twists. Console has been
-changing with the growth of downloadable upgrades. Most of этот doesn’t
-apply to educational игры or other игры for change, which have entirely
-separate monetization goals and pathways. Each игра’s monetization needs
-to be analyzed separately but with an understanding of how это fits into the
+This is not an exhaustive list by any means. Early PC ألعاب resembled
+console ألعاب but with a lot of their own twists. Console has been
+changing with the growth of downloadable upgrades. Most of هذا doesn’t
+apply to educational ألعاب or other ألعاب for change, which have entirely
+separate monetization goals and pathways. Each لعبة’s monetization needs
+to be analyzed separately but with an understanding of how هو - هي fits into the
 standard monetization schemes of its time.
-Shovel Knight makes most of its money through downloads on PC игра
+مجرفة Knight makes most of its money through downloads on PC لعبة
 services like Steam. This is currently the dominant sales platform on PC,
-and the growth of independent routes to sell and market игры without
-interacting with big publishers and retailers is a big part of why indie игры
-like Shovel Knight exist and succeed. A successful Steam игра может support
+and the growth of independent routes to sell and market ألعاب without
+interacting with big publishers and retailers is a big part of why indie ألعاب
+like مجرفة Knight exist and succeed. A successful Steam لعبة يستطيع support
 
-a small indie team with a good idea, but console игры generally have to be
+a small indie team with a good idea, but console ألعاب generally have to be
 bigger.
-Shovel Knight started out on Kickstarter, raising money for the initial
+مجرفة Knight started out on Kickstarter, raising money for the initial
 development through crowdfunding. Kickstarter and similar platforms are a
-popular way for smaller indie игры to generate some initial funds and
-market an early idea. The initial money helps, but the initial fan base is как
-or more important to making a small игра with a small (or zero) marketing
+popular way for smaller indie ألعاب to generate some initial funds and
+market an early idea. ال initial money helps, but the initial fan base is مثل
+or more important to making a small لعبة with a small (or zero) marketing
 budget a success.
-Since its release, Shovel Knight has shipped multiple downloadable
-content (DLC) packs, which have later been released как separate игры.
-Shovel Knight has become a series with explorations in multiple genres and
+Since its release, مجرفة Knight has shipped multiple downloadable
+content (DLC) packs, which have later been released مثل separate ألعاب.
+مجرفة Knight has become a series with explorations in multiple genres and
 different playstyles.
-Selling как a single purchase drives Shovel Knight to focus on providing a
+Selling مثل a single purchase drives مجرفة Knight to focus on providing a
 complete package. Deeper progression and varied content make the single
-purchase feel worth это, generating good word-of-mouth to keep the игра
+purchase feel worth هو - هي, generating good word-of-mouth to keep the لعبة
 selling.
 
 Narrative
 Story and gameplay are friends. They work together to bring joy and
-happiness to players. Different игры make more or less use of этот
-friendship. Shovel Knight is a great example of the most common use of
-story in игры.
-In Shovel Knight, the main use of story is to provide emotional context
-for the игрок’s progression and emotional punctuation at key points. The
-игра establishes early on что Shovel Knight is trying to rescue their friend
+happiness to players. Different ألعاب make more or less use of هذا
+friendship. مجرفة Knight is a great example of the most common use of
+story in ألعاب.
+In مجرفة Knight, the main use of story is to provide emotional context
+for the لاعب’s progression and emotional punctuation at key points. ال
+لعبة establishes early on الذي - التي مجرفة Knight is trying to rescue their friend
 Shield Knight. A classic rescue mission, which is a great way to make a
-игрок want to reach the end. My friend needs help!
+لاعب want to reach the end. My friend needs help!
 
-Most of the time, этот is just a small piece of background motivation.
-During gameplay, the игра doesn’t make reference to Shield Knight or
+Most of the time, هذا is just a small piece of background motivation.
+During gameplay, the لعبة doesn’t make reference to Shield Knight or
 anything else about the characters. Bosses get a quick intro to establish their
-character, during which the игрок has no input. The игра stops to tell the
-story. Then after a big level, there is a short dream sequence что reminds
-the игрок of этот long-term goal and provides some interactive rewards как
-well. Some of the NPCs provide additional narration and backstory, but это’s
-all contained in a few sentences so это never gets too involved or deep.
-This is great. This is exactly what most игры want. Story is there.
-Emotions are triggered. The игрок knows why они’re doing all этот, and if
-the игрок puts the игра down for too long, они feel a little guilty. Poor
-Shield Knight. The story is fun and interesting, and the игра is stronger
-because of это.
-Some игры use story in deeper and more complicated ways. And я love
-those игры, too. But я’ve made some of them so я know how complicated
-and difficult это может be to interweave story and gameplay in ways что
-actually matter. More on что later.
+character, during which the لاعب has no input. ال لعبة stops to tell the
+story. Then after a big level, there is a short dream sequence الذي - التي reminds
+the لاعب of هذا long-term goal and provides some interactive rewards مثل
+well. Some of the NPCs provide additional narration and backstory, but هو - هي’s
+all contained in a few sentences so هو - هي never gets too involved or deep.
+This is great. This is exactly what most ألعاب want. Story is there.
+Emotions are triggered. ال لاعب knows why they’re doing all هذا, and if
+the لاعب puts the لعبة down for too long, they feel a little guilty. Poor
+Shield Knight. ال story is fun and interesting, and the لعبة is stronger
+because of هو - هي.
+Some ألعاب use story in deeper and more complicated ways. And أنا love
+those ألعاب, too. But أنا’ve made some of them so أنا know how complicated
+and difficult هو - هي يستطيع be to interweave story and gameplay in ways الذي - التي
+actually matter. More on الذي - التي later.
 
 Emotions
-Story is one source of emotions, but игры может evoke many emotions.
-For action игры, the most common emotion is frustration, which might
-sound like a problem, but это really isn’t. Talking about игры for the last
-few decades, я’ve noticed что there are many flavors of frustration. Some
-are good, and some are bad. The main difference is how and where the
-игрок has agency in the frustration.
-Outside Frustration: If the игрок has no agency, then это’s outside
-frustration. It может be annoying, but это’s less personal so thus less
+Story is one source of emotions, but ألعاب يستطيع evoke many emotions.
+For action ألعاب, the most common emotion is frustration, which might
+sound like a problem, but هو - هي really isn’t. Talking about ألعاب for the last
+few decades, أنا’ve noticed الذي - التي there are many flavors of frustration. Some
+are good, and some are bad. ال main difference is how and where the
+لاعب has agency in the frustration.
+Outside Frustration: If the لاعب has no agency, then هو - هي’s outside
+frustration. It يستطيع be annoying, but هو - هي’s less personal so thus less
 
-impactful. я может get frustrated watching a communication problem
-unfold in an episode of a sitcom, but я don’t feel это personally.
-Uncontrolled Frustration: Once the игрок has control of the action,
+impactful. أنا يستطيع get frustrated watching a communication problem
+unfold in an episode of a sitcom, but أنا don’t feel هو - هي personally.
+Uncontrolled Frustration: Once the لاعب has control of the action,
 the potential for emotional involvement is higher. Give me buttons to
 press and now any failure is my fault. So, the worst case here is when
-the игрок has input but no real control. If the игрок expects to have
-control but loses due to reasons outside of their control, что может be
-very frustrating. The игра made a promise and then failed to deliver.
-This is often the worst form of frustration and игра designer should be
-careful to avoid situations like этот. If the игрок needs to fail
-regardless of their actions, make это very clear что the игра knows это’s
-not the игрок’s fault.
-Confused Frustration: If the игрок has agency что actually matters,
-что’s going to reduce the negative impact of the frustration. But этот is
-only true if the игрок understands all что. If the игрок doesn’t
-understand how their actions influence the outcome, они might как well
-not have agency. This is where many игры fall apart, especially for
+the لاعب has input but no real control. If the لاعب expects to have
+control but loses due to reasons outside of their control, الذي - التي يستطيع be
+very frustrating. ال لعبة made a promise and then failed to deliver.
+This is often the worst form of frustration and لعبة designer should be
+careful to avoid situations like هذا. If the لاعب needs to fail
+regardless of their actions, make هو - هي very clear الذي - التي the لعبة knows هو - هي’s
+not the لاعب’s fault.
+Confused Frustration: If the لاعب has agency الذي - التي actually matters,
+الذي - التي’s going to reduce the negative impact of the frustration. But هذا is
+only true if the لاعب understands all الذي - التي. If the لاعب doesn’t
+understand how their actions influence the outcome, they might مثل well
+not have agency. This is where many ألعاب fall apart, especially for
 more casual audiences. It’s very frustrating to press buttons and not
-understand why они matter. And что understanding is entirely the
-responsibility of the игра designer. Remember, the игрок only knows
-what comes through что tiny funnel of information они see on the
-pixels on the screen. If они aren’t able to construct a full mental model
-of the logic going on inside the computer, to expect, они’re going to
+understand why they matter. And الذي - التي understanding is entirely the
+responsibility of the لعبة designer. Remember, the لاعب only knows
+what comes through الذي - التي tiny funnel of information they see on the
+pixels on the screen. If they aren’t able to construct a full mental model
+of the logic going on inside the computer, to expect, they’re going to
 have some negative frustration. In many cases, the hard part of being a
-игра designer isn’t coming up with good ideas; это’s getting the игрок
+لعبة designer isn’t coming up with good ideas; هو - هي’s getting the لاعب
 to understand those good ideas.
-Difficult Frustration: Agency что matters and makes sense is not
-enough. The challenges also have to be fair. Banging your head against
+Difficult Frustration: Agency الذي - التي matters and makes sense is not
+enough. ال challenges also have to be fair. Banging your head against
 
-an impossible challenge может be a positive type of frustration (cough
+an impossible challenge يستطيع be a positive type of frustration (cough
 Elden Ring cough), but not for all players. Some players want more
 manageable challenges and find extreme difficulty to be bad
-frustration. But the inverse is also true – a игрок who enjoys mastering
+frustration. But the inverse is also true – a لاعب who enjoys mastering
 a skill may consider a sequence of easy challenges to be frustrating in
 a very different way. Finding the right balance for the audience of your
-игра может be difficult – more on что later.
+لعبة يستطيع be difficult – more on الذي - التي later.
 Fun Frustration: Finally, in some cases, players have agency,
 understand the consequences of their actions, and still fail. This is
-called gameplay. If the игрок understands why они failed, the
+called gameplay. If the لاعب understands why they failed, the
 frustration from the failure is much less. In the best cases, frustration is
-a fuel что drives the игрок to come back and try again. Games are
-built on iteration, both как a development practice and как a игрок
-strategy. A good игра will create positive feelings of frustration что
-guide the игрок to an emotional response along the lines of “я может do
+a fuel الذي - التي drives the لاعب to come back and try again. Games are
+built on iteration, both مثل a development practice and مثل a لاعب
+strategy. A good لعبة will create positive feelings of frustration الذي - التي
+guide the لاعب to an emotional response along the lines of “أنا يستطيع do
 better”. Which is a great lesson to learn for life, even outside of the
 magic circle.
 
 Meaning
-я think это’s important to understand what игры mean. Since игры are a
-relatively new form of art, we don’t always think of them как having an
-impact on the world. But они do. The person who starts playing a игра is
-different from the person after the игра is done. Games make people think
+أنا think هو - هي’s important to understand what ألعاب mean. Since ألعاب are a
+relatively new form of art, we don’t always think of them مثل having an
+impact on the world. But they do. ال person who starts playing a لعبة is
+different from the person after the لعبة is done. Games make people think
 about things. Games change the world.
-For many игры, этот is not the primary goal of the игра. It might be
+For many ألعاب, هذا is not the primary goal of the لعبة. It might be
 money. It might be providing a simple fun time. But meaning happens
-whether the creator intends это or not. я understand programming better
-because я played Robo-Rally. Some of my love of creativity and creative
+whether the creator intends هو - هي or not. أنا understand programming better
+because أنا played Robo-Rally. Some of my love of creativity and creative
 
 problem-solving comes from early Infocom text adventures. Minecraft has
 made a generation of kids think differently about creation and resources and
 exploration and problem-solving.
-я don’t think any игра has one discrete meaning. Even игры with a
-clear intended meaning will be interpreted differently by each игрок who
-encounters это. So, when я talk about meaning in the игры in этот book, я
-don’t intend to exclude other meanings. When we talk about этот in class,
-every semester has different answers and они’re all right.
-For me, Shovel Knight is about persistence. It’s not the only игра where
+أنا don’t think any لعبة has one discrete meaning. Even ألعاب with a
+clear intended meaning will be interpreted differently by each لاعب who
+encounters هو - هي. So, when أنا talk about meaning in the ألعاب in هذا book, أنا
+don’t intend to exclude other meanings. When we talk about هذا in class,
+every semester has different answers and they’re all right.
+For me, مجرفة Knight is about persistence. It’s not the only لعبة where
 the main character is beaten down constantly and has to constantly get up,
-but это’s a clear example of что style of play. я’m not the most skilled игрок,
-so я tend to die a lot. But the only time я feel like я’m losing is when я put
-the игра away and give up on saving poor Shield Knight.
+but هو - هي’s a clear example of الذي - التي style of play. أنا’m not the most skilled لاعب,
+so أنا tend to die a lot. But the only time أنا feel like أنا’m losing is when أنا put
+the لعبة away and give up on saving poor Shield Knight.
 OceanofPDF.com
 
 Chapter 3
-Конфеты Раздавить Saga / Goals
+حلوى معجب Saga / Goals
 DOI: 10.1201/9781003346586-3
 
-Конфеты Раздавить Saga
-Конфеты Раздавить Saga is a great игра.
-Конфеты Раздавить Saga (Figure 3.1) is a mobile игра released by King (now
-part of Microsoft) in 2012. Since launch, это has consistently been one of the
-most popular игры on mobile, with hundreds of thousands of monthly
+حلوى معجب Saga
+حلوى معجب Saga is a great لعبة.
+حلوى معجب Saga (Figure 3.1) is a mobile لعبة released by King (now
+part of Microsoft) in 2012. Since launch, هو - هي has consistently been one of the
+most popular ألعاب on mobile, with hundreds of thousands of monthly
 users Curry, D. (2024).
 
-Figure 3.1 Конфеты Раздавить Saga screen.
-я’ve never worked on Конфеты Раздавить Saga, but я did work on a competitor.
-When я was at a studio called Zindagi, we designed a match-3 called Crazy
-Cake Swap based on a similar puzzle игра called Crazy Kitchen. The
-studio got bought by Zynga and didn’t stay around for long after что, but я
-know этот genre better than я know most genres.
+Figure 3.1 حلوى معجب Saga screen.
+أنا’ve never worked on حلوى معجب Saga, but أنا did work on a competitor.
+When أنا was at a studio called Zindagi, we designed a match-3 called Crazy
+Cake Swap based on a similar puzzle لعبة called Crazy Kitchen. ال
+studio got bought by Zynga and didn’t stay around for long after الذي - التي, but أنا
+know هذا genre better than أنا know most genres.
 
-Конфеты Раздавить Saga – Gameplay Dissection
+حلوى معجب Saga – Gameplay Dissection
 Verbs
-To understand Конфеты Раздавить Saga, let’s start where we always do: verbs.
-What может the игрок do in Конфеты Раздавить Saga?
-In этот case, это’s a simple answer: swap. The игрок может touch a candy in
-the grid and then slide это to an adjacent candy. When the игрок does этот,
-the two candies swap positions. That is the entirety of the игрок’s active
+To understand حلوى معجب Saga, let’s start where we always do: verbs.
+What يستطيع the لاعب do in حلوى معجب Saga?
+In هذا case, هو - هي’s a simple answer: swap. ال لاعب يستطيع touch a candy in
+the grid and then slide هو - هي to an adjacent candy. When the لاعب does هذا,
+the two candies swap positions. That is the entirety of the لاعب’s active
 contribution to the core loop (Figure 3.2). There are some interesting less
-active things the игрок does while swapping, such как “Scan” and “Predict”,
+active things the لاعب does while swapping, such مثل “Scan” and “Predict”,
 but these aren’t the simple button actions, so we’ll save discussion of those
-for later in этот chapter.
+for later in هذا chapter.
 
 Figure 3.2 Inputs.
 
-The core loop continues from there, though (Figure 3.3). After the игрок
-makes a swap, the игра rules check to see if either candy creates a line of
-three or more. If это doesn’t, the swap is canceled. If это does, the игра
+ال core loop continues from there, though (Figure 3.3). After the لاعب
+makes a swap, the لعبة rules check to see if either candy creates a line of
+three or more. If هو - هي doesn’t, the swap is canceled. If هو - هي does, the لعبة
 removes those candies, possibly with an extra effect if the line is four or
 more candies. Then the remaining candies fall to fill the empty space, which
-может possibly create new matches and cause a chain reaction как each match
+يستطيع possibly create new matches and cause a chain reaction مثل each match
 creates new matches.
 
 Figure 3.3 Outputs.
-The игрок performs a simple action, and the игра rules result in
-complex outcomes. This is one of the strengths of video игры – the
-processing burden of the игра может be placed on the computer’s shoulders.
-The rules of Конфеты Раздавить would be much less fun как a board игра where
+ال لاعب performs a simple action, and the لعبة rules result in
+complex outcomes. This is one of the strengths of video ألعاب – the
+processing burden of the لعبة يستطيع be placed on the computer’s shoulders.
+ال rules of حلوى معجب would be much less fun مثل a board لعبة where
 the players have to move each candy by hand and figure out the outcome of
 each new position.
-Swapping and the reactions to что swap is the heart of Конфеты Раздавить
-Saga, and the core loop of any match-3 игра.
-And for completeness, Конфеты Раздавить Saga also has a few special case
+Swapping and the reactions to الذي - التي swap is the heart of حلوى معجب
+Saga, and the core loop of any match-3 لعبة.
+And for completeness, حلوى معجب Saga also has a few special case
 verbs:
 
-1. Players может use powerups such как the lollipop to remove specific
+1. Players يستطيع use powerups such مثل the lollipop to remove specific
 candies or otherwise affect the grid outside of swap actions. Outside of
-the tutorials что teach these interactions, они are never required to
-complete a level, but они are always there for the игрок to use. But
-они are a limited resource что может only be acquired как an occasional
+the tutorials الذي - التي teach these interactions, they are never required to
+complete a level, but they are always there for the لاعب to use. But
+they are a limited resource الذي - التي يستطيع only be acquired مثل an occasional
 reward or for money.
-2. Late in the игра, there are new board elements что include an
-interactive choice by the игрок. For example, Конфеты Frogs let players
-choose where to place them when они go off.
+2. Late in the لعبة, there are new board elements الذي - التي include an
+interactive choice by the لاعب. For example, حلوى Frogs let players
+choose where to place them when they go off.
 3. Secondary modes like events provide a choice of what to play and
 sometimes have some basic decision-making in the event itself.
-So outside of these caveats, the verb of Конфеты Раздавить Saga is “swap”.
+So outside of these caveats, the verb of حلوى معجب Saga is “swap”.
 
 Goals
-The gameplay goal of Конфеты Раздавить Saga varies based on the level. All
+ال gameplay goal of حلوى معجب Saga varies based on the level. All
 goals revolve around clearing things off the board, but the nuances of
-exactly what ты’re trying to do может change:
+exactly what أنت’re trying to do يستطيع change:
 1. Clear a certain number of candies.
 2. Clear a certain number of candies of a particular type.
 3. Clear a certain number of special objects, like cherries, by dropping
 them to the bottom of the grid.
-4. Remove a certain number of non-candy obstacles, such как jellies.
+4. Remove a certain number of non-candy obstacles, such مثل jellies.
 5. Etc.
-More on этот in a moment.
+More on هذا in a moment.
 
 Challenge
-The real variety in Конфеты Раздавить Saga (and most match-3 игры) comes
-from the randomness of the falling pieces and the variety of obstacles что
+ال real variety in حلوى معجب Saga (and most match-3 ألعاب) comes
+from the randomness of the falling pieces and the variety of obstacles الذي - التي
 make reaching the goal difficult. Most levels have more than just candies on
 the board – a large variety of different objects create additional challenges
-and opportunities for the игрок. These range from simple inert objects что
+and opportunities for the لاعب. These range from simple inert objects الذي - التي
 are removed when matches are made near them (Frosting), to inert objects
-что expand across the grid over time (Chocolate), to snakes что charge into
-baskets after enough matches are made next to them (Конфеты Cobra). These
-aren’t all dangerous – there are also advanced board elements что может be
-useful, such как conveyor belts, or are almost purely beneficial, such как the
-UFO что drops special candies.
-These obstacles are key to Конфеты Раздавить Saga’s success. The basic
-concepts of the match-3 genre existed before Конфеты Раздавить Saga.
+الذي - التي expand across the grid over time (Chocolate), to snakes الذي - التي charge into
+baskets after enough matches are made next to them (حلوى Cobra). These
+aren’t all dangerous – there are also advanced board elements الذي - التي يستطيع be
+useful, such مثل conveyor belts, or are almost purely beneficial, such مثل the
+UFO الذي - التي drops special candies.
+These obstacles are key to حلوى معجب Saga’s success. ال basic
+concepts of the match-3 genre existed before حلوى معجب Saga.
 Specifically, the concepts of the genre were solidified in Bejeweled (2001)
 and Bejeweled Blitz (2009). Many of the core ideas were present in earlier
-игры like Shariki (1994). The core gameplay is very directly based on
-previous игры like Bejeweled. But those previous игры used only a
-single level – there were no obstacles and just one board. Конфеты Раздавить
+ألعاب like Shariki (1994). ال core gameplay is very directly based on
+previous ألعاب like Bejeweled. But those previous ألعاب used only a
+single level – there were no obstacles and just one board. حلوى معجب
 Saga innovated by adding a variety of levels with different obstacles and a
 different grid layout for each level. This gave the existing fun core
 gameplay more variety and long-term appeal. Bejeweled was successful, but
-Конфеты Раздавить Saga took что success to vast new heights by adding varied
+حلوى معجب Saga took الذي - التي success to vast new heights by adding varied
 challenges and a stronger sense of progression.
-The sense of progression comes from the “Saga” in the title. One of the
-big innovations of Конфеты Раздавить Saga was the Saga Map. It’s not just что
-the игрок was given a variety of levels with different obstacles, это’s also
-important что these levels were set up как a line – a path to a destination.
+ال sense of progression comes from the “Saga” in the title. One of the
+big innovations of حلوى معجب Saga was the Saga Map. It’s not just الذي - التي
+the لاعب was given a variety of levels with different obstacles, هو - هي’s also
+important الذي - التي these levels were set up مثل a line – a path to a destination.
 
-Once the игрок completes a level, они move on to the next one, heading
-toward the end. The Saga Map organizes этот progression in a simple line,
-showing the игрок the next levels они’ll be playing. This came out when
-social gaming was king, so the line also shows ты where your friends are,
-creating some social pressure to advance. But the key concept here is что
-the игрок is always doing something new, and has a sense of progression
-что makes them want to come back tomorrow and try again. Progression is
+Once the لاعب completes a level, they move on to the next one, heading
+toward the end. ال Saga Map organizes هذا progression in a simple line,
+showing the لاعب the next levels they’ll be playing. This came out when
+social gaming was king, so the line also shows أنت where your friends are,
+creating some social pressure to advance. But the key concept here is الذي - التي
+the لاعب is always doing something new, and has a sense of progression
+الذي - التي makes them want to come back tomorrow and try again. Progression is
 a great driver for players, in any form.
-The basic flow of the игра is simple – the игрок swaps to clear the
+ال basic flow of the لعبة is simple – the لاعب swaps to clear the
 level, with various obstacles in the way. But the obstacles and goals change
-in each level, как shown in Figure 3.4, making the simple flow work for a
+in each level, مثل shown in Figure 3.4, making the simple flow work for a
 long time.
 
-Figure 3.4 Конфеты Раздавить Saga flow: Simple diagram showing
+Figure 3.4 حلوى معجب Saga flow: Simple diagram showing
 Actions, Challenges, and Goals, with lots of variation on the
 Obstacles and Goals.
 
-Конфеты Раздавить Saga – Non-Gameplay
+حلوى معجب Saga – Non-Gameplay
 Dissection
 Technology
-Конфеты Раздавить is a fairly simple игра что relies on a vast network of
+حلوى معجب is a fairly simple لعبة الذي - التي relies on a vast network of
 advanced technologies to work. This is one of the fun daily realities of the
-world we live in. The rules of the игра and the interactions the игрок
+world we live in. ال rules of the لعبة and the interactions the لاعب
 experiences are built on easy-to-understand combinations of simple shapes.
-This is good игра design and keeps the игрок engaged. But the rest of the
+This is good لعبة design and keeps the لاعب engaged. But the rest of the
 experience is built on touch screens and constant online communication and
-vast behind-the-scenes databases что are way more powerful than the
-technology что brought humans to the moon.
-One thing что is important to think about как a игра designer is how
-these vast changes in the world of technology affect your игра. New
-technology comes along all the time, and some of это is a great fit for new
-types of игры. Sometimes there is a direct linkage between a new
-technology and a new style of игра, such как GPS-enabling Pokémon Go
+vast behind-the-scenes databases الذي - التي are way more powerful than the
+technology الذي - التي brought humans to the moon.
+One thing الذي - التي is important to think about مثل a لعبة designer is how
+these vast changes in the world of technology affect your لعبة. New
+technology comes along all the time, and some of هو - هي is a great fit for new
+types of ألعاب. Sometimes there is a direct linkage between a new
+technology and a new style of لعبة, such مثل GPS-enabling Pokémon Go
 (2016). Sometimes the changes are more subtle and need time and thought
-to understand. It’s not obvious (except in retrospect) что improvements in
+to understand. It’s not obvious (except in retrospect) الذي - التي improvements in
 computer miniaturization and wireless communication would lead to
 everyone having a powerful connected computer in their pocket at all times.
-And even then, это’s less obvious что это would lead to people looking for
-игры что они может pick up and play at any time for very short play
-sessions. Technology doesn’t only change what people может do with игры,
-это changes what они want to do and when они want to do это and for how
-long. The changes to the rules of technology create changes to the dynamics
+And even then, هو - هي’s less obvious الذي - التي هو - هي would lead to people looking for
+ألعاب الذي - التي they يستطيع pick up and play at any time for very short play
+sessions. Technology doesn’t only change what people يستطيع do with ألعاب,
+هو - هي changes what they want to do and when they want to do هو - هي and for how
+long. ال changes to the rules of technology create changes to the dynamics
 of how people interact with technology, but more on the word “dynamics”
 
-in Chapter 4. These changes может be harder to predict but provide great value
-for your игра designs once ты notice them.
+in Chapter 4. These changes يستطيع be harder to predict but provide great value
+for your لعبة designs once أنت notice them.
 
 Senses
-Конфеты Раздавить Saga looks cartoony and childish. Everything is in bold,
-bright colors. The candies are simple and iconic. The игра is not subtle in
-its communication; if это wants ты to know something, это will shout это rather
-than whisper это. At a glance, ты might guess что этот is a игра for
+حلوى معجب Saga looks cartoony and childish. Everything is in bold,
+bright colors. ال candies are simple and iconic. ال لعبة is not subtle in
+its communication; if هو - هي wants أنت to know something, هو - هي will shout هو - هي rather
+than whisper هو - هي. At a glance, أنت might guess الذي - التي هذا is a لعبة for
 children. But the majority of players are adults.
-Clearly, этот works for Конфеты Раздавить Saga. The игра is immensely
-successful, and there’s no reason to think что the bright cartoony style
-holds это back. Various clones and imitators have tried to re-theme match-3
+Clearly, هذا works for حلوى معجب Saga. ال لعبة is immensely
+successful, and there’s no reason to think الذي - التي the bright cartoony style
+holds هو - هي back. Various clones and imitators have tried to re-theme match-3
 gameplay in darker, more adult styles and failed. Childish works for adults.
-On one level, этот could be pure nostalgia. Adults want a moment to relax
-and escape from their everyday world, so something что evokes pleasant
-childhood memories could be just the thing. The reason childish works
+On one level, هذا could be pure nostalgia. Adults want a moment to relax
+and escape from their everyday world, so something الذي - التي evokes pleasant
+childhood memories could be just the thing. ال reason childish works
 might be because adults want to feel like children.
 On another level, childish might work because childish is good design.
 Kids are not the only ones who like bold, bright colors. Iconic shapes are
 easy to distinguish and help make gameplay easy to understand. Direct
 clear communication is good for everyone, including adults who are trying
-to just relax. The design principles что work for children also work for
-adults. It’s not childish design, это’s just good design.
-This is not to say что Конфеты Раздавить Saga is constructed in a childish way.
-There is a lot of attention to detail and polish in Конфеты Раздавить Saga. When я
-started working on match-3 игры, one of the first things я did was spend a
-week analyzing some of the top игры, and some of the worst игры. я
-recorded a few levels of Конфеты Раздавить Saga and then literally watched the
+to just relax. ال design principles الذي - التي work for children also work for
+adults. It’s not childish design, هو - هي’s just good design.
+This is not to say الذي - التي حلوى معجب Saga is constructed in a childish way.
+There is a lot of attention to detail and polish in حلوى معجب Saga. When أنا
+started working on match-3 ألعاب, one of the first things أنا did was spend a
+week analyzing some of the top ألعاب, and some of the worst ألعاب. أنا
+recorded a few levels of حلوى معجب Saga and then literally watched the
 
 recording frame by frame to see exactly how everything moved and all the
-little tricks of presentation. It’s a very useful exercise if ты’re trying to
-understand polish and presentation. Make sure ты do the same with some
-less successful игры to really see the differences.
+little tricks of presentation. It’s a very useful exercise if أنت’re trying to
+understand polish and presentation. Make sure أنت do the same with some
+less successful ألعاب to really see the differences.
 
 Freeze Frame
-Things я saw by watching every frame of Конфеты Раздавить Saga:
+Things أنا saw by watching every frame of حلوى معجب Saga:
 Be really careful with motion. Humans know how falling looks and expect things to
 accelerate and decelerate in certain ways. Falling at a constant speed is easier to code but
 looks weird.
-You может cover up lots of things with explosions. Don’t bother with expensive
-transformations if an explosion will feel just как good or better.
+You يستطيع cover up lots of things with explosions. Don’t bother with expensive
+transformations if an explosion will feel just مثل good or better.
 Squash and stretch. This is an animation term for changing the shape of an object to
 emphasize an impact. It really works.
-Anticipation. Building up to a reward is как important как paying off the reward. Adding a
+Anticipation. Building up to a reward is مثل important مثل paying off the reward. Adding a
 few frames of buildup makes almost everything better.
-Sequencing. Know the order of events and keep что holy. It’ll help players understand
-what’s happening and это’ll keep your игра logic and code understandable.
-Compression. When ты have lots of things что need to happen at once, ты может break
-the Sequencing rule and have things overlap a bit. But do это in a logical and constrained
-way. Think through what the игрок needs to focus on, and do some hand-waving in other
+Sequencing. Know the order of events and keep الذي - التي holy. It’ll help players understand
+what’s happening and هو - هي’ll keep your لعبة logic and code understandable.
+Compression. When أنت have lots of things الذي - التي need to happen at once, أنت يستطيع break
+the Sequencing rule and have things overlap a bit. But do هو - هي in a logical and constrained
+way. Think through what the لاعب needs to focus on, and do some hand-waving in other
 places.
 
 Emotion and Narrative
-Конфеты Раздавить Saga is not a deeply emotional игра. There is no complex
+حلوى معجب Saga is not a deeply emotional لعبة. There is no complex
 storyline to follow with deeply realized characters following narrative arcs
-who the игрок grows to care about. There is a simple story что presents a
-problem to solve, and then a few levels later congratulates ты for solving
-это. This is enough story to give ты a reason to continue, but Конфеты Раздавить
-Saga is not a игра where the majority of players are advancing to find out
+who the لاعب grows to care about. There is a simple story الذي - التي presents a
+problem to solve, and then a few levels later congratulates أنت for solving
+هو - هي. This is enough story to give أنت a reason to continue, but حلوى معجب
+Saga is not a لعبة where the majority of players are advancing to find out
 what happens next.
 
-Конфеты Раздавить Saga does hit emotional notes through the gameplay.
-Конфеты Раздавить Saga is a игра of constant rewards. Whenever ты do
-anything in the игра, something explodes and the игра tells ты how great
-ты are. This is maybe not the most emotionally deep reward system, and я
-wouldn’t trust the игра’s praise to evaluate my self-worth, but sometimes
-это’s just nice to hear praise. Constant rewards может be emotionally soothing.
+حلوى معجب Saga does hit emotional notes through the gameplay.
+حلوى معجب Saga is a لعبة of constant rewards. Whenever أنت do
+anything in the لعبة, something explodes and the لعبة tells أنت how great
+أنت are. This is maybe not the most emotionally deep reward system, and أنا
+wouldn’t trust the لعبة’s praise to evaluate my self-worth, but sometimes
+هو - هي’s just nice to hear praise. Constant rewards يستطيع be emotionally soothing.
 A working mom who is having a hard day and just wants to catch their
-breath and relax doesn’t need a игра что constantly tells them они’ve died
-and need to start everything over. Конфеты Раздавить Saga does have fail states,
-and это does apply a little bit of emotional pressure in those moments (mostly
-to encourage the игрок to spend money), but что’s the exception, not the
-rule. Most of the time, playing Конфеты Раздавить Saga is soaking in a warm bed
-of reward and praise. Some игры are here to give people what они want.
+breath and relax doesn’t need a لعبة الذي - التي constantly tells them they’ve died
+and need to start everything over. حلوى معجب Saga does have fail states,
+and هو - هي does apply a little bit of emotional pressure in those moments (mostly
+to encourage the لاعب to spend money), but الذي - التي’s the exception, not the
+rule. Most of the time, playing حلوى معجب Saga is soaking in a warm bed
+of reward and praise. Some ألعاب are here to give people what they want.
 
 Money
-How does Конфеты Раздавить Saga make money?
-The other big innovation Конфеты Раздавить Saga added to the match-3 genre,
+How does حلوى معجب Saga make money?
+ال other big innovation حلوى معجب Saga added to the match-3 genre,
 other than the level variety demonstrated in the “Saga” part of the title, is
-the monetization model. Конфеты Раздавить Saga is free to download and to play.
-All ten thousand plus levels are free to access. But the игра constantly asks
-ты to spend money on other things. Powerups. Unlimited lives. Extra
+the monetization model. حلوى معجب Saga is free to download and to play.
+All ten thousand plus levels are free to access. But the لعبة constantly asks
+أنت to spend money on other things. Powerups. Unlimited lives. Extra
 turns. Special modes.
-Free-to-play business models drive most of the sales in the игры
-industry these days. And они work. Most of the players in these игры pay
+Free-to-play business models drive most of the sales in the ألعاب
+industry these days. And they work. Most of the players in these ألعاب pay
 nothing. A small percentage pay something. And an even smaller
 percentage pay a lot. These are the “whales” – the large spenders who keep
 everyone else afloat.
 
-The morality of the free-to-play model is a hotly debated topic. There are
+ال morality of the free-to-play model is a hotly debated topic. There are
 certainly companies trying to suck every penny out of their players, and
-using some questionable approaches to do что. No one should be exploiting
+using some questionable approaches to do الذي - التي. No one should be exploiting
 gambling addictions or tricking children into spending their parent’s money
-or promising things to players что will never materialize.
-But most free-to-play игры, such как Конфеты Раздавить Saga, are not что
+or promising things to players الذي - التي will never materialize.
+But most free-to-play ألعاب, such مثل حلوى معجب Saga, are not الذي - التي
 bad. Every monetization model – arcade cabinets, CDs in boxes,
-hypercasual ad-driven игры – is trying to use human psychology to get
-people to buy things. At some level, all marketing is manipulation. But что
-doesn’t mean это has to be an entirely bad thing. Good marketing is
-manipulating people to notice things что они want and will enjoy. And я
-believe что most free-to-play игры are actually providing a valuable
-service to people. People need entertainment and игры are generally a
+hypercasual ad-driven ألعاب – is trying to use human psychology to get
+people to buy things. At some level, all marketing is manipulation. But الذي - التي
+doesn’t mean هو - هي has to be an entirely bad thing. Good marketing is
+manipulating people to notice things الذي - التي they want and will enjoy. And أنا
+believe الذي - التي most free-to-play ألعاب are actually providing a valuable
+service to people. People need entertainment and ألعاب are generally a
 good deal in the entertainment world. Free-to-play allows most people to
-get their entertainment for free, with some advertisements как the cost. And
-the people who want to spend more and может afford это fund the rest of the
+get their entertainment for free, with some advertisements مثل the cost. And
+the people who want to spend more and يستطيع afford هو - هي fund the rest of the
 players.
-я’ve done interviews with whales. Most of them are very happy with their
+أنا’ve done interviews with whales. Most of them are very happy with their
 purchases and would spend the money the same way again. They have
-disposable income, and этот is how они choose to use это. Rich people spend
-money on much sillier things than mobile игры. You может find people who
+disposable income, and هذا is how they choose to use هو - هي. Rich people spend
+money on much sillier things than mobile ألعاب. You يستطيع find people who
 overspend or otherwise have a negative spending experience, but even
 among whales most of the transactions are mutually beneficial.
-Конфеты Раздавить Saga is a quality игра. Spending some money to make the
-experience better is not unreasonable. я’m personally a free-to-play игрок
-(most of the time – я’ll spend a little money to support игры я particularly
-enjoy), but я understand why people would spend without being coerced.
-The free-to-play model isn’t perfect, and if я could wave a magic wand and
+حلوى معجب Saga is a quality لعبة. Spending some money to make the
+experience better is not unreasonable. أنا’m personally a free-to-play لاعب
+(most of the time – أنا’ll spend a little money to support ألعاب أنا particularly
+enjoy), but أنا understand why people would spend without being coerced.
+ال free-to-play model isn’t perfect, and if أنا could wave a magic wand and
 
-let everyone play and make игры and all be rich я would, but я believe что
+let everyone play and make ألعاب and all be rich أنا would, but أنا believe الذي - التي
 free-to-play is only problematic when abused.
 
 History
-Mobile игры are the core of the игры industry these days. Console игры
-and PC игры are still going strong, but in terms of dollars spent, mobile
-игры are bigger than everything else combined.
-Mobile игры took a while to get there, though. In the early days of the
-mobile игра market, there was a lot of experimentation and uncertainty. No
+Mobile ألعاب are the core of the ألعاب industry these days. Console ألعاب
+and PC ألعاب are still going strong, but in terms of dollars spent, mobile
+ألعاب are bigger than everything else combined.
+Mobile ألعاب took a while to get there, though. In the early days of the
+mobile لعبة market, there was a lot of experimentation and uncertainty. No
 one knew what would succeed.
-Some companies tried releasing console-quality игры (Infinity Blade
-(2010)) or literal ports of PC or console игры (Return to Monkey
+Some companies tried releasing console-quality ألعاب (Infinity Blade
+(2010)) or literal ports of PC or console ألعاب (Return to Monkey
 Island (2022, mobile 2023), Grand Theft Auto: San Andreas (2002,
 mobile 2013), XCOM: Enemy Within (2013, mobile 2014)). Neither of
 these approaches became dominant, but there were a few notable
-successes, such как a little title called Minecraft (2009, mobile 2011).
+successes, such مثل a little title called Minecraft (2009, mobile 2011).
 Although even Minecraft dropped its price significantly compared to
 other platforms.
-Some игры experimented with the novelty of touch screen inputs.
+Some ألعاب experimented with the novelty of touch screen inputs.
 Games like Flight Control (2009) or Where’s My Water? (2011)
-discovered new styles of игра что wouldn’t work with a controller.
-These generally did well and ты может see new innovations come out
-and succeed regularly. A lot of the modern innovation in этот area is in
+discovered new styles of لعبة الذي - التي wouldn’t work with a controller.
+These generally did well and أنت يستطيع see new innovations come out
+and succeed regularly. A lot of the modern innovation in هذا area is in
 the hypercasual genre where innovative ideas are needed to grab
 people’s attention (and then throw a lot of ads at them).
 This was also the early days of the shift to digital distribution across
 the industry. Games could now be services with new content flowing
-to players как quickly как это could be approved by Apple. Pocket God
+to players مثل quickly مثل هو - هي could be approved by Apple. Pocket God
 
-(2009) was an interesting experiment in этот space, updating как quickly
-как possible with big new features changing the very nature of the игра
-regularly. Games что play like Pocket God aren’t common these days,
+(2009) was an interesting experiment in هذا space, updating مثل quickly
+مثل possible with big new features changing the very nature of the لعبة
+regularly. Games الذي - التي play like Pocket God aren’t common these days,
 but the model of constant meaningful updates has become very
 common and remains successful, even on other platforms like Roblox
-or for other игры like Fortnite (2017).
+or for other ألعاب like Fortnite (2017).
 Along with other changes, monetization was also uncertain. At first,
-companies thought что mobile gamers would pay something close to
-console price, or at least similar to the downloadable markets что were
-developing on consoles and on Steam. But как companies experimented
-with pricing, они found что lower prices worked. The increase in
+companies thought الذي - التي mobile gamers would pay something close to
+console price, or at least similar to the downloadable markets الذي - التي were
+developing on consoles and on Steam. But مثل companies experimented
+with pricing, they found الذي - التي lower prices worked. ال increase in
 sales offset the drop in price, so soon Angry Birds (2009) was the top
 of the Grossing chart at the lowest possible price – 99 cents. Then
-Apple added the option to sell things inside the игра, and in-app
-purchases were born. Immediately, игры like Smurf Village (2010)
-discovered что free was even more appealing to people than 99 cents.
-The modern free-to-play model was born.
-In этот era, mobile игры were also learning a lot from social игры.
-Facebook was a huge platform for игры for a few years, before changes to
-the advertising structure and success of mobile killed это. Social игры
-pioneered many of the free-to-play principles что later dominated the
+Apple added the option to sell things inside the لعبة, and in-app
+purchases were born. Immediately, ألعاب like Smurf Village (2010)
+discovered الذي - التي free was even more appealing to people than 99 cents.
+ال modern free-to-play model was born.
+In هذا era, mobile ألعاب were also learning a lot from social ألعاب.
+Facebook was a huge platform for ألعاب for a few years, before changes to
+the advertising structure and success of mobile killed هو - هي. Social ألعاب
+pioneered many of the free-to-play principles الذي - التي later dominated the
 mobile market.
-Конфеты Раздавить Saga was originally a Facebook игра. And before что, это
-was originally a web игра. King, the company что makes Конфеты Раздавить
+حلوى معجب Saga was originally a Facebook لعبة. And before الذي - التي, هو - هي
+was originally a web لعبة. King, the company الذي - التي makes حلوى معجب
 Saga, has used an interesting method for testing out new titles. They
-generally release lots of new игры first on their web browser and see how
-они perform there. The best-performing titles are considered for conversion
+generally release lots of new ألعاب first on their web browser and see how
+they perform there. ال best-performing titles are considered for conversion
 to other platforms. At the time, Facebook was considered the first step and
 
-mobile was a new and experimental platform. So, Конфеты Раздавить Saga first
-appeared как Конфеты Раздавить, a web игра without the level variety что made
-Конфеты Раздавить Saga so successful. The Saga idea first appeared in Bubble
+mobile was a new and experimental platform. So, حلوى معجب Saga first
+appeared مثل حلوى معجب, a web لعبة without the level variety الذي - التي made
+حلوى معجب Saga so successful. ال Saga idea first appeared in Bubble
 Witch Saga and proved successful. When King brought their score attack
-match-3 Конфеты Раздавить over to Facebook, они added similar Saga elements.
-Конфеты Раздавить Saga did great on Facebook, so within a few months это was
-brought over to mobile как well.
-By the time Конфеты Раздавить Saga came to mobile (2012), the battle over
-pricing was mostly done. The free-to-play models что had been pioneered
-in Facebook were dominating on mobile. So, Конфеты Раздавить Saga launched
+match-3 حلوى معجب over to Facebook, they added similar Saga elements.
+حلوى معجب Saga did great on Facebook, so within a few months هو - هي was
+brought over to mobile مثل well.
+By the time حلوى معجب Saga came to mobile (2012), the battle over
+pricing was mostly done. ال free-to-play models الذي - التي had been pioneered
+in Facebook were dominating on mobile. So, حلوى معجب Saga launched
 for free, with strong social elements. Many of those social elements have
-faded to the background over the years как the industry has continued to
-evolve and updates have changed Конфеты Раздавить Saga. Competing for high
+faded to the background over the years مثل the industry has continued to
+evolve and updates have changed حلوى معجب Saga. Competing for high
 scores against your friends, or for progress along the Saga, used to be
 prominently displayed but now is more of an afterthought.
-So, Конфеты Раздавить Saga came into the market at the right time with an
+So, حلوى معجب Saga came into the market at the right time with an
 innovative take on both the gameplay of match-3 and the free-to-play
-monetization model. The игра was a hit from day one. King already knew
-что это had a good chance, based on its success on other platforms, but
-nothing is certain in этот industry. In этот case, это worked. Конфеты Раздавить Saga
-was so successful это spawned multiple sequels, a line of merchandizing, and
-even a short-lived network television игра show. And это became my wife’s
-favorite video игра.
+monetization model. ال لعبة was a hit from day one. King already knew
+الذي - التي هو - هي had a good chance, based on its success on other platforms, but
+nothing is certain in هذا industry. In هذا case, هو - هي worked. حلوى معجب Saga
+was so successful هو - هي spawned multiple sequels, a line of merchandizing, and
+even a short-lived network television لعبة show. And هو - هي became my wife’s
+favorite video لعبة.
 
 Meaning
-What is Конфеты Раздавить Saga about? What does Конфеты Раздавить Saga say about
-the world? How does playing Конфеты Раздавить Saga change how ты see the
+What is حلوى معجب Saga about? What does حلوى معجب Saga say about
+the world? How does playing حلوى معجب Saga change how أنت see the
 world?
 
-To me, Конфеты Раздавить Saga is about the joy of unintended consequences.
-The игрок makes a seemingly simple innocuous action, and suddenly the
+To me, حلوى معجب Saga is about the joy of unintended consequences.
+ال لاعب makes a seemingly simple innocuous action, and suddenly the
 screen is filled with colorful explosions and some guy with a deep voice is
-calling out compliments. The игрок didn’t plan что out. The игрок didn’t
+calling out compliments. ال لاعب didn’t plan الذي - التي out. ال لاعب didn’t
 know exactly what was going to happen. But like many things in life, taking
-что first step leads to all sorts of unknown things.
-Конфеты Раздавить Saga is the type of игра что doesn’t really challenge the
-игрок. Sure, some levels are nearly impossible, but those levels generally
-require luck to complete along with skill. Mostly Конфеты Раздавить Saga is a
-warm bath of compliments and pleasant explosions. And я believe these
-types of игры make the world a better place. People need comfort. People
-need more praise in their lives. If a игра может help people be happy and get
-through their lives, я support что. Since the dawn of time, humans have
+الذي - التي first step leads to all sorts of unknown things.
+حلوى معجب Saga is the type of لعبة الذي - التي doesn’t really challenge the
+لاعب. Sure, some levels are nearly impossible, but those levels generally
+require luck to complete along with skill. Mostly حلوى معجب Saga is a
+warm bath of compliments and pleasant explosions. And أنا believe these
+types of ألعاب make the world a better place. People need comfort. People
+need more praise in their lives. If a لعبة يستطيع help people be happy and get
+through their lives, أنا support الذي - التي. Since the dawn of time, humans have
 sought escapism. That need is deep in the human psyche. Games are the
-latest delivery method. я’m not going to fight against the human psyche. Let
+latest delivery method. أنا’m not going to fight against the human psyche. Let
 people enjoy simple fun.
 
 Goals
-Verbs tend to work together. In Shovel Knight, я может move, and я может attack.
-я’m generally more successful in the игра when я combine these verbs. я
-don’t move, pause, wait, then attack. я attack while я’m moving. я look
-around while я’m moving. я don’t stop and pause; я’m constantly
-performing all the actions at one time and что’s part of what makes these
-игры challenging and interesting. Not all players может manage the feats of
-dexterity and rapid stimulus processing required to be successful at moveshovel when они all have to be done together.
-The игрок’s goals может also work этот way. When я’m moving to line up a
-shot, я’m also considering how to best avoid the line of fire of another
+Verbs tend to work together. In مجرفة Knight, أنا يستطيع move, and أنا يستطيع attack.
+أنا’m generally more successful in the لعبة when أنا combine these verbs. أنا
+don’t move, pause, wait, then attack. أنا attack while أنا’m moving. أنا look
+around while أنا’m moving. أنا don’t stop and pause; أنا’m constantly
+performing all the actions at one time and الذي - التي’s part of what makes these
+ألعاب challenging and interesting. Not all players يستطيع manage the feats of
+dexterity and rapid stimulus processing required to be successful at moveshovel when they all have to be done together.
+ال لاعب’s goals يستطيع also work هذا way. When أنا’m moving to line up a
+shot, أنا’m also considering how to best avoid the line of fire of another
 
-enemy at the same time. Goals может be combined just like actions может be
+enemy at the same time. Goals يستطيع be combined just like actions يستطيع be
 combined (Figure 3.5). But goals are even more likely to be layered rather
 than combined.
 
 Figure 3.5 Two Verbs merging into a bigger verb.
-Look at Конфеты Раздавить Saga. If ты chose a random second of a игрок’s
-session in Конфеты Раздавить Saga, the verb is likely to be “swap”. Maybe “look”
-if ты accept что как a valid verb. But the игрок’s goals are going to hit
+Look at حلوى معجب Saga. If أنت chose a random second of a لاعب’s
+session in حلوى معجب Saga, the verb is likely to be “swap”. Maybe “look”
+if أنت accept الذي - التي مثل a valid verb. But the لاعب’s goals are going to hit
 many different layers of analysis:
 1. Making a match
-2. Having этот match lead to a chain reaction or create a power gem
-3. Having этот match lead to a better board state when это’s done
+2. Having هذا match lead to a chain reaction or create a power gem
+3. Having هذا match lead to a better board state when هو - هي’s done
 4. Removing lots of gems
-5. Making progress toward the goal of этот level
+5. Making progress toward the goal of هذا level
 6. Scoring points
-7. Beating этот level
-8. Beating этот level with three stars
+7. Beating هذا level
+8. Beating هذا level with three stars
 9. Completing an event or challenge goal
 
 10. Getting to the end of the level progression
@@ -1272,227 +1272,227 @@ many different layers of analysis:
 13. Helping the cute little puppet creature to complete its goal
 14. Clearing the chocolate
 15. Removing the blockers
-16. A very large number of level-specific goal types что я could list but
-then этот chapter would become boring and repetitive and как a игра
-designer я try to avoid boring things
-This is normal. In игры как well как life, a single action rarely has a single
+16. A very large number of level-specific goal types الذي - التي أنا could list but
+then هذا chapter would become boring and repetitive and مثل a لعبة
+designer أنا try to avoid boring things
+This is normal. In ألعاب مثل well مثل life, a single action rarely has a single
 goal. Goals come in herds. Some with subtle nuanced distinctions, and
-some coming from completely different directions. я want to beat the level.
-я want to beat the level with three stars. я want to beat the level with a
+some coming from completely different directions. أنا want to beat the level.
+أنا want to beat the level with three stars. أنا want to beat the level with a
 higher score than my brother. These are expressions of the same base goal
-but with different nuances. From a игра design standpoint, these может be
+but with different nuances. From a لعبة design standpoint, these يستطيع be
 merged into a larger goal: success in the level (Figure 3.6).
 
 Figure 3.6 Two goals merging into a bigger goal.
 
-The bigger differences between goals are often based on scale. я want этот
-action to clear lots of gems. я want to beat the whole level. я want to get to
-the end of the игра progression. я want the action я’m performing now to
+ال bigger differences between goals are often based on scale. أنا want هذا
+action to clear lots of gems. أنا want to beat the whole level. أنا want to get to
+the end of the لعبة progression. أنا want the action أنا’m performing now to
 make me successful now, soon, and in the future. This sort of layering of
-goals is very important to игра design. Game designers like to talk about
-goals как onions – one goal is contained within the other goal (Figure 3.7).
-Progress toward one smaller goal also progresses ты toward a larger goal.
+goals is very important to لعبة design. Game designers like to talk about
+goals مثل onions – one goal is contained within the other goal (Figure 3.7).
+Progress toward one smaller goal also progresses أنت toward a larger goal.
 
 Figure 3.7 One goal inside another goal.
-So, both goals progress based on the same игрок action, but the second
-goal is bigger so это takes longer. Completing the first goal is a step toward
-completing the second goal. When ты complete the first goal, ты still
-have the second goal to keep ты driving forward. At no point does the
-игрок complete one goal and have nothing left to do. For a игра designer,
-a игрок with “nothing left to do” is a problem – они’re likely to leave the
-игра and go do something else. Layered goals fix этот by keeping the
-игрок motivated at all times.
+So, both goals progress based on the same لاعب action, but the second
+goal is bigger so هو - هي takes longer. Completing the first goal is a step toward
+completing the second goal. When أنت complete the first goal, أنت still
+have the second goal to keep أنت driving forward. At no point does the
+لاعب complete one goal and have nothing left to do. For a لعبة designer,
+a لاعب with “nothing left to do” is a problem – they’re likely to leave the
+لعبة and go do something else. Layered goals fix هذا by keeping the
+لاعب motivated at all times.
 
-In Конфеты Раздавить Saga, a игрок may say что their goal is to beat этот
-level. But to do что, они need to find and make matches. Once они
-complete the small goal and make что match, они are (hopefully) closer to
-their big goal of completing the level. But now они have to start another
-loop of activity to find another match and complete что small goal again.
+In حلوى معجب Saga, a لاعب may say الذي - التي their goal is to beat هذا
+level. But to do الذي - التي, they need to find and make matches. Once they
+complete the small goal and make الذي - التي match, they are (hopefully) closer to
+their big goal of completing the level. But now they have to start another
+loop of activity to find another match and complete الذي - التي small goal again.
 Only after a few dozen small goals is the large goal reached.
-And once the large goal is reached, the игрок is taken back to the Saga
-Map where они remember что the large goal is just a small step toward the
+And once the large goal is reached, the لاعب is taken back to the Saga
+Map where they remember الذي - التي the large goal is just a small step toward the
 ultimate long-term goal of progressing to the next story bit or to beat a
 friend or to reach “the end”.
 So maybe goals aren’t onions. Maybe goals are garlic. One head of garlic
-seems like a single unified thing but when ты break into это, ты find many
+seems like a single unified thing but when أنت break into هو - هي, أنت find many
 smaller versions inside (Figure 3.8).
 
 Figure 3.8 Many goals inside another goal.
 This is good psychology. Humans like to group things and draw lines
 around them. Part of the fun of goals is getting to define a task and then
-check это off your to-do list. Completing a goal is fun.
+check هو - هي off your to-do list. Completing a goal is fun.
 
-And to be clear, этот isn’t a monetization trick. This is what makes the
-игра fun. “Engagement” is a key goal of free-to-play игры, and это does
-drive monetization. But это’s also a sign что players are having fun. In my
-opinion, the best way to drive monetization is to make sure the игрок is
-having fun and engagement is one way to identify when что’s happening.
+And to be clear, هذا isn’t a monetization trick. This is what makes the
+لعبة fun. “Engagement” is a key goal of free-to-play ألعاب, and هو - هي does
+drive monetization. But هو - هي’s also a sign الذي - التي players are having fun. In my
+opinion, the best way to drive monetization is to make sure the لاعب is
+having fun and engagement is one way to identify when الذي - التي’s happening.
 This is why layers are great. If there is always something more to do, the
-игрок is never looking at an empty checklist. When они complete one
-check box and get что hit of serotonin, there are still more checkboxes to
-do. Not just the next one, but one что’s halfway finished. Or even better,
-one что’s just about to be finished. If ты’re at 4% progress toward a goal,
-there’s no pressure to stay in the игра and complete это. But if ты’re at
-96%, then ты might как well play one more level to finish это off. And then
-when ты do, there will be another goal at 97% waiting for ты.
-This is present in many игры:
-Civilization and other 4x strategy игры are well-known for promoting
+لاعب is never looking at an empty checklist. When they complete one
+check box and get الذي - التي hit of serotonin, there are still more checkboxes to
+do. Not just the next one, but one الذي - التي’s halfway finished. Or even better,
+one الذي - التي’s just about to be finished. If أنت’re at 4% progress toward a goal,
+there’s no pressure to stay in the لعبة and complete هو - هي. But if أنت’re at
+96%, then أنت might مثل well play one more level to finish هو - هي off. And then
+when أنت do, there will be another goal at 97% waiting for أنت.
+This is present in many ألعاب:
+Civilization and other 4x strategy ألعاب are well-known for promoting
 “one more turn” gameplay where there are many different layers of
-goals что overlap in complex ways, ensuring there is always one more
+goals الذي - التي overlap in complex ways, ensuring there is always one more
 thing to do.
 Boss levels are another way to promote players’ desire to check off
-boxes. The boss is the hardest part of the level, but это always shows up
-when ты’re already past 90% complete. The temptation to check off
-что box is part of why boss levels are so motivating.
-Role-playing игры (RPGs) offer multiple forms of progression –
+boxes. ال boss is the hardest part of the level, but هو - هي always shows up
+when أنت’re already past 90% complete. ال temptation to check off
+الذي - التي box is part of why boss levels are so motivating.
+Role-playing ألعاب (RPGs) offer multiple forms of progression –
 story quests, side quests, character stats, faction relationships, skill
-points, equipment, etc. This ensures что whenever a игрок completes
+points, equipment, etc. This ensures الذي - التي whenever a لاعب completes
 a goal, there are more things to do.
-You может see этот in the evolution of Конфеты Раздавить Saga.
+You يستطيع see هذا in the evolution of حلوى معجب Saga.
 
-Match-3 игры such как Bejeweled existed before Конфеты Раздавить Saga,
+Match-3 ألعاب such مثل Bejeweled existed before حلوى معجب Saga,
 with very similar core gameplay loops, even down to the specific power
-gem abilities. But when Конфеты Раздавить Saga came out, its sales and
-engagement blew them all away. Конфеты Раздавить Saga succeeded in large part
-because of the Saga goal structure. The Saga structure takes a fun core
-gameplay loop что had been mastered in previous match-3 игры (Figure
-3.9) and adds another layer of goals on top of это. You still want to make
+gem abilities. But when حلوى معجب Saga came out, its sales and
+engagement blew them all away. حلوى معجب Saga succeeded in large part
+because of the Saga goal structure. ال Saga structure takes a fun core
+gameplay loop الذي - التي had been mastered in previous match-3 ألعاب (Figure
+3.9) and adds another layer of goals on top of هو - هي. You still want to make
 good matches and get a good score, but now there are two new layers.
 
 Figure 3.9 Goals merge: Make match, Create combos, Gain
 points.
-In the time-battle-based style of игры like Bejeweled, there’s no way to
-“beat” a level. You может get a good score, but ты может never check off a box
-что says the level is done.
-The Saga map gives a clearer sense of progress on an individual level.
-You может “beat” что level, even if there’s always room to go back and
+In the time-battle-based style of ألعاب like Bejeweled, there’s no way to
+“beat” a level. You يستطيع get a good score, but أنت يستطيع never check off a box
+الذي - التي says the level is done.
+ال Saga map gives a clearer sense of progress on an individual level.
+You يستطيع “beat” الذي - التي level, even if there’s always room to go back and
 improve your score (Figure 3.10).
 
-Figure 3.10 Same, but with a bigger circle around это: Beat level.
-And once ты beat a level, ты’re taken back to что map and shown the
+Figure 3.10 Same, but with a bigger circle around هو - هي: Beat level.
+And once أنت beat a level, أنت’re taken back to الذي - التي map and shown the
 true goal – long-term progression. In Bejeweled, the end of a level may or
-may not check a personal goal box depending on your final score. In Конфеты
-Раздавить Saga, ты’re usually checking at least one box and maybe more
-(Figure 3.11). And ты’re reminded of all the remaining boxes ты может
+may not check a personal goal box depending on your final score. In حلوى
+معجب Saga, أنت’re usually checking at least one box and maybe more
+(Figure 3.11). And أنت’re reminded of all the remaining boxes أنت يستطيع
 check in the future. That’s much more emotionally compelling and drives
 long-term retention in a great way.
 
-Figure 3.11 Same, but with a bigger circle around это: Complete
-игра.
+Figure 3.11 Same, but with a bigger circle around هو - هي: Complete
+لعبة.
 
 Other Goals
 Looking at the list of goals, some are groups of related tasks (various ways
 to evaluate a move), some are garlic cloves of related progression (move,
-level, игра), but some don’t fit either of these categories. Things like
-“relax” or “help the puppet” suggest что there is a lot of room for other
+level, لعبة), but some don’t fit either of these categories. Things like
+“relax” or “help the puppet” suggest الذي - التي there is a lot of room for other
 types of goals.
-Helping the puppet is an example of a narrative goal. The игрок is
-motivated by emotional goals created by the игра’s story, especially when
+Helping the puppet is an example of a narrative goal. ال لاعب is
+motivated by emotional goals created by the لعبة’s story, especially when
 mixed with the motivation to progress a narrative forward. These are
-powerful goals for humans, как storytelling and completion are deeply
-woven into humanity. For many игры, just этот goal motivation is enough
+powerful goals for humans, مثل storytelling and completion are deeply
+woven into humanity. For many ألعاب, just هذا goal motivation is enough
 to invest time and effort into a full story with (expensive) cinematics. Core
 gameplay drives players forward, and progression keeps them wanting
 more, but deep engagement requires some emotional investment.
-Other goals like “relax” suggest что the игрок may have goals for
-playing the игра что are outside the structure of the игра. The игра
-doesn’t directly have a relax button, and none of the explosions что occur
-when candies match are directly designed to ensure игрок relaxation.
-Relaxation is the reason the игрок comes to the игра, not something the
-игра directly produces. When all the parts of the игра are working
-correctly, этот goal will be the result. These sorts of goals are important to
-look for and understand in your игры. Just because они’re not entirely
-driven by игра features doesn’t mean что ты как a игра designer может’t
+Other goals like “relax” suggest الذي - التي the لاعب may have goals for
+playing the لعبة الذي - التي are outside the structure of the لعبة. ال لعبة
+doesn’t directly have a relax button, and none of the explosions الذي - التي occur
+when candies match are directly designed to ensure لاعب relaxation.
+Relaxation is the reason the لاعب comes to the لعبة, not something the
+لعبة directly produces. When all the parts of the لعبة are working
+correctly, هذا goal will be the result. These sorts of goals are important to
+look for and understand in your ألعاب. Just because they’re not entirely
+driven by لعبة features doesn’t mean الذي - التي أنت مثل a لعبة designer يستطيع’t
 influence them. Understanding what your players want inside and outside
-the игра is critical.
+the لعبة is critical.
 
 Player-Generated Goals
-One type of goal что doesn’t show up in the goal list is игрок-generated
-goals. The list focuses on goals что the игра creates and enforces, but
-humans love to generate and track goals on their own. Every time ты
-generate a to-do list and mentally check off items как они’re completed,
-ты’re acting как your own игра designer to structure and motivate daily
-life. Players do этот during игры, too. In Конфеты Раздавить, players might strive
-to clear a certain area or create a certain combo even if the игра doesn’t
+One type of goal الذي - التي doesn’t show up in the goal list is لاعب-generated
+goals. ال list focuses on goals الذي - التي the لعبة creates and enforces, but
+humans love to generate and track goals on their own. Every time أنت
+generate a to-do list and mentally check off items مثل they’re completed,
+أنت’re acting مثل your own لعبة designer to structure and motivate daily
+life. Players do هذا during ألعاب, too. In حلوى معجب, players might strive
+to clear a certain area or create a certain combo even if the لعبة doesn’t
 ask them to. This is good.
-As a игра designer, ты может’t force players to make their own goals. But
-ты может create an environment where goals are easy to make and track and
-enjoy. The more freedom the игра gives the игрок to try divergent actions,
+As a لعبة designer, أنت يستطيع’t force players to make their own goals. But
+أنت يستطيع create an environment where goals are easy to make and track and
+enjoy. ال more freedom the لعبة gives the لاعب to try divergent actions,
 the more players are going to find them and enjoy them. Players like
-interacting with everything in the игра world, which is something most
-игра designs should encourage. Finding ways to give strong feedback
-during these actions helps the игрок know что their actions matter and что
-the игра recognizes what они did. When я was working on Paperboy 64
-(1999) (my first full игра design), we made sure что almost everything
-reacted when being hit by a newspaper. The игрок was only meant to target
+interacting with everything in the لعبة world, which is something most
+لعبة designs should encourage. Finding ways to give strong feedback
+during these actions helps the لاعب know الذي - التي their actions matter and الذي - التي
+the لعبة recognizes what they did. When أنا was working on Paperboy 64
+(1999) (my first full لعبة design), we made sure الذي - التي almost everything
+reacted when being hit by a newspaper. ال لاعب was only meant to target
 a few specific things, but the world is much more fun and engaging if
-everything reacts. And if a игрок wants to focus on throwing papers at dogs
-to keep them away from cats, они может do что. They don’t earn points for это,
-but the игра still creates these little scenarios with emotional potential and
-shows the игрок что their actions have consequences.
+everything reacts. And if a لاعب wants to focus on throwing papers at dogs
+to keep them away from cats, they يستطيع do الذي - التي. They don’t earn points for هو - هي,
+but the لعبة still creates these little scenarios with emotional potential and
+shows the لاعب الذي - التي their actions have consequences.
 Player-generated goals are also an important driver for gameplay goals.
 During early playtests, keep an eye out for things players try to do. Ask
-players what their goal is. If players want to do something, the игра should
-recognize and reward это. In some cases, take those personal goals and make
+players what their goal is. If players want to do something, the لعبة should
+recognize and reward هو - هي. In some cases, take those personal goals and make
 
-them into gameplay goals. But if что’s not appropriate, take those personal
-goals and acknowledge что они matter. Keep track of them in the design to
-make sure они remain fun как the игра changes and iterates. If possible,
-track them and give the игрок a small thumbs up in-игра when они
-complete что goal, even if это’s unrelated to the main goal. Players like a pat
-on the back, so give them как much feedback как ты может to make что
+them into gameplay goals. But if الذي - التي’s not appropriate, take those personal
+goals and acknowledge الذي - التي they matter. Keep track of them in the design to
+make sure they remain fun مثل the لعبة changes and iterates. If possible,
+track them and give the لاعب a small thumbs up in-لعبة when they
+complete الذي - التي goal, even if هو - هي’s unrelated to the main goal. Players like a pat
+on the back, so give them مثل much feedback مثل أنت يستطيع to make الذي - التي
 happen.
 
 Events
-Since launch, Конфеты Раздавить Saga has been finding ways to push the игрок’s
+Since launch, حلوى معجب Saga has been finding ways to push the لاعب’s
 ability to complete goals even further. One of the most successful features
-in many free-to-play игры is the event. For example, in Конфеты Раздавить
-Saga, они might have a special race where the игрок is rewarded for
+in many free-to-play ألعاب is the event. For example, in حلوى معجب
+Saga, they might have a special race where the لاعب is rewarded for
 completing a certain number of levels before other players do. In the current
-builds of Конфеты Раздавить Saga, some of these “events” have become
-important enough to bake back into the main игра progression cycle. They
-started как special events что only appeared occasionally but now are just
-something что happens naturally during play.
+builds of حلوى معجب Saga, some of these “events” have become
+important enough to bake back into the main لعبة progression cycle. They
+started مثل special events الذي - التي only appeared occasionally but now are just
+something الذي - التي happens naturally during play.
 There are a lot of good psychological hooks built into limited-time
 events.
 Players love getting more things “for free”.
-They encourage coming back soon, so ты может complete the goal
+They encourage coming back soon, so أنت يستطيع complete the goal
 before the event ends.
 They feel special and often emphasize the unique never-before-seen
-qualities of этот event.
-If the goals are set up right, они scratch competitive urges in a way
-что doesn’t automatically advantage expert players.
+qualities of هذا event.
+If the goals are set up right, they scratch competitive urges in a way
+الذي - التي doesn’t automatically advantage expert players.
 
-In Конфеты Раздавить Saga, events are a great way to add an intermediate layer of
-goals. Конфеты Раздавить Saga does a great job of providing immediate goals,
+In حلوى معجب Saga, events are a great way to add an intermediate layer of
+goals. حلوى معجب Saga does a great job of providing immediate goals,
 and the Saga Map provides a great long-term goal. But the long-term of the
-Saga Map может be pretty far off, especially now что there are thousands and
-thousands of levels. The motivation to reach the end of the map now takes
+Saga Map يستطيع be pretty far off, especially now الذي - التي there are thousands and
+thousands of levels. ال motivation to reach the end of the map now takes
 multiple years to complete. So, there’s a need for more checkboxes between
-the “complete a level” box and the “beat the игра” box.
-Events provide a goal что is bigger than a single level but is still realistic
-to actually complete. A игрок may never reach level 20,000, but они может
+the “complete a level” box and the “beat the لعبة” box.
+Events provide a goal الذي - التي is bigger than a single level but is still realistic
+to actually complete. A لاعب may never reach level 20,000, but they يستطيع
 earn the free powerup by collecting a few more levels to win the race. It
-doesn’t even matter if они want a free powerup – это will still motivate them
-to push forward just to check the box. Humans are weird что way.
-Being able to see этот in retrospect is a sign of a reasonably skilled
-designer. But the real trick is identifying этот before the feature is
-implemented. A really talented игра designer would be able to look at
-Конфеты Раздавить Saga at launch and identify the goal layers. A really really
-talented игра designer would be able to do что, and then notice что the
+doesn’t even matter if they want a free powerup – هو - هي will still motivate them
+to push forward just to check the box. Humans are weird الذي - التي way.
+Being able to see هذا in retrospect is a sign of a reasonably skilled
+designer. But the real trick is identifying هذا before the feature is
+implemented. A really talented لعبة designer would be able to look at
+حلوى معجب Saga at launch and identify the goal layers. A really really
+talented لعبة designer would be able to do الذي - التي, and then notice الذي - التي the
 goal layers are fairly far apart. Even with only 80 levels, the motivation to
-complete a level and the motivation to complete the игра have a big gap.
-And это takes a really really really talented игра designer to do all что, and
-then design the right solution to fix что problem while also fixing a few
-other problems along the way. я never worked at King, so я don’t know who
-came up with the idea to add the events. But они deserve a raise.
-(я’d be willing to guess это wasn’t a single person sitting down doing этот
+complete a level and the motivation to complete the لعبة have a big gap.
+And هو - هي takes a really really really talented لعبة designer to do all الذي - التي, and
+then design the right solution to fix الذي - التي problem while also fixing a few
+other problems along the way. أنا never worked at King, so أنا don’t know who
+came up with the idea to add the events. But they deserve a raise.
+(أنا’d be willing to guess هو - هي wasn’t a single person sitting down doing هذا
 analysis and going “Aha!”. It was almost certainly a joint effort by many
 people who fed each other small good ideas and then tested and iterated on
 those ideas to find the best ones. Someone along the way probably noticed
 the goal structures and might have advocated strongly for certain ideas
 
-based on это, but in игры good things rarely happen because of one
-moment. Games are made by teams, and good игры are made by
+based on هو - هي, but in ألعاب good things rarely happen because of one
+moment. Games are made by teams, and good ألعاب are made by
 iteration.)
 
