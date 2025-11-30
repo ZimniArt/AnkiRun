@@ -7,7 +7,7 @@ fn main() {
     let input_path = String::from("D:/2_projects/9_rust/Input_text.txt");
     let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
     let input_text = fs::read_to_string(input_path).expect("no input text"); 
-    let _output_percentage: f64 = 0.30;
+    let _output_percentage: f64 = 0.05;
     let _input_lang = "en";
     let _output_lang = "ja";
     let _ignore_word_list = vec!["the", "a"];
@@ -17,6 +17,8 @@ fn main() {
     let _prepared_text: SplitWhitespace<'_>= _working_text.split_whitespace(); 
     let mut _frequency_hashmap: HashMap<String, i32> = create_frequency_hashmap(_prepared_text, _ignore_word_list);
     let mut _sorted: Vec<(String, i32)> = _hashmap_to_sorted_list(_frequency_hashmap); 
+    _sorted = shorten_dictionary(_sorted, _output_percentage);
+    
     let mut _sorted_dictionary: Vec<(String,String)> = translate_words(_sorted, _input_lang, _output_lang);
     let dictionary : HashMap<String, String> = _sorted_dictionary.into_iter().collect(); 
     let mut _output_text: String = translate_using_custom_dictionary(&input_text, dictionary); 
@@ -43,6 +45,13 @@ fn _hashmap_to_sorted_list(hashmap: HashMap<String,i32>) -> Vec<(String, i32)>{
     _new_hashmap
 }
 
+fn shorten_dictionary(dictionary: Vec<(String, i32)>, remaining_percent: f64) ->Vec<(String,i32)>{
+    let mut _new_dictionary = dictionary;
+    let _dict_lenght: usize = (_new_dictionary.len()as f64 * remaining_percent).ceil() as usize;
+    _new_dictionary.truncate(_dict_lenght);
+    //percent logic
+    _new_dictionary
+}
 fn translate_words(word_list: Vec<(String, i32)>, input_lang: &str, output_lang: &str) -> Vec<(String,String)>{
     let _translated_list = word_list.iter().map(|(word, _count)|{
         (word.clone(), match translate(&word, input_lang,output_lang)  {
@@ -51,13 +60,13 @@ fn translate_words(word_list: Vec<(String, i32)>, input_lang: &str, output_lang:
         } ).collect();
         _translated_list
     }
-
+    
     fn translate_using_custom_dictionary (text: &String, dictionary: HashMap<String, String>)->String{
         let re = Regex::new(r"\b\w+\b").unwrap();
         let mut _new_text: String = String::new(); 
         _new_text =  re.replace_all(&text, |caps: &regex::Captures| {
             let word = &caps[0];
             dictionary.get(word).cloned().unwrap_or_else(|| word.to_string())
-    }).to_string();
-    _new_text
-}
+        }).to_string();
+        _new_text
+    }
