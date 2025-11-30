@@ -1,7 +1,10 @@
-use std::{collections::HashMap, fs, str::SplitWhitespace};
+use std::usize;
+use std::{collections::HashMap, fs, os::windows::io as win_io, str::SplitWhitespace};
 use rtranslate::translate;
 use regex::Regex;
 
+use std::io::{self, Write};
+use std::fmt::Display;
 // use lindera::tokenizer::Tokenizer;
 // use lindera_ipadic::builder::IpadicBuilder;
 
@@ -21,6 +24,35 @@ impl Language{
         }
     }
 } 
+
+fn input(prompt: &str)-> String {
+    print!("{}",prompt);
+    io::stdout().flush().unwrap();
+
+    let mut s = String::new();
+    io::stdin().read_line(&mut s).unwrap();;
+    s.trim().to_string()
+}
+fn input_options <T: Display> (prompt: &str, options: &[T]) ->usize{
+    loop {
+        println!("{}", prompt);
+
+        for (i,opt) in options.iter().enumerate(){
+            println!(" {}. {}", i+1, opt);
+        }
+        print!("Enter number: ");
+        io::stdout().flush().unwrap();
+
+        let mut input = String::new();
+        io::stdin().read_line(&mut input).unwrap();
+        if let Ok(num) = input.trim().parse::<usize>(){
+            if num >= 1 && num <= options.len(){
+                return num - 1
+            }
+        }
+        println!("invalid input, choose correct number:\n");
+    }
+}
 
 fn main() {
     
