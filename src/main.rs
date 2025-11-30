@@ -164,7 +164,13 @@ fn _hashmap_to_sorted_list(hashmap: HashMap<String,i32>) -> Vec<(String, i32)>{
     _new_hashmap
 }
 fn shorten_dictionary(dictionary: Vec<(String, i32)>, remaining_percent: f64) ->Vec<(String,i32)>{
-    let mut _new_dictionary = dictionary;
+   
+   //exludes all unique words
+    let mut _new_dictionary: Vec<(String, i32)> = dictionary
+        .into_iter()
+        .filter(|(_, count)| *count >1)
+        .collect();
+
     let _dict_lenght: usize = (_new_dictionary.len()as f64 * remaining_percent).ceil() as usize;
     _new_dictionary.truncate(_dict_lenght);
     //percent logic
