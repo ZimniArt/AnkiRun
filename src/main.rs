@@ -1,65 +1,63 @@
-use std::{collections::HashMap, fs, str::SplitWhitespace};
+use std::{collections::HashMap, default, fs, hash::Hash, str::SplitWhitespace};
 use rtranslate::translate;
 use regex::Regex;
 fn main() {
-   
+    
     // import file
     let input_path = String::from("D:/2_projects/9_rust/Input_text.txt");
+    let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
     let input_text = fs::read_to_string(input_path).expect("no input text"); 
+    let _output_percentage: f64 = 0.30;
+    let _input_lang = "en";
+    let _output_lang = "ja";
+    let _ignore_word_list = vec!["the", "a"];
 
-    let output_percentage: f64 = 0.30;
 
     let mut _working_text: String = String::from(&input_text);
-    let exlude_words = vec!["the", "a"];
-
-
-    //sorting text file
-    let _words: SplitWhitespace<'_>= _working_text.split_whitespace();
-    let mut _counts: HashMap<String, i32> = HashMap::new();
-
-    for word in _words {
-        if exlude_words.contains(&word) {
-            continue;  // skip these words
-        }
-        *_counts.entry(word.to_string()).or_insert(0) += 1;
-    }
-
-    let mut _sorted: Vec<(String, i32)> = _counts.into_iter().collect();
-
-    _sorted.sort_by(|a, b| b.1.cmp(&a.1));
-
-    let mut _sorted_count: Vec<(String, i32)> = _sorted.clone();
-    //cutsout every word other set percent
-    let _cutout_amount =(_sorted_count.len() as f64 *output_percentage).ceil() as usize;
-    _sorted.into_iter().take(_cutout_amount).collect::<Vec<(String, i32)>>();
-
-    // translating sorted list
-    let mut _sorted_dictionary: Vec<(String,String)> = _sorted.iter().map(|(word, _count)|{
-    (word.clone(), match translate(&word, "en","ja")  {
-        Ok(translated) => translated,
-        Err(_err) =>word.clone(),})
-    } ).collect();
-
-    //replacing words in original text
-    let dictionary : HashMap<String, String> = _sorted_dictionary.into_iter().collect();
-    let re = Regex::new(r"\b\w+\b").unwrap();
-    let mut _output_text: String = String::new(); 
-    _output_text = re.replace_all(&input_text, |caps: &regex::Captures| {
-        let word = &caps[0];
-        dictionary.get(word).cloned().unwrap_or_else(|| word.to_string())
-    }).to_string();
-    
-
-
-   //packing text for export
-   
-    // for (_word, translation) in _sorted_dictionary{
-    //     _output_text.push_str(&format!("{_word}: {translation}\n"));
-    // }
-    
+    let _prepared_text: SplitWhitespace<'_>= _working_text.split_whitespace(); 
+    let mut _frequency_hashmap: HashMap<String, i32> = create_frequency_hashmap(_prepared_text, _ignore_word_list);
+    let mut _sorted: Vec<(String, i32)> = _hashmap_to_sorted_list(_frequency_hashmap); 
+    let mut _sorted_dictionary: Vec<(String,String)> = translate_words(_sorted, _input_lang, _output_lang);
+    let dictionary : HashMap<String, String> = _sorted_dictionary.into_iter().collect(); 
+    let mut _output_text: String = translate_using_custom_dictionary(&input_text, dictionary); 
     
     //export file 
-    let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
     fs::write(output_path, _output_text).expect("couldnt output file...");    
 }
 
+
+
+fn create_frequency_hashmap(text: SplitWhitespace<'_>, ignore_word: Vec<&str> )-> HashMap<String, i32>{
+    let mut hashmap: HashMap<String, i32> = HashMap::new() ;
+    for word in text {
+        if ignore_word.contains(&word) {
+            continue;
+        }
+        *hashmap.entry( word.to_string()).or_insert( 0) += 1;
+    } 
+    hashmap
+}
+fn _hashmap_to_sorted_list(hashmap: HashMap<String,i32>) -> Vec<(String, i32)>{
+    let mut _new_hashmap: Vec<(String, i32)> = hashmap.into_iter().collect();
+    _new_hashmap.sort_by(|a, b| b.1.cmp(&a.1));
+    _new_hashmap
+}
+
+fn translate_words(word_list: Vec<(String, i32)>, input_lang: &str, output_lang: &str) -> Vec<(String,String)>{
+    let _translated_list = word_list.iter().map(|(word, _count)|{
+        (word.clone(), match translate(&word, input_lang,output_lang)  {
+            Ok(translated) => translated,
+            Err(_err) =>word.clone(),})
+        } ).collect();
+        _translated_list
+    }
+
+    fn translate_using_custom_dictionary (text: &String, dictionary: HashMap<String, String>)->String{
+        let re = Regex::new(r"\b\w+\b").unwrap();
+        let mut _new_text: String = String::new(); 
+        _new_text =  re.replace_all(&text, |caps: &regex::Captures| {
+            let word = &caps[0];
+            dictionary.get(word).cloned().unwrap_or_else(|| word.to_string())
+    }).to_string();
+    _new_text
+}
