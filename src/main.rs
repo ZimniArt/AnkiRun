@@ -1,4 +1,4 @@
-use std::{collections::HashMap, default, fs, hash::Hash, str::SplitWhitespace};
+use std::{collections::HashMap, fs, str::SplitWhitespace};
 use rtranslate::translate;
 use regex::Regex;
 fn main() {
