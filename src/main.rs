@@ -4,7 +4,7 @@ use rtranslate::translate;
 use regex::Regex;
 
 use std::io::{self, Write};
-use std::fmt::Display;
+use std::fmt::{Display, write};
 // use lindera::tokenizer::Tokenizer;
 // use lindera_ipadic::builder::IpadicBuilder;
 
@@ -14,24 +14,37 @@ enum Language{
     Japanese,
 }
 
-impl Language{
-    fn code(&self) -> &str {
+impl Language {
+    pub fn  as_str(&self) -> &'static str{
         match self {
-            Language::English => "en",
-            Language::Russian => "ru",
-            Language::Japanese => "ja",
-            
+        Language::English => "en",
+        Language::Russian => "ru",
+        Language::Japanese =>"ja",
         }
+    }
+}
+
+impl Display for Language{
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) ->std::fmt::Result{
+        write!(f, "{}", self.as_str())
     }
 } 
 
-fn input(prompt: &str)-> String {
-    print!("{}",prompt);
-    io::stdout().flush().unwrap();
-
-    let mut s = String::new();
-    io::stdin().read_line(&mut s).unwrap();;
-    s.trim().to_string()
+fn input(prompt: &str)-> i32 {
+    loop{
+        print!("{}",prompt);
+        io::stdout().flush().unwrap();
+    
+        let mut s = String::new();
+        io::stdin().read_line(&mut s).unwrap();
+        
+        match s.trim().parse::<i32>() {
+            Ok(num) =>return  num,
+            Err(_) => println!("invalid number, try again"),
+            
+        }
+    }
+    
 }
 fn input_options <T: Display> (prompt: &str, options: &[T]) ->usize{
     loop {
@@ -60,9 +73,15 @@ fn main() {
     let input_path = String::from("D:/2_projects/9_rust/Input_text.txt");
     let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
     let input_text = fs::read_to_string(input_path).expect("no input text"); 
-    let _output_percentage: f64 = 0.05;
-    let _input_lang = Language::English.code();
-    let _output_lang = Language::Japanese.code();
+    
+    let _languages = vec![Language::English, Language::Russian, Language::Japanese];
+    
+    let _input_index = input_options("Whats the language of the file?", &_languages);
+    let _input_lang = _languages[_input_index].as_str();
+    let _input_index = input_options("What language translate to?", &_languages);
+    let _output_lang = _languages[_input_index].as_str();
+    let _output_percentage: f64 = input("What percent of words need to be translated? 1..100 :") as f64 *0.01 ;
+    
     let _ignore_word_list = vec![
         //English
         "a", "an", "the",
