@@ -1,26 +1,1498 @@
-strategies are not the only type of dynamics. Any combination of rules that
-leads to a new result counts.
-When a game is described as “elegant”, that usually means that it takes
-a relatively small set of rules and builds a lot of interesting dynamics
-around those rules. The rules of Go are (basically) “On your turn, place
-a stone of your color on a 19x19 grid. If a group of stones is
-surrounded, it is removed. Whoever has the most stones wins”. But
-this foundation leads to a lot of other dynamics.
-You can build enemy AI out of very simple rules that result in a
-behavior that feels complex. For example, if you want a group of AIcontrolled characters to move as a group, you can get very compelling
-flocking behavior out of a few simple pointers that each entity
-interprets on its own. Flocking is a dynamic.
-The combat in Halo has a certain feel. It’s fast-paced but with an
-interesting back and forth based on weapon types and distances. These
-are not written in the rules or the code but are a consequence of the
-code. The “feel” of the game is another important type of dynamic.
-Talking about dynamics is a way to understand how different rules fit
-together to make something bigger. It’s a way to read between the lines and
-see the underlying systems that are built out of the individual rules.
-Dynamics are important because the dynamic is often the target that the
-game designer is trying to hit. Game designers don’t strive to make a game
-with 0.7 seconds between sniper rifle shots (see the 2010 GDC talk by
-Jaime Griesemer “Design in Detail: Changing the Time Between Shots for
-the Sniper Rifle from 0.5 to 0.7 seconds for Halo 3”), they strive to make
-combat feel fast-paced with an interesting back and forth, combat that feels
-different every time because of different abilities that combine to create new
+Chapter 2
+Shovel Knight / Verbs
+DOI: 10.1201/9781003346586-2
+
+Shovel Knight is a great game.
+Shovel Knight came out in 2014 when indie games were just becoming a
+thing. Shovel Knight is a great example of the retro movement, where
+games are created to honor the classic games of old. Shovel Knight evokes
+the feel of old-school 2D platforms like Super Mario Bros or Castlevania
+but also adds its own unique twists.
+This dissection is specific to Shovel Knight: Shovel of Hope, the original
+game in the series (Figure 2.1). Sequels and spinoffs usually require their
+own dissections, even if some aspects may be the same.
+
+Figure 2.1 Shovel Knight screenshot.
+
+Shovel Knight: Gameplay Dissection
+Verbs
+To understand a game, the best place to start is the verbs. What actions can
+the player take?
+Games are different from other forms of entertainment like books and
+movies. The biggest difference is that in games, the player gets to do things.
+The player can change what happens in the experience through their choices
+and other actions. When you’re reading Hamlet (Shakespeare 1604), it’s
+always going to end the same way, and Hamlet’s always going to drag his
+feet to get there. When you’re playing a game of Go with a friend, you
+don’t know who’s going to win or how they’re going to do it. That
+combination of agency and uncertainty is what makes games fun. Games
+are interactive.
+So, when you’re trying to understand a game, start with questions about
+interactivity. What does the player do? What actions can the player take?
+There’s more to understand than just that, but it’s a good place to start.
+In Shovel Knight, the player can move around and hit things with a
+shovel. Movement is a combination of running and jumping. The core
+gameplay is Run, Jump, and Attack. The player can complete 90% of the
+game by just doing these three things. These are the core actions of this
+game.
+But how do we know that? Let’s dig a little deeper.
+
+Advanced Verb-ing
+One theme throughout this book is that game dissections depend on your
+goals as a dissector. If you’re just trying to get a rough understanding of
+Shovel Knight, understanding that the player’s actions are Run, Jump, and
+
+Attack is enough. Stop there, move on. That’s a completely valid approach
+and you can pat yourself on the back.
+But sometimes you need to know more. If you’re going to start work on
+the a 2d platformer team, or you’re going to make a game inspired by
+Shovel Knight, or you’re writing a dissertation on it, you need to understand
+player actions at a deeper level.
+And sometimes the verbs may not be as obvious. If you’re not sure what
+counts as a core action, you may need to spend a little more time analyzing
+before you can say that with authority.
+When you’re doing a deep analysis of a new game, it’s useful to start
+with every verb you can think of. Go through the controller diagram. Think
+about what you do when you play the game, especially the choices that you
+deliberate over. Ask your friends “What do you do in this game?” Read the
+wiki if there is one. Write it all down as a starting point.
+Let’s do that for Shovel Knight:
+Run
+Run Right (right on the controller while on the ground)
+Run Left (left on the controller while on the ground)
+Attack (press the attack button, officially called “Dig Slash”)
+Jump (jump button while on the ground)
+Jump Right (jump button while moving right)
+Jump Left (jump button while moving left)
+Fall (what happens after you jump or are in the air for another reason)
+Air Control (moving right/left while in the air)
+Drop Attack (a combination of falling and attacking triggered by
+pressing down while in the air, officially called “Shovel Drop”)
+Dodge (move or jump to avoid an enemy or other hazard)
+
+Fight (move and attack against an enemy, with a combination of
+different actions mixed together)
+Boss Fight (fight, but with more complicated things going on)
+Wait (don’t do anything, sometimes important to get timing right)
+Dig (attack a pile of dirt to get things out of it)
+Break (attack an object like a chest or wall to destroy it)
+Loot (technically pulling things out of a chest is a different action than
+breaking the chest open)
+Juggle (hit something that is falling, which sends it up again)
+Die (lose health or fall in a pit)
+Talk (press up while near a Non-Player Character (NPC) to initiate
+dialog)
+Buy (choose a text option to spend money or otherwise acquire a
+thing)
+Fish (use an inventory item to try to get stuff)
+Use Relic (use an inventory item at the cost of Magic, with about a
+dozen different ones that can be acquired)
+Drink (use an inventory item to gain a bonus)
+Play Music (select music via a conversation with an NPC)
+Charge Slash (a modified attack earned later in the game)
+Uncover (sometimes when you destroy something, there is another
+object or enemy behind it that enters the scene)
+Mini-Game (there are places where you can play little sub-games with
+different goals)
+Explore (look around and move around to find something new)
+Find (basically the same as Explore, but possibly referring to a specific
+thing you were looking for)
+
+Gather (pick up coins or other things, which happens naturally when
+the character touches them)
+Collect (usually used to mean the same thing as Gather but can also
+refer to Feats or other more abstract things)
+Plan (connect a series of actions in your mind and think about using
+them together, possibly with specific timing)
+Position (place yourself in the right place)
+Observe (watch how the objects in the world work)
+Learn (uncover the systems of the game and how they work)
+Predict (use what you’ve learned to come up with a theory about what
+will happen next)
+Watch (cut scenes)
+Travel (move on the map view that is used to select level)
+Showdown (a separate play mode that I’m ignoring for this dissection)
+Challenge Mode (another separate play mode)
+New Game (UI action to start a game)
+Enter Name (UI action to label a game save)
+Body Swap (change avatar appearance)
+You can see how this list can get pretty long. Let’s talk about how to turn
+this big list into a smaller list that is more useful.
+To start, let’s analyze these words. Which verbs relate to each other?
+Which do you think of together when you’re playing?
+
+Pre-Verbs
+If you’re dissecting an idea for a new game you’re thinking about, you won’t have a controller
+diagram to get you started. Instead, you need to identify the verbs based on the information you
+do have.
+When you’re describing the idea to people, what actions do you talk about?
+When you play the game in your head, what is it that you’re doing?
+Picture the game on a controller. What would the buttons do?
+This might be hard. The inspiration for a game idea can start with a story or a cool new feature
+or other things. But if you find that your game idea doesn’t have clear verbs, that’s a sign that
+your idea isn’t really complete yet.
+Understanding the core loop is a key part of early ideation. You can’t pitch a game if you
+can’t describe what the player is going to actually do in that game. If this happens, you need to
+spend some more time thinking this through before moving on.
+
+Direct Action Verbs
+Since we’re trying to understand interactivity, we want to focus on verbs
+that are about the player directly doing something. Look for verbs where the
+player does something that sends input to the computer – this can be
+pressing a button, pushing on a stick, touching a touchpad, or anything else.
+When the player does this, the game responds. The game rules recognize
+the player’s action as something important, and something in the game’s
+model of the world changes (Figure 2.2). These are key to interactivity.
+
+Figure 2.2 Flow chart showing how the player does something,
+foreshadowing bigger flow charts coming up soon.
+Once we identify things the player can do, we can look for verbs that all
+relate to the same type of action. Any player actions that result in the same
+response from the game can be grouped together. That’s what we’re looking
+for.
+Looking over the big list, we can group a bunch of movement-related
+verbs together. All of these are used by the player to change the position of
+their avatar character.
+Run
+Run Right (right on the controller while on the ground)
+Run Left (left on the controller while on the ground)
+Jump (jump button while on the ground)
+Jump Right (jump button while moving right)
+Jump Left (jump button while moving left)
+Air Control (moving right/left while in the air)
+The important thing here is to recognize that the player controls an avatar in
+a 2D space by changing the avatar’s position (and orientation) in the world.
+There are a lot of different movement controls with slight nuanced
+differences. The diversity of specific movement controls is a good sign that
+navigating through the world is important in this game.
+Each of these is important to understand if you’re really trying to dig
+deep on how Shovel Knight works. Doubly so for other games with more
+complex controls to navigate more complex 3D scenes. But for right now,
+we can group them all together as “Move”. We’ll talk about more ways to
+differentiate these types of overlapping verbs later.
+
+Deeper Dives: Research
+When I start working on a game that fits into an existing genre or has a clear relationship with
+another game, it’s important to start by doing a deep analysis of that related game.
+Play the game thoroughly yourself and reflect on the experience.
+Play related games.
+Watch other people play the game. Social media can be great for this.
+If it happens to be a game with an active fandom, read up on what they think. Try to build
+the knowledge that a fan would have. There will always be fans with deeper knowledge
+than you – some fans are great with details – and that’s OK.
+
+The next set of verbs is combat related:
+Attack (press the attack button, officially called “Dig Slash”)
+Drop Attack (a combination of falling and attacking triggered by
+pressing down while in the air, officially called “Shovel Drop”)
+Charge Slash (a modified attack earned later in the game)
+Dodge (move or jump to avoid an enemy or other hazard)
+Fight (move and attack against an enemy, with a combination of
+different actions mixed together)
+Boss Fight (fight, but with more complicated things going on)
+There are lots of ways to inflict damage on enemies. The player provides an
+input and then the game rules decide if an enemy takes damage and how
+much. I think we can comfortably group these verbs together and talk about
+“Attack” as one of the big concepts in Shovel Knight.
+The final set of direct player actions are all object-related. The player has
+an inventory of special actions they can take (by pressing up and attack).
+There are about a dozen different Relics the player can acquire over the
+course of the game with various different effects, ranging from healing to
+
+attacks to earning money. Most of these deplete the player’s Magic stat
+when used.
+Use Relic (use an inventory item at the cost of Magic, with about a
+dozen different ones that can be acquired)
+
+Indirect Action Verbs
+Action Verbs that describe what the player can do are the most important
+for understanding the core of a game, but there are a variety of other verbs
+that happen during a game that are important to understand.
+Die (lose health or fall in a pit)
+Gather (pick up coins or other things, which happens naturally when
+the character touches them)
+Collect (usually used to mean the same thing as Gather, but can also
+refer to Feats or other more abstract things)
+Uncover (sometimes when you destroy something, there is another
+object or enemy behind it that enters the scene)
+There are verbs that happen in the game but are not directly triggered by the
+player. These are more of a consequence of a player action than the action
+itself. The player never presses “Collect” in Shovel Knight – they just walk
+over to an object and if it’s the right type of object, like a gem, it just gets
+collected. The player might do that intentionally, but the “do” the player
+does is just movement.
+There are also object actions the player can take based on the items in the
+world around them. These use the existing controls but change the results
+based on the objects in the world when the player performs their action.
+These are important to understand but are less core than the actions.
+
+Talk (press up while near an NPC to initiate dialog)
+Fall (what happens after you jump or are in the air for another reason)
+Dig (attack a pile of dirt to get things out of it)
+Break (attack an object like a chest or wall to destroy it)
+Juggle (hit something that you’ve previously hit to keep it in the air)
+Buy (choose a text option to spend money or otherwise acquire a
+thing)
+Play Music (select music via a conversation with an NPC)
+Loot (technically pulling things out of a chest is a different action than
+breaking the chest open)
+The most common type of object interaction is talking with NPCs. I know
+it’s a bit rude to call NPCs objects, but from the perspective of the code
+there’s not much difference.
+Technically you could call combat an indirect action because it only
+makes sense if there’s an enemy nearby and there isn’t always an enemy
+nearby. This is a clever point, but given the frequency of enemies in the
+level design, I think it’s fair to call “Attack” a core gameplay action. If
+someone re-made Shovel Knight with significantly fewer enemies and more
+depth to the NPC interactions, it would be an interesting way to make an
+entirely different game in a different genre without changing the core
+engine or code or player actions of Shovel Knight. But it wouldn’t be Shovel
+Knight. More on content and how it changes the game in a later chapter.
+
+Abstract Verbs
+Dodge (move or jump to avoid an enemy or other hazards)
+Explore (find something new)
+
+Find (basically the same as Explore, but possibly referring to a specific
+thing you were looking for)
+Plan (connect a series of actions in your mind and think about using
+them together, possibly with specific timing)
+Position (place yourself in the right place)
+Observe (watch how the objects in the world work)
+Learn (uncover the systems of the game and how they work)
+Predict (use what you’ve learned to come up with a theory about what
+will happen next)
+Mini-Game (there are places where you can play little sub-games with
+different goals)
+There are a number of potential verbs we identified that aren’t things the
+player can do. These are things the player thinks about when doing other
+things – these are why the player does things, not what the player does. So,
+these are important to consider, but I would categorize these as goals, not
+actions. These are incredibly important to understand and are fundamental
+to understanding the core game loop, but I’d put them in a different
+category than direct player actions, and we’ll cover them in a later chapter.
+
+Interface Verbs
+Watch (cut scenes)
+Travel (move on the map view that is used to select level)
+Showdown (a separate play mode that I’m mostly ignoring for this
+dissection)
+Challenge Mode (another separate play mode)
+New Game (UI action to start a game)
+Enter Name (UI action to label a game save)
+
+Body Swap (change avatar appearance)
+There are a number of actions that the player takes entirely in the UI (User
+Interface), outside of core gameplay. In a game like Shovel Knight, it’s easy
+to distinguish when the player is controlling an avatar (Shovel Knight) in
+the game world versus when the player is selecting words in a menu. The
+UI is something outside the illusion of the game, which is necessary but not
+part of the fun. If you’re working on designing the UI, definitely think these
+through and consider all the options. But for this game, they are not core
+gameplay.
+
+Deeper Dives: Frame by Frame
+For fast-paced games, one technique I find very useful is to record a short video of the core
+gameplay, then step through the video frame by frame. Watch closely, and you’ll see lots of little
+things that the developer does to make things work. Visual effects that communicate important
+information to the player, little tricks of physics to make things flow better, and complex camera
+behaviors so the player’s attention is on the right things. These are great when you need to know
+everything about a game. But most of this chapter is for when you’re just starting to understand
+a game.
+
+Games as Input/Output
+To help understand why these different types of verbs are different, let’s talk
+about how games work. As with most things, games can be understood in a
+lot of ways. This is one of those ways.
+When a player plays a video game, they are participating in an exchange
+with a computer. The player provides inputs through a device of some sort –
+a game controller, a keyboard, a touch screen – and the computer processes
+that inputs and then provides an output for the player – pixels on a screen.
+The computer uses a set of rules and logic and code to determine how the
+player’s input changes the pixels. The rules and logic and code are what the
+
+game designer controls. That is what we call the game. But everything else
+is important to understand as it creates the full experience.
+This can be represented in a diagram like Figure 2.3.
+
+Figure 2.3 Input Output.
+The left side of this image represents the player. What they see, what they
+think, what they do. The right side of this image represents the computer.
+All the electrical impulses tickle the microchips based on the code of the
+game.
+Let’s step through a simple single-game action based on this model. The
+player is enjoying a pleasant time in Shovel Knight (Figure 2.4). They
+notice some gems above and to the left, so they decide to jump to gather
+them.
+
+Figure 2.4 Shovel Knight game screen showing the moment
+before the player makes a decision.
+We start by noting that the player has made a decision (Figure 2.5). This
+is how things start in games – things happen in the player’s brain. The root
+of all gameplay is imagination.
+
+Figure 2.5 I want to jump.
+
+In order for the game to do anything, this thought needs to get from the
+player’s brain to the computer (Figure 2.6). There are all sorts of useful
+input devices designed to make this happen. The nature of the input device
+has a large impact on the player’s experience, and new types of input
+devices like the iPhone’s touch screen or the Wii’s motion controller can
+lead to huge changes in the video game industry.
+
+Figure 2.6 Press the button.
+For our current discussion, it doesn’t really matter what input device is
+being used. The important thing is that the player presses a button on the PC
+or game controller that indicates that the player wants the character (Shovel
+Knight) to jump.
+This information then flows into the computer (Figure 2.7). A series of
+electrical impulses flow from the controller through a wire into the
+computer, where chips translate the signals into the code.
+
+Figure 2.7 Electrons flow.
+The code then processes the new information (Figure 2.8). The code
+knows that this sequence of electrical impulses means that this button was
+pressed. And this button means jumping. And jumping means many things:
+The position of the avatar character changes, moving them upward.
+Most games have a physics engine that controls positions and motion,
+so this is done by adding a force in a direction to the character and
+letting the physics logic compute the exact change in position.
+Because of the physics engine, gravity starts operating on the
+character, changing their motion over time.
+The character’s animation changes from a standing animation to a
+jumping animation.
+This changes the character’s state – the character is now in the air.
+Now different inputs and outputs are possible. If the player presses
+down now, the character will go into a downward attack state, as
+defined by the game rules written into the code. Pressing the jump
+button again won’t do anything.
+
+And all of this needs to be reflected in the pixels on the screen.
+
+Figure 2.8 Character enters jump state.
+This last point is important. The state changes in the code only matter if
+the player can understand them. Most video games can only communicate
+their internal changes through a screen. Any change to the internal state and
+logic of the game needs to be expressed in pixels so the player can process
+it (Figure 2.9). Setting up the right pixels is a combination of game art to
+reflect changes in the game world and UI/UX design to reflect changes in
+the data presented by the game. Both are important and ideally both work
+together to produce the best result.
+
+Figure 2.9 Pixels change.
+The player has their own complex system of input devices that they use
+to process incoming information – eyes, ears, noses, etc. Good games will
+reinforce their messages using as many senses as possible (Figure 2.10).
+Starting with visual, often using audio, and occasionally adding some
+vibration so the player can feel what is happening. Smell and taste don’t
+come up as often, but I’m sure smell-o-vision will be everywhere in a few
+years.
+
+Figure 2.10 Player notices change.
+And then the cycle begins anew. Once the player processes this new
+information, they want new things (Figure 2.11). For example, that frog
+might be a problem, so the player may need to change their direction or
+enter an attack state to avoid taking damage (Figure 2.12). The full game
+experience is a long sequence of very quick input/output cycles that add up
+to create something greater than each part.
+
+Figure 2.11 Player wants new thing.
+
+Figure 2.12 Screenshot of Shovel Knight, showing a jump has
+begun.
+
+Verbed Input/Output
+This Input/Output flow gives us a way to understand the differences in
+different types of verbs. Each verb operates on a specific step of the
+diagram as seen in Figure 2.13.
+
+Figure 2.13 Input verbs and output goals.
+The Direct Action verbs are controller inputs delivered by the player.
+The Indirect Action verbs are things that happen in the computer based
+on the player actions.
+The Abstract verbs are going on in the player’s head, helping them
+plan out their next action but not happening as a direct result of a
+controller input.
+Interface verbs affect things the player sees in the Game Display that
+are not part of the game world.
+This helps explain why the Direct Action verbs are the most important for
+an initial understanding of the game. They are the simplest and most clear
+actions that shape the range of options for everything else. They are where
+the player that exists in the real world interacts with the game. The game
+rules only decide to break things after the player uses the attack action. And
+the player’s desires are similarly shaped by the range of inputs the game
+allows. The player may want to build a bridge or get a drink at the bar but
+without a related button that desire is going to go unfulfilled.
+
+The actions the player can take shape everything about the game. So,
+start there if you want to understand the game.
+
+Understanding Verbs
+Verbs are just the first step.
+If Shovel Knight is about Moving and Attacking, so is Halo (2001). So is
+Super Mario Bros (1985). So is God of War (2005). But these are all very
+different games.
+The second step in a game dissection is to understand the nature of the
+verbs and how they fit together. We’ll talk more about systems later, but the
+core ideas of systems thinking is that the relationships between things (in
+this case verbs) can be as complex and interesting as the things themselves.
+So, let’s start with our two core verbs.
+
+Overlapping Verbs with Different Rules
+So, we’ve broken Shovel Knight into the Core Verbs of “Move” and
+“Attack” but want to understand more about them.
+Going back to our definition of games in the first chapter can help. We’ve
+already covered Interactivity – the choices and skills that make up the Big
+Verbs. Next on the list is Rules.
+So, our Verbs are what the player can do. The Rules are how the game
+responds to those prompts from the player (Figure 2.14). “When the player
+does X, the game does Y”
+
+Figure 2.14 Outputs.
+In a board game, these are written out explicitly. “When you pass GO,
+collect $200”. A core verb in Monopoly (1935) is move, so “pass GO” is
+something that can happen naturally as a result of the player’s action.
+The same sort of thing happens in a video game like Shovel Knight.
+When you touch an enemy, you lose health. When you walk over a health
+pack, there are fewer health packs in the level and you have more health.
+The player does something, and the game responds.
+Moving in Shovel Knight is about position, and position interacts with a
+lot of game rules.
+Where you are relative to an enemy determines whether or not you get
+hit by an enemy attack.
+Where you are and where you’re pointing determines if your attack
+hits the enemy when you trigger an attack.
+Where you are determines when you pick up gems, powerups, or other
+items.
+Where you are determines what you can see – the game only shows
+you one screen at a time, based on player position.
+
+Where you are triggers progression through levels, including triggering
+cut scenes that advance the story.
+This is similar in a 3D first-person shooter but with some important
+differences:
+Where you are determines whether or not you get hit by an enemy
+attack.
+Where you are and where you’re pointing determines if your attack
+hits the enemy.
+Where you are determines when you pick up ammo, weapons,
+powerups, or other items.
+Where you are and where you’re pointing determines what you can
+see, using a first-person perspective.
+Where you are triggers progression through levels, including triggering
+cut scenes that advance the story.
+So, one way you can differentiate similar verbs is by looking at the rules
+and consequences of those verbs. When there are mechanic differences,
+those are indicators that the verbs may sound the same but are functionally
+very different.
+
+Overlapping Verbs with Different Goals
+Looking at how verbs interact with rules is helpful. The processes going on
+in the computer can change how the verbs work. But the processes going on
+in the player’s head are even more important.
+Why does the player use verbs?
+Verbs are used to achieve goals.
+
+Verbs only mean something in the context of the player’s goals.
+What are the player’s goals in Shovel Knight? Let’s do a quick brainstorm
+like we did for verbs.
+Rescue Shield Knight.
+Help the characters you meet.
+Defeat enemies.
+Reach the end of the level.
+Trigger the next cut scene.
+Unlock new areas.
+Get to the end of the game.
+Don’t die.
+Some of these (“Rescue Shield Knight” and “Help the characters you
+meet”) are story, not gameplay. Story is an important part of most games,
+but when we’re still assembling a core loop, it’s not the most important
+thing to understand. Story motivates players to complete the game, it
+doesn’t motivate the players’ actions from moment to moment. At least for
+a game like this – some games like Baldur’s Gate (1998) or Life Is Strange
+(2015) make story a key part of every level of gameplay. But a game like
+Shovel Knight does not weave the story into every moment of gameplay
+like this.
+The goals that are woven into every moment of gameplay are the ones
+like “Defeat enemies” or “Reach the end of the level” that guide player
+actions in every moment. This is what the player is trying to do during
+gameplay, and this is why the player engages with the verbs of the game.
+The player attacks to defeat enemies and moves to reach the end of the
+level.
+
+The next few goals (“Trigger the next cut scene”, “Unlock new areas”,
+and “Get to the end of the game”) are just “Beat the level” phrased slightly
+differently. When you’re considering goals or verbs, keep an eye out for
+overlapping terms like this.
+The final objective “Don’t die” isn’t really a goal per se but is more of a
+fail case. If the player dies, they have to reset a little ways back. Death
+never stops you from progressing, but it can definitely slow you down.
+
+Verb to the Goal
+So how does the player turn “Move” and “Attack” into completed levels?
+They move through the level to find a route that gets to the next area while
+avoiding or attacking any threats. Most areas have a little challenge or
+puzzle to advance. Some areas require jumping over pits. Some require
+jumping off objects to get up high. Each area has a different combination of
+challenges that makes it interesting and different. More on that later.
+
+Big Verbs
+OK, so we’ve defined the big verbs in Shovel Knight as Move and Attack.
+That feels right. When I play the game, I spend most of my time doing
+those things. And thinking about those two things and how to do them
+better.
+If you want to understand a game, understand the things the player
+spends most of their time doing. Sometimes there are other features that are
+splashy and interesting and become the focus of the marketing and
+discussion around the game. But a game designer needs to think about the
+thing the player is actually investing their time on.
+
+You can see this in lots of different types of games. Platformers spend a
+lot of time perfecting their jumping and running. In an open world game,
+you spend most of your time moving from place to place. The open world
+games that succeed are the ones that this travel fun and engaging.
+
+Verb as Genre
+As we’ll see in future chapters, verbs are a good way to differentiate and organize games. All
+first-person shooters start with move and attack. Platformers like Mario focus heavily on move,
+with varying amounts of attack depending on the platformer.
+But a game like SimCity doesn’t have move as a verb at all – the primary verb there is build.
+This makes sense – I think most people would agree that platformers have more overlap with
+shooters than with builders.
+This can be useful to know. If you’re looking for inspiration on your city builder, it might not
+be best to start by playing some Halo. Maybe find a puzzle game like Triple Town that shares
+“Build” as a verb to see how it’s done differently there.
+
+More to Come
+We’re going to stop our Shovel Knight gameplay analysis here. I know
+we’ve barely scratched the surface of Shovel Knight and platformers in
+general. But we’re building foundations here. It’ll get crazier in later
+chapters.
+The last part of this analysis pulls some ideas from future chapters, but I
+like showing a version of the same diagram for each game, so forgive me
+for the spoilers. This diagram represents each game as a formula. The
+player has verbs they can use to reach goals but are blocked by challenges.
+Figure 2.15 shows the simplest level of detail, breaking each step into a
+single element. Figure 2.16 is a bit more useful in that it breaks each of
+these categories into multiple entries, showing the different actions and
+challenges of the game:
+
+Figure 2.15 Shovel Knight flow diagram showing Verbs,
+Challenges, and Goals.
+
+Figure 2.16 Shovel Knight flow diagram with more boxes.
+Each level is a package of these different pieces, as shown in Figure 2.17.
+In Shovel Knight, most of the variation comes from changing out the
+challenges, but other games can handle this differently.
+
+Figure 2.17 Shovel Knight flow as a level.
+Multiple levels can be added together to represent the full flow of the
+game, as players work on larger goals and larger challenges. See Figure
+2.18.
+
+Figure 2.18 Shovel Knight flow from level to level.
+We’ll dig into these ideas in more detail in later chapters, but before we
+leave Shovel Knight, let’s talk about other things that influence gameplay.
+
+Shovel Knight: Non-Gameplay Dissection
+When dissecting, it’s not just about gameplay. Even for a game designer.
+If you want to understand the gameplay of a game, you have to
+understand everything about it. How do the non-gameplay aspects of the
+game tie into the gameplay? Where did the gameplay ideas come from?
+What led to the gameplay decisions you see in the game? The game itself
+makes much more sense if you understand the context that led to those
+decisions.
+To be clear, I did not work on (most of) the games I talk about in this
+book. I do not know how decisions were made by the teams that did. We’re
+talking about these things as an outsider, piecing things together from what
+we can see in the game and generally available knowledge. I’m sure there
+are interesting stories there, and I encourage those who were present to
+write them down so I can read those books. I love to know authorial intent,
+but unless that’s you, the rest of us are left with the work itself. And there’s
+plenty to see there.
+
+Senses
+Gameplay is influenced by the look and feel of the game.
+Shovel Knight has a very clear and distinct style. It’s a retro game trying
+to emulate the feel and visuals and sounds and complete experience of a
+classic platformer. In this sense, the style fits very clearly with the
+gameplay. People who are familiar with the references will expect the
+gameplay and style to both align with their perception of those earlier
+games. And people who don’t know the classics will still understand that
+both gameplay and style evoke an earlier age, so don’t expect integrated AI
+and vast open worlds and high-fidelity graphics.
+
+The simplicity of the game also makes it easy to see where gameplay and
+graphics intersect. Remember our input/output diagram – the output part of
+the diagram is made up of pixels on a screen that the computer manipulates.
+This is the player’s only source of information on what is going on in the
+game (well, that plus sound and sometimes vibration). As a game designer,
+these pixels are all you have to get your ideas across to the player. A player
+who might not really be paying attention and who most likely hasn’t played
+every previous game that you (the game designer) did. This is a difficult
+and momentous responsibility for a few measly pixels.
+Every game has to create a visual vocabulary of what matters to the
+player and to gameplay – using the same size, shape, color, or whatever
+consistently helps the player learn what to do and then quickly process new
+scenes. Shovel Knight does a great job of quickly establishing what the
+player needs to know and sticks with that throughout the game:
+The ground you walk on is flat – usually rectangles – and high contrast
+against the rest of the background.
+Objects you can interact with are also high contrast and often include
+movement. The game intentionally doesn’t create separate
+vocabularies for enemies and rewards, as it wants to play with that in
+the gameplay. Sometimes bouncing on an enemy’s head is the only
+way to reach a reward. Sometimes a reward is in a dangerous place
+making it more of a problem than a pure benefit.
+Combat actions and results are always clearly punctuated. Enemies
+don’t just disappear – they vanish in a little cloud of smoke. If the
+player missed the frame where they died, the game is still
+communicating for a few frames after.
+Shovel Knight’s shovel provides a nice strong indicator of where the
+character is facing. This is especially handy for communicating the
+
+difference between “falling” and “falling with intent to kill”. The
+downward shovel attack is important and might not be noticed without
+the big bright object that moves around the character.
+
+History and Influences
+I’m a big fan of stealing ideas from other games. No game is an island.
+Every game is inspired by the ideas and execution of games (and other
+things) that came before.
+There’s an important distinction to be made here. All games are inspired.
+All games borrow and “steal”. But when you draw inspiration from
+something, you need to be careful to not draw too heavily. If your game is
+just a copy of someone else’s idea, that’s actual stealing, not the tongue-incheek way I sometimes use the term. If your game gets all its features and
+ideas from another game and doesn’t add or change them in a way to make
+something new, then you need to rethink and start over to add your own
+twist on the thing.
+You can see this in Shovel Knight. Shovel Knight is a wonderful and
+unique game. But almost every aspect of Shovel Knight comes from
+somewhere else.
+Super Mario Bros (1985) is generally credited with popularizing the
+2D side-scrolling platformer genre.
+But many of the ideas from Super Mario Bros were first developed in
+the Mario Bros (1983) arcade game, and borrowed from earlier games
+like Space Panic (1980).
+Many 2D side-scrollers after Mario added attacks like Shovel Knight’s
+shovel, including popular games like Metroid (1986) and Castlevania
+(1986).
+
+Once the seeds of the genre had been planted there are many great
+games that took those ideas and adapted them for PC gaming,
+including Lode Runner (1983), Commander Keen (1990), and Cave
+Story (2004).
+Braid (2008) and Spelunky (2008) popularized the idea of using 2D
+platformers as a simple and nostalgic base to experiment with
+interesting indie game ideas.
+As a game designer, it’s important to know the history of not just the games
+but also the features. Jumping from platform to platform in Shovel Knight is
+interesting but is informed by many other games before, and feeds into
+many other games after. Dissecting each of those games, at least in terms of
+that specific feature, helps you see how to use that feature in your own
+games. Johnnemann Nordhagen took this idea even further and built a game
+that collects all the different ways that a specific mechanic has been
+executed over the years. Museum of Mechanics: Lockpicking (Dim Bulb
+Games, 2022) is an interesting way to see how games borrow and share and
+innovate on specific ideas.
+
+Monetization
+How a game makes money has a huge effect on the design of the game.
+There are a few major trends in monetization that had huge impacts on
+the types of games we associate with each era:
+1. Arcade games. Monetization is quarter-based. (Technically
+monetization for the developer is by selling arcade cabinets, but the
+cabinet buyers were very interested in quarter throughput, so the
+developers developed to that metric.) The goal was to get the player to
+notice the game in a crowded arcade, and then plug in as many
+
+quarters as possible in as little time as possible. This led to game with
+very quick session lengths, very steep difficulty curves, and little to no
+thought about ongoing long-term play.
+2. Console games. Monetization is based on selling boxes in stores, with
+no internet to provide updates or live services after that. At first early
+consoles tried to mimic games that players knew from the arcade, but
+soon the focus became value. Games were reviewed based on hours of
+play. Look at the difference between Mario Bros and Super Mario
+Bros to see a clear example of this change.
+3. Mobile games. Monetization is based on downloads and (after the first
+few years) in-app purchases. The goal is to get a player in quickly and
+easily, then keep them around for long enough that they get
+comfortable spending money. The growth of big data plays a big part
+here, as game developers start to analyze what actually gets people to
+stick around and spend money. Game sessions are short, but players
+are expected to stick around for months or years.
+This is not an exhaustive list by any means. Early PC games resembled
+console games but with a lot of their own twists. Console has been
+changing with the growth of downloadable upgrades. Most of this doesn’t
+apply to educational games or other games for change, which have entirely
+separate monetization goals and pathways. Each game’s monetization needs
+to be analyzed separately but with an understanding of how it fits into the
+standard monetization schemes of its time.
+Shovel Knight makes most of its money through downloads on PC game
+services like Steam. This is currently the dominant sales platform on PC,
+and the growth of independent routes to sell and market games without
+interacting with big publishers and retailers is a big part of why indie games
+like Shovel Knight exist and succeed. A successful Steam game can support
+
+a small indie team with a good idea, but console games generally have to be
+bigger.
+Shovel Knight started out on Kickstarter, raising money for the initial
+development through crowdfunding. Kickstarter and similar platforms are a
+popular way for smaller indie games to generate some initial funds and
+market an early idea. The initial money helps, but the initial fan base is as
+or more important to making a small game with a small (or zero) marketing
+budget a success.
+Since its release, Shovel Knight has shipped multiple downloadable
+content (DLC) packs, which have later been released as separate games.
+Shovel Knight has become a series with explorations in multiple genres and
+different playstyles.
+Selling as a single purchase drives Shovel Knight to focus on providing a
+complete package. Deeper progression and varied content make the single
+purchase feel worth it, generating good word-of-mouth to keep the game
+selling.
+
+Narrative
+Story and gameplay are friends. They work together to bring joy and
+happiness to players. Different games make more or less use of this
+friendship. Shovel Knight is a great example of the most common use of
+story in games.
+In Shovel Knight, the main use of story is to provide emotional context
+for the player’s progression and emotional punctuation at key points. The
+game establishes early on that Shovel Knight is trying to rescue their friend
+Shield Knight. A classic rescue mission, which is a great way to make a
+player want to reach the end. My friend needs help!
+
+Most of the time, this is just a small piece of background motivation.
+During gameplay, the game doesn’t make reference to Shield Knight or
+anything else about the characters. Bosses get a quick intro to establish their
+character, during which the player has no input. The game stops to tell the
+story. Then after a big level, there is a short dream sequence that reminds
+the player of this long-term goal and provides some interactive rewards as
+well. Some of the NPCs provide additional narration and backstory, but it’s
+all contained in a few sentences so it never gets too involved or deep.
+This is great. This is exactly what most games want. Story is there.
+Emotions are triggered. The player knows why they’re doing all this, and if
+the player puts the game down for too long, they feel a little guilty. Poor
+Shield Knight. The story is fun and interesting, and the game is stronger
+because of it.
+Some games use story in deeper and more complicated ways. And I love
+those games, too. But I’ve made some of them so I know how complicated
+and difficult it can be to interweave story and gameplay in ways that
+actually matter. More on that later.
+
+Emotions
+Story is one source of emotions, but games can evoke many emotions.
+For action games, the most common emotion is frustration, which might
+sound like a problem, but it really isn’t. Talking about games for the last
+few decades, I’ve noticed that there are many flavors of frustration. Some
+are good, and some are bad. The main difference is how and where the
+player has agency in the frustration.
+Outside Frustration: If the player has no agency, then it’s outside
+frustration. It can be annoying, but it’s less personal so thus less
+
+impactful. I can get frustrated watching a communication problem
+unfold in an episode of a sitcom, but I don’t feel it personally.
+Uncontrolled Frustration: Once the player has control of the action,
+the potential for emotional involvement is higher. Give me buttons to
+press and now any failure is my fault. So, the worst case here is when
+the player has input but no real control. If the player expects to have
+control but loses due to reasons outside of their control, that can be
+very frustrating. The game made a promise and then failed to deliver.
+This is often the worst form of frustration and game designer should be
+careful to avoid situations like this. If the player needs to fail
+regardless of their actions, make it very clear that the game knows it’s
+not the player’s fault.
+Confused Frustration: If the player has agency that actually matters,
+that’s going to reduce the negative impact of the frustration. But this is
+only true if the player understands all that. If the player doesn’t
+understand how their actions influence the outcome, they might as well
+not have agency. This is where many games fall apart, especially for
+more casual audiences. It’s very frustrating to press buttons and not
+understand why they matter. And that understanding is entirely the
+responsibility of the game designer. Remember, the player only knows
+what comes through that tiny funnel of information they see on the
+pixels on the screen. If they aren’t able to construct a full mental model
+of the logic going on inside the computer, to expect, they’re going to
+have some negative frustration. In many cases, the hard part of being a
+game designer isn’t coming up with good ideas; it’s getting the player
+to understand those good ideas.
+Difficult Frustration: Agency that matters and makes sense is not
+enough. The challenges also have to be fair. Banging your head against
+
+an impossible challenge can be a positive type of frustration (cough
+Elden Ring cough), but not for all players. Some players want more
+manageable challenges and find extreme difficulty to be bad
+frustration. But the inverse is also true – a player who enjoys mastering
+a skill may consider a sequence of easy challenges to be frustrating in
+a very different way. Finding the right balance for the audience of your
+game can be difficult – more on that later.
+Fun Frustration: Finally, in some cases, players have agency,
+understand the consequences of their actions, and still fail. This is
+called gameplay. If the player understands why they failed, the
+frustration from the failure is much less. In the best cases, frustration is
+a fuel that drives the player to come back and try again. Games are
+built on iteration, both as a development practice and as a player
+strategy. A good game will create positive feelings of frustration that
+guide the player to an emotional response along the lines of “I can do
+better”. Which is a great lesson to learn for life, even outside of the
+magic circle.
+
+Meaning
+I think it’s important to understand what games mean. Since games are a
+relatively new form of art, we don’t always think of them as having an
+impact on the world. But they do. The person who starts playing a game is
+different from the person after the game is done. Games make people think
+about things. Games change the world.
+For many games, this is not the primary goal of the game. It might be
+money. It might be providing a simple fun time. But meaning happens
+whether the creator intends it or not. I understand programming better
+because I played Robo-Rally. Some of my love of creativity and creative
+
+problem-solving comes from early Infocom text adventures. Minecraft has
+made a generation of kids think differently about creation and resources and
+exploration and problem-solving.
+I don’t think any game has one discrete meaning. Even games with a
+clear intended meaning will be interpreted differently by each player who
+encounters it. So, when I talk about meaning in the games in this book, I
+don’t intend to exclude other meanings. When we talk about this in class,
+every semester has different answers and they’re all right.
+For me, Shovel Knight is about persistence. It’s not the only game where
+the main character is beaten down constantly and has to constantly get up,
+but it’s a clear example of that style of play. I’m not the most skilled player,
+so I tend to die a lot. But the only time I feel like I’m losing is when I put
+the game away and give up on saving poor Shield Knight.
+OceanofPDF.com
+
+Chapter 3
+Candy Crush Saga / Goals
+DOI: 10.1201/9781003346586-3
+
+Candy Crush Saga
+Candy Crush Saga is a great game.
+Candy Crush Saga (Figure 3.1) is a mobile game released by King (now
+part of Microsoft) in 2012. Since launch, it has consistently been one of the
+most popular games on mobile, with hundreds of thousands of monthly
+users Curry, D. (2024).
+
+Figure 3.1 Candy Crush Saga screen.
+I’ve never worked on Candy Crush Saga, but I did work on a competitor.
+When I was at a studio called Zindagi, we designed a match-3 called Crazy
+Cake Swap based on a similar puzzle game called Crazy Kitchen. The
+studio got bought by Zynga and didn’t stay around for long after that, but I
+know this genre better than I know most genres.
+
+Candy Crush Saga – Gameplay Dissection
+Verbs
+To understand Candy Crush Saga, let’s start where we always do: verbs.
+What can the player do in Candy Crush Saga?
+In this case, it’s a simple answer: swap. The player can touch a candy in
+the grid and then slide it to an adjacent candy. When the player does this,
+the two candies swap positions. That is the entirety of the player’s active
+contribution to the core loop (Figure 3.2). There are some interesting less
+active things the player does while swapping, such as “Scan” and “Predict”,
+but these aren’t the simple button actions, so we’ll save discussion of those
+for later in this chapter.
+
+Figure 3.2 Inputs.
+
+The core loop continues from there, though (Figure 3.3). After the player
+makes a swap, the game rules check to see if either candy creates a line of
+three or more. If it doesn’t, the swap is canceled. If it does, the game
+removes those candies, possibly with an extra effect if the line is four or
+more candies. Then the remaining candies fall to fill the empty space, which
+can possibly create new matches and cause a chain reaction as each match
+creates new matches.
+
+Figure 3.3 Outputs.
+The player performs a simple action, and the game rules result in
+complex outcomes. This is one of the strengths of video games – the
+processing burden of the game can be placed on the computer’s shoulders.
+The rules of Candy Crush would be much less fun as a board game where
+the players have to move each candy by hand and figure out the outcome of
+each new position.
+Swapping and the reactions to that swap is the heart of Candy Crush
+Saga, and the core loop of any match-3 game.
+And for completeness, Candy Crush Saga also has a few special case
+verbs:
+
+1. Players can use powerups such as the lollipop to remove specific
+candies or otherwise affect the grid outside of swap actions. Outside of
+the tutorials that teach these interactions, they are never required to
+complete a level, but they are always there for the player to use. But
+they are a limited resource that can only be acquired as an occasional
+reward or for money.
+2. Late in the game, there are new board elements that include an
+interactive choice by the player. For example, Candy Frogs let players
+choose where to place them when they go off.
+3. Secondary modes like events provide a choice of what to play and
+sometimes have some basic decision-making in the event itself.
+So outside of these caveats, the verb of Candy Crush Saga is “swap”.
+
+Goals
+The gameplay goal of Candy Crush Saga varies based on the level. All
+goals revolve around clearing things off the board, but the nuances of
+exactly what you’re trying to do can change:
+1. Clear a certain number of candies.
+2. Clear a certain number of candies of a particular type.
+3. Clear a certain number of special objects, like cherries, by dropping
+them to the bottom of the grid.
+4. Remove a certain number of non-candy obstacles, such as jellies.
+5. Etc.
+More on this in a moment.
+
+Challenge
+The real variety in Candy Crush Saga (and most match-3 games) comes
+from the randomness of the falling pieces and the variety of obstacles that
+make reaching the goal difficult. Most levels have more than just candies on
+the board – a large variety of different objects create additional challenges
+and opportunities for the player. These range from simple inert objects that
+are removed when matches are made near them (Frosting), to inert objects
+that expand across the grid over time (Chocolate), to snakes that charge into
+baskets after enough matches are made next to them (Candy Cobra). These
+aren’t all dangerous – there are also advanced board elements that can be
+useful, such as conveyor belts, or are almost purely beneficial, such as the
+UFO that drops special candies.
+These obstacles are key to Candy Crush Saga’s success. The basic
+concepts of the match-3 genre existed before Candy Crush Saga.
+Specifically, the concepts of the genre were solidified in Bejeweled (2001)
+and Bejeweled Blitz (2009). Many of the core ideas were present in earlier
+games like Shariki (1994). The core gameplay is very directly based on
+previous games like Bejeweled. But those previous games used only a
+single level – there were no obstacles and just one board. Candy Crush
+Saga innovated by adding a variety of levels with different obstacles and a
+different grid layout for each level. This gave the existing fun core
+gameplay more variety and long-term appeal. Bejeweled was successful, but
+Candy Crush Saga took that success to vast new heights by adding varied
+challenges and a stronger sense of progression.
+The sense of progression comes from the “Saga” in the title. One of the
+big innovations of Candy Crush Saga was the Saga Map. It’s not just that
+the player was given a variety of levels with different obstacles, it’s also
+important that these levels were set up as a line – a path to a destination.
+
+Once the player completes a level, they move on to the next one, heading
+toward the end. The Saga Map organizes this progression in a simple line,
+showing the player the next levels they’ll be playing. This came out when
+social gaming was king, so the line also shows you where your friends are,
+creating some social pressure to advance. But the key concept here is that
+the player is always doing something new, and has a sense of progression
+that makes them want to come back tomorrow and try again. Progression is
+a great driver for players, in any form.
+The basic flow of the game is simple – the player swaps to clear the
+level, with various obstacles in the way. But the obstacles and goals change
+in each level, as shown in Figure 3.4, making the simple flow work for a
+long time.
+
+Figure 3.4 Candy Crush Saga flow: Simple diagram showing
+Actions, Challenges, and Goals, with lots of variation on the
+Obstacles and Goals.
+
+Candy Crush Saga – Non-Gameplay
+Dissection
+Technology
+Candy Crush is a fairly simple game that relies on a vast network of
+advanced technologies to work. This is one of the fun daily realities of the
+world we live in. The rules of the game and the interactions the player
+experiences are built on easy-to-understand combinations of simple shapes.
+This is good game design and keeps the player engaged. But the rest of the
+experience is built on touch screens and constant online communication and
+vast behind-the-scenes databases that are way more powerful than the
+technology that brought humans to the moon.
+One thing that is important to think about as a game designer is how
+these vast changes in the world of technology affect your game. New
+technology comes along all the time, and some of it is a great fit for new
+types of games. Sometimes there is a direct linkage between a new
+technology and a new style of game, such as GPS-enabling Pokémon Go
+(2016). Sometimes the changes are more subtle and need time and thought
+to understand. It’s not obvious (except in retrospect) that improvements in
+computer miniaturization and wireless communication would lead to
+everyone having a powerful connected computer in their pocket at all times.
+And even then, it’s less obvious that it would lead to people looking for
+games that they can pick up and play at any time for very short play
+sessions. Technology doesn’t only change what people can do with games,
+it changes what they want to do and when they want to do it and for how
+long. The changes to the rules of technology create changes to the dynamics
+of how people interact with technology, but more on the word “dynamics”
+
+in Chapter 4. These changes can be harder to predict but provide great value
+for your game designs once you notice them.
+
+Senses
+Candy Crush Saga looks cartoony and childish. Everything is in bold,
+bright colors. The candies are simple and iconic. The game is not subtle in
+its communication; if it wants you to know something, it will shout it rather
+than whisper it. At a glance, you might guess that this is a game for
+children. But the majority of players are adults.
+Clearly, this works for Candy Crush Saga. The game is immensely
+successful, and there’s no reason to think that the bright cartoony style
+holds it back. Various clones and imitators have tried to re-theme match-3
+gameplay in darker, more adult styles and failed. Childish works for adults.
+On one level, this could be pure nostalgia. Adults want a moment to relax
+and escape from their everyday world, so something that evokes pleasant
+childhood memories could be just the thing. The reason childish works
+might be because adults want to feel like children.
+On another level, childish might work because childish is good design.
+Kids are not the only ones who like bold, bright colors. Iconic shapes are
+easy to distinguish and help make gameplay easy to understand. Direct
+clear communication is good for everyone, including adults who are trying
+to just relax. The design principles that work for children also work for
+adults. It’s not childish design, it’s just good design.
+This is not to say that Candy Crush Saga is constructed in a childish way.
+There is a lot of attention to detail and polish in Candy Crush Saga. When I
+started working on match-3 games, one of the first things I did was spend a
+week analyzing some of the top games, and some of the worst games. I
+recorded a few levels of Candy Crush Saga and then literally watched the
+
+recording frame by frame to see exactly how everything moved and all the
+little tricks of presentation. It’s a very useful exercise if you’re trying to
+understand polish and presentation. Make sure you do the same with some
+less successful games to really see the differences.
+
+Freeze Frame
+Things I saw by watching every frame of Candy Crush Saga:
+Be really careful with motion. Humans know how falling looks and expect things to
+accelerate and decelerate in certain ways. Falling at a constant speed is easier to code but
+looks weird.
+You can cover up lots of things with explosions. Don’t bother with expensive
+transformations if an explosion will feel just as good or better.
+Squash and stretch. This is an animation term for changing the shape of an object to
+emphasize an impact. It really works.
+Anticipation. Building up to a reward is as important as paying off the reward. Adding a
+few frames of buildup makes almost everything better.
+Sequencing. Know the order of events and keep that holy. It’ll help players understand
+what’s happening and it’ll keep your game logic and code understandable.
+Compression. When you have lots of things that need to happen at once, you can break
+the Sequencing rule and have things overlap a bit. But do it in a logical and constrained
+way. Think through what the player needs to focus on, and do some hand-waving in other
+places.
+
+Emotion and Narrative
+Candy Crush Saga is not a deeply emotional game. There is no complex
+storyline to follow with deeply realized characters following narrative arcs
+who the player grows to care about. There is a simple story that presents a
+problem to solve, and then a few levels later congratulates you for solving
+it. This is enough story to give you a reason to continue, but Candy Crush
+Saga is not a game where the majority of players are advancing to find out
+what happens next.
+
+Candy Crush Saga does hit emotional notes through the gameplay.
+Candy Crush Saga is a game of constant rewards. Whenever you do
+anything in the game, something explodes and the game tells you how great
+you are. This is maybe not the most emotionally deep reward system, and I
+wouldn’t trust the game’s praise to evaluate my self-worth, but sometimes
+it’s just nice to hear praise. Constant rewards can be emotionally soothing.
+A working mom who is having a hard day and just wants to catch their
+breath and relax doesn’t need a game that constantly tells them they’ve died
+and need to start everything over. Candy Crush Saga does have fail states,
+and it does apply a little bit of emotional pressure in those moments (mostly
+to encourage the player to spend money), but that’s the exception, not the
+rule. Most of the time, playing Candy Crush Saga is soaking in a warm bed
+of reward and praise. Some games are here to give people what they want.
+
+Money
+How does Candy Crush Saga make money?
+The other big innovation Candy Crush Saga added to the match-3 genre,
+other than the level variety demonstrated in the “Saga” part of the title, is
+the monetization model. Candy Crush Saga is free to download and to play.
+All ten thousand plus levels are free to access. But the game constantly asks
+you to spend money on other things. Powerups. Unlimited lives. Extra
+turns. Special modes.
+Free-to-play business models drive most of the sales in the games
+industry these days. And they work. Most of the players in these games pay
+nothing. A small percentage pay something. And an even smaller
+percentage pay a lot. These are the “whales” – the large spenders who keep
+everyone else afloat.
+
+The morality of the free-to-play model is a hotly debated topic. There are
+certainly companies trying to suck every penny out of their players, and
+using some questionable approaches to do that. No one should be exploiting
+gambling addictions or tricking children into spending their parent’s money
+or promising things to players that will never materialize.
+But most free-to-play games, such as Candy Crush Saga, are not that
+bad. Every monetization model – arcade cabinets, CDs in boxes,
+hypercasual ad-driven games – is trying to use human psychology to get
+people to buy things. At some level, all marketing is manipulation. But that
+doesn’t mean it has to be an entirely bad thing. Good marketing is
+manipulating people to notice things that they want and will enjoy. And I
+believe that most free-to-play games are actually providing a valuable
+service to people. People need entertainment and games are generally a
+good deal in the entertainment world. Free-to-play allows most people to
+get their entertainment for free, with some advertisements as the cost. And
+the people who want to spend more and can afford it fund the rest of the
+players.
+I’ve done interviews with whales. Most of them are very happy with their
+purchases and would spend the money the same way again. They have
+disposable income, and this is how they choose to use it. Rich people spend
+money on much sillier things than mobile games. You can find people who
+overspend or otherwise have a negative spending experience, but even
+among whales most of the transactions are mutually beneficial.
+Candy Crush Saga is a quality game. Spending some money to make the
+experience better is not unreasonable. I’m personally a free-to-play player
+(most of the time – I’ll spend a little money to support games I particularly
+enjoy), but I understand why people would spend without being coerced.
+The free-to-play model isn’t perfect, and if I could wave a magic wand and
+
+let everyone play and make games and all be rich I would, but I believe that
+free-to-play is only problematic when abused.
+
+History
+Mobile games are the core of the games industry these days. Console games
+and PC games are still going strong, but in terms of dollars spent, mobile
+games are bigger than everything else combined.
+Mobile games took a while to get there, though. In the early days of the
+mobile game market, there was a lot of experimentation and uncertainty. No
+one knew what would succeed.
+Some companies tried releasing console-quality games (Infinity Blade
+(2010)) or literal ports of PC or console games (Return to Monkey
+Island (2022, mobile 2023), Grand Theft Auto: San Andreas (2002,
+mobile 2013), XCOM: Enemy Within (2013, mobile 2014)). Neither of
+these approaches became dominant, but there were a few notable
+successes, such as a little title called Minecraft (2009, mobile 2011).
+Although even Minecraft dropped its price significantly compared to
+other platforms.
+Some games experimented with the novelty of touch screen inputs.
+Games like Flight Control (2009) or Where’s My Water? (2011)
+discovered new styles of game that wouldn’t work with a controller.
+These generally did well and you can see new innovations come out
+and succeed regularly. A lot of the modern innovation in this area is in
+the hypercasual genre where innovative ideas are needed to grab
+people’s attention (and then throw a lot of ads at them).
+This was also the early days of the shift to digital distribution across
+the industry. Games could now be services with new content flowing
+to players as quickly as it could be approved by Apple. Pocket God
+
+(2009) was an interesting experiment in this space, updating as quickly
+as possible with big new features changing the very nature of the game
+regularly. Games that play like Pocket God aren’t common these days,
+but the model of constant meaningful updates has become very
+common and remains successful, even on other platforms like Roblox
+or for other games like Fortnite (2017).
+Along with other changes, monetization was also uncertain. At first,
+companies thought that mobile gamers would pay something close to
+console price, or at least similar to the downloadable markets that were
+developing on consoles and on Steam. But as companies experimented
+with pricing, they found that lower prices worked. The increase in
+sales offset the drop in price, so soon Angry Birds (2009) was the top
+of the Grossing chart at the lowest possible price – 99 cents. Then
+Apple added the option to sell things inside the game, and in-app
+purchases were born. Immediately, games like Smurf Village (2010)
+discovered that free was even more appealing to people than 99 cents.
+The modern free-to-play model was born.
+In this era, mobile games were also learning a lot from social games.
+Facebook was a huge platform for games for a few years, before changes to
+the advertising structure and success of mobile killed it. Social games
+pioneered many of the free-to-play principles that later dominated the
+mobile market.
+Candy Crush Saga was originally a Facebook game. And before that, it
+was originally a web game. King, the company that makes Candy Crush
+Saga, has used an interesting method for testing out new titles. They
+generally release lots of new games first on their web browser and see how
+they perform there. The best-performing titles are considered for conversion
+to other platforms. At the time, Facebook was considered the first step and
+
+mobile was a new and experimental platform. So, Candy Crush Saga first
+appeared as Candy Crush, a web game without the level variety that made
+Candy Crush Saga so successful. The Saga idea first appeared in Bubble
+Witch Saga and proved successful. When King brought their score attack
+match-3 Candy Crush over to Facebook, they added similar Saga elements.
+Candy Crush Saga did great on Facebook, so within a few months it was
+brought over to mobile as well.
+By the time Candy Crush Saga came to mobile (2012), the battle over
+pricing was mostly done. The free-to-play models that had been pioneered
+in Facebook were dominating on mobile. So, Candy Crush Saga launched
+for free, with strong social elements. Many of those social elements have
+faded to the background over the years as the industry has continued to
+evolve and updates have changed Candy Crush Saga. Competing for high
+scores against your friends, or for progress along the Saga, used to be
+prominently displayed but now is more of an afterthought.
+So, Candy Crush Saga came into the market at the right time with an
+innovative take on both the gameplay of match-3 and the free-to-play
+monetization model. The game was a hit from day one. King already knew
+that it had a good chance, based on its success on other platforms, but
+nothing is certain in this industry. In this case, it worked. Candy Crush Saga
+was so successful it spawned multiple sequels, a line of merchandizing, and
+even a short-lived network television game show. And it became my wife’s
+favorite video game.
+
+Meaning
+What is Candy Crush Saga about? What does Candy Crush Saga say about
+the world? How does playing Candy Crush Saga change how you see the
+world?
+
+To me, Candy Crush Saga is about the joy of unintended consequences.
+The player makes a seemingly simple innocuous action, and suddenly the
+screen is filled with colorful explosions and some guy with a deep voice is
+calling out compliments. The player didn’t plan that out. The player didn’t
+know exactly what was going to happen. But like many things in life, taking
+that first step leads to all sorts of unknown things.
+Candy Crush Saga is the type of game that doesn’t really challenge the
+player. Sure, some levels are nearly impossible, but those levels generally
+require luck to complete along with skill. Mostly Candy Crush Saga is a
+warm bath of compliments and pleasant explosions. And I believe these
+types of games make the world a better place. People need comfort. People
+need more praise in their lives. If a game can help people be happy and get
+through their lives, I support that. Since the dawn of time, humans have
+sought escapism. That need is deep in the human psyche. Games are the
+latest delivery method. I’m not going to fight against the human psyche. Let
+people enjoy simple fun.
+
+Goals
+Verbs tend to work together. In Shovel Knight, I can move, and I can attack.
+I’m generally more successful in the game when I combine these verbs. I
+don’t move, pause, wait, then attack. I attack while I’m moving. I look
+around while I’m moving. I don’t stop and pause; I’m constantly
+performing all the actions at one time and that’s part of what makes these
+games challenging and interesting. Not all players can manage the feats of
+dexterity and rapid stimulus processing required to be successful at moveshovel when they all have to be done together.
+The player’s goals can also work this way. When I’m moving to line up a
+shot, I’m also considering how to best avoid the line of fire of another
+
+enemy at the same time. Goals can be combined just like actions can be
+combined (Figure 3.5). But goals are even more likely to be layered rather
+than combined.
+
+Figure 3.5 Two Verbs merging into a bigger verb.
+Look at Candy Crush Saga. If you chose a random second of a player’s
+session in Candy Crush Saga, the verb is likely to be “swap”. Maybe “look”
+if you accept that as a valid verb. But the player’s goals are going to hit
+many different layers of analysis:
+1. Making a match
+2. Having this match lead to a chain reaction or create a power gem
+3. Having this match lead to a better board state when it’s done
+4. Removing lots of gems
+5. Making progress toward the goal of this level
+6. Scoring points
+7. Beating this level
+8. Beating this level with three stars
+9. Completing an event or challenge goal
+
+10. Getting to the end of the level progression
+11. Getting a better score than my friends
+12. Relaxing
+13. Helping the cute little puppet creature to complete its goal
+14. Clearing the chocolate
+15. Removing the blockers
+16. A very large number of level-specific goal types that I could list but
+then this chapter would become boring and repetitive and as a game
+designer I try to avoid boring things
+This is normal. In games as well as life, a single action rarely has a single
+goal. Goals come in herds. Some with subtle nuanced distinctions, and
+some coming from completely different directions. I want to beat the level.
+I want to beat the level with three stars. I want to beat the level with a
+higher score than my brother. These are expressions of the same base goal
+but with different nuances. From a game design standpoint, these can be
+merged into a larger goal: success in the level (Figure 3.6).
+
+Figure 3.6 Two goals merging into a bigger goal.
+
+The bigger differences between goals are often based on scale. I want this
+action to clear lots of gems. I want to beat the whole level. I want to get to
+the end of the game progression. I want the action I’m performing now to
+make me successful now, soon, and in the future. This sort of layering of
+goals is very important to game design. Game designers like to talk about
+goals as onions – one goal is contained within the other goal (Figure 3.7).
+Progress toward one smaller goal also progresses you toward a larger goal.
+
+Figure 3.7 One goal inside another goal.
+So, both goals progress based on the same player action, but the second
+goal is bigger so it takes longer. Completing the first goal is a step toward
+completing the second goal. When you complete the first goal, you still
+have the second goal to keep you driving forward. At no point does the
+player complete one goal and have nothing left to do. For a game designer,
+a player with “nothing left to do” is a problem – they’re likely to leave the
+game and go do something else. Layered goals fix this by keeping the
+player motivated at all times.
+
+In Candy Crush Saga, a player may say that their goal is to beat this
+level. But to do that, they need to find and make matches. Once they
+complete the small goal and make that match, they are (hopefully) closer to
+their big goal of completing the level. But now they have to start another
+loop of activity to find another match and complete that small goal again.
+Only after a few dozen small goals is the large goal reached.
+And once the large goal is reached, the player is taken back to the Saga
+Map where they remember that the large goal is just a small step toward the
+ultimate long-term goal of progressing to the next story bit or to beat a
+friend or to reach “the end”.
+So maybe goals aren’t onions. Maybe goals are garlic. One head of garlic
+seems like a single unified thing but when you break into it, you find many
+smaller versions inside (Figure 3.8).
+
+Figure 3.8 Many goals inside another goal.
+This is good psychology. Humans like to group things and draw lines
+around them. Part of the fun of goals is getting to define a task and then
+check it off your to-do list. Completing a goal is fun.
+
+And to be clear, this isn’t a monetization trick. This is what makes the
+game fun. “Engagement” is a key goal of free-to-play games, and it does
+drive monetization. But it’s also a sign that players are having fun. In my
+opinion, the best way to drive monetization is to make sure the player is
+having fun and engagement is one way to identify when that’s happening.
+This is why layers are great. If there is always something more to do, the
+player is never looking at an empty checklist. When they complete one
+check box and get that hit of serotonin, there are still more checkboxes to
+do. Not just the next one, but one that’s halfway finished. Or even better,
+one that’s just about to be finished. If you’re at 4% progress toward a goal,
+there’s no pressure to stay in the game and complete it. But if you’re at
+96%, then you might as well play one more level to finish it off. And then
+when you do, there will be another goal at 97% waiting for you.
+This is present in many games:
+Civilization and other 4x strategy games are well-known for promoting
+“one more turn” gameplay where there are many different layers of
+goals that overlap in complex ways, ensuring there is always one more
+thing to do.
+Boss levels are another way to promote players’ desire to check off
+boxes. The boss is the hardest part of the level, but it always shows up
+when you’re already past 90% complete. The temptation to check off
+that box is part of why boss levels are so motivating.
+Role-playing games (RPGs) offer multiple forms of progression –
+story quests, side quests, character stats, faction relationships, skill
+points, equipment, etc. This ensures that whenever a player completes
+a goal, there are more things to do.
+You can see this in the evolution of Candy Crush Saga.
+
+Match-3 games such as Bejeweled existed before Candy Crush Saga,
+with very similar core gameplay loops, even down to the specific power
+gem abilities. But when Candy Crush Saga came out, its sales and
+engagement blew them all away. Candy Crush Saga succeeded in large part
+because of the Saga goal structure. The Saga structure takes a fun core
+gameplay loop that had been mastered in previous match-3 games (Figure
+3.9) and adds another layer of goals on top of it. You still want to make
+good matches and get a good score, but now there are two new layers.
+
+Figure 3.9 Goals merge: Make match, Create combos, Gain
+points.
+In the time-battle-based style of games like Bejeweled, there’s no way to
+“beat” a level. You can get a good score, but you can never check off a box
+that says the level is done.
+The Saga map gives a clearer sense of progress on an individual level.
+You can “beat” that level, even if there’s always room to go back and
+improve your score (Figure 3.10).
+
+Figure 3.10 Same, but with a bigger circle around it: Beat level.
+And once you beat a level, you’re taken back to that map and shown the
+true goal – long-term progression. In Bejeweled, the end of a level may or
+may not check a personal goal box depending on your final score. In Candy
+Crush Saga, you’re usually checking at least one box and maybe more
+(Figure 3.11). And you’re reminded of all the remaining boxes you can
+check in the future. That’s much more emotionally compelling and drives
+long-term retention in a great way.
+
+Figure 3.11 Same, but with a bigger circle around it: Complete
+game.
+
+Other Goals
+Looking at the list of goals, some are groups of related tasks (various ways
+to evaluate a move), some are garlic cloves of related progression (move,
+level, game), but some don’t fit either of these categories. Things like
+“relax” or “help the puppet” suggest that there is a lot of room for other
+types of goals.
+Helping the puppet is an example of a narrative goal. The player is
+motivated by emotional goals created by the game’s story, especially when
+mixed with the motivation to progress a narrative forward. These are
+powerful goals for humans, as storytelling and completion are deeply
+woven into humanity. For many games, just this goal motivation is enough
+to invest time and effort into a full story with (expensive) cinematics. Core
+gameplay drives players forward, and progression keeps them wanting
+more, but deep engagement requires some emotional investment.
+Other goals like “relax” suggest that the player may have goals for
+playing the game that are outside the structure of the game. The game
+doesn’t directly have a relax button, and none of the explosions that occur
+when candies match are directly designed to ensure player relaxation.
+Relaxation is the reason the player comes to the game, not something the
+game directly produces. When all the parts of the game are working
+correctly, this goal will be the result. These sorts of goals are important to
+look for and understand in your games. Just because they’re not entirely
+driven by game features doesn’t mean that you as a game designer can’t
+influence them. Understanding what your players want inside and outside
+the game is critical.
+
+Player-Generated Goals
+One type of goal that doesn’t show up in the goal list is player-generated
+goals. The list focuses on goals that the game creates and enforces, but
+humans love to generate and track goals on their own. Every time you
+generate a to-do list and mentally check off items as they’re completed,
+you’re acting as your own game designer to structure and motivate daily
+life. Players do this during games, too. In Candy Crush, players might strive
+to clear a certain area or create a certain combo even if the game doesn’t
+ask them to. This is good.
+As a game designer, you can’t force players to make their own goals. But
+you can create an environment where goals are easy to make and track and
+enjoy. The more freedom the game gives the player to try divergent actions,
+the more players are going to find them and enjoy them. Players like
+interacting with everything in the game world, which is something most
+game designs should encourage. Finding ways to give strong feedback
+during these actions helps the player know that their actions matter and that
+the game recognizes what they did. When I was working on Paperboy 64
+(1999) (my first full game design), we made sure that almost everything
+reacted when being hit by a newspaper. The player was only meant to target
+a few specific things, but the world is much more fun and engaging if
+everything reacts. And if a player wants to focus on throwing papers at dogs
+to keep them away from cats, they can do that. They don’t earn points for it,
+but the game still creates these little scenarios with emotional potential and
+shows the player that their actions have consequences.
+Player-generated goals are also an important driver for gameplay goals.
+During early playtests, keep an eye out for things players try to do. Ask
+players what their goal is. If players want to do something, the game should
+recognize and reward it. In some cases, take those personal goals and make
+
+them into gameplay goals. But if that’s not appropriate, take those personal
+goals and acknowledge that they matter. Keep track of them in the design to
+make sure they remain fun as the game changes and iterates. If possible,
+track them and give the player a small thumbs up in-game when they
+complete that goal, even if it’s unrelated to the main goal. Players like a pat
+on the back, so give them as much feedback as you can to make that
+happen.
+
+Events
+Since launch, Candy Crush Saga has been finding ways to push the player’s
+ability to complete goals even further. One of the most successful features
+in many free-to-play games is the event. For example, in Candy Crush
+Saga, they might have a special race where the player is rewarded for
+completing a certain number of levels before other players do. In the current
+builds of Candy Crush Saga, some of these “events” have become
+important enough to bake back into the main game progression cycle. They
+started as special events that only appeared occasionally but now are just
+something that happens naturally during play.
+There are a lot of good psychological hooks built into limited-time
+events.
+Players love getting more things “for free”.
+They encourage coming back soon, so you can complete the goal
+before the event ends.
+They feel special and often emphasize the unique never-before-seen
+qualities of this event.
+If the goals are set up right, they scratch competitive urges in a way
+that doesn’t automatically advantage expert players.
+
+In Candy Crush Saga, events are a great way to add an intermediate layer of
+goals. Candy Crush Saga does a great job of providing immediate goals,
+and the Saga Map provides a great long-term goal. But the long-term of the
+Saga Map can be pretty far off, especially now that there are thousands and
+thousands of levels. The motivation to reach the end of the map now takes
+multiple years to complete. So, there’s a need for more checkboxes between
+the “complete a level” box and the “beat the game” box.
+Events provide a goal that is bigger than a single level but is still realistic
+to actually complete. A player may never reach level 20,000, but they can
+earn the free powerup by collecting a few more levels to win the race. It
+doesn’t even matter if they want a free powerup – it will still motivate them
+to push forward just to check the box. Humans are weird that way.
+Being able to see this in retrospect is a sign of a reasonably skilled
+designer. But the real trick is identifying this before the feature is
+implemented. A really talented game designer would be able to look at
+Candy Crush Saga at launch and identify the goal layers. A really really
+talented game designer would be able to do that, and then notice that the
+goal layers are fairly far apart. Even with only 80 levels, the motivation to
+complete a level and the motivation to complete the game have a big gap.
+And it takes a really really really talented game designer to do all that, and
+then design the right solution to fix that problem while also fixing a few
+other problems along the way. I never worked at King, so I don’t know who
+came up with the idea to add the events. But they deserve a raise.
+(I’d be willing to guess it wasn’t a single person sitting down doing this
+analysis and going “Aha!”. It was almost certainly a joint effort by many
+people who fed each other small good ideas and then tested and iterated on
+those ideas to find the best ones. Someone along the way probably noticed
+the goal structures and might have advocated strongly for certain ideas
+
+based on it, but in games good things rarely happen because of one
+moment. Games are made by teams, and good games are made by
+iteration.)
+

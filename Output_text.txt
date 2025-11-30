@@ -1,26 +1,1498 @@
-strategies は not the only タイプ の dynamics. Any combination の ルール それ
-leads に a 新しい 結果 counts.
-When a ゲーム は described as “elegant”, それ usually means それ it takes
-a relatively small set の ルール そして builds a lot の 面白い dynamics
-around those ルール. の ルール の Go は (basically) “On your turn, place
-a stone の your color の上 a 19x19 grid. If a group の stones は
-surrounded, it は removed. Whoever もっている the most stones wins”. But
-this foundation leads に a lot の other dynamics.
-You can build enemy AI 外 の very 単純 ルール それ 結果 で a
-行動 それ feels complex. For example, if you want a group の AIcontrolled characters に move as a group, you can get very compelling
-flocking 行動 外 の a few 単純 pointers それ each entity
-interprets の上 its own. Flocking は a dynamic.
-の 戦闘 で ハロー もっている a certain feel. It’s fast-paced but と の
-面白い back そして forth based の上 weapon types そして distances. These
-は not written で the ルール or the code but は a consequence の the
-code. の “feel” の the ゲーム は another important タイプ の dynamic.
-Talking about dynamics は a way に understand how 違う ルール fit
-together に 作る something bigger. It’s a way に read between the lines そして
-see the underlying systems それ は built 外 の the individual ルール.
-Dynamics は important because the dynamic は often the target それ the
-ゲーム designer は trying に hit. Game designers don’t strive に 作る a ゲーム
-と 0.7 秒 between sniper rifle shots (see the 2010 GDC talk by
-Jaime Griesemer “Design で Detail: Changing the Time Between Shots for
-the Sniper Rifle from 0.5 に 0.7 秒 for ハロー 3”), they strive に 作る
-戦闘 feel fast-paced と の 面白い back そして forth, 戦闘 それ feels
-違う every time because の 違う abilities それ combine に create 新しい
+Chapter 2
+シャベル 騎士 / 動詞
+DOI: 10.1201/9781003346586-2
+
+シャベル 騎士 は a 素晴らしい ゲーム.
+シャベル 騎士 came 外 で 2014 いつ indie ゲーム だった ただ becoming a
+thing. シャベル 騎士 は a 素晴らしい example の the retro movement, どこ
+ゲーム は created to honor the classic ゲーム の old. シャベル 騎士 evokes
+the feel の old-school 2D platforms のように Super Mario Bros または Castlevania
+しかし また adds its own unique twists.
+これ dissection は 特定の to シャベル 騎士: シャベル の Hope, the original
+ゲーム で the series (形 2.1). Sequels そして spinoffs usually require 彼らの
+own dissections, 平 もし いくつかの aspects may なれ the 同じ.
+
+形 2.1 シャベル 騎士 screenshot.
+
+シャベル 騎士: Gameplay Dissection
+動詞
+To 理解する a ゲーム, the best place to 始める は the 動詞. What アクション できる
+the プレーヤー take?
+Games は 違う から 他の forms の entertainment のように books そして
+movies. の biggest difference は それ で ゲーム, the プレーヤー gets to する もの.
+の プレーヤー できる change 何 happens で the experience を通して 彼らの choices
+そして 他の アクション. いつ あなた’re reading Hamlet (Shakespeare 1604), それ’s
+いつも 行く to end the 同じ 方法, そして Hamlet’s いつも 行く to drag his
+feet to 得る そこには. いつ あなた’re playing a ゲーム の Go と a friend, あなた
+don’t 知る 誰が’s 行く to win または どうやって 彼らは’re 行く to する それ. That
+combination の agency そして uncertainty は 何 作る ゲーム fun. Games
+は interactive.
+So, いつ あなた’re trying to 理解する a ゲーム, 始める と questions について
+interactivity. What する the プレーヤー する? What アクション できる the プレーヤー take?
+そこには’s もっと to 理解する よりも ただ それ, しかし それ’s a 良い place to 始める.
+で シャベル 騎士, the プレーヤー できる move その周り そして hit もの と a
+shovel. Movement は a combination の running そして jumping. の コア
+ゲームプレイ は Run, Jump, そして Attack. の プレーヤー できる 完了 90% の the
+ゲーム による ただ doing これら three もの. これら は the コア アクション の これ
+ゲーム.
+しかし どうやって する 私たちは 知る それ? Let’s dig a 少し deeper.
+
+Advanced Verb-ing
+One theme throughout これ book は それ ゲーム dissections depend の上 あなたの
+目標 として a dissector. もし あなた’re ただ trying to 得る a rough understanding の
+シャベル 騎士, understanding それ the プレーヤー’s アクション は Run, Jump, そして
+
+Attack は enough. Stop そこには, move の上. That’s a completely valid approach
+そして あなた できる pat yourself の上 the back.
+しかし sometimes あなた 必要 to 知る もっと. もし あなた’re 行く to 始める 仕事 の上
+the a 2d platformer team, または あなた’re 行く to 作る a ゲーム inspired による
+シャベル 騎士, または あなた’re writing a dissertation の上 それ, あなた 必要 to 理解する
+プレーヤー アクション で a deeper レベル.
+そして sometimes the 動詞 may ない なれ として obvious. もし あなた’re ない sure 何
+counts として a コア アクション, あなた may 必要 to 過ごす a 少し もっと 時間 analyzing
+before あなた できる say それ と authority.
+いつ あなた’re doing a deep analysis の a 新しい ゲーム, それ’s useful to 始める
+と every verb あなた できる 考える の. Go を通して the controller diagram. Think
+について 何 あなた する いつ あなた 遊ぶ the ゲーム, especially the choices それ あなた
+deliberate 以上. Ask あなたの friends “What する あなた する で これ ゲーム?” Read the
+wiki もし そこには は 1つ. Write それ 全て down として a starting point.
+Let’s する それ のために シャベル 騎士:
+Run
+Run Right (right の上 the controller その間 の上 the ground)
+Run Left (left の上 the controller その間 の上 the ground)
+Attack (press the 攻撃 button, officially called “Dig Slash”)
+Jump (jump button その間 の上 the ground)
+Jump Right (jump button その間 moving right)
+Jump Left (jump button その間 moving left)
+Fall (何 happens after あなた jump または は で the air のために 別の reason)
+Air Control (moving right/left その間 で the air)
+Drop Attack (a combination の falling そして attacking triggered による
+pressing down その間 で the air, officially called “シャベル Drop”)
+Dodge (move または jump to avoid の enemy または 他の hazard)
+
+Fight (move そして 攻撃 against の enemy, と a combination の
+違う アクション mixed together)
+Boss Fight (fight, しかし と もっと complicated もの 行く の上)
+Wait (don’t する anything, sometimes 重要 to 得る timing right)
+Dig (攻撃 a pile の dirt to 得る もの 外 の それ)
+Break (攻撃 の object のように a chest または wall to destroy それ)
+Loot (technically pulling もの 外 の a chest は a 違う アクション よりも
+breaking the chest open)
+Juggle (hit 何か それ は falling, which sends それ 上 again)
+Die (lose health または fall で a pit)
+Talk (press 上 その間 near a Non-Player Character (NPC) to initiate
+dialog)
+Buy (choose a text option to 過ごす money または otherwise acquire a
+thing)
+Fish (使用 の inventory item to try to 得る stuff)
+Use Relic (使用 の inventory item で the cost の Magic, と について a
+dozen 違う ones それ できる なれ acquired)
+Drink (使用 の inventory item to gain a bonus)
+Play Music (select music via a conversation と の NPC)
+Charge Slash (a modified 攻撃 earned later で the ゲーム)
+Uncover (sometimes いつ あなた destroy 何か, そこには は 別の
+object または enemy behind それ それ enters the scene)
+Mini-Game (そこには は places どこ あなた できる 遊ぶ 少し sub-ゲーム と
+違う 目標)
+Explore (look その周り そして move その周り to find 何か 新しい)
+Find (basically the 同じ として Explore, しかし possibly referring to a 特定の
+thing あなた だった looking のために)
+
+Gather (pick 上 coins または 他の もの, which happens naturally いつ
+the character touches 彼ら)
+Collect (usually used to mean the 同じ thing として Gather しかし できる また
+refer to Feats または 他の もっと abstract もの)
+Plan (connect a series の アクション で あなたの mind そして 考える について using
+彼ら together, possibly と 特定の timing)
+Position (place yourself で the right place)
+Observe (watch どうやって the objects で the 世界 仕事)
+Learn (uncover the systems の the ゲーム そして どうやって 彼らは 仕事)
+Predict (使用 何 あなた’ve learned to come 上 と a theory について 何
+意思 happen next)
+Watch (cut scenes)
+Travel (move の上 the map view それ は used to select レベル)
+Showdown (a separate 遊ぶ mode それ 私’m ignoring のために これ dissection)
+Challenge Mode (別の separate 遊ぶ mode)
+New Game (UI アクション to 始める a ゲーム)
+Enter Name (UI アクション to label a ゲーム save)
+Body Swap (change avatar appearance)
+You できる 見る どうやって これ list できる 得る pretty long. Let’s talk について どうやって to turn
+これ 大きい list の中へ a smaller list それ は もっと useful.
+To 始める, let’s analyze これら words. Which 動詞 relate to それぞれ 他の?
+Which する あなた 考える の together いつ あなた’re playing?
+
+Pre-動詞
+もし あなた’re dissecting の idea のために a 新しい ゲーム あなた’re thinking について, あなた won’t 持っている a controller
+diagram to 得る あなた started. Instead, あなた 必要 to identify the 動詞 ベースの の上 the information あなた
+する 持っている.
+いつ あなた’re describing the idea to 人々, 何 アクション する あなた talk について?
+いつ あなた 遊ぶ the ゲーム で あなたの head, 何 は それ それ あなた’re doing?
+Picture the ゲーム の上 a controller. What するだろう the buttons する?
+これ かもしれない なれ hard. の inspiration のために a ゲーム idea できる 始める と a 話 または a cool 新しい feature
+または 他の もの. しかし もし あなた find それ あなたの ゲーム idea doesn’t 持っている clear 動詞, それ’s a sign それ
+あなたの idea isn’t 本当に 完了 yet.
+Understanding the コア loop は a key 一部 の early ideation. You できる’t pitch a ゲーム もし あなた
+できる’t describe 何 the プレーヤー は 行く to actually する で それ ゲーム. もし これ happens, あなた 必要 to
+過ごす いくつかの もっと 時間 thinking これ を通して before moving の上.
+
+Direct Action 動詞
+Since 私たちは’re trying to 理解する interactivity, 私たちは 欲しい to focus の上 動詞
+それ は について the プレーヤー directly doing 何か. Look のために 動詞 どこ the
+プレーヤー する 何か それ sends input to the computer – これ できる なれ
+pressing a button, pushing の上 a stick, touching a touchpad, または anything else.
+いつ the プレーヤー する これ, the ゲーム responds. の ゲーム rules recognize
+the プレーヤー’s アクション として 何か 重要, そして 何か で the ゲーム’s
+model の the 世界 変化 (形 2.2). これら は key to interactivity.
+
+形 2.2 Flow chart showing どうやって the プレーヤー する 何か,
+foreshadowing bigger flow charts coming 上 soon.
+Once 私たちは identify もの the プレーヤー できる する, 私たちは できる look のために 動詞 それ 全て
+relate to the 同じ type の アクション. Any プレーヤー アクション それ result で the 同じ
+response から the ゲーム できる なれ grouped together. That’s 何 私たちは’re looking
+のために.
+Looking 以上 the 大きい list, 私たちは できる group a bunch の movement-related
+動詞 together. All の これら は used による the プレーヤー to change the position の
+彼らの avatar character.
+Run
+Run Right (right の上 the controller その間 の上 the ground)
+Run Left (left の上 the controller その間 の上 the ground)
+Jump (jump button その間 の上 the ground)
+Jump Right (jump button その間 moving right)
+Jump Left (jump button その間 moving left)
+Air Control (moving right/left その間 で the air)
+の 重要 thing here は to recognize それ the プレーヤー controls の avatar で
+a 2D space による changing the avatar’s position (そして orientation) で the 世界.
+そこには は a lot の 違う movement controls と slight nuanced
+differences. の diversity の 特定の movement controls は a 良い sign それ
+navigating を通して the 世界 は 重要 で これ ゲーム.
+Each の これら は 重要 to 理解する もし あなた’re 本当に trying to dig
+deep の上 どうやって シャベル 騎士 works. Doubly それで のために 他の ゲーム と もっと
+complex controls to navigate もっと complex 3D scenes. しかし のために right now,
+私たちは できる group 彼ら 全て together として “Move”. We’ll talk について もっと ways to
+differentiate これら types の overlapping 動詞 later.
+
+Deeper Dives: Research
+いつ 私 始める working の上 a ゲーム それ fits の中へ の existing genre または もっている a clear relationship と
+別の ゲーム, それ’s 重要 to 始める による doing a deep analysis の それ related ゲーム.
+Play the ゲーム thoroughly yourself そして reflect の上 the experience.
+Play related ゲーム.
+Watch 他の 人々 遊ぶ the ゲーム. Social media できる なれ 素晴らしい のために これ.
+もし それ happens to なれ a ゲーム と の active fandom, read 上 の上 何 彼らは 考える. Try to build
+the knowledge それ a fan するだろう 持っている. そこには 意思 いつも なれ fans と deeper knowledge
+よりも あなた – いくつかの fans は 素晴らしい と details – そして それ’s OK.
+
+の next set の 動詞 は combat related:
+Attack (press the 攻撃 button, officially called “Dig Slash”)
+Drop Attack (a combination の falling そして attacking triggered による
+pressing down その間 で the air, officially called “シャベル Drop”)
+Charge Slash (a modified 攻撃 earned later で the ゲーム)
+Dodge (move または jump to avoid の enemy または 他の hazard)
+Fight (move そして 攻撃 against の enemy, と a combination の
+違う アクション mixed together)
+Boss Fight (fight, しかし と もっと complicated もの 行く の上)
+そこには は lots の ways to inflict damage の上 enemies. の プレーヤー provides の
+input そして それから the ゲーム rules decide もし の enemy takes damage そして どうやって
+much. 私 考える 私たちは できる comfortably group これら 動詞 together そして talk について
+“Attack” として 1つ の the 大きい concepts で シャベル 騎士.
+の final set の direct プレーヤー アクション は 全て object-related. の プレーヤー もっている
+の inventory の special アクション 彼らは できる take (による pressing 上 そして 攻撃).
+そこには は について a dozen 違う Relics the プレーヤー できる acquire 以上 the
+course の the ゲーム と various 違う effects, ranging から healing to
+
+attacks to earning money. Most の これら deplete the プレーヤー’s Magic stat
+いつ used.
+Use Relic (使用 の inventory item で the cost の Magic, と について a
+dozen 違う ones それ できる なれ acquired)
+
+Indirect Action 動詞
+Action 動詞 それ describe 何 the プレーヤー できる する は the ほとんど 重要
+のために understanding the コア の a ゲーム, しかし そこには は a variety の 他の 動詞
+それ happen during a ゲーム それ は 重要 to 理解する.
+Die (lose health または fall で a pit)
+Gather (pick 上 coins または 他の もの, which happens naturally いつ
+the character touches 彼ら)
+Collect (usually used to mean the 同じ thing として Gather, しかし できる また
+refer to Feats または 他の もっと abstract もの)
+Uncover (sometimes いつ あなた destroy 何か, そこには は 別の
+object または enemy behind それ それ enters the scene)
+そこには は 動詞 それ happen で the ゲーム しかし は ない directly triggered による the
+プレーヤー. これら は もっと の a consequence の a プレーヤー アクション よりも the アクション
+itself. の プレーヤー never presses “Collect” で シャベル 騎士 – 彼らは ただ walk
+以上 to の object そして もし それ’s the right type の object, のように a gem, それ ただ gets
+collected. の プレーヤー かもしれない する それ intentionally, しかし the “する” the プレーヤー
+する は ただ movement.
+そこには は また object アクション the プレーヤー できる take ベースの の上 the items で the
+世界 その周り 彼ら. これら 使用 the existing controls しかし change the results
+ベースの の上 the objects で the 世界 いつ the プレーヤー performs 彼らの アクション.
+これら は 重要 to 理解する しかし は less コア よりも the アクション.
+
+Talk (press 上 その間 near の NPC to initiate dialog)
+Fall (何 happens after あなた jump または は で the air のために 別の reason)
+Dig (攻撃 a pile の dirt to 得る もの 外 の それ)
+Break (攻撃 の object のように a chest または wall to destroy それ)
+Juggle (hit 何か それ あなた’ve previously hit to keep それ で the air)
+Buy (choose a text option to 過ごす money または otherwise acquire a
+thing)
+Play Music (select music via a conversation と の NPC)
+Loot (technically pulling もの 外 の a chest は a 違う アクション よりも
+breaking the chest open)
+の ほとんど common type の object interaction は talking と NPCs. 私 知る
+それ’s a bit rude to call NPCs objects, しかし から the perspective の the code
+そこには’s ない much difference.
+Technically あなた could call combat の indirect アクション because それ のみ
+作る sense もし そこには’s の enemy nearby そして そこには isn’t いつも の enemy
+nearby. これ は a clever point, しかし given the frequency の enemies で the
+レベル design, 私 考える それ’s fair to call “Attack” a コア ゲームプレイ アクション. もし
+someone re-made シャベル 騎士 と significantly fewer enemies そして もっと
+depth to the NPC interactions, それ するだろう なれ の interesting 方法 to 作る の
+entirely 違う ゲーム で a 違う genre without changing the コア
+engine または code または プレーヤー アクション の シャベル 騎士. しかし それ wouldn’t なれ シャベル
+騎士. More の上 content そして どうやって それ 変化 the ゲーム で a later chapter.
+
+Abstract 動詞
+Dodge (move または jump to avoid の enemy または 他の hazards)
+Explore (find 何か 新しい)
+
+Find (basically the 同じ として Explore, しかし possibly referring to a 特定の
+thing あなた だった looking のために)
+Plan (connect a series の アクション で あなたの mind そして 考える について using
+彼ら together, possibly と 特定の timing)
+Position (place yourself で the right place)
+Observe (watch どうやって the objects で the 世界 仕事)
+Learn (uncover the systems の the ゲーム そして どうやって 彼らは 仕事)
+Predict (使用 何 あなた’ve learned to come 上 と a theory について 何
+意思 happen next)
+Mini-Game (そこには は places どこ あなた できる 遊ぶ 少し sub-ゲーム と
+違う 目標)
+そこには は a number の potential 動詞 私たちは identified それ aren’t もの the
+プレーヤー できる する. これら は もの the プレーヤー thinks について いつ doing 他の
+もの – これら は why the プレーヤー する もの, ない 何 the プレーヤー する. So,
+これら は 重要 to consider, しかし 私 するだろう categorize これら として 目標, ない
+アクション. これら は incredibly 重要 to 理解する そして は fundamental
+to understanding the コア ゲーム loop, しかし 私’d put 彼ら で a 違う
+category よりも direct プレーヤー アクション, そして 私たちは’ll cover 彼ら で a later chapter.
+
+Interface 動詞
+Watch (cut scenes)
+Travel (move の上 the map view それ は used to select レベル)
+Showdown (a separate 遊ぶ mode それ 私’m mostly ignoring のために これ
+dissection)
+Challenge Mode (別の separate 遊ぶ mode)
+New Game (UI アクション to 始める a ゲーム)
+Enter Name (UI アクション to label a ゲーム save)
+
+Body Swap (change avatar appearance)
+そこには は a number の アクション それ the プレーヤー takes entirely で the UI (User
+Interface), outside の コア ゲームプレイ. で a ゲーム のように シャベル 騎士, それ’s easy
+to distinguish いつ the プレーヤー は controlling の avatar (シャベル 騎士) で
+the ゲーム 世界 versus いつ the プレーヤー は selecting words で a menu. の
+UI は 何か outside the illusion の the ゲーム, which は necessary しかし ない
+一部 の the fun. もし あなた’re working の上 designing the UI, definitely 考える これら
+を通して そして consider 全て the options. しかし のために これ ゲーム, 彼らは は ない コア
+ゲームプレイ.
+
+Deeper Dives: Frame による Frame
+For fast-paced ゲーム, 1つ technique 私 find とても useful は to record a short video の the コア
+ゲームプレイ, それから step を通して the video frame による frame. Watch closely, そして あなた’ll 見る lots の 少し
+もの それ the developer する to 作る もの 仕事. Visual effects それ communicate 重要
+information to the プレーヤー, 少し tricks の physics to 作る もの flow better, そして complex camera
+behaviors それで the プレーヤー’s attention は の上 the right もの. これら は 素晴らしい いつ あなた 必要 to 知る
+everything について a ゲーム. しかし ほとんど の これ chapter は のために いつ あなた’re ただ starting to 理解する
+a ゲーム.
+
+Games として Input/Output
+To help 理解する why これら 違う types の 動詞 は 違う, let’s talk
+について どうやって ゲーム 仕事. As と ほとんど もの, ゲーム できる なれ understood で a
+lot の ways. これ は 1つ の それらの ways.
+いつ a プレーヤー plays a video ゲーム, 彼らは は participating で の exchange
+と a computer. の プレーヤー provides inputs を通して a device の いくつかの sort –
+a ゲーム controller, a keyboard, a touch screen – そして the computer processes
+それ inputs そして それから provides の output のために the プレーヤー – pixels の上 a screen.
+の computer uses a set の rules そして logic そして code to determine どうやって the
+プレーヤー’s input 変化 the pixels. の rules そして logic そして code は 何 the
+
+ゲーム designer controls. That は 何 私たちは call the ゲーム. しかし everything else
+は 重要 to 理解する として それ creates the full experience.
+これ できる なれ represented で a diagram のように 形 2.3.
+
+形 2.3 Input Output.
+の left side の これ image represents the プレーヤー. What 彼らは 見る, 何 彼らは
+考える, 何 彼らは する. の right side の これ image represents the computer.
+All the electrical impulses tickle the microchips ベースの の上 the code の the
+ゲーム.
+Let’s step を通して a 単純 single-ゲーム アクション ベースの の上 これ model. の
+プレーヤー は enjoying a pleasant 時間 で シャベル 騎士 (形 2.4). They
+notice いくつかの gems above そして to the left, それで 彼らは decide to jump to gather
+彼ら.
+
+形 2.4 シャベル 騎士 ゲーム screen showing the moment
+before the プレーヤー 作る a decision.
+We 始める による noting それ the プレーヤー もっている made a decision (形 2.5). これ
+は どうやって もの 始める で ゲーム – もの happen で the プレーヤー’s brain. の root
+の 全て ゲームプレイ は imagination.
+
+形 2.5 私 欲しい to jump.
+
+で order のために the ゲーム to する anything, これ thought needs to 得る から the
+プレーヤー’s brain to the computer (形 2.6). そこには は 全て sorts の useful
+input devices designed to 作る これ happen. の nature の the input device
+もっている a large impact の上 the プレーヤー’s experience, そして 新しい types の input
+devices のように the iPhone’s touch screen または the Wii’s motion controller できる
+lead to huge 変化 で the video ゲーム industry.
+
+形 2.6 Press the button.
+For our current discussion, それ doesn’t 本当に matter 何 input device は
+being used. の 重要 thing は それ the プレーヤー presses a button の上 the PC
+または ゲーム controller それ indicates それ the プレーヤー wants the character (シャベル
+騎士) to jump.
+これ information それから flows の中へ the computer (形 2.7). あ series の
+electrical impulses flow から the controller を通して a wire の中へ the
+computer, どこ chips translate the signals の中へ the code.
+
+形 2.7 Electrons flow.
+の code それから processes the 新しい information (形 2.8). の code
+knows それ これ sequence の electrical impulses means それ これ button だった
+pressed. そして これ button means jumping. そして jumping means 多くの もの:
+の position の the avatar character 変化, moving 彼ら upward.
+Most ゲーム 持っている a physics engine それ controls positions そして motion,
+それで これ は done による adding a force で a direction to the character そして
+letting the physics logic compute the exact change で position.
+Because の the physics engine, gravity starts operating の上 the
+character, changing 彼らの motion 以上 時間.
+の character’s animation 変化 から a standing animation to a
+jumping animation.
+これ 変化 the character’s state – the character は now で the air.
+Now 違う inputs そして outputs は possible. もし the プレーヤー presses
+down now, the character 意思 go の中へ a downward 攻撃 state, として
+defined による the ゲーム rules written の中へ the code. Pressing the jump
+button again won’t する anything.
+
+そして 全て の これ needs to なれ reflected で the pixels の上 the screen.
+
+形 2.8 Character enters jump state.
+これ last point は 重要. の state 変化 で the code のみ matter もし
+the プレーヤー できる 理解する 彼ら. Most video ゲーム できる のみ communicate
+彼らの internal 変化 を通して a screen. Any change to the internal state そして
+logic の the ゲーム needs to なれ expressed で pixels それで the プレーヤー できる process
+それ (形 2.9). Setting 上 the right pixels は a combination の ゲーム art to
+reflect 変化 で the ゲーム 世界 そして UI/UX design to reflect 変化 で
+the data presented による the ゲーム. Both は 重要 そして ideally both 仕事
+together to produce the best result.
+
+形 2.9 Pixels change.
+の プレーヤー もっている 彼らの own complex system の input devices それ 彼らは 使用
+to process incoming information – eyes, ears, noses, etc. Good ゲーム 意思
+reinforce 彼らの messages using として 多くの senses として possible (形 2.10).
+Starting と visual, often using audio, そして occasionally adding いくつかの
+vibration それで the プレーヤー できる feel 何 は happening. Smell そして taste don’t
+come 上 として often, しかし 私’m sure smell-o-vision 意思 なれ everywhere で a 少し
+years.
+
+形 2.10 Player notices change.
+そして それから the cycle begins anew. Once the プレーヤー processes これ 新しい
+information, 彼らは 欲しい 新しい もの (形 2.11). For example, それ frog
+かもしれない なれ a problem, それで the プレーヤー may 必要 to change 彼らの direction または
+enter の 攻撃 state to avoid taking damage (形 2.12). の full ゲーム
+experience は a long sequence の とても quick input/output cycles それ add 上
+to create 何か greater よりも それぞれ 一部.
+
+形 2.11 Player wants 新しい thing.
+
+形 2.12 Screenshot の シャベル 騎士, showing a jump もっている
+begun.
+
+Verbed Input/Output
+これ Input/Output flow gives us a 方法 to 理解する the differences で
+違う types の 動詞. Each verb operates の上 a 特定の step の the
+diagram として seen で 形 2.13.
+
+形 2.13 Input 動詞 そして output 目標.
+の Direct Action 動詞 は controller inputs delivered による the プレーヤー.
+の Indirect Action 動詞 は もの それ happen で the computer ベースの
+の上 the プレーヤー アクション.
+の Abstract 動詞 は 行く の上 で the プレーヤー’s head, helping 彼ら
+plan 外 彼らの next アクション しかし ない happening として a direct result の a
+controller input.
+Interface 動詞 affect もの the プレーヤー sees で the Game Display それ
+は ない 一部 の the ゲーム 世界.
+これ helps explain why the Direct Action 動詞 は the ほとんど 重要 のために
+の initial understanding の the ゲーム. They は the simplest そして ほとんど clear
+アクション それ shape the range の options のために everything else. They は どこ
+the プレーヤー それ exists で the real 世界 interacts と the ゲーム. の ゲーム
+rules のみ decide to break もの after the プレーヤー uses the 攻撃 アクション. そして
+the プレーヤー’s desires は similarly shaped による the range の inputs the ゲーム
+allows. の プレーヤー may 欲しい to build a bridge または 得る a drink で the bar しかし
+without a related button それ desire は 行く to go unfulfilled.
+
+の アクション the プレーヤー できる take shape everything について the ゲーム. So,
+始める そこには もし あなた 欲しい to 理解する the ゲーム.
+
+Understanding 動詞
+動詞 は ただ the 初め step.
+もし シャベル 騎士 は について Moving そして Attacking, それで は Halo (2001). So は
+Super Mario Bros (1985). So は God の War (2005). しかし これら は 全て とても
+違う ゲーム.
+の second step で a ゲーム dissection は to 理解する the nature の the
+動詞 そして どうやって 彼らは fit together. We’ll talk もっと について systems later, しかし the
+コア アイデア の systems thinking は それ the relationships between もの (で
+これ case 動詞) できる なれ として complex そして interesting として the もの themselves.
+So, let’s 始める と our two コア 動詞.
+
+Overlapping 動詞 と Different Rules
+So, 私たちは’ve broken シャベル 騎士 の中へ the Core 動詞 の “Move” そして
+“Attack” しかし 欲しい to 理解する もっと について 彼ら.
+Going back to our definition の ゲーム で the 初め chapter できる help. We’ve
+already covered Interactivity – the choices そして skills それ 作る 上 the Big
+動詞. Next の上 the list は Rules.
+So, our 動詞 は 何 the プレーヤー できる する. の Rules は どうやって the ゲーム
+responds to それらの prompts から the プレーヤー (形 2.14). “いつ the プレーヤー
+する X, the ゲーム する Y”
+
+形 2.14 Outputs.
+で a board ゲーム, これら は written 外 explicitly. “いつ あなた pass GO,
+collect $200”. あ コア verb で Monopoly (1935) は move, それで “pass GO” は
+何か それ できる happen naturally として a result の the プレーヤー’s アクション.
+の 同じ sort の thing happens で a video ゲーム のように シャベル 騎士.
+いつ あなた touch の enemy, あなた lose health. いつ あなた walk 以上 a health
+pack, そこには は fewer health packs で the レベル そして あなた 持っている もっと health.
+の プレーヤー する 何か, そして the ゲーム responds.
+Moving で シャベル 騎士 は について position, そして position interacts と a
+lot の ゲーム rules.
+Where あなた は relative to の enemy determines whether または ない あなた 得る
+hit による の enemy 攻撃.
+Where あなた は そして どこ あなた’re pointing determines もし あなたの 攻撃
+hits the enemy いつ あなた trigger の 攻撃.
+Where あなた は determines いつ あなた pick 上 gems, powerups, または 他の
+items.
+Where あなた は determines 何 あなた できる 見る – the ゲーム のみ shows
+あなた 1つ screen で a 時間, ベースの の上 プレーヤー position.
+
+Where あなた は triggers progression を通して レベル, including triggering
+cut scenes それ advance the 話.
+これ は similar で a 3D 初め-person shooter しかし と いくつかの 重要
+differences:
+Where あなた は determines whether または ない あなた 得る hit による の enemy
+攻撃.
+Where あなた は そして どこ あなた’re pointing determines もし あなたの 攻撃
+hits the enemy.
+Where あなた は determines いつ あなた pick 上 ammo, weapons,
+powerups, または 他の items.
+Where あなた は そして どこ あなた’re pointing determines 何 あなた できる
+見る, using a 初め-person perspective.
+Where あなた は triggers progression を通して レベル, including triggering
+cut scenes それ advance the 話.
+So, 1つ 方法 あなた できる differentiate similar 動詞 は による looking で the rules
+そして consequences の それらの 動詞. いつ そこには は mechanic differences,
+それらの は indicators それ the 動詞 may sound the 同じ しかし は functionally
+とても 違う.
+
+Overlapping 動詞 と Different Goals
+Looking で どうやって 動詞 interact と rules は helpful. の processes 行く の上
+で the computer できる change どうやって the 動詞 仕事. しかし the processes 行く の上
+で the プレーヤー’s head は 平 もっと 重要.
+Why する the プレーヤー 使用 動詞?
+動詞 は used to achieve 目標.
+
+動詞 のみ mean 何か で the context の the プレーヤー’s 目標.
+What は the プレーヤー’s 目標 で シャベル 騎士? Let’s する a quick brainstorm
+のように 私たちは did のために 動詞.
+Rescue Shield 騎士.
+Help the characters あなた meet.
+Defeat enemies.
+Reach the end の the レベル.
+Trigger the next cut scene.
+Unlock 新しい areas.
+Get to the end の the ゲーム.
+Don’t die.
+Some の これら (“Rescue Shield 騎士” そして “Help the characters あなた
+meet”) は 話, ない ゲームプレイ. Story は の 重要 一部 の ほとんど ゲーム,
+しかし いつ 私たちは’re still assembling a コア loop, それ’s ない the ほとんど 重要
+thing to 理解する. Story motivates 選手 to 完了 the ゲーム, それ
+doesn’t motivate the 選手’ アクション から moment to moment. At least のために
+a ゲーム のように これ – いくつかの ゲーム のように Baldur’s Gate (1998) または Life Is Strange
+(2015) 作る 話 a key 一部 の every レベル の ゲームプレイ. しかし a ゲーム のように
+シャベル 騎士 する ない weave the 話 の中へ every moment の ゲームプレイ
+のように これ.
+の 目標 それ は woven の中へ every moment の ゲームプレイ は the ones
+のように “Defeat enemies” または “Reach the end の the レベル” それ guide プレーヤー
+アクション で every moment. これ は 何 the プレーヤー は trying to する during
+ゲームプレイ, そして これ は why the プレーヤー engages と the 動詞 の the ゲーム.
+の プレーヤー attacks to defeat enemies そして moves to reach the end の the
+レベル.
+
+の next 少し 目標 (“Trigger the next cut scene”, “Unlock 新しい areas”,
+そして “Get to the end の the ゲーム”) は ただ “Beat the レベル” phrased slightly
+differently. いつ あなた’re considering 目標 または 動詞, keep の eye 外 のために
+overlapping terms のように これ.
+の final objective “Don’t die” isn’t 本当に a ゴール per se しかし は もっと の a
+fail case. もし the プレーヤー dies, 彼らは 持っている to reset a 少し ways back. Death
+never stops あなた から progressing, しかし それ できる definitely slow あなた down.
+
+Verb to the Goal
+So どうやって する the プレーヤー turn “Move” そして “Attack” の中へ completed レベル?
+They move を通して the レベル to find a route それ gets to the next area その間
+avoiding または attacking any threats. Most areas 持っている a 少し challenge または
+puzzle to advance. Some areas require jumping 以上 pits. Some require
+jumping off objects to 得る 上 high. Each area もっている a 違う combination の
+challenges それ 作る それ interesting そして 違う. More の上 それ later.
+
+Big 動詞
+OK, それで 私たちは’ve defined the 大きい 動詞 で シャベル 騎士 として Move そして Attack.
+That feels right. いつ 私 遊ぶ the ゲーム, 私 過ごす ほとんど の my 時間 doing
+それらの もの. そして thinking について それらの two もの そして どうやって to する 彼ら
+better.
+もし あなた 欲しい to 理解する a ゲーム, 理解する the もの the プレーヤー
+spends ほとんど の 彼らの 時間 doing. Sometimes そこには は 他の features それ は
+splashy そして interesting そして become the focus の the marketing そして
+discussion その周り the ゲーム. しかし a ゲーム designer needs to 考える について the
+thing the プレーヤー は actually investing 彼らの 時間 の上.
+
+You できる 見る これ で lots の 違う types の ゲーム. Platformers 過ごす a
+lot の 時間 perfecting 彼らの jumping そして running. で の open 世界 ゲーム,
+あなた 過ごす ほとんど の あなたの 時間 moving から place to place. の open 世界
+ゲーム それ succeed は the ones それ これ travel fun そして engaging.
+
+Verb として Genre
+As 私たちは’ll 見る で future chapters, 動詞 は a 良い 方法 to differentiate そして organize ゲーム. All
+初め-person shooters 始める と move そして 攻撃. Platformers のように Mario focus heavily の上 move,
+と varying amounts の 攻撃 depending の上 the platformer.
+しかし a ゲーム のように SimCity doesn’t 持っている move として a verb で 全て – the primary verb そこには は build.
+これ 作る sense – 私 考える ほとんど 人々 するだろう agree それ platformers 持っている もっと overlap と
+shooters よりも と builders.
+これ できる なれ useful to 知る. もし あなた’re looking のために inspiration の上 あなたの city builder, それ かもしれない ない
+なれ best to 始める による playing いくつかの Halo. Maybe find a puzzle ゲーム のように Triple Town それ shares
+“Build” として a verb to 見る どうやって それ’s done differently そこには.
+
+More to Come
+We’re 行く to stop our シャベル 騎士 ゲームプレイ analysis here. 私 知る
+私たちは’ve barely scratched the surface の シャベル 騎士 そして platformers で
+general. しかし 私たちは’re building foundations here. It’ll 得る crazier で later
+chapters.
+の last 一部 の これ analysis pulls いくつかの アイデア から future chapters, しかし 私
+のように showing a version の the 同じ diagram のために それぞれ ゲーム, それで forgive me
+のために the spoilers. これ diagram represents それぞれ ゲーム として a formula. の
+プレーヤー もっている 動詞 彼らは できる 使用 to reach 目標 しかし は blocked による challenges.
+形 2.15 shows the simplest レベル の detail, breaking それぞれ step の中へ a
+single element. 形 2.16 は a bit もっと useful で それ それ breaks それぞれ の
+これら categories の中へ multiple entries, showing the 違う アクション そして
+challenges の the ゲーム:
+
+形 2.15 シャベル 騎士 flow diagram showing 動詞,
+Challenges, そして Goals.
+
+形 2.16 シャベル 騎士 flow diagram と もっと boxes.
+Each レベル は a package の これら 違う pieces, として shown で 形 2.17.
+で シャベル 騎士, ほとんど の the variation comes から changing 外 the
+challenges, しかし 他の ゲーム できる handle これ differently.
+
+形 2.17 シャベル 騎士 flow として a レベル.
+Multiple レベル できる なれ added together to represent the full flow の the
+ゲーム, として 選手 仕事 の上 larger 目標 そして larger challenges. See 形
+2.18.
+
+形 2.18 シャベル 騎士 flow から レベル to レベル.
+We’ll dig の中へ これら アイデア で もっと detail で later chapters, しかし before 私たちは
+leave シャベル 騎士, let’s talk について 他の もの それ influence ゲームプレイ.
+
+シャベル 騎士: Non-Gameplay Dissection
+いつ dissecting, それ’s ない ただ について ゲームプレイ. Even のために a ゲーム designer.
+もし あなた 欲しい to 理解する the ゲームプレイ の a ゲーム, あなた 持っている to
+理解する everything について それ. How する the non-ゲームプレイ aspects の the
+ゲーム tie の中へ the ゲームプレイ? Where did the ゲームプレイ アイデア come から?
+What led to the ゲームプレイ decisions あなた 見る で the ゲーム? の ゲーム itself
+作る much もっと sense もし あなた 理解する the context それ led to それらの
+decisions.
+To なれ clear, 私 did ない 仕事 の上 (ほとんど の) the ゲーム 私 talk について で これ
+book. 私 する ない 知る どうやって decisions だった made による the teams それ did. We’re
+talking について これら もの として の outsider, piecing もの together から 何
+私たちは できる 見る で the ゲーム そして generally available knowledge. 私’m sure そこには
+は interesting stories そこには, そして 私 encourage それらの 誰が だった present to
+write 彼ら down それで 私 できる read それらの books. 私 love to 知る authorial intent,
+しかし unless それ’s あなた, the rest の us は left と the 仕事 itself. そして そこには’s
+plenty to 見る そこには.
+
+Senses
+Gameplay は influenced による the look そして feel の the ゲーム.
+シャベル 騎士 もっている a とても clear そして distinct style. It’s a retro ゲーム trying
+to emulate the feel そして visuals そして sounds そして 完了 experience の a
+classic platformer. で これ sense, the style fits とても clearly と the
+ゲームプレイ. People 誰が は familiar と the references 意思 expect the
+ゲームプレイ そして style to both align と 彼らの perception の それらの earlier
+ゲーム. そして 人々 誰が don’t 知る the classics 意思 still 理解する それ
+both ゲームプレイ そして style evoke の earlier age, それで don’t expect integrated AI
+そして vast open worlds そして high-fidelity graphics.
+
+の simplicity の the ゲーム また 作る それ easy to 見る どこ ゲームプレイ そして
+graphics intersect. Remember our input/output diagram – the output 一部 の
+the diagram は made 上 の pixels の上 a screen それ the computer manipulates.
+これ は the プレーヤー’s のみ source の information の上 何 は 行く の上 で the
+ゲーム (well, それ plus sound そして sometimes vibration). As a ゲーム designer,
+これら pixels は 全て あなた 持っている to 得る あなたの アイデア across to the プレーヤー. あ プレーヤー
+誰が かもしれない ない 本当に なれ paying attention そして 誰が ほとんど likely hasn’t played
+every previous ゲーム それ あなた (the ゲーム designer) did. これ は a difficult
+そして momentous responsibility のために a 少し measly pixels.
+Every ゲーム もっている to create a visual vocabulary の 何 matters to the
+プレーヤー そして to ゲームプレイ – using the 同じ size, shape, color, または whatever
+consistently helps the プレーヤー learn 何 to する そして それから quickly process 新しい
+scenes. シャベル 騎士 する a 素晴らしい job の quickly establishing 何 the
+プレーヤー needs to 知る そして sticks と それ throughout the ゲーム:
+の ground あなた walk の上 は flat – usually rectangles – そして high contrast
+against the rest の the background.
+Objects あなた できる interact と は また high contrast そして often include
+movement. の ゲーム intentionally doesn’t create separate
+vocabularies のために enemies そして rewards, として それ wants to 遊ぶ と それ で
+the ゲームプレイ. Sometimes bouncing の上 の enemy’s head は the のみ
+方法 to reach a reward. Sometimes a reward は で a dangerous place
+making それ もっと の a problem よりも a pure benefit.
+Combat アクション そして results は いつも clearly punctuated. Enemies
+don’t ただ disappear – 彼らは vanish で a 少し cloud の smoke. もし the
+プレーヤー missed the frame どこ 彼らは died, the ゲーム は still
+communicating のために a 少し frames after.
+シャベル 騎士’s shovel provides a nice strong indicator の どこ the
+character は facing. これ は especially handy のために communicating the
+
+difference between “falling” そして “falling と intent to kill”. の
+downward shovel 攻撃 は 重要 そして かもしれない ない なれ noticed without
+the 大きい bright object それ moves その周り the character.
+
+History そして Influences
+私’m a 大きい fan の stealing アイデア から 他の ゲーム. No ゲーム は の island.
+Every ゲーム は inspired による the アイデア そして execution の ゲーム (そして 他の
+もの) それ came before.
+そこには’s の 重要 distinction to なれ made here. All ゲーム は inspired.
+All ゲーム borrow そして “steal”. しかし いつ あなた draw inspiration から
+何か, あなた 必要 to なれ careful to ない draw too heavily. もし あなたの ゲーム は
+ただ a copy の someone else’s idea, それ’s actual stealing, ない the tongue-incheek 方法 私 sometimes 使用 the term. もし あなたの ゲーム gets 全て its features そして
+アイデア から 別の ゲーム そして doesn’t add または change 彼ら で a 方法 to 作る
+何か 新しい, それから あなた 必要 to rethink そして 始める 以上 to add あなたの own
+twist の上 the thing.
+You できる 見る これ で シャベル 騎士. シャベル 騎士 は a wonderful そして
+unique ゲーム. しかし almost every aspect の シャベル 騎士 comes から
+somewhere else.
+Super Mario Bros (1985) は generally credited と popularizing the
+2D side-scrolling platformer genre.
+しかし 多くの の the アイデア から Super Mario Bros だった 初め developed で
+the Mario Bros (1983) arcade ゲーム, そして borrowed から earlier ゲーム
+のように Space Panic (1980).
+Many 2D side-scrollers after Mario added attacks のように シャベル 騎士’s
+shovel, including popular ゲーム のように Metroid (1986) そして Castlevania
+(1986).
+
+Once the seeds の the genre had been planted そこには は 多くの 素晴らしい
+ゲーム それ took それらの アイデア そして adapted 彼ら のために PC gaming,
+including Lode Runner (1983), Commander Keen (1990), そして Cave
+Story (2004).
+Braid (2008) そして Spelunky (2008) popularized the idea の using 2D
+platformers として a 単純 そして nostalgic base to experiment と
+interesting indie ゲーム アイデア.
+As a ゲーム designer, それ’s 重要 to 知る the history の ない ただ the ゲーム
+しかし また the features. Jumping から platform to platform で シャベル 騎士 は
+interesting しかし は informed による 多くの 他の ゲーム before, そして feeds の中へ
+多くの 他の ゲーム after. Dissecting それぞれ の それらの ゲーム, で least で terms の
+それ 特定の feature, helps あなた 見る どうやって to 使用 それ feature で あなたの own
+ゲーム. Johnnemann Nordhagen took これ idea 平 further そして built a ゲーム
+それ collects 全て the 違う ways それ a 特定の mechanic もっている been
+executed 以上 the years. Museum の Mechanics: Lockpicking (Dim Bulb
+Games, 2022) は の interesting 方法 to 見る どうやって ゲーム borrow そして share そして
+innovate の上 特定の アイデア.
+
+Monetization
+How a ゲーム 作る money もっている a huge effect の上 the design の the ゲーム.
+そこには は a 少し major trends で monetization それ had huge impacts の上
+the types の ゲーム 私たちは associate と それぞれ era:
+1. Arcade ゲーム. Monetization は quarter-ベースの. (Technically
+monetization のために the developer は による selling arcade cabinets, しかし the
+cabinet buyers だった とても interested で quarter throughput, それで the
+developers developed to それ metric.) の ゴール だった to 得る the プレーヤー to
+notice the ゲーム で a crowded arcade, そして それから plug で として 多くの
+
+quarters として possible で として 少し 時間 として possible. これ led to ゲーム と
+とても quick session lengths, とても steep difficulty curves, そして 少し to no
+thought について ongoing long-term 遊ぶ.
+2. Console ゲーム. Monetization は ベースの の上 selling boxes で stores, と
+no internet to provide updates または live services after それ. At 初め early
+consoles tried to mimic ゲーム それ 選手 knew から the arcade, しかし
+soon the focus became value. Games だった reviewed ベースの の上 hours の
+遊ぶ. Look で the difference between Mario Bros そして Super Mario
+Bros to 見る a clear example の これ change.
+3. Mobile ゲーム. Monetization は ベースの の上 downloads そして (after the 初め
+少し years) で-app purchases. の ゴール は to 得る a プレーヤー で quickly そして
+easily, それから keep 彼ら その周り のために long enough それ 彼らは 得る
+comfortable spending money. の growth の 大きい data plays a 大きい 一部
+here, として ゲーム developers 始める to analyze 何 actually gets 人々 to
+stick その周り そして 過ごす money. Game sessions は short, しかし 選手
+は expected to stick その周り のために months または years.
+これ は ない の exhaustive list による any means. Early PC ゲーム resembled
+console ゲーム しかし と a lot の 彼らの own twists. Console もっている been
+changing と the growth の downloadable upgrades. Most の これ doesn’t
+apply to educational ゲーム または 他の ゲーム のために change, which 持っている entirely
+separate monetization 目標 そして pathways. Each ゲーム’s monetization needs
+to なれ analyzed separately しかし と の understanding の どうやって それ fits の中へ the
+standard monetization schemes の its 時間.
+シャベル 騎士 作る ほとんど の its money を通して downloads の上 PC ゲーム
+services のように Steam. これ は currently the dominant sales platform の上 PC,
+そして the growth の independent routes to sell そして market ゲーム without
+interacting と 大きい publishers そして retailers は a 大きい 一部 の why indie ゲーム
+のように シャベル 騎士 exist そして succeed. あ successful Steam ゲーム できる support
+
+a small indie team と a 良い idea, しかし console ゲーム generally 持っている to なれ
+bigger.
+シャベル 騎士 started 外 の上 Kickstarter, raising money のために the initial
+development を通して crowdfunding. Kickstarter そして similar platforms は a
+popular 方法 のために smaller indie ゲーム to generate いくつかの initial funds そして
+market の early idea. の initial money helps, しかし the initial fan base は として
+または もっと 重要 to making a small ゲーム と a small (または zero) marketing
+budget a success.
+Since its release, シャベル 騎士 もっている shipped multiple downloadable
+content (DLC) packs, which 持っている later been released として separate ゲーム.
+シャベル 騎士 もっている become a series と explorations で multiple genres そして
+違う playstyles.
+Selling として a single purchase drives シャベル 騎士 to focus の上 providing a
+完了 package. Deeper progression そして varied content 作る the single
+purchase feel worth それ, generating 良い word-の-mouth to keep the ゲーム
+selling.
+
+Narrative
+Story そして ゲームプレイ は friends. They 仕事 together to bring joy そして
+happiness to 選手. Different ゲーム 作る もっと または less 使用 の これ
+friendship. シャベル 騎士 は a 素晴らしい example の the ほとんど common 使用 の
+話 で ゲーム.
+で シャベル 騎士, the main 使用 の 話 は to provide emotional context
+のために the プレーヤー’s progression そして emotional punctuation で key points. の
+ゲーム establishes early の上 それ シャベル 騎士 は trying to rescue 彼らの friend
+Shield 騎士. あ classic rescue mission, which は a 素晴らしい 方法 to 作る a
+プレーヤー 欲しい to reach the end. My friend needs help!
+
+Most の the 時間, これ は ただ a small piece の background motivation.
+During ゲームプレイ, the ゲーム doesn’t 作る reference to Shield 騎士 または
+anything else について the characters. Bosses 得る a quick intro to establish 彼らの
+character, during which the プレーヤー もっている no input. の ゲーム stops to tell the
+話. Then after a 大きい レベル, そこには は a short dream sequence それ reminds
+the プレーヤー の これ long-term ゴール そして provides いくつかの interactive rewards として
+well. Some の the NPCs provide additional narration そして backstory, しかし それ’s
+全て contained で a 少し sentences それで それ never gets too involved または deep.
+これ は 素晴らしい. これ は exactly 何 ほとんど ゲーム 欲しい. Story は そこには.
+Emotions は triggered. の プレーヤー knows why 彼らは’re doing 全て これ, そして もし
+the プレーヤー puts the ゲーム down のために too long, 彼らは feel a 少し guilty. Poor
+Shield 騎士. の 話 は fun そして interesting, そして the ゲーム は stronger
+because の それ.
+Some ゲーム 使用 話 で deeper そして もっと complicated ways. そして 私 love
+それらの ゲーム, too. しかし 私’ve made いくつかの の 彼ら それで 私 知る どうやって complicated
+そして difficult それ できる なれ to interweave 話 そして ゲームプレイ で ways それ
+actually matter. More の上 それ later.
+
+Emotions
+Story は 1つ source の emotions, しかし ゲーム できる evoke 多くの emotions.
+For アクション ゲーム, the ほとんど common emotion は frustration, which かもしれない
+sound のように a problem, しかし それ 本当に isn’t. Talking について ゲーム のために the last
+少し decades, 私’ve noticed それ そこには は 多くの flavors の frustration. Some
+は 良い, そして いくつかの は bad. の main difference は どうやって そして どこ the
+プレーヤー もっている agency で the frustration.
+Outside Frustration: もし the プレーヤー もっている no agency, それから それ’s outside
+frustration. It できる なれ annoying, しかし それ’s less personal それで thus less
+
+impactful. 私 できる 得る frustrated watching a communication problem
+unfold で の episode の a sitcom, しかし 私 don’t feel それ personally.
+Uncontrolled Frustration: Once the プレーヤー もっている control の the アクション,
+the potential のために emotional involvement は higher. Give me buttons to
+press そして now any failure は my fault. So, the worst case here は いつ
+the プレーヤー もっている input しかし no real control. もし the プレーヤー expects to 持っている
+control しかし loses due to reasons outside の 彼らの control, それ できる なれ
+とても frustrating. の ゲーム made a promise そして それから failed to deliver.
+これ は often the worst form の frustration そして ゲーム designer should なれ
+careful to avoid situations のように これ. もし the プレーヤー needs to fail
+regardless の 彼らの アクション, 作る それ とても clear それ the ゲーム knows それ’s
+ない the プレーヤー’s fault.
+Confused Frustration: もし the プレーヤー もっている agency それ actually matters,
+それ’s 行く to reduce the negative impact の the frustration. しかし これ は
+のみ true もし the プレーヤー understands 全て それ. もし the プレーヤー doesn’t
+理解する どうやって 彼らの アクション influence the outcome, 彼らは かもしれない として well
+ない 持っている agency. これ は どこ 多くの ゲーム fall apart, especially のために
+もっと casual audiences. It’s とても frustrating to press buttons そして ない
+理解する why 彼らは matter. そして それ understanding は entirely the
+responsibility の the ゲーム designer. Remember, the プレーヤー のみ knows
+何 comes を通して それ tiny funnel の information 彼らは 見る の上 the
+pixels の上 the screen. もし 彼らは aren’t able to construct a full mental model
+の the logic 行く の上 inside the computer, to expect, 彼らは’re 行く to
+持っている いくつかの negative frustration. で 多くの cases, the hard 一部 の being a
+ゲーム designer isn’t coming 上 と 良い アイデア; それ’s getting the プレーヤー
+to 理解する それらの 良い アイデア.
+Difficult Frustration: Agency それ matters そして 作る sense は ない
+enough. の challenges また 持っている to なれ fair. Banging あなたの head against
+
+の impossible challenge できる なれ a positive type の frustration (cough
+Elden Ring cough), しかし ない のために 全て 選手. Some 選手 欲しい もっと
+manageable challenges そして find extreme difficulty to なれ bad
+frustration. しかし the inverse は また true – a プレーヤー 誰が enjoys mastering
+a skill may consider a sequence の easy challenges to なれ frustrating で
+a とても 違う 方法. Finding the right balance のために the audience の あなたの
+ゲーム できる なれ difficult – もっと の上 それ later.
+Fun Frustration: Finally, で いくつかの cases, 選手 持っている agency,
+理解する the consequences の 彼らの アクション, そして still fail. これ は
+called ゲームプレイ. もし the プレーヤー understands why 彼らは failed, the
+frustration から the failure は much less. で the best cases, frustration は
+a fuel それ drives the プレーヤー to come back そして try again. Games は
+built の上 iteration, both として a development practice そして として a プレーヤー
+strategy. あ 良い ゲーム 意思 create positive feelings の frustration それ
+guide the プレーヤー to の emotional response along the lines の “私 できる する
+better”. Which は a 素晴らしい lesson to learn のために life, 平 outside の the
+magic circle.
+
+Meaning
+私 考える それ’s 重要 to 理解する 何 ゲーム mean. Since ゲーム は a
+relatively 新しい form の art, 私たちは don’t いつも 考える の 彼ら として having の
+impact の上 the 世界. しかし 彼らは する. の person 誰が starts playing a ゲーム は
+違う から the person after the ゲーム は done. Games 作る 人々 考える
+について もの. Games change the 世界.
+For 多くの ゲーム, これ は ない the primary ゴール の the ゲーム. It かもしれない なれ
+money. It かもしれない なれ providing a 単純 fun 時間. しかし meaning happens
+whether the creator intends それ または ない. 私 理解する programming better
+because 私 played Robo-Rally. Some の my love の creativity そして creative
+
+problem-solving comes から early Infocom text adventures. Minecraft もっている
+made a generation の kids 考える differently について creation そして resources そして
+exploration そして problem-solving.
+私 don’t 考える any ゲーム もっている 1つ discrete meaning. Even ゲーム と a
+clear intended meaning 意思 なれ interpreted differently による それぞれ プレーヤー 誰が
+encounters それ. So, いつ 私 talk について meaning で the ゲーム で これ book, 私
+don’t intend to exclude 他の meanings. いつ 私たちは talk について これ で class,
+every semester もっている 違う answers そして 彼らは’re 全て right.
+For me, シャベル 騎士 は について persistence. It’s ない the のみ ゲーム どこ
+the main character は beaten down constantly そして もっている to constantly 得る 上,
+しかし それ’s a clear example の それ style の 遊ぶ. 私’m ない the ほとんど skilled プレーヤー,
+それで 私 tend to die a lot. しかし the のみ 時間 私 feel のように 私’m losing は いつ 私 put
+the ゲーム away そして give 上 の上 saving poor Shield 騎士.
+OceanofPDF.com
+
+Chapter 3
+あめ 打ち砕く 佐賀 / Goals
+DOI: 10.1201/9781003346586-3
+
+あめ 打ち砕く 佐賀
+あめ 打ち砕く 佐賀 は a 素晴らしい ゲーム.
+あめ 打ち砕く 佐賀 (形 3.1) は a 携帯 ゲーム released による King (now
+一部 の Microsoft) で 2012. Since launch, それ もっている consistently been 1つ の the
+ほとんど popular ゲーム の上 携帯, と hundreds の thousands の monthly
+users Curry, D. (2024).
+
+形 3.1 あめ 打ち砕く 佐賀 screen.
+私’ve never worked の上 あめ 打ち砕く 佐賀, しかし 私 did 仕事 の上 a competitor.
+いつ 私 だった で a studio called Zindagi, 私たちは designed a match-3 called Crazy
+Cake Swap ベースの の上 a similar puzzle ゲーム called Crazy Kitchen. の
+studio got bought による Zynga そして didn’t stay その周り のために long after それ, しかし 私
+知る これ genre better よりも 私 知る ほとんど genres.
+
+あめ 打ち砕く 佐賀 – Gameplay Dissection
+動詞
+To 理解する あめ 打ち砕く 佐賀, let’s 始める どこ 私たちは いつも する: 動詞.
+What できる the プレーヤー する で あめ 打ち砕く 佐賀?
+で これ case, それ’s a 単純 answer: swap. の プレーヤー できる touch a candy で
+the grid そして それから slide それ to の adjacent candy. いつ the プレーヤー する これ,
+the two candies swap positions. That は the entirety の the プレーヤー’s active
+contribution to the コア loop (形 3.2). そこには は いくつかの interesting less
+active もの the プレーヤー する その間 swapping, such として “Scan” そして “Predict”,
+しかし これら aren’t the 単純 button アクション, それで 私たちは’ll save discussion の それらの
+のために later で これ chapter.
+
+形 3.2 Inputs.
+
+の コア loop continues から そこには, though (形 3.3). After the プレーヤー
+作る a swap, the ゲーム rules check to 見る もし either candy creates a line の
+three または もっと. もし それ doesn’t, the swap は canceled. もし それ する, the ゲーム
+removes それらの candies, possibly と の extra effect もし the line は four または
+もっと candies. Then the remaining candies fall to fill the empty space, which
+できる possibly create 新しい matches そして cause a chain reaction として それぞれ match
+creates 新しい matches.
+
+形 3.3 Outputs.
+の プレーヤー performs a 単純 アクション, そして the ゲーム rules result で
+complex outcomes. これ は 1つ の the strengths の video ゲーム – the
+processing burden の the ゲーム できる なれ placed の上 the computer’s shoulders.
+の rules の あめ 打ち砕く するだろう なれ much less fun として a board ゲーム どこ
+the 選手 持っている to move それぞれ candy による hand そして figure 外 the outcome の
+それぞれ 新しい position.
+Swapping そして the reactions to それ swap は the heart の あめ 打ち砕く
+佐賀, そして the コア loop の any match-3 ゲーム.
+そして のために completeness, あめ 打ち砕く 佐賀 また もっている a 少し special case
+動詞:
+
+1. Players できる 使用 powerups such として the lollipop to remove 特定の
+candies または otherwise affect the grid outside の swap アクション. Outside の
+the tutorials それ teach これら interactions, 彼らは は never required to
+完了 a レベル, しかし 彼らは は いつも そこには のために the プレーヤー to 使用. しかし
+彼らは は a limited resource それ できる のみ なれ acquired として の occasional
+reward または のために money.
+2. Late で the ゲーム, そこには は 新しい board elements それ include の
+interactive choice による the プレーヤー. For example, あめ Frogs let 選手
+choose どこ to place 彼ら いつ 彼らは go off.
+3. Secondary modes のように events provide a choice の 何 to 遊ぶ そして
+sometimes 持っている いくつかの basic decision-making で the event itself.
+So outside の これら caveats, the verb の あめ 打ち砕く 佐賀 は “swap”.
+
+Goals
+の ゲームプレイ ゴール の あめ 打ち砕く 佐賀 varies ベースの の上 the レベル. All
+目標 revolve その周り clearing もの off the board, しかし the nuances の
+exactly 何 あなた’re trying to する できる change:
+1. Clear a certain number の candies.
+2. Clear a certain number の candies の a particular type.
+3. Clear a certain number の special objects, のように cherries, による dropping
+彼ら to the bottom の the grid.
+4. Remove a certain number の non-candy obstacles, such として jellies.
+5. Etc.
+More の上 これ で a moment.
+
+Challenge
+の real variety で あめ 打ち砕く 佐賀 (そして ほとんど match-3 ゲーム) comes
+から the randomness の the falling pieces そして the variety の obstacles それ
+作る reaching the ゴール difficult. Most レベル 持っている もっと よりも ただ candies の上
+the board – a large variety の 違う objects create additional challenges
+そして opportunities のために the プレーヤー. これら range から 単純 inert objects それ
+は removed いつ matches は made near 彼ら (Frosting), to inert objects
+それ expand across the grid 以上 時間 (Chocolate), to snakes それ charge の中へ
+baskets after enough matches は made next to 彼ら (あめ Cobra). これら
+aren’t 全て dangerous – そこには は また advanced board elements それ できる なれ
+useful, such として conveyor belts, または は almost purely beneficial, such として the
+UFO それ drops special candies.
+これら obstacles は key to あめ 打ち砕く 佐賀’s success. の basic
+concepts の the match-3 genre existed before あめ 打ち砕く 佐賀.
+Specifically, the concepts の the genre だった solidified で Bejeweled (2001)
+そして Bejeweled Blitz (2009). Many の the コア アイデア だった present で earlier
+ゲーム のように Shariki (1994). の コア ゲームプレイ は とても directly ベースの の上
+previous ゲーム のように Bejeweled. しかし それらの previous ゲーム used のみ a
+single レベル – そこには だった no obstacles そして ただ 1つ board. あめ 打ち砕く
+佐賀 innovated による adding a variety の レベル と 違う obstacles そして a
+違う grid layout のために それぞれ レベル. これ gave the existing fun コア
+ゲームプレイ もっと variety そして long-term appeal. Bejeweled だった successful, しかし
+あめ 打ち砕く 佐賀 took それ success to vast 新しい heights による adding varied
+challenges そして a stronger sense の progression.
+の sense の progression comes から the “佐賀” で the title. One の the
+大きい innovations の あめ 打ち砕く 佐賀 だった the 佐賀 Map. It’s ない ただ それ
+the プレーヤー だった given a variety の レベル と 違う obstacles, それ’s また
+重要 それ これら レベル だった set 上 として a line – a path to a destination.
+
+Once the プレーヤー completes a レベル, 彼らは move の上 to the next 1つ, heading
+toward the end. の 佐賀 Map organizes これ progression で a 単純 line,
+showing the プレーヤー the next レベル 彼らは’ll なれ playing. これ came 外 いつ
+social gaming だった king, それで the line また shows あなた どこ あなたの friends は,
+creating いくつかの social pressure to advance. しかし the key concept here は それ
+the プレーヤー は いつも doing 何か 新しい, そして もっている a sense の progression
+それ 作る 彼ら 欲しい to come back tomorrow そして try again. Progression は
+a 素晴らしい driver のために 選手, で any form.
+の basic flow の the ゲーム は 単純 – the プレーヤー swaps to clear the
+レベル, と various obstacles で the 方法. しかし the obstacles そして 目標 change
+で それぞれ レベル, として shown で 形 3.4, making the 単純 flow 仕事 のために a
+long 時間.
+
+形 3.4 あめ 打ち砕く 佐賀 flow: Simple diagram showing
+Actions, Challenges, そして Goals, と lots の variation の上 the
+Obstacles そして Goals.
+
+あめ 打ち砕く 佐賀 – Non-Gameplay
+Dissection
+Technology
+あめ 打ち砕く は a fairly 単純 ゲーム それ relies の上 a vast network の
+advanced technologies to 仕事. これ は 1つ の the fun daily realities の the
+世界 私たちは live で. の rules の the ゲーム そして the interactions the プレーヤー
+experiences は built の上 easy-to-理解する combinations の 単純 shapes.
+これ は 良い ゲーム design そして keeps the プレーヤー engaged. しかし the rest の the
+experience は built の上 touch screens そして constant online communication そして
+vast behind-the-scenes databases それ は 方法 もっと powerful よりも the
+technology それ brought humans to the moon.
+One thing それ は 重要 to 考える について として a ゲーム designer は どうやって
+これら vast 変化 で the 世界 の technology affect あなたの ゲーム. New
+technology comes along 全て the 時間, そして いくつかの の それ は a 素晴らしい fit のために 新しい
+types の ゲーム. Sometimes そこには は a direct linkage between a 新しい
+technology そして a 新しい style の ゲーム, such として GPS-enabling Pokémon Go
+(2016). Sometimes the 変化 は もっと subtle そして 必要 時間 そして thought
+to 理解する. It’s ない obvious (except で retrospect) それ improvements で
+computer miniaturization そして wireless communication するだろう lead to
+everyone having a powerful connected computer で 彼らの pocket で 全て times.
+そして 平 それから, それ’s less obvious それ それ するだろう lead to 人々 looking のために
+ゲーム それ 彼らは できる pick 上 そして 遊ぶ で any 時間 のために とても short 遊ぶ
+sessions. Technology doesn’t のみ change 何 人々 できる する と ゲーム,
+それ 変化 何 彼らは 欲しい to する そして いつ 彼らは 欲しい to する それ そして のために どうやって
+long. の 変化 to the rules の technology create 変化 to the dynamics
+の どうやって 人々 interact と technology, しかし もっと の上 the word “dynamics”
+
+で Chapter 4. これら 変化 できる なれ harder to predict しかし provide 素晴らしい value
+のために あなたの ゲーム designs once あなた notice 彼ら.
+
+Senses
+あめ 打ち砕く 佐賀 looks cartoony そして childish. Everything は で bold,
+bright colors. の candies は 単純 そして iconic. の ゲーム は ない subtle で
+its communication; もし それ wants あなた to 知る 何か, それ 意思 shout それ rather
+よりも whisper それ. At a glance, あなた かもしれない guess それ これ は a ゲーム のために
+children. しかし the majority の 選手 は adults.
+Clearly, これ works のために あめ 打ち砕く 佐賀. の ゲーム は immensely
+successful, そして そこには’s no reason to 考える それ the bright cartoony style
+holds それ back. Various clones そして imitators 持っている tried to re-theme match-3
+ゲームプレイ で darker, もっと adult styles そして failed. Childish works のために adults.
+On 1つ レベル, これ could なれ pure nostalgia. Adults 欲しい a moment to relax
+そして escape から 彼らの everyday 世界, それで 何か それ evokes pleasant
+childhood memories could なれ ただ the thing. の reason childish works
+かもしれない なれ because adults 欲しい to feel のように children.
+On 別の レベル, childish かもしれない 仕事 because childish は 良い design.
+Kids は ない the のみ ones 誰が のように bold, bright colors. Iconic shapes は
+easy to distinguish そして help 作る ゲームプレイ easy to 理解する. Direct
+clear communication は 良い のために everyone, including adults 誰が は trying
+to ただ relax. の design principles それ 仕事 のために children また 仕事 のために
+adults. It’s ない childish design, それ’s ただ 良い design.
+これ は ない to say それ あめ 打ち砕く 佐賀 は constructed で a childish 方法.
+そこには は a lot の attention to detail そして polish で あめ 打ち砕く 佐賀. いつ 私
+started working の上 match-3 ゲーム, 1つ の the 初め もの 私 did だった 過ごす a
+week analyzing いくつかの の the top ゲーム, そして いくつかの の the worst ゲーム. 私
+recorded a 少し レベル の あめ 打ち砕く 佐賀 そして それから literally watched the
+
+recording frame による frame to 見る exactly どうやって everything moved そして 全て the
+少し tricks の presentation. It’s a とても useful exercise もし あなた’re trying to
+理解する polish そして presentation. Make sure あなた する the 同じ と いくつかの
+less successful ゲーム to 本当に 見る the differences.
+
+Freeze Frame
+Things 私 saw による watching every frame の あめ 打ち砕く 佐賀:
+Be 本当に careful と motion. Humans 知る どうやって falling looks そして expect もの to
+accelerate そして decelerate で certain ways. Falling で a constant speed は easier to code しかし
+looks weird.
+You できる cover 上 lots の もの と explosions. Don’t bother と expensive
+transformations もし の explosion 意思 feel ただ として 良い または better.
+Squash そして stretch. これ は の animation term のために changing the shape の の object to
+emphasize の impact. It 本当に works.
+Anticipation. Building 上 to a reward は として 重要 として paying off the reward. Adding a
+少し frames の buildup 作る almost everything better.
+Sequencing. Know the order の events そして keep それ holy. It’ll help 選手 理解する
+何’s happening そして それ’ll keep あなたの ゲーム logic そして code understandable.
+Compression. いつ あなた 持っている lots の もの それ 必要 to happen で once, あなた できる break
+the Sequencing rule そして 持っている もの overlap a bit. しかし する それ で a logical そして constrained
+方法. Think を通して 何 the プレーヤー needs to focus の上, そして する いくつかの hand-waving で 他の
+places.
+
+Emotion そして Narrative
+あめ 打ち砕く 佐賀 は ない a deeply emotional ゲーム. そこには は no complex
+storyline to follow と deeply realized characters following narrative arcs
+誰が the プレーヤー grows to care について. そこには は a 単純 話 それ presents a
+problem to solve, そして それから a 少し レベル later congratulates あなた のために solving
+それ. これ は enough 話 to give あなた a reason to continue, しかし あめ 打ち砕く
+佐賀 は ない a ゲーム どこ the majority の 選手 は advancing to find 外
+何 happens next.
+
+あめ 打ち砕く 佐賀 する hit emotional notes を通して the ゲームプレイ.
+あめ 打ち砕く 佐賀 は a ゲーム の constant rewards. Whenever あなた する
+anything で the ゲーム, 何か explodes そして the ゲーム tells あなた どうやって 素晴らしい
+あなた は. これ は maybe ない the ほとんど emotionally deep reward system, そして 私
+wouldn’t trust the ゲーム’s praise to evaluate my self-worth, しかし sometimes
+それ’s ただ nice to hear praise. Constant rewards できる なれ emotionally soothing.
+あ working mom 誰が は having a hard day そして ただ wants to catch 彼らの
+breath そして relax doesn’t 必要 a ゲーム それ constantly tells 彼ら 彼らは’ve died
+そして 必要 to 始める everything 以上. あめ 打ち砕く 佐賀 する 持っている fail states,
+そして それ する apply a 少し bit の emotional pressure で それらの moments (mostly
+to encourage the プレーヤー to 過ごす money), しかし それ’s the exception, ない the
+rule. Most の the 時間, playing あめ 打ち砕く 佐賀 は soaking で a warm bed
+の reward そして praise. Some ゲーム は here to give 人々 何 彼らは 欲しい.
+
+Money
+How する あめ 打ち砕く 佐賀 作る money?
+の 他の 大きい innovation あめ 打ち砕く 佐賀 added to the match-3 genre,
+他の よりも the レベル variety demonstrated で the “佐賀” 一部 の the title, は
+the monetization model. あめ 打ち砕く 佐賀 は free to download そして to 遊ぶ.
+All ten thousand plus レベル は free to access. しかし the ゲーム constantly asks
+あなた to 過ごす money の上 他の もの. Powerups. Unlimited lives. Extra
+turns. Special modes.
+Free-to-遊ぶ business models drive ほとんど の the sales で the ゲーム
+industry これら days. そして 彼らは 仕事. Most の the 選手 で これら ゲーム pay
+nothing. あ small percentage pay 何か. そして の 平 smaller
+percentage pay a lot. これら は the “whales” – the large spenders 誰が keep
+everyone else afloat.
+
+の morality の the free-to-遊ぶ model は a hotly debated topic. そこには は
+certainly companies trying to suck every penny 外 の 彼らの 選手, そして
+using いくつかの questionable approaches to する それ. No 1つ should なれ exploiting
+gambling addictions または tricking children の中へ spending 彼らの parent’s money
+または promising もの to 選手 それ 意思 never materialize.
+しかし ほとんど free-to-遊ぶ ゲーム, such として あめ 打ち砕く 佐賀, は ない それ
+bad. Every monetization model – arcade cabinets, CDs で boxes,
+hypercasual ad-driven ゲーム – は trying to 使用 human psychology to 得る
+人々 to buy もの. At いくつかの レベル, 全て marketing は manipulation. しかし それ
+doesn’t mean それ もっている to なれ の entirely bad thing. Good marketing は
+manipulating 人々 to notice もの それ 彼らは 欲しい そして 意思 enjoy. そして 私
+believe それ ほとんど free-to-遊ぶ ゲーム は actually providing a valuable
+service to 人々. People 必要 entertainment そして ゲーム は generally a
+良い deal で the entertainment 世界. Free-to-遊ぶ allows ほとんど 人々 to
+得る 彼らの entertainment のために free, と いくつかの advertisements として the cost. そして
+the 人々 誰が 欲しい to 過ごす もっと そして できる afford それ fund the rest の the
+選手.
+私’ve done interviews と whales. Most の 彼ら は とても happy と 彼らの
+purchases そして するだろう 過ごす the money the 同じ 方法 again. They 持っている
+disposable income, そして これ は どうやって 彼らは choose to 使用 それ. Rich 人々 過ごす
+money の上 much sillier もの よりも 携帯 ゲーム. You できる find 人々 誰が
+overspend または otherwise 持っている a negative spending experience, しかし 平
+among whales ほとんど の the transactions は mutually beneficial.
+あめ 打ち砕く 佐賀 は a quality ゲーム. Spending いくつかの money to 作る the
+experience better は ない unreasonable. 私’m personally a free-to-遊ぶ プレーヤー
+(ほとんど の the 時間 – 私’ll 過ごす a 少し money to support ゲーム 私 particularly
+enjoy), しかし 私 理解する why 人々 するだろう 過ごす without being coerced.
+の free-to-遊ぶ model isn’t perfect, そして もし 私 could wave a magic wand そして
+
+let everyone 遊ぶ そして 作る ゲーム そして 全て なれ rich 私 するだろう, しかし 私 believe それ
+free-to-遊ぶ は のみ problematic いつ abused.
+
+History
+Mobile ゲーム は the コア の the ゲーム industry これら days. Console ゲーム
+そして PC ゲーム は still 行く strong, しかし で terms の dollars spent, 携帯
+ゲーム は bigger よりも everything else combined.
+Mobile ゲーム took a その間 to 得る そこには, though. で the early days の the
+携帯 ゲーム market, そこには だった a lot の experimentation そして uncertainty. No
+1つ knew 何 するだろう succeed.
+Some companies tried releasing console-quality ゲーム (Infinity Blade
+(2010)) または literal ports の PC または console ゲーム (Return to Monkey
+Island (2022, 携帯 2023), Grand Theft Auto: San Andreas (2002,
+携帯 2013), XCOM: Enemy Within (2013, 携帯 2014)). Neither の
+これら approaches became dominant, しかし そこには だった a 少し notable
+successes, such として a 少し title called Minecraft (2009, 携帯 2011).
+Although 平 Minecraft dropped its price significantly compared to
+他の platforms.
+Some ゲーム experimented と the novelty の touch screen inputs.
+Games のように Flight Control (2009) または Where’s My Water? (2011)
+discovered 新しい styles の ゲーム それ wouldn’t 仕事 と a controller.
+これら generally did well そして あなた できる 見る 新しい innovations come 外
+そして succeed regularly. あ lot の the modern innovation で これ area は で
+the hypercasual genre どこ innovative アイデア は needed to grab
+人々’s attention (そして それから throw a lot の ads で 彼ら).
+これ だった また the early days の the shift to digital distribution across
+the industry. Games could now なれ services と 新しい content flowing
+to 選手 として quickly として それ could なれ approved による Apple. Pocket God
+
+(2009) だった の interesting experiment で これ space, updating として quickly
+として possible と 大きい 新しい features changing the とても nature の the ゲーム
+regularly. Games それ 遊ぶ のように Pocket God aren’t common これら days,
+しかし the model の constant meaningful updates もっている become とても
+common そして remains successful, 平 の上 他の platforms のように Roblox
+または のために 他の ゲーム のように Fortnite (2017).
+Along と 他の 変化, monetization だった また uncertain. At 初め,
+companies thought それ 携帯 gamers するだろう pay 何か close to
+console price, または で least similar to the downloadable markets それ だった
+developing の上 consoles そして の上 Steam. しかし として companies experimented
+と pricing, 彼らは found それ lower prices worked. の increase で
+sales offset the drop で price, それで soon Angry Birds (2009) だった the top
+の the Grossing chart で the lowest possible price – 99 cents. Then
+Apple added the option to sell もの inside the ゲーム, そして で-app
+purchases だった born. Immediately, ゲーム のように Smurf Village (2010)
+discovered それ free だった 平 もっと appealing to 人々 よりも 99 cents.
+の modern free-to-遊ぶ model だった born.
+で これ era, 携帯 ゲーム だった また learning a lot から social ゲーム.
+Facebook だった a huge platform のために ゲーム のために a 少し years, before 変化 to
+the advertising structure そして success の 携帯 killed それ. Social ゲーム
+pioneered 多くの の the free-to-遊ぶ principles それ later dominated the
+携帯 market.
+あめ 打ち砕く 佐賀 だった originally a Facebook ゲーム. そして before それ, それ
+だった originally a web ゲーム. King, the company それ 作る あめ 打ち砕く
+佐賀, もっている used の interesting method のために testing 外 新しい titles. They
+generally release lots の 新しい ゲーム 初め の上 彼らの web browser そして 見る どうやって
+彼らは perform そこには. の best-performing titles は considered のために conversion
+to 他の platforms. At the 時間, Facebook だった considered the 初め step そして
+
+携帯 だった a 新しい そして experimental platform. So, あめ 打ち砕く 佐賀 初め
+appeared として あめ 打ち砕く, a web ゲーム without the レベル variety それ made
+あめ 打ち砕く 佐賀 それで successful. の 佐賀 idea 初め appeared で Bubble
+Witch 佐賀 そして proved successful. いつ King brought 彼らの score 攻撃
+match-3 あめ 打ち砕く 以上 to Facebook, 彼らは added similar 佐賀 elements.
+あめ 打ち砕く 佐賀 did 素晴らしい の上 Facebook, それで within a 少し months それ だった
+brought 以上 to 携帯 として well.
+By the 時間 あめ 打ち砕く 佐賀 came to 携帯 (2012), the battle 以上
+pricing だった mostly done. の free-to-遊ぶ models それ had been pioneered
+で Facebook だった dominating の上 携帯. So, あめ 打ち砕く 佐賀 launched
+のために free, と strong social elements. Many の それらの social elements 持っている
+faded to the background 以上 the years として the industry もっている continued to
+evolve そして updates 持っている changed あめ 打ち砕く 佐賀. Competing のために high
+scores against あなたの friends, または のために progress along the 佐賀, used to なれ
+prominently displayed しかし now は もっと の の afterthought.
+So, あめ 打ち砕く 佐賀 came の中へ the market で the right 時間 と の
+innovative take の上 both the ゲームプレイ の match-3 そして the free-to-遊ぶ
+monetization model. の ゲーム だった a hit から day 1つ. King already knew
+それ それ had a 良い chance, ベースの の上 its success の上 他の platforms, しかし
+nothing は certain で これ industry. で これ case, それ worked. あめ 打ち砕く 佐賀
+だった それで successful それ spawned multiple sequels, a line の merchandizing, そして
+平 a short-lived network television ゲーム show. そして それ became my wife’s
+favorite video ゲーム.
+
+Meaning
+What は あめ 打ち砕く 佐賀 について? What する あめ 打ち砕く 佐賀 say について
+the 世界? How する playing あめ 打ち砕く 佐賀 change どうやって あなた 見る the
+世界?
+
+To me, あめ 打ち砕く 佐賀 は について the joy の unintended consequences.
+の プレーヤー 作る a seemingly 単純 innocuous アクション, そして suddenly the
+screen は filled と colorful explosions そして いくつかの guy と a deep voice は
+calling 外 compliments. の プレーヤー didn’t plan それ 外. の プレーヤー didn’t
+知る exactly 何 だった 行く to happen. しかし のように 多くの もの で life, taking
+それ 初め step leads to 全て sorts の unknown もの.
+あめ 打ち砕く 佐賀 は the type の ゲーム それ doesn’t 本当に challenge the
+プレーヤー. Sure, いくつかの レベル は nearly impossible, しかし それらの レベル generally
+require luck to 完了 along と skill. Mostly あめ 打ち砕く 佐賀 は a
+warm bath の compliments そして pleasant explosions. そして 私 believe これら
+types の ゲーム 作る the 世界 a better place. People 必要 comfort. People
+必要 もっと praise で 彼らの lives. もし a ゲーム できる help 人々 なれ happy そして 得る
+を通して 彼らの lives, 私 support それ. Since the dawn の 時間, humans 持っている
+sought escapism. That 必要 は deep で the human psyche. Games は the
+latest delivery method. 私’m ない 行く to fight against the human psyche. Let
+人々 enjoy 単純 fun.
+
+Goals
+動詞 tend to 仕事 together. で シャベル 騎士, 私 できる move, そして 私 できる 攻撃.
+私’m generally もっと successful で the ゲーム いつ 私 combine これら 動詞. 私
+don’t move, pause, wait, それから 攻撃. 私 攻撃 その間 私’m moving. 私 look
+その周り その間 私’m moving. 私 don’t stop そして pause; 私’m constantly
+performing 全て the アクション で 1つ 時間 そして それ’s 一部 の 何 作る これら
+ゲーム challenging そして interesting. Not 全て 選手 できる manage the feats の
+dexterity そして rapid stimulus processing required to なれ successful で moveshovel いつ 彼らは 全て 持っている to なれ done together.
+の プレーヤー’s 目標 できる また 仕事 これ 方法. いつ 私’m moving to line 上 a
+shot, 私’m また considering どうやって to best avoid the line の fire の 別の
+
+enemy で the 同じ 時間. Goals できる なれ combined ただ のように アクション できる なれ
+combined (形 3.5). しかし 目標 は 平 もっと likely to なれ layered rather
+よりも combined.
+
+形 3.5 Two 動詞 merging の中へ a bigger verb.
+Look で あめ 打ち砕く 佐賀. もし あなた chose a random second の a プレーヤー’s
+session で あめ 打ち砕く 佐賀, the verb は likely to なれ “swap”. Maybe “look”
+もし あなた accept それ として a valid verb. しかし the プレーヤー’s 目標 は 行く to hit
+多くの 違う layers の analysis:
+1. Making a match
+2. Having これ match lead to a chain reaction または create a power gem
+3. Having これ match lead to a better board state いつ それ’s done
+4. Removing lots の gems
+5. Making progress toward the ゴール の これ レベル
+6. Scoring points
+7. Beating これ レベル
+8. Beating これ レベル と three stars
+9. Completing の event または challenge ゴール
+
+10. Getting to the end の the レベル progression
+11. Getting a better score よりも my friends
+12. Relaxing
+13. Helping the cute 少し puppet creature to 完了 its ゴール
+14. Clearing the chocolate
+15. Removing the blockers
+16. あ とても large number の レベル-特定の ゴール types それ 私 could list しかし
+それから これ chapter するだろう become boring そして repetitive そして として a ゲーム
+designer 私 try to avoid boring もの
+これ は normal. で ゲーム として well として life, a single アクション rarely もっている a single
+ゴール. Goals come で herds. Some と subtle nuanced distinctions, そして
+いくつかの coming から completely 違う directions. 私 欲しい to beat the レベル.
+私 欲しい to beat the レベル と three stars. 私 欲しい to beat the レベル と a
+higher score よりも my brother. これら は expressions の the 同じ base ゴール
+しかし と 違う nuances. From a ゲーム design standpoint, これら できる なれ
+merged の中へ a larger ゴール: success で the レベル (形 3.6).
+
+形 3.6 Two 目標 merging の中へ a bigger ゴール.
+
+の bigger differences between 目標 は often ベースの の上 scale. 私 欲しい これ
+アクション to clear lots の gems. 私 欲しい to beat the whole レベル. 私 欲しい to 得る to
+the end の the ゲーム progression. 私 欲しい the アクション 私’m performing now to
+作る me successful now, soon, そして で the future. これ sort の layering の
+目標 は とても 重要 to ゲーム design. Game designers のように to talk について
+目標 として onions – 1つ ゴール は contained within the 他の ゴール (形 3.7).
+Progress toward 1つ smaller ゴール また progresses あなた toward a larger ゴール.
+
+形 3.7 One ゴール inside 別の ゴール.
+So, both 目標 progress ベースの の上 the 同じ プレーヤー アクション, しかし the second
+ゴール は bigger それで それ takes longer. Completing the 初め ゴール は a step toward
+completing the second ゴール. いつ あなた 完了 the 初め ゴール, あなた still
+持っている the second ゴール to keep あなた driving forward. At no point する the
+プレーヤー 完了 1つ ゴール そして 持っている nothing left to する. For a ゲーム designer,
+a プレーヤー と “nothing left to する” は a problem – 彼らは’re likely to leave the
+ゲーム そして go する 何か else. Layered 目標 fix これ による keeping the
+プレーヤー motivated で 全て times.
+
+で あめ 打ち砕く 佐賀, a プレーヤー may say それ 彼らの ゴール は to beat これ
+レベル. しかし to する それ, 彼らは 必要 to find そして 作る matches. Once 彼らは
+完了 the small ゴール そして 作る それ match, 彼らは は (hopefully) closer to
+彼らの 大きい ゴール の completing the レベル. しかし now 彼らは 持っている to 始める 別の
+loop の activity to find 別の match そして 完了 それ small ゴール again.
+Only after a 少し dozen small 目標 は the large ゴール reached.
+そして once the large ゴール は reached, the プレーヤー は taken back to the 佐賀
+Map どこ 彼らは remember それ the large ゴール は ただ a small step toward the
+ultimate long-term ゴール の progressing to the next 話 bit または to beat a
+friend または to reach “the end”.
+So maybe 目標 aren’t onions. Maybe 目標 は garlic. One head の garlic
+seems のように a single unified thing しかし いつ あなた break の中へ それ, あなた find 多くの
+smaller versions inside (形 3.8).
+
+形 3.8 Many 目標 inside 別の ゴール.
+これ は 良い psychology. Humans のように to group もの そして draw lines
+その周り 彼ら. Part の the fun の 目標 は getting to define a task そして それから
+check それ off あなたの to-する list. Completing a ゴール は fun.
+
+そして to なれ clear, これ isn’t a monetization trick. これ は 何 作る the
+ゲーム fun. “Engagement” は a key ゴール の free-to-遊ぶ ゲーム, そして それ する
+drive monetization. しかし それ’s また a sign それ 選手 は having fun. で my
+opinion, the best 方法 to drive monetization は to 作る sure the プレーヤー は
+having fun そして engagement は 1つ 方法 to identify いつ それ’s happening.
+これ は why layers は 素晴らしい. もし そこには は いつも 何か もっと to する, the
+プレーヤー は never looking で の empty checklist. いつ 彼らは 完了 1つ
+check box そして 得る それ hit の serotonin, そこには は still もっと checkboxes to
+する. Not ただ the next 1つ, しかし 1つ それ’s halfway finished. Or 平 better,
+1つ それ’s ただ について to なれ finished. もし あなた’re で 4% progress toward a ゴール,
+そこには’s no pressure to stay で the ゲーム そして 完了 それ. しかし もし あなた’re で
+96%, それから あなた かもしれない として well 遊ぶ 1つ もっと レベル to finish それ off. そして それから
+いつ あなた する, そこには 意思 なれ 別の ゴール で 97% waiting のために あなた.
+これ は present で 多くの ゲーム:
+Civilization そして 他の 4x strategy ゲーム は well-known のために promoting
+“1つ もっと turn” ゲームプレイ どこ そこには は 多くの 違う layers の
+目標 それ overlap で complex ways, ensuring そこには は いつも 1つ もっと
+thing to する.
+Boss レベル は 別の 方法 to promote 選手’ desire to check off
+boxes. の boss は the hardest 一部 の the レベル, しかし それ いつも shows 上
+いつ あなた’re already past 90% 完了. の temptation to check off
+それ box は 一部 の why boss レベル は それで motivating.
+Role-playing ゲーム (RPGs) offer multiple forms の progression –
+話 quests, side quests, character stats, faction relationships, skill
+points, equipment, etc. これ ensures それ whenever a プレーヤー completes
+a ゴール, そこには は もっと もの to する.
+You できる 見る これ で the evolution の あめ 打ち砕く 佐賀.
+
+Match-3 ゲーム such として Bejeweled existed before あめ 打ち砕く 佐賀,
+と とても similar コア ゲームプレイ loops, 平 down to the 特定の power
+gem abilities. しかし いつ あめ 打ち砕く 佐賀 came 外, its sales そして
+engagement blew 彼ら 全て away. あめ 打ち砕く 佐賀 succeeded で large 一部
+because の the 佐賀 ゴール structure. の 佐賀 structure takes a fun コア
+ゲームプレイ loop それ had been mastered で previous match-3 ゲーム (形
+3.9) そして adds 別の layer の 目標 の上 top の それ. You still 欲しい to 作る
+良い matches そして 得る a 良い score, しかし now そこには は two 新しい layers.
+
+形 3.9 Goals merge: Make match, Create combos, Gain
+points.
+で the 時間-battle-ベースの style の ゲーム のように Bejeweled, そこには’s no 方法 to
+“beat” a レベル. You できる 得る a 良い score, しかし あなた できる never check off a box
+それ says the レベル は done.
+の 佐賀 map gives a clearer sense の progress の上 の individual レベル.
+You できる “beat” それ レベル, 平 もし そこには’s いつも room to go back そして
+improve あなたの score (形 3.10).
+
+形 3.10 Same, しかし と a bigger circle その周り それ: Beat レベル.
+そして once あなた beat a レベル, あなた’re taken back to それ map そして shown the
+true ゴール – long-term progression. で Bejeweled, the end の a レベル may または
+may ない check a personal ゴール box depending の上 あなたの final score. で あめ
+打ち砕く 佐賀, あなた’re usually checking で least 1つ box そして maybe もっと
+(形 3.11). そして あなた’re reminded の 全て the remaining boxes あなた できる
+check で the future. That’s much もっと emotionally compelling そして drives
+long-term retention で a 素晴らしい 方法.
+
+形 3.11 Same, しかし と a bigger circle その周り それ: Complete
+ゲーム.
+
+Other Goals
+Looking で the list の 目標, いくつかの は groups の related tasks (various ways
+to evaluate a move), いくつかの は garlic cloves の related progression (move,
+レベル, ゲーム), しかし いくつかの don’t fit either の これら categories. Things のように
+“relax” または “help the puppet” suggest それ そこには は a lot の room のために 他の
+types の 目標.
+Helping the puppet は の example の a narrative ゴール. の プレーヤー は
+motivated による emotional 目標 created による the ゲーム’s 話, especially いつ
+mixed と the motivation to progress a narrative forward. これら は
+powerful 目標 のために humans, として storytelling そして completion は deeply
+woven の中へ humanity. For 多くの ゲーム, ただ これ ゴール motivation は enough
+to invest 時間 そして effort の中へ a full 話 と (expensive) cinematics. Core
+ゲームプレイ drives 選手 forward, そして progression keeps 彼ら wanting
+もっと, しかし deep engagement requires いくつかの emotional investment.
+Other 目標 のように “relax” suggest それ the プレーヤー may 持っている 目標 のために
+playing the ゲーム それ は outside the structure の the ゲーム. の ゲーム
+doesn’t directly 持っている a relax button, そして none の the explosions それ occur
+いつ candies match は directly designed to ensure プレーヤー relaxation.
+Relaxation は the reason the プレーヤー comes to the ゲーム, ない 何か the
+ゲーム directly produces. いつ 全て the parts の the ゲーム は working
+correctly, これ ゴール 意思 なれ the result. これら sorts の 目標 は 重要 to
+look のために そして 理解する で あなたの ゲーム. Just because 彼らは’re ない entirely
+driven による ゲーム features doesn’t mean それ あなた として a ゲーム designer できる’t
+influence 彼ら. Understanding 何 あなたの 選手 欲しい inside そして outside
+the ゲーム は critical.
+
+Player-Generated Goals
+One type の ゴール それ doesn’t show 上 で the ゴール list は プレーヤー-generated
+目標. の list focuses の上 目標 それ the ゲーム creates そして enforces, しかし
+humans love to generate そして track 目標 の上 彼らの own. Every 時間 あなた
+generate a to-する list そして mentally check off items として 彼らは’re completed,
+あなた’re acting として あなたの own ゲーム designer to structure そして motivate daily
+life. Players する これ during ゲーム, too. で あめ 打ち砕く, 選手 かもしれない strive
+to clear a certain area または create a certain combo 平 もし the ゲーム doesn’t
+ask 彼ら to. これ は 良い.
+As a ゲーム designer, あなた できる’t force 選手 to 作る 彼らの own 目標. しかし
+あなた できる create の environment どこ 目標 は easy to 作る そして track そして
+enjoy. の もっと freedom the ゲーム gives the プレーヤー to try divergent アクション,
+the もっと 選手 は 行く to find 彼ら そして enjoy 彼ら. Players のように
+interacting と everything で the ゲーム 世界, which は 何か ほとんど
+ゲーム designs should encourage. Finding ways to give strong feedback
+during これら アクション helps the プレーヤー 知る それ 彼らの アクション matter そして それ
+the ゲーム recognizes 何 彼らは did. いつ 私 だった working の上 Paperboy 64
+(1999) (my 初め full ゲーム design), 私たちは made sure それ almost everything
+reacted いつ being hit による a newspaper. の プレーヤー だった のみ meant to target
+a 少し 特定の もの, しかし the 世界 は much もっと fun そして engaging もし
+everything reacts. そして もし a プレーヤー wants to focus の上 throwing papers で dogs
+to keep 彼ら away から cats, 彼らは できる する それ. They don’t earn points のために それ,
+しかし the ゲーム still creates これら 少し scenarios と emotional potential そして
+shows the プレーヤー それ 彼らの アクション 持っている consequences.
+Player-generated 目標 は また の 重要 driver のために ゲームプレイ 目標.
+During early playtests, keep の eye 外 のために もの 選手 try to する. Ask
+選手 何 彼らの ゴール は. もし 選手 欲しい to する 何か, the ゲーム should
+recognize そして reward それ. で いくつかの cases, take それらの personal 目標 そして 作る
+
+彼ら の中へ ゲームプレイ 目標. しかし もし それ’s ない appropriate, take それらの personal
+目標 そして acknowledge それ 彼らは matter. Keep track の 彼ら で the design to
+作る sure 彼らは remain fun として the ゲーム 変化 そして iterates. もし possible,
+track 彼ら そして give the プレーヤー a small thumbs 上 で-ゲーム いつ 彼らは
+完了 それ ゴール, 平 もし それ’s unrelated to the main ゴール. Players のように a pat
+の上 the back, それで give 彼ら として much feedback として あなた できる to 作る それ
+happen.
+
+Events
+Since launch, あめ 打ち砕く 佐賀 もっている been finding ways to push the プレーヤー’s
+ability to 完了 目標 平 further. One の the ほとんど successful features
+で 多くの free-to-遊ぶ ゲーム は the event. For example, で あめ 打ち砕く
+佐賀, 彼らは かもしれない 持っている a special race どこ the プレーヤー は rewarded のために
+completing a certain number の レベル before 他の 選手 する. で the current
+builds の あめ 打ち砕く 佐賀, いくつかの の これら “events” 持っている become
+重要 enough to bake back の中へ the main ゲーム progression cycle. They
+started として special events それ のみ appeared occasionally しかし now は ただ
+何か それ happens naturally during 遊ぶ.
+そこには は a lot の 良い psychological hooks built の中へ limited-時間
+events.
+Players love getting もっと もの “のために free”.
+They encourage coming back soon, それで あなた できる 完了 the ゴール
+before the event ends.
+They feel special そして often emphasize the unique never-before-seen
+qualities の これ event.
+もし the 目標 は set 上 right, 彼らは scratch competitive urges で a 方法
+それ doesn’t automatically advantage expert 選手.
+
+で あめ 打ち砕く 佐賀, events は a 素晴らしい 方法 to add の intermediate layer の
+目標. あめ 打ち砕く 佐賀 する a 素晴らしい job の providing immediate 目標,
+そして the 佐賀 Map provides a 素晴らしい long-term ゴール. しかし the long-term の the
+佐賀 Map できる なれ pretty far off, especially now それ そこには は thousands そして
+thousands の レベル. の motivation to reach the end の the map now takes
+multiple years to 完了. So, そこには’s a 必要 のために もっと checkboxes between
+the “完了 a レベル” box そして the “beat the ゲーム” box.
+Events provide a ゴール それ は bigger よりも a single レベル しかし は still realistic
+to actually 完了. あ プレーヤー may never reach レベル 20,000, しかし 彼らは できる
+earn the free powerup による collecting a 少し もっと レベル to win the race. It
+doesn’t 平 matter もし 彼らは 欲しい a free powerup – それ 意思 still motivate 彼ら
+to push forward ただ to check the box. Humans は weird それ 方法.
+Being able to 見る これ で retrospect は a sign の a reasonably skilled
+designer. しかし the real trick は identifying これ before the feature は
+implemented. あ 本当に talented ゲーム designer するだろう なれ able to look で
+あめ 打ち砕く 佐賀 で launch そして identify the ゴール layers. あ 本当に 本当に
+talented ゲーム designer するだろう なれ able to する それ, そして それから notice それ the
+ゴール layers は fairly far apart. Even と のみ 80 レベル, the motivation to
+完了 a レベル そして the motivation to 完了 the ゲーム 持っている a 大きい gap.
+そして それ takes a 本当に 本当に 本当に talented ゲーム designer to する 全て それ, そして
+それから design the right solution to fix それ problem その間 また fixing a 少し
+他の problems along the 方法. 私 never worked で King, それで 私 don’t 知る 誰が
+came 上 と the idea to add the events. しかし 彼らは deserve a raise.
+(私’d なれ willing to guess それ wasn’t a single person sitting down doing これ
+analysis そして 行く “Aha!”. It だった almost certainly a joint effort による 多くの
+人々 誰が fed それぞれ 他の small 良い アイデア そして それから tested そして iterated の上
+それらの アイデア to find the best ones. Someone along the 方法 probably noticed
+the ゴール structures そして かもしれない 持っている advocated strongly のために certain アイデア
+
+ベースの の上 それ, しかし で ゲーム 良い もの rarely happen because の 1つ
+moment. Games は made による teams, そして 良い ゲーム は made による
+iteration.)
+

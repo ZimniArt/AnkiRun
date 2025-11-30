@@ -2,6 +2,9 @@ use std::{collections::HashMap, fs, str::SplitWhitespace};
 use rtranslate::translate;
 use regex::Regex;
 
+// use lindera::tokenizer::Tokenizer;
+// use lindera_ipadic::builder::IpadicBuilder;
+
 enum Language{
     English,
     Russian,
@@ -25,13 +28,33 @@ fn main() {
     let input_path = String::from("D:/2_projects/9_rust/Input_text.txt");
     let output_path : String = String::from("D:/2_projects/9_rust/Output_text.txt");
     let input_text = fs::read_to_string(input_path).expect("no input text"); 
-    let _output_percentage: f64 = 0.15;
+    let _output_percentage: f64 = 0.05;
     let _input_lang = Language::English.code();
     let _output_lang = Language::Japanese.code();
-    let _ignore_word_list = vec!["the", "a"];
-
+    let _ignore_word_list = vec![
+        //English
+        "a", "an", "the",
+        "and", "or", "but",
+        "in", "on", "at", "to", "of", "for", "with",
+        "is", "are", "was", "were", "be", "been", "being",
+        "have", "has", "had", "do", "does", "did",
+        //Russian
+        // Prepositions
+        "в", "во", "на", "по", "о", "об", "от", "до", "за", "из", "изо", "со", "с",
+        "у", "при", "через", "среди", "между", "без", "для", "над", "под",
+        // Conjunctions
+        "и", "да", "но", "а", "или", "либо", "хотя", "когда", "если", "потому", "чтобы", "хоть",
+        // Particles
+        "же", "ли", "бы", "ведь", "уж", "лишь", "даже", "вот", "мол", 
+        // Function words
+        "не", "ни",
+         // Copula verbs
+        "есть", "был", "была", "было", "были", "будет", "будут",
+    ];
+   
 
     let mut _working_text: String = String::from(&input_text);
+
     let _prepared_text: SplitWhitespace<'_>= _working_text.split_whitespace(); 
     let mut _frequency_hashmap: HashMap<String, i32> = create_frequency_hashmap(_prepared_text, _ignore_word_list);
     let mut _sorted: Vec<(String, i32)> = _hashmap_to_sorted_list(_frequency_hashmap); 
