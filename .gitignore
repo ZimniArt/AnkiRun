@@ -5,7 +5,7 @@ release/
 
 
 # Executables and debug info
-*.exe
+
 *.pdb
 
 # Rust analysis / compiler info

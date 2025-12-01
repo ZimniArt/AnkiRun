@@ -248,7 +248,7 @@ fn translate_words(word_list: Vec<(String, i32)>, input_lang: &str, output_lang:
         .map(|(i,(word, _count))|{
             let translated= match translate(&word, input_lang,output_lang)  {
                 Ok(translated) =>  translated,
-                Err(_err) =>word.clone(),
+                Err(_err) =>{println!("translation failed"); word.clone()},
             };
             progress_count("Translation progress", i+1, _word_count);
             (word.clone(),translated)
