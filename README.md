@@ -19,6 +19,8 @@ I’ve added support for 20 languages and tried to make the user experience as s
 
 **How to use:**
 
+rum ankirun.exe
+
   1.  Select a text file (currently only .txt files are supported).
   
   2. Select the text language. There is an auto-detect option, but it can give unpredictable results, so it’s recommended to choose the correct language manually
