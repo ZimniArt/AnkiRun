@@ -1,6 +1,8 @@
 **Language Immersion Text Translator**
 
-This program creates a text where words from one language are replaced by words from another language based on their frequency in the text. The most common words are translated first, while less common words are translated later.
+This program creates a text where words from one language are gradually  replaced by words from another language based on their frequency in the text. The result is text where words are mixed, which should aid in picking up meaning from the context, and bridge the gap where it's difficult to find texts that are at the exact level of your skill at the language. The most common words are translated first, while less common words are translated later, which makes sure that you will encounter the word again and again in the text and learn it in the context. 
+
+You can fine tune how difficult the new text will be. You can translate anywhere from 1 most popular word in the text to the whole text (though translating the full text might take a while).
 
 I came up with this idea to aid language learning through immersion. The goal is to help readers pick up words from context rather than relying solely on dictionaries.
 
