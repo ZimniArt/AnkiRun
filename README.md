@@ -4,6 +4,13 @@ This program creates a text where words from one language are gradually  replace
 
 You can fine tune how difficult the new text will be. You can translate anywhere from 1 most popular word in the text to the whole text (though translating the full text might take a while).
 
+**Example of resulted text. en -> ja**
+
+"_One theme throughout これ book は それ ゲーム dissections depend の上 あなたの
+目標 として a dissector. もし あなた’re ただ trying to 得る a rough understanding の
+シャベル 騎士, understanding それ the プレーヤー’s アクション は Run, Jump, そして_"
+
+
 I came up with this idea to aid language learning through immersion. The goal is to help readers pick up words from context rather than relying solely on dictionaries.
 
   ⚠ Note: The program uses an online translator, so some translations may occasionally be unusual. It is not context-sensitive.
